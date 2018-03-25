@@ -34,7 +34,7 @@
 					CursorPoint='16'
 					Editable='true'
 					EditableUnicode='true'
-					Font='normal_12'
+					Font='normal_16'
 					GetsInput='true'
 					IME='true'
 					LocalText='xxx default text'

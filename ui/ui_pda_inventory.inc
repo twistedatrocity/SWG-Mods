@@ -270,15 +270,15 @@ oldEqVisible=oldEqVisibleTmp'
 				SpacingType='Fill'
 			>
 				<Page
-					MaximumSize='267,16384'
+					MaximumSize='317,16384'
 					Name='Exam'
 					OnHide='parent.pack=t'
 					OnShow='parent.pack=t'
 					PackSize='f,a'
 					RStyleDefault='/Styles.New.whiteOutline.rs_default'
-					ScrollExtent='221,290'
+					ScrollExtent='271,290'
 					Selectable='true'
-					Size='221,290'
+					Size='271,290'
 				>
 					<Data
 						content='comp.page.details.content'
@@ -294,9 +294,9 @@ oldEqVisible=oldEqVisibleTmp'
 						Name='comp'
 						Orientation='Horizontal'
 						PackSize='a,a'
-						ScrollExtent='221,290'
+						ScrollExtent='271,290'
 						Selectable='true'
-						Size='221,290'
+						Size='271,290'
 						SpacingType='Fill'
 					>
 						<Page
@@ -307,8 +307,8 @@ oldEqVisible=oldEqVisibleTmp'
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
 							RStyleDefault='rs'
-							ScrollExtent='221,289'
-							Size='221,289'
+							ScrollExtent='271,289'
+							Size='271,289'
 						>
 							<Scrollbar
 								Activated='true'
@@ -316,7 +316,7 @@ oldEqVisible=oldEqVisibleTmp'
 								Color='#01B5C9'
 								Control='details.content'
 								Enabled='false'
-								Location='204,5'
+								Location='254,5'
 								Name='Scroll'
 								Opacity='0.90'
 								PackLocation='fff,nfn'
@@ -335,20 +335,20 @@ oldEqVisible=oldEqVisibleTmp'
 								PackLocation='nfn,nfn'
 								PackSize='a,a'
 								RStyleDefault='rs'
-								ScrollExtent='222,289'
-								Size='222,289'
+								ScrollExtent='272,289'
+								Size='272,289'
 							>
 								<Composite
 									DragAccepts='GameObject'
 									Location='4,4'
-									MaximumSize='293,16384'
+									MaximumSize='313,16384'
 									Name='content'
 									OnDisableEffector='/effectors.opacity.fast.fadeout'
 									OnEnableEffector='/effectors.opacity.fast.fadefull'
 									PackLocation='nfn,nfn'
 									PackSize='a,a'
-									ScrollExtent='199,275'
-									Size='199,275'
+									ScrollExtent='249,275'
+									Size='249,275'
 									Spacing='10'
 									SpacingType='Constant'
 									UserDragScrollable='true'
@@ -360,19 +360,19 @@ oldEqVisible=oldEqVisibleTmp'
 										Name='restrictions'
 										PackLocation='nfn,nfn'
 										PackSize='a,a'
-										ScrollExtent='199,16'
-										Size='199,16'
+										ScrollExtent='249,16'
+										Size='249,16'
 									>
 										<Composite
 											MaximumSize='16384,16'
 											Name='comp'
 											Orientation='Horizontal'
 											PackSize='a,f'
-											ScrollExtent='326,16'
-											Size='199,16'
+											ScrollExtent='346,16'
+											Size='249,16'
 										>
 											<Text
-												Font='bold_11'
+												Font='bold_12'
 												LocalText='Manufactured'
 												MaximumSize='125,16384'
 												MaxLines='1'
@@ -384,7 +384,7 @@ oldEqVisible=oldEqVisibleTmp'
 												Size='76,16'
 											>Manufactured</Text>
 											<Text
-												Font='bold_11'
+												Font='bold_12'
 												LocalText='[@object_usability:unique]'
 												Location='76,0'
 												MaximumSize='125,16384'
@@ -399,7 +399,7 @@ oldEqVisible=oldEqVisibleTmp'
 											>@object_usability:unique</Text>
 											<Text
 												ColorSelection='#FF0000'
-												Font='bold_11'
+												Font='bold_12'
 												LocalText='[@object_usability:no_trade]'
 												Location='201,0'
 												MaximumSize='125,16384'
@@ -415,7 +415,7 @@ oldEqVisible=oldEqVisibleTmp'
 										</Composite>
 									</Page>
 									<Text
-										Font='bold_11'
+										Font='bold_13'
 										LocalText='xxx attrib 1:    info here
 xxx attrib 2:    info here
 xxx attrib 3:    info here
@@ -432,8 +432,8 @@ xxx attrib 8:    info here
 										PackSize='a,f'
 										PalText='text1'
 										RStyleDefault='/Styles.New.whitebox.rs_default'
-										ScrollExtent='199,125'
-										Size='199,125'
+										ScrollExtent='249,125'
+										Size='249,125'
 										TextColor='#96F4FC'
 									>xxx attrib 1:    info here
 xxx attrib 2:    info here
@@ -445,7 +445,7 @@ xxx attrib 7:    info here
 xxx attrib 8:    info here
 </Text>
 									<Text
-										Font='bold_11'
+										Font='bold_13'
 										LocalText='xxx Description goes into this field with all the other text ok you can stop now.'
 										Location='0,161'
 										Margin='4,4,4,4'
@@ -455,8 +455,8 @@ xxx attrib 8:    info here
 										PackSize='a,f'
 										PalText='text1'
 										RStyleDefault='/Styles.New.whitebox.rs_default'
-										ScrollExtent='199,47'
-										Size='199,47'
+										ScrollExtent='249,47'
+										Size='249,47'
 										TextColor='#96F4FC'
 									>xxx Description goes into this field with all the other text ok you can stop now.</Text>
 								</Composite>
@@ -467,9 +467,9 @@ xxx attrib 8:    info here
 									PackLocation='nfn,nfn'
 									PackSize='a,a'
 									PalBgTint='line1'
-									ScrollExtent='220,289'
+									ScrollExtent='270,289'
 									Selectable='true'
-									Size='220,289'
+									Size='270,289'
 								>
 									<Page
 										BackgroundColor='#FFFFFF'
@@ -480,8 +480,8 @@ xxx attrib 8:    info here
 										PackSize='a,a'
 										PalBgTint='line1'
 										RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-										ScrollExtent='220,289'
-										Size='220,289'
+										ScrollExtent='270,289'
+										Size='270,289'
 									/>
 									<Page
 										BackgroundColor='#FFFFFF'
@@ -493,8 +493,8 @@ xxx attrib 8:    info here
 										PackSize='a,a'
 										PalBgTint='back1'
 										RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-										ScrollExtent='200,279'
-										Size='200,279'
+										ScrollExtent='250,279'
+										Size='250,279'
 									/>
 									<Page
 										BackgroundColor='#FFFFFF'
@@ -505,8 +505,8 @@ xxx attrib 8:    info here
 										PackSize='a,a'
 										PalBgTint='back1'
 										RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-										ScrollExtent='218,289'
-										Size='218,289'
+										ScrollExtent='268,289'
+										Size='268,289'
 									/>
 								</Page>
 							</Page>
