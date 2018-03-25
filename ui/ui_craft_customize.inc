@@ -1137,7 +1137,7 @@ A prototype will not be created in your inventory and you will receive an experi
 										Size='223,302'
 									>
 										<Text
-											Font='bold_12'
+											Font='bold_13'
 											LocalText='xxx object name here'
 											Location='2,3'
 											Margin='2,2,2,2'
@@ -1170,7 +1170,7 @@ A prototype will not be created in your inventory and you will receive an experi
 											SpacingType='Constant'
 										>
 											<Text
-												Font='bold_12'
+												Font='bold_13'
 												LocalText='xxx attrib 1:    info here
 xxx attrib 2:    info here
 xxx attrib 3:    info here
@@ -1199,7 +1199,7 @@ xxx attrib 7:    info here
 xxx attrib 8:    info here
 </Text>
 											<Text
-												Font='bold_12'
+												Font='bold_13'
 												LocalText='xxx Description goes into this field with all the other text ok you can stop now.'
 												Location='6,123'
 												Margin='2,0,2,0'
@@ -1272,7 +1272,7 @@ xxx attrib 8:    info here
 							<Text
 								ColorCarat='#FFFFFF'
 								ColorSelection='#FFFFFF'
-								Font='bold_12'
+								Font='bold_13'
 								LocalText='[@ui_craft:cust_name]'
 								Location='2,3'
 								Margin='2,2,2,2'

@@ -49,7 +49,7 @@ parent.summary.visible=false'
 			>
 				<Text
 					BackgroundColor='#FFFFFF'
-					Font='bold_11'
+					Font='bold_12'
 					LocalText='[@ui_craft:cpt_exp_help]'
 					Location='0,14'
 					MaxLines='1'
@@ -3878,7 +3878,7 @@ parent.maxcorelevel.text.Text = Value'
 							SpacingType='Constant'
 						>
 							<Text
-								Font='bold_11'
+								Font='bold_12'
 								LocalText='xxx data_obj_name'
 								Margin='2,2,2,2'
 								MinimumSize='0,19'
@@ -3893,7 +3893,7 @@ parent.maxcorelevel.text.Text = Value'
 								TextColor='#97FFFF'
 							>xxx data_obj_name</Text>
 							<Text
-								Font='bold_11'
+								Font='bold_13'
 								LocalText='xxx attrib 1:    info here
 xxx attrib 2:    info here
 xxx attrib 3:    info here
@@ -3921,7 +3921,7 @@ xxx attrib 7:    info here
 xxx attrib 8:    info here
 </Text>
 							<Text
-								Font='bold_11'
+								Font='bold_13'
 								LocalText='xxx Description goes into this field with all the other text ok you can stop now.'
 								Location='0,144'
 								Name='textDesc'

@@ -476,7 +476,7 @@ parent.assembly.visible=false'
 					>
 						<Text
 							Enabled='false'
-							Font='bold_12'
+							Font='bold_13'
 							LocalText='[@ui_craft:draft_ingredients]'
 							MinimumSize='0,19'
 							Name='labelIngredients'
@@ -530,7 +530,7 @@ parent.assembly.visible=false'
 								Visible='false'
 							>xxx data_obj_name</Text>
 							<Text
-								Font='bold_12'
+								Font='bold_13'
 								LocalText='xxx attrib 1:    info here
 xxx attrib 2:    info here
 xxx attrib 3:    info here
@@ -559,7 +559,7 @@ xxx attrib 7:    info here
 xxx attrib 8:    info here
 </Text>
 							<Text
-								Font='bold_12'
+								Font='bold_13'
 								LocalText='xxx Description goes into this field with all the other text ok you can stop now.'
 								Location='4,121'
 								Name='textDesc'

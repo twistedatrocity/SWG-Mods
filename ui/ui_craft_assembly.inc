@@ -5102,7 +5102,7 @@ Draft Template:   \\\>024object/draft_schematic/weapon/component/stock.iff\\\>00
 							Size='182,22'
 						>
 							<Text
-								Font='bold_11'
+								Font='bold_13'
 								LocalText='[@ui_craft:complexity]'
 								Location='0,-2'
 								Margin='2,2,2,2'
@@ -5243,7 +5243,7 @@ Draft Template:   \\\>024object/draft_schematic/weapon/component/stock.iff\\\>00
 						Size='199,241'
 					>
 						<Text
-							Font='bold_11'
+							Font='bold_13'
 							GetsInput='true'
 							LocalText='xxx Description goes into this field with all the other text ok you can stop now.'
 							Location='7,6'
@@ -6491,7 +6491,7 @@ parent.scrollIcon.visible=visible'
 						SpacingType='Constant'
 					>
 						<Text
-							Font='bold_11'
+							Font='bold_13'
 							LocalText='xxx data_obj_name'
 							Margin='2,2,2,2'
 							MinimumSize='0,19'
@@ -6505,7 +6505,7 @@ parent.scrollIcon.visible=visible'
 							TextColor='#96F4FC'
 						>xxx data_obj_name</Text>
 						<Text
-							Font='bold_11'
+							Font='bold_13'
 							LocalText='xxx attrib 1:    info here
 xxx attrib 2:    info here
 xxx attrib 3:    info here
@@ -6533,7 +6533,7 @@ xxx attrib 7:    info here
 xxx attrib 8:    info here
 </Text>
 						<Text
-							Font='bold_11'
+							Font='bold_13'
 							LocalText='xxx Description goes into this field with all the other text ok you can stop now.'
 							Location='3,144'
 							Name='textDesc'

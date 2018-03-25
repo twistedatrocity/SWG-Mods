@@ -221,7 +221,7 @@ parent.experiment.visible=false'
 						Size='220,265'
 					>
 						<Text
-							Font='bold_12'
+							Font='bold_14'
 							LocalText='xxx object name here'
 							Location='4,4'
 							Margin='2,2,2,2'
@@ -254,7 +254,7 @@ parent.experiment.visible=false'
 							SpacingType='Constant'
 						>
 							<Text
-								Font='bold_12'
+								Font='bold_13'
 								LocalText='xxx attrib 1:    info here
 xxx attrib 2:    info here
 xxx attrib 3:    info here
@@ -283,7 +283,7 @@ xxx attrib 7:    info here
 xxx attrib 8:    info here
 </Text>
 							<Text
-								Font='bold_12'
+								Font='bold_13'
 								LocalText='xxx Description goes into this field with all the other text ok you can stop now.'
 								Location='6,123'
 								Margin='2,0,2,0'
@@ -324,7 +324,7 @@ xxx attrib 8:    info here
 						/>
 					</Page>
 					<Text
-						Font='bold_13'
+						Font='bold_14'
 						LocalText='xxx the assembly was a moderate success!!!'
 						Location='0,268'
 						Margin='2,2,2,2'
@@ -356,7 +356,7 @@ xxx attrib 8:    info here
 					Size='540,178'
 				>
 					<Text
-						Font='bold_12'
+						Font='bold_13'
 						LocalText='[@ui_craft:exp_attribs]'
 						Location='2,0'
 						Margin='2,2,2,2'
@@ -492,11 +492,11 @@ xxx attrib 8:    info here
 						BackgroundColor='#000000'
 						BackgroundOpacity='0.40'
 						BackgroundTint='#00D6FB'
-						CellHeight='19'
+						CellHeight='21'
 						CellPadding='6,3'
 						ColumnSizeDataSource='dsColSizes'
 						DefaultTextColor='#96F4FC'
-						DefaultTextStyle='bold_12'
+						DefaultTextStyle='bold_13'
 						GridColorHorizontal='#1CFFFF'
 						GridColorVertical='#1CFFFF'
 						Location='4,51'
