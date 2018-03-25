@@ -1,0 +1,1156 @@
+<Page
+	Activated='true'
+	Cursor='/Styles.Cursors.default'
+	CursorSet='/Styles.Cursors.MoveCursorSet'
+	DragBadCursor='/Styles.Cursors.dragbad'
+	DragGoodCursor='/Styles.Cursors.draggood'
+	Name='root'
+	palette='/styles.palette.alpha_blue'
+	PopupStyle='/Styles.popupmenu.default.style'
+	ScrollExtent='1024,768'
+	Size='1024,768'
+	Version='34'
+>
+	<Namespace
+		Name='TestTheRadial'
+	>
+		<DataSource
+			Name='Number 2'
+			size='128,64'
+		>
+			<Data
+				Name='Number 2'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+			<Data
+				Name='Number 3'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+		</DataSource>
+		<DataSource
+			Name='Number 3'
+			size='128,64'
+		>
+			<Data
+				Name='Number 2'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+			<Data
+				Name='Number 3'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+			<Data
+				Name='Number 4'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+		</DataSource>
+		<DataSource
+			Name='Number 4'
+			size='128,64'
+		>
+			<Data
+				Name='Number 2'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+			<Data
+				Name='Number 3'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+			<Data
+				Name='Number 4'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+			<Data
+				Name='Number 5'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+		</DataSource>
+		<DataSource
+			Name='Number 5'
+			size='128,64'
+		>
+			<Data
+				Name='Number 2'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+			<Data
+				Name='Number 3'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+			<Data
+				Name='Number 4'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+			<Data
+				Name='Number 5'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+			<Data
+				Name='Number 6'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+		</DataSource>
+		<DataSource
+			Name='Number 6'
+			size='128,64'
+		>
+			<Data
+				Name='Number 2'
+				size='128,64'
+				text='Numero Segundo'
+			/>
+		</DataSource>
+	</Namespace>
+	<Page
+		Activated='true'
+		BackgroundColor='#FFFFFF'
+		BackgroundOpacity='0.50'
+		ContextCapable='true'
+		Name='testPage'
+		PackSize='1,1'
+		PackSizeProp='0002/0003,0002/0003'
+		ScrollExtent='1024,768'
+		Size='1024,768'
+		text='Hoser\\#22aaffColors\\#ffffffNone
+
+
+
+
+
+
+Some Lines'
+		Visible='false'
+		visualeditlock='true'
+	>
+		<Sliderbar
+			Location='236,81'
+			Name='New Sliderbar'
+			ScrollExtent='362,51'
+			Size='362,51'
+			Style='/Styles.New.Slider.default.horizontal.style_test'
+			UpperLimit='100'
+			UpperLimitAllowed='80'
+			Value='80'
+		>
+		</Sliderbar>
+		<PopupMenu
+			CustomDragWidget='k'
+			DataSource='testpopupds'
+			Location='283,256'
+			MaximumSize='73,120'
+			MinimumSize='73,120'
+			Name='New PopupMenu'
+			RStyleDefault='/Styles.window.hud_radial_popup_right.rs_default'
+			ScrollExtent='73,120'
+			Size='73,120'
+			Style='/Styles.popupmenu.default.style'
+			Visible='false'
+		>
+			<Image
+				Location='70,29'
+				ScrollExtent='1,1'
+				Size='1,1'
+				Style='/Styles.Icon.Misc.group_focus'
+			/>
+			<Image
+				Location='70,69'
+				ScrollExtent='1,1'
+				Size='1,1'
+				Style='/Styles.Icon.Misc.group_focus'
+			/>
+		</PopupMenu>
+		<Runner
+			BackgroundOpacity='0.50'
+			Location='184,101'
+			Name='New Runner'
+			RunDelayAdvance='200'
+			RunDelayRestart='500'
+			RunEffectorsOff='red fadeout up'
+			RunEffectorsOn='blue fadefull down'
+			RunPaused='false'
+			RunReversing='true'
+			RunSimultaneous='3'
+			ScrollExtent='189,355'
+			Size='189,355'
+			Visible='false'
+		>
+			<LocationEffector
+				Name='right'
+				Speed='1200,0'
+				TargetLocation='150,0'
+			/>
+			<LocationEffector
+				Name='left'
+				Speed='500,0'
+			/>
+			<SizeEffector
+				Name='small'
+				Speed='500,0'
+				TargetSize='41,31'
+			/>
+			<SizeEffector
+				Name='big'
+				Speed='1200,0'
+				TargetSize='250,31'
+			/>
+			<RotationEffector
+				Cycling='false'
+				Name='down'
+				Period='0.80'
+				Target='0.50'
+			/>
+			<RotationEffector
+				Cycling='false'
+				Name='up'
+				Period='-1.00'
+			/>
+			<ColorEffector
+				Name='blue'
+				Speed='4.00'
+				TargetColor='#00AAFF'
+				TargetColor2='#00FF00'
+			/>
+			<ColorEffector
+				Name='red'
+				Speed='2.00'
+				TargetColor='#FFAA00'
+				TargetColor2='#00FF00'
+			/>
+			<OpacityEffector
+				Name='fadeOut'
+				Speed='1.00'
+				TargetOpacity='0.20'
+			/>
+			<OpacityEffector
+				Name='fadeFull'
+				Speed='8.00'
+				TargetOpacity='1.00'
+			/>
+			<Image
+				Color='#00AAFF'
+				Name='New Image'
+				Rotation='0.50'
+				ScrollExtent='41,31'
+				Size='41,31'
+				Style='pieImage'
+			/>
+			<Image
+				Color='#00AAFF'
+				Location='0,31'
+				Name='New Image'
+				Rotation='0.50'
+				ScrollExtent='41,31'
+				Size='41,31'
+				Style='pieImage'
+				UIColorEffectorCycle='1'
+			/>
+			<Image
+				Color='#00AAFF'
+				Location='0,62'
+				Name='New Image'
+				Rotation='0.50'
+				ScrollExtent='41,31'
+				Size='41,31'
+				Style='pieImage'
+			/>
+			<Image
+				Color='#FFAA00'
+				Location='0,96'
+				Name='New Image'
+				Opacity='0.20'
+				ScrollExtent='41,31'
+				Size='41,31'
+				Style='pieImage'
+			/>
+			<Image
+				Color='#FFAA00'
+				Location='0,129'
+				Name='New Image'
+				Opacity='0.20'
+				ScrollExtent='41,31'
+				Size='41,31'
+				Style='pieImage'
+				UIColorEffectorCycle='1'
+			/>
+			<Image
+				Color='#FFAA00'
+				Location='19,162'
+				Name='b'
+				Opacity='0.20'
+				ScrollExtent='41,31'
+				Size='41,31'
+				Style='pieImage'
+			/>
+			<Image
+				Color='#FFAA00'
+				Location='54,183'
+				Name='a'
+				Opacity='0.20'
+				ScrollExtent='41,31'
+				Size='41,31'
+				Style='pieImage'
+			/>
+			<Image
+				Color='#FFAA00'
+				Location='87,161'
+				Name='a'
+				Opacity='0.20'
+				ScrollExtent='41,31'
+				Size='41,31'
+				Style='pieImage'
+				UIColorEffectorCycle='1'
+			/>
+			<Image
+				Color='#FFAA00'
+				Location='105,131'
+				Name='a'
+				Opacity='0.20'
+				ScrollExtent='41,31'
+				Size='41,31'
+				Style='pieImage'
+			/>
+			<Image
+				Color='#FFAA00'
+				Location='119,98'
+				Name='a'
+				Opacity='0.20'
+				ScrollExtent='41,31'
+				Size='41,31'
+				Style='pieImage'
+				UIColorEffectorCycle='1'
+			/>
+			<Image
+				Color='#FFAA00'
+				Location='123,64'
+				Name='a'
+				Opacity='0.20'
+				ScrollExtent='41,31'
+				Size='41,31'
+				Style='pieImage'
+				UIColorEffectorCycle='1'
+			/>
+		</Runner>
+		<Image
+			Location='665,18'
+			Name='New Image'
+			ScrollExtent='41,31'
+			Size='41,31'
+			Style='pieImage'
+			Visible='false'
+		/>
+		<Pie
+			BackgroundColor='#44AA88'
+			BackgroundOpacity='0.30'
+			Location='130,56'
+			Name='New Pie'
+			PieColor='#FFFF00'
+			PieInnerRadiusPackInfo='100,1'
+			PieInnerRadiusType='Fixed'
+			PieValue='0.60'
+			ScrollExtent='477,454'
+			Size='477,454'
+			Style='pieStyle'
+			Visible='false'
+		/>
+		<ImageStyle
+			Name='pieImage'
+		>
+			<ImageFrame
+				Name='1'
+				Source='ui_rebel_hud'
+				SourceRect='253,420,274,473'
+			/>
+		</ImageStyle>
+		<PieStyle
+			ImageAutoAngle='false'
+			ImageBottomWidth='8'
+			ImageSegmentAngle='0.80'
+			ImageStyle='pieImage'
+			ImageUvs='pieImage0.00,0.00;0.00,0.00;0.00,0.00;0.00,0.00'
+			Name='pieStyle'
+		/>
+		<DataSourceContainer
+			Name='testpopupds'
+		>
+			<DataSource
+				Name='o'
+				text='1 Item 1'
+			/>
+			<DataSource
+				Name='o'
+				submenu='sub'
+				text='2 Item 2'
+			/>
+			<DataSource
+				Name='o'
+				text='3 Item 3'
+			/>
+			<DataSource
+				Name='o'
+				submenu='sub'
+				text='4 Item 4'
+			/>
+			<DataSource
+				Name='o'
+				text='5 Item 5'
+			/>
+			<DataSource
+				Name='o'
+				text='6 Item 6'
+			/>
+			<DataSourceContainer
+				Name='sub'
+			>
+				<DataSource
+					Name='o'
+					text='1 Item 1'
+				/>
+				<DataSource
+					Name='o'
+					text='2 Item 2'
+				/>
+				<DataSource
+					Name='o'
+					submenu='/testpage.testpopupds'
+					text='3 Item 3'
+				/>
+				<DataSource
+					Name='o'
+					submenu='/testpage.testpopupds'
+					text='4 Item 4'
+				/>
+			</DataSourceContainer>
+		</DataSourceContainer>
+		<DataSource
+			Name='tabdata'
+		>
+			<Data
+				Name='Number 1'
+				Target='SomeWidget'
+				text='number 1'
+			/>
+			<Data
+				Name='Number 2'
+				Target='SomeWidget'
+				text='number 2'
+			/>
+			<Data
+				Name='nexttolast'
+				Target='SomeWidget'
+				text='nexttolast'
+			/>
+			<Data
+				Name='last'
+				Target='SomeWidget'
+				text='last'
+			/>
+		</DataSource>
+		<TabbedPane
+			ActiveTab='0'
+			BackgroundColor='#009977'
+			DataSource='tabdata'
+			Location='20,46'
+			MinimumScrollExtent='238,0'
+			Name='tabs'
+			PackSize='a,f'
+			PackSizeProp='0847/0001,0002/0003'
+			ScrollExtent='238,21'
+			Size='177,21'
+			Style='/Styles.New.tabs.horizontal_10.style'
+		>
+		</TabbedPane>
+		<Namespace
+			Name='btest'
+			size='128,64'
+		>
+			<ButtonStyle
+				DisabledTextColor='#888888'
+				MouseOverSound='ui_rollover'
+				MouseOverTextColor='#00FF00'
+				Name='style'
+				NormalTextStyle='/Fonts.verdana_bold_13'
+				pressedrightcap='pressed_right'
+				PressedTextColor='#00AAFF'
+				ReleaseSound='ui_deselect'
+				TextAlignment='Left'
+				TextAlignmentVertical='Bottom'
+				TextCapital='true'
+			/>
+		</Namespace>
+		<Button
+			BackgroundOpacity='0.20'
+			ContextCapable='true'
+			Icon='/Styles.Faction.Mask.c'
+			IconMargin='0,0,0,0'
+			IconMaxSize='200,200'
+			IconMinSize='20,20'
+			IconShrink='true'
+			LocalText='CHARACTER INFO XXX WAWAWAWAWAW HOHOHOHOHOHOH
+CHARACTER INFO XXX WAWAWAWAWAW HOHOHOHOHOHOH'
+			Location='523,129'
+			Name='New Button'
+			PopupStyle='/Styles.popupmenu.default.style'
+			ScrollExtent='187,277'
+			Size='187,277'
+			Style='btest.style'
+			TextCapital='true'
+			Toggle='true'
+			Visible='false'
+		>character info xxx wawawawawaw hohohohohohoh
+character info xxx wawawawawaw hohohohohohoh</Button>
+		<Page
+			BackgroundColor='#00AAAA'
+			BackgroundOpacity='0.50'
+			ContextCapable='true'
+			ContextCapableAlternate='true'
+			Location='203,190'
+			Name='mover'
+			ScrollExtent='477,401'
+			Size='477,401'
+			UserMovable='true'
+			UserResizable='true'
+			Visible='false'
+		>
+			<Page
+				BackgroundColor='#00AAAA'
+				BackgroundOpacity='0.50'
+				ContextToParent='true'
+				Location='102,168'
+				Name='mover2'
+				ScrollExtent='321,205'
+				Size='321,205'
+				UserMovable='true'
+				UserResizable='true'
+			>
+				<Button
+					LocalText='hosssser'
+					Location='64,256'
+					Name='New Button'
+					ScrollExtent='268,28'
+					Size='268,28'
+					Style='/Styles.buttons.basic.style_24'
+				>hosssser</Button>
+				<List
+					BackgroundOpacity='0.50'
+					DataSource='popupdata'
+					Location='188,18'
+					MinimumScrollExtent='198,32'
+					Name='list'
+					ScrollExtent='198,226'
+					SelectionAllowedMultiRow='false'
+					Size='198,226'
+					Style='ListStyle'
+				/>
+				<Sliderbar
+					Location='23,24'
+					Name='slider'
+					ScrollExtent='121,227'
+					Size='121,227'
+					Style='/Styles.Slider.default.vertical.style_test'
+					UpperLimit='40'
+					UpperLimitAllowed='40'
+				>
+				</Sliderbar>
+			</Page>
+			<Button
+				ContextToParent='true'
+				LocalText='hosssser'
+				Location='64,256'
+				Name='New Button'
+				ScrollExtent='268,28'
+				Size='268,28'
+				Style='/Styles.buttons.basic.style_24'
+			>hosssser</Button>
+			<List
+				BackgroundOpacity='0.50'
+				DataSource='popupdata'
+				Location='188,18'
+				MinimumScrollExtent='198,32'
+				Name='list'
+				ScrollExtent='198,226'
+				SelectionAllowedMultiRow='false'
+				Size='198,226'
+				Style='ListStyle'
+			/>
+			<Sliderbar
+				Location='23,24'
+				Name='slider'
+				ScrollExtent='121,227'
+				Size='121,227'
+				Style='/Styles.Slider.default.vertical.style_test'
+				UpperLimit='40'
+				UpperLimitAllowed='40'
+			>
+			</Sliderbar>
+		</Page>
+		<Image
+			BackgroundOpacity='0.50'
+			Location='12,464'
+			Name='New Image'
+			ScrollExtent='418,128'
+			Size='418,128'
+			Style='c'
+			Visible='false'
+		/>
+		<ImageStyle
+			Name='c'
+		>
+			<ImageFrame
+				Name='1'
+				Source='ui_back_next'
+				SourceRect='8,2,256,61'
+			/>
+			<ImageFrame
+				Name='2'
+				OffsetProportional='20,0'
+				Source='ui_back_next'
+				SourceRect='8,2,256,61'
+			/>
+			<ImageFrame
+				Name='2'
+				OffsetProportional='40,0'
+				Source='ui_back_next'
+				SourceRect='8,2,256,61'
+			/>
+			<ImageFrame
+				Name='2'
+				OffsetProportional='60,0'
+				Source='ui_back_next'
+				SourceRect='8,2,256,61'
+			/>
+			<ImageFrame
+				Name='2'
+				OffsetProportional='80,0'
+				Source='ui_back_next'
+				SourceRect='8,2,256,61'
+			/>
+			<ImageFrame
+				Name='2'
+				OffsetProportional='100,0'
+				Source='ui_back_next'
+				SourceRect='8,2,256,61'
+			/>
+		</ImageStyle>
+		<Scrollbar
+			Activated='true'
+			Control='tabs'
+			LocalTooltip='kjl;k'
+			Location='33,72'
+			Name='scroll'
+			PackLocation='fff,nfn'
+			PackLocationProp='-818/0001,0072/0001'
+			PackSize='f,a'
+			PackSizeProp='0002/0003,0738/0001'
+			ScrollExtent='173,30'
+			Size='173,30'
+			Style='/Styles.New.scrollbar.H2.style'
+			Tooltip='kjl;k'
+			UserResizable='true'
+		>
+		</Scrollbar>
+		<DataSourceContainer
+			Name='dsc'
+		>
+			<DataSourceContainer
+				expanded='false'
+				icon='/styles.icon.mood.happy'
+				Name='dsc'
+				text='Four'
+			>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='Sub1 Four'
+				>
+					<DataSourceContainer
+						expanded='false'
+						Name='dsc'
+						text='1 - One'
+					/>
+					<DataSourceContainer
+						expanded='false'
+						Name='dsc'
+						text='1 - One'
+					/>
+					<DataSourceContainer
+						expanded='false'
+						Name='dsc'
+						text='Sub1 Four'
+					>
+						<DataSourceContainer
+							expanded='false'
+							Name='dsc'
+							text='1 - One'
+						/>
+						<DataSourceContainer
+							expanded='false'
+							Name='dsc'
+							text='1 - One'
+						/>
+					</DataSourceContainer>
+				</DataSourceContainer>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='1 - One'
+				/>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='1 - One'
+				/>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='1 - One'
+				/>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='1 - One'
+				/>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='1 - One'
+				/>
+			</DataSourceContainer>
+			<DataSourceContainer
+				expanded='false'
+				icon='/styles.icon.mood.happy'
+				Name='dsc'
+				text='One'
+			>
+				<DataSourceContainer
+					expanded='false'
+					icon='dummy'
+					Name='dsc'
+					text='1 - One'
+				/>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='1 - One'
+				/>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='1 - One'
+				/>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='1 - One'
+				/>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='1 - One'
+				/>
+			</DataSourceContainer>
+			<DataSourceContainer
+				expanded='false'
+				icon='/styles.icon.mood.happy'
+				Name='dsc'
+				text='1 - One'
+			/>
+			<DataSourceContainer
+				expanded='false'
+				icon='/styles.icon.mood.happy'
+				Name='dsc'
+				text='two'
+			/>
+			<DataSourceContainer
+				expanded='false'
+				icon='/styles.icon.mood.happy'
+				Name='dsc'
+				text='three'
+			/>
+			<DataSourceContainer
+				expanded='false'
+				Name='dsc'
+				text='Five'
+			>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='1 - One'
+				/>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='1 - One'
+				/>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='1 - One'
+				/>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='1 - One'
+				/>
+				<DataSourceContainer
+					expanded='false'
+					Name='dsc'
+					text='1 - One'
+				/>
+			</DataSourceContainer>
+		</DataSourceContainer>
+		<TreeViewStyle
+			CellPadding='4,2'
+			DefaultTextStyle='/Fonts.verdana_16'
+			ImageStyleCollapsed='/Styles.Icon.UI.CMD_uiCombatAttack'
+			ImageStyleExpanded='/Styles.Icon.UI.CMD_uiCombatTarget'
+			Name='tvstyle'
+		/>
+		<TreeView
+			BackgroundColor='#666666'
+			DataSourceContainer='dsc'
+			Location='237,173'
+			MinimumScrollExtent='308,108'
+			Name='tv'
+			ScrollExtent='308,360'
+			SelectedRow='0'
+			SelectedRowCount='1'
+			SelectionAllowedMultiRow='false'
+			ShowIcon='true'
+			Size='308,360'
+			Style='tvstyle'
+		/>
+		<ListStyle
+			BackgroundColor='#3355FF'
+			DefaultTextColor='#FFFFAA'
+			DefaultTextStyle='/Fonts.lucida_sans_unicode_16'
+			GridColor='#00AA88'
+			Margin='16,16,16,16'
+			Name='ListStyle'
+			RStyleDefault='/Styles.window.outer.rs_default'
+			SelectionColorBackground='#444444'
+			SelectionColorRect='#FF4444'
+		/>
+		<ComboBox
+			BackgroundColor='#FF99AA'
+			BackgroundOpacity='0.50'
+			ButtonMargin='0,4,16,4'
+			ButtonStyle='/Styles.buttons.combo.style'
+			DataSource='popupdata'
+			DropDownHeight='128'
+			Editable='true'
+			ListMargin='32,0,0,0'
+			ListStyle='ListStyle'
+			Location='168,32'
+			Name='New ComboBox'
+			popupmenustyle='/Styles.popupmenu.default.style'
+			ScrollbarMargin='0,0,16,0'
+			ScrollbarStyle='/Styles.scrollbar.default.v.style'
+			ScrollbarWidth='16'
+			ScrollExtent='256,24'
+			Size='256,24'
+			TextboxStyle='/Styles.textbox.default.Style'
+			Visible='false'
+		>
+		</ComboBox>
+		<Page
+			BackgroundOpacity='0.50'
+			Location='22,102'
+			Name='tablePage'
+			ScrollExtent='565,266'
+			Size='565,266'
+			UserMovable='true'
+			UserResizable='true'
+			Visible='false'
+		>
+			<DataSource
+				Name='colds'
+			>
+				<Data
+					constant='false'
+					proportion='0.63'
+					width='47'
+				/>
+				<Data
+					constant='true'
+					proportion='0.00'
+					width='280'
+				/>
+				<Data
+					constant='false'
+					proportion='0.37'
+					width='29'
+				/>
+				<Data
+					constant='true'
+					proportion='0.00'
+					width='157'
+				/>
+			</DataSource>
+			<Scrollbar
+				Activated='true'
+				Control='table'
+				Enabled='false'
+				Location='549,20'
+				Name='scroll'
+				PackLocation='fff,nfn'
+				PackLocationProp='0000/0001,0020/0001'
+				PackSize='f,a'
+				PackSizeProp='0002/0003,0020/0001'
+				ScrollExtent='16,246'
+				Size='16,246'
+				Style='/Styles.scrollbar.vertical.style'
+			>
+			</Scrollbar>
+			<TableModelDefault
+				columndatasource='columns'
+				DataSourceContainer='container'
+				Name='model'
+			/>
+			<DataSourceContainer
+				dummyes='sd'
+				Name='container'
+			>
+				<DataSource
+					label='HOSER'
+					Name='0'
+					type='text'
+				>
+					<Data
+						Name='New Data'
+						value='5ffdd'
+					/>
+					<Data
+						Name='New Data'
+						value='5'
+					/>
+					<Data
+						Name='New Data'
+						value='5'
+					/>
+					<Data
+						Name='New Data'
+						value='5'
+					/>
+					<Data
+						Name='New Data'
+						value='5'
+					/>
+					<Data
+						Name='New Data'
+						value='5'
+					/>
+					<Data
+						Name='New Data'
+						value='5'
+					/>
+					<Data
+						Name='New Data'
+						value='5'
+					/>
+					<Data
+						Name='New Data'
+						value='zend'
+					/>
+				</DataSource>
+				<DataSource
+					label='TWO'
+					Name='1'
+					type='bool'
+				>
+					<Data
+						Name='New Data'
+						value='false'
+					/>
+					<Data
+						Name='New Data'
+						value='false'
+					/>
+					<Data
+						Name='New Data'
+						value='true'
+					/>
+					<Data
+						Name='New Data'
+						value='true'
+					/>
+					<Data
+						Name='New Data'
+						value='false'
+					/>
+				</DataSource>
+				<DataSource
+					label='Number #2'
+					Name='2'
+					type='text'
+				>
+					<Data
+						Name='New Data'
+						value='/styles.icon.ui.cmd_uiradarrangedecrease'
+					/>
+					<Data
+						Name='New Data'
+						value='/styles.icon.ui.cmd_uiradarrangeincrease'
+					/>
+				</DataSource>
+				<DataSource
+					label='Column #3'
+					Name='3'
+					type='image'
+				>
+					<Data
+						Name='New Data'
+						value='/styles.icon.ui.cmd_uiradarrangedecrease'
+					/>
+					<Data
+						Name='New Data'
+						value='/styles.icon.ui.cmd_uiradarrangeincrease'
+					/>
+				</DataSource>
+			</DataSourceContainer>
+			<DataSource
+				Name='columns'
+			>
+				<Data
+					celltype='text'
+					label='Zero'
+					Name='0'
+				/>
+				<Data
+					celltype='text'
+					label='Zero'
+					Name='0'
+				/>
+				<Data
+					celltype='text'
+					label='Zero'
+					Name='0'
+				/>
+				<Data
+					celltype='image'
+					label='Zero'
+					Name='0'
+				/>
+				<Data
+					celltype='text'
+					label='Zero'
+					Name='0'
+				/>
+				<Data
+					celltype='text'
+					label='Zero'
+					Name='0'
+				/>
+				<Data
+					celltype='text'
+					label='Zero'
+					Name='0'
+				/>
+				<Data
+					celltype='bool'
+					label='One'
+					Name='1'
+				/>
+				<Data
+					celltype='image'
+					label='Two'
+					Name='2'
+				/>
+			</DataSource>
+			<TableHeader
+				ButtonStyle='/Styles.buttons.basic.style'
+				CursorResize='/Styles.Cursors.resizeHoriz'
+				MinimumScrollExtent='549,0'
+				Name='New TableHeader'
+				PackSize='a,f'
+				PackSizeProp='0016/0001,0002/0003'
+				ScrollExtent='549,20'
+				Size='549,20'
+				Table='table'
+			/>
+			<Table
+				BackgroundColor='#EEFFDD'
+				BackgroundOpacity='0.70'
+				CellPadding='8,4'
+				ColumnSizeDataSource='colds'
+				DefaultTextColor='#000000'
+				DefaultTextStyle='/Fonts.lucida_sans_unicode_16'
+				Location='0,20'
+				MinimumScrollExtent='549,180'
+				Name='table'
+				PackSize='a,a'
+				PackSizeProp='0016/0001,0020/0001'
+				ScrollExtent='549,246'
+				Size='549,246'
+				TableModel='model'
+			/>
+		</Page>
+		<Textbox
+			Location='372,88'
+			Name='Textbox'
+			ScrollExtent='160,28'
+			Size='160,28'
+			Style='/Styles.textbox.default.Style'
+			Visible='false'
+		></Textbox>
+		<Text
+			BackgroundColor='#333333'
+			BackgroundOpacity='0.50'
+			CursorMark='85'
+			CursorPoint='85'
+			Font='/Fonts.verdana_bold_16'
+			GetsInput='true'
+			LocalText='jwatson
+line 2
+\\#00ffffcyan line\\#.
+line 3
+\\#pcontrast1 contrast1\\#.
+end
+start
+\\\>055indented 5
+still indented?\\\>000
+done
+done'
+			Location='286,261'
+			Name='Text'
+			ScrollExtent='0,176'
+			Selectable='true'
+			textold='Hoser\\#22aaffC\\#22ffaao\\#ffaa22l\\#aa22ffo\\#2222ffr\\#ff22aas\\#ffffff None
+
+Hoser\\\\#22aaffColors\\\\#ffffff None
+
+\\#ffff00
+Some Lines
+\\#ffffff
+done
+'
+			Visible='false'
+		>jwatson
+line 2
+\\#00ffffcyan line\\#.
+line 3
+\\#pcontrast1 contrast1\\#.
+end
+start
+\\\>055indented 5
+still indented?\\\>000
+done
+done</Text>
+	</Page>
+	<include>ui_e3_prefabs.inc</include>
+	<include>ui_fonts.inc</include>
+	<include>ui_styles.inc</include>
+</Page>

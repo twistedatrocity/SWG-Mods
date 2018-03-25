@@ -1,0 +1,97 @@
+	<Namespace
+		Name='TextStyleManager'
+	>
+		<TextStyleManager
+			FontFaces='default,bold,fixed,starwars,aurabesh'
+			FontFaces_en_aurabesh='aurabesh'
+			FontFaces_en_bold='verdana_bold'
+			FontFaces_en_default='verdana'
+			FontFaces_en_fixed='lucida_console'
+			FontFaces_en_starwars='starwarslogo_optimized'
+			FontFaces_j1_aurabesh='aurabesh'
+			FontFaces_j1_bold='tteditfont'
+			FontFaces_j1_default='tteditfont'
+			FontFaces_j1_fixed='tteditfont'
+			FontFaces_j2_aurabesh='aurabesh'
+			FontFaces_j2_bold='arial_unicode_ms'
+			FontFaces_j2_default='arial_unicode_ms'
+			FontFaces_j2_fixed='arial_unicode_ms'
+			FontFaces_j3_aurabesh='aurabesh'
+			FontFaces_j3_bold='swgsogeip4'
+			FontFaces_j3_default='swgsogeip4'
+			FontFaces_j3_fixed='swgsogeip4'
+			FontFaces_j4_aurabesh='aurabesh'
+			FontFaces_j4_bold='swggothicp'
+			FontFaces_j4_default='swggothicp'
+			FontFaces_j4_fixed='swggothicp'
+			FontFaces_j5_aurabesh='aurabesh'
+			FontFaces_j5_bold='bit_gothic'
+			FontFaces_j5_default='bit_gothic'
+			FontFaces_j5_fixed='bit_gothic'
+			FontFaces_j5_starwars='bit_gothic'
+			FontFaces_ja_aurabesh='aurabesh'
+			FontFaces_ja_bold='tteditfont'
+			FontFaces_ja_default='tteditfont'
+			FontFaces_ja_fixed='tteditfont'
+			FontLocale='en'
+			Fonts_en='font/aurabesh_12.inc
+font/aurabesh_18.inc
+font/aurabesh_24.inc
+font/lucida_console_12.inc
+font/lucida_console_14.inc
+font/starwarslogo_optimized_12.inc
+font/starwarslogo_optimized_18.inc
+font/starwarslogo_optimized_21.inc
+font/starwarslogo_optimized_26.inc
+font/starwarslogo_optimized_32.inc
+font/starwarslogo_optimized_56.inc
+font/verdana_12.inc
+font/verdana_13.inc
+font/verdana_14.inc
+font/verdana_16.inc
+font/verdana_17.inc
+font/verdana_18.inc
+font/verdana_20.inc
+font/verdana_22.inc
+font/verdana_bold_12.inc
+font/verdana_bold_13.inc
+font/verdana_bold_14.inc
+font/verdana_bold_16.inc
+font/verdana_bold_17.inc
+font/verdana_bold_18.inc
+font/verdana_bold_20.inc
+font/verdana_bold_22.inc
+font/verdana_bold_24.inc'
+			Fonts_j1='font/ja/tteditfont_20.inc
+font/ja/tteditfont_14.inc
+font/aurabesh_12.inc
+font/aurabesh_18.inc
+font/aurabesh_24.inc'
+			Fonts_j2='font/ja/arial_unicode_ms_20.inc
+font/ja/arial_unicode_ms_14.inc
+font/aurabesh_12.inc
+font/aurabesh_18.inc
+font/aurabesh_24.inc'
+			Fonts_j3='font/ja/swgsogeip4_20.inc
+font/ja/swgsogeip4_14.inc
+font/aurabesh_12.inc
+font/aurabesh_18.inc
+font/aurabesh_24.inc'
+			Fonts_j4='font/ja/swggothicp_20.inc
+font/ja/swggothicp_14.inc
+font/aurabesh_12.inc
+font/aurabesh_18.inc
+font/aurabesh_24.inc'
+			Fonts_j5='font/ja/bit_gothic_16.inc
+font/ja/bit_gothic_14.inc
+font/ja/bit_gothic_12.inc
+font/aurabesh_12.inc
+font/aurabesh_18.inc
+font/aurabesh_24.inc'
+			Fonts_ja='font/ja/tteditfont_20.inc
+font/ja/tteditfont_14.inc
+font/aurabesh_12.inc
+font/aurabesh_18.inc
+font/aurabesh_24.inc'
+		/>
+	</Namespace>

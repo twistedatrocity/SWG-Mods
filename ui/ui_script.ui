@@ -1,0 +1,16 @@
+<Page
+	Cursor='/Styles.Cursors.default'
+	CursorSet='/Styles.Cursors.MoveCursorSet'
+	Name='root'
+	ScrollExtent='1024,768'
+	Size='1024,768'
+	Version='40'
+	VisualEditLock='true'
+>
+	<include>ui_toolbox.inc</include>
+	<include>ui_scripted.inc</include>
+	<include>ui_demo_script.inc</include>
+	<include>ui_styles.inc</include>
+	<include>ui_effectors.inc</include>
+	<include>ui_textstylemanager.inc</include>
+</Page>

@@ -1,0 +1,193 @@
+<Page
+	Cursor='/Styles.Cursors.default'
+	CursorSet='/Styles.Cursors.MoveCursorSet'
+	DragBadCursor='/Styles.Cursors.dragbad'
+	DragGoodCursor='/Styles.Cursors.draggood'
+	Name='root'
+	PackLocation='fixed,fixed'
+	PackSize='1,1'
+	palette='/styles.palette.alpha_blue'
+	PopupStyle='/Styles.popupmenu.default.style'
+	ScrollExtent='1024,768'
+	Size='1024,768'
+	TooltipStyle='/Styles.tooltip.default.style'
+	Version='45'
+	VisualEditLock='true'
+>
+	<include>ui_voice.inc</include>
+	<include>ui_avatar_profession_template_select.inc</include>
+	<include>ui_avatar_simple.inc</include>
+	<include>ui_textstylemanager.inc</include>
+	<Page
+		AbsorbsInput='false'
+		Name='Warnings'
+		PackSize='1,1'
+		ScrollExtent='1024,768'
+		Size='1024,768'
+		Visible='false'
+		VisualEditLock='true'
+	>
+		<Button
+			LocalText='x'
+			Location='1010,0'
+			Name='buttonClear'
+			OnHoverIn='opacity=1'
+			OnHoverOut='opacity=0'
+			OnPress='parent.text.localtext=\"\"'
+			Opacity='0.00'
+			OpacityRelativeMin='0.70'
+			PackLocation='fff,nfn'
+			RStyleDefault='/Styles.New.buttons.hud.style'
+			ScrollExtent='14,15'
+			Size='14,15'
+			Style='/Styles.New.buttons.hud.style'
+		>x</Button>
+		<Text
+			Font='fixed_12'
+			LocalText='WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+WARNING: here is a warning.  Please fix it.  Thank you.
+'
+			Name='text'
+			PackSize='a,f'
+			PreLocalized='true'
+			ScrollExtent='1011,416'
+			Size='1011,97'
+		></Text>
+		<Scrollbar
+			Control='text'
+			Location='1014,17'
+			Name='scroll'
+			OnHoverIn='opacity=1.0'
+			OnHoverOut='opacity=0.0'
+			Opacity='0.00'
+			OpacityRelativeMin='1.00'
+			PackLocation='fff'
+			PackSize='f,p'
+			ScrollExtent='10,213'
+			Size='10,213'
+			Style='/Styles.scrollbar.default.vHud4.style'
+		>
+		</Scrollbar>
+	</Page>
+	<include>ui_debuginfo.inc</include>
+	<include>ui_console.inc</include>
+	<include>ui_credits.inc</include>
+	<include>ui_planet_map.inc</include>
+	<include>ui_matchmaking.inc</include>
+	<include>ui_ticketpurchase.inc</include>
+	<include>ui_auction.inc</include>
+	<include>ui_e3_prefabs.inc</include>
+	<include>ui_craft.inc</include>
+	<include>ui_skill.inc</include>
+	<include>ui_resource.inc</include>
+	<include>ui_mission.inc</include>
+	<include>ui_confirm.inc</include>
+	<include>ui_game_menu.inc</include>
+	<include>ui_options.inc</include>
+	<include>ui_menu_locations.inc</include>
+	<include>ui_controls_menu.inc</include>
+	<include>ui_loading2.inc</include>
+	<include>ui_load_mustafar.inc</include>
+	<include>ui_load_hoth.inc</include>
+	<include>ui_spaceloading.inc</include>
+	<include>ui_structure_placement.inc</include>
+	<include>ui_pda.inc</include>
+	<include>ui_space.inc</include>
+	<include>ui_hud_space.inc</include>
+	<include>ui_ground_hud.inc</include>
+	<include>ui_transition.inc</include>
+	<include>ui_loginscreen.inc</include>
+	<include>ui_cluster_selection.inc</include>
+	<include>ui_scene_selection.inc</include>
+	<include>ui_avatar_setup_prof.inc</include>
+	<include>ui_avatar_summary.inc</include>
+	<include>ui_avatar_location2.inc</include>
+	<include>ui_avatar_selection.inc</include>
+	<include>ui_avatar_creation.inc</include>
+	<include>ui_avatar_customize.inc</include>
+	<include>ui_splash_screen.inc</include>
+	<include>ui_conversation.inc</include>
+	<include>ui_scripted.inc</include>
+	<include>ui_messagebox.inc</include>
+	<include>ui_backdrop_default.inc</include>
+	<include>ui_start.inc</include>
+	<include>ui_grid_style.inc</include>
+	<include>ui_effectors.inc</include>
+	<ListboxStyle
+		GridStyle='/DefaultGrid.style'
+		Name='DefaultListboxStyle'
+	/>
+	<include>ui_avatardata.inc</include>
+	<Namespace
+		Name='ShipData'
+	>
+		<DataSource
+			Name='TheData'
+		>
+			<Data
+				cameraoffsetmaxz='1'
+				cameraoffsetz='2.5'
+				description='desc_xwing'
+				displayname='name_xwing'
+				Name='xwing'
+				objecttemplate='xwing'
+			/>
+			<Data
+				cameraoffsetmaxy='0.25'
+				cameraoffsetmaxz='1'
+				cameraoffsety='-0.25'
+				cameraoffsetz='2'
+				description='desc_bwing'
+				displayname='name_bwing'
+				Name='bwing'
+				objecttemplate='bwing'
+			/>
+			<Data
+				cameraoffsetmaxz='1.5'
+				cameraoffsetz='2'
+				description='desc_tiefighter'
+				displayname='name_tiefighter'
+				Name='tiefigher'
+				objecttemplate='tiefighter'
+			/>
+			<Data
+				cameraoffsetmaxz='1.5'
+				cameraoffsetz='2'
+				description='desc_tieinterceptor'
+				displayname='name_tieinterceptor'
+				Name='tieinterceptor'
+				objecttemplate='tieinterceptor'
+			/>
+		</DataSource>
+	</Namespace>
+	<include>ui_styles.inc</include>
+</Page>
