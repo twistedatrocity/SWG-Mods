@@ -118,7 +118,7 @@ background.EffectorExecute=\"/Effectors.FadeOut\"'
 						/>
 					</Page>
 					<Text
-						Font='normal_12'
+						Font='normal_13'
 						LocalText='The Task Title'
 						Location='24,0'
 						MaxLines='2'
@@ -131,7 +131,7 @@ background.EffectorExecute=\"/Effectors.FadeOut\"'
 					>The Task Title</Text>
 					<Text
 						BackgroundColor='#FFFFFF'
-						Font='bold_13'
+						Font='bold_14'
 						LocalText='Progress'
 						Location='101,0'
 						MaxLines='1'
@@ -144,7 +144,7 @@ background.EffectorExecute=\"/Effectors.FadeOut\"'
 						TextAlignmentVertical='Center'
 					>Progress</Text>
 					<Text
-						Font='normal_12'
+						Font='normal_13'
 						LocalText='16384'
 						Location='163,0'
 						MaxLines='1'
@@ -162,7 +162,7 @@ background.EffectorExecute=\"/Effectors.FadeOut\"'
 			<Text
 				BackgroundColor='#FFFFFF'
 				BackgroundTint='#FFE21A'
-				Font='bold_13'
+				Font='bold_14'
 				LocalText='The Quest Title'
 				Location='4,4'
 				MaxLines='1'
