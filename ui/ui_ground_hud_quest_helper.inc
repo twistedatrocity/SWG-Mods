@@ -3,7 +3,7 @@
 			BackgroundColor='#FFFFFF'
 			BackgroundTint='#FFE21A'
 			Location='780,170'
-			MinimumSize='212,30'
+			MinimumSize='282,60'
 			Name='QuestHelper'
 			OnHoverIn='background.EffectorCancel=\"/Effectors.FadeOut\"
 background.EffectorExecute=\"/Effectors.FadeFull\"'
@@ -118,7 +118,7 @@ background.EffectorExecute=\"/Effectors.FadeOut\"'
 						/>
 					</Page>
 					<Text
-						Font='normal_13'
+						Font='normal_14'
 						LocalText='The Task Title'
 						Location='24,0'
 						MaxLines='2'
@@ -144,7 +144,7 @@ background.EffectorExecute=\"/Effectors.FadeOut\"'
 						TextAlignmentVertical='Center'
 					>Progress</Text>
 					<Text
-						Font='normal_13'
+						Font='normal_14'
 						LocalText='16384'
 						Location='163,0'
 						MaxLines='1'
@@ -162,7 +162,7 @@ background.EffectorExecute=\"/Effectors.FadeOut\"'
 			<Text
 				BackgroundColor='#FFFFFF'
 				BackgroundTint='#FFE21A'
-				Font='bold_14'
+				Font='bold_16'
 				LocalText='The Quest Title'
 				Location='4,4'
 				MaxLines='1'
