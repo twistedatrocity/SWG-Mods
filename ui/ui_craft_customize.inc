@@ -145,7 +145,7 @@ A prototype will not be created in your inventory and you will receive an experi
 				SpacingType='Fill'
 			>
 				<Page
-					MaximumSize='189,16384'
+					MaximumSize='360,16384'
 					Name='Left'
 					OnHide='parent.pack=true'
 					OnShow='parent.pack=true'
@@ -228,7 +228,7 @@ A prototype will not be created in your inventory and you will receive an experi
 								CellCount='14,1'
 								CellPadding='0,0'
 								CellSize='12,12'
-								Location='5,27'
+								Location='5,23'
 								MinimumScrollExtent='96,12'
 								Name='volumePage'
 								PackLocation='nfn,nfn'
@@ -388,7 +388,7 @@ A prototype will not be created in your inventory and you will receive an experi
 								CellCount='14,1'
 								CellPadding='0,0'
 								CellSize='12,12'
-								Location='5,27'
+								Location='5,23'
 								MinimumScrollExtent='96,12'
 								Name='volumePage'
 								PackLocation='nfn,nfn'
@@ -546,7 +546,7 @@ A prototype will not be created in your inventory and you will receive an experi
 								CellCount='14,1'
 								CellPadding='0,0'
 								CellSize='12,12'
-								Location='5,27'
+								Location='5,23'
 								MinimumScrollExtent='96,12'
 								Name='volumePage'
 								PackLocation='nfn,nfn'
@@ -704,7 +704,7 @@ A prototype will not be created in your inventory and you will receive an experi
 								CellCount='14,1'
 								CellPadding='0,0'
 								CellSize='12,12'
-								Location='5,27'
+								Location='5,23'
 								MinimumScrollExtent='96,12'
 								Name='volumePage'
 								PackLocation='nfn,nfn'
@@ -1109,7 +1109,7 @@ A prototype will not be created in your inventory and you will receive an experi
 								</Page>
 								<Page
 									Location='335,4'
-									MaximumSize='250,16384'
+									MaximumSize='280,16384'
 									Name='Info'
 									PackLocation='fff'
 									PackSize='0.8,a'
