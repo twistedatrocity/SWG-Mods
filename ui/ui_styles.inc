@@ -36712,7 +36712,7 @@
 				<CheckboxStyle
 					Name='Style'
 					NormalCheckedImage='checkedImage'
-					NormalTextStyle='bold_11'
+					NormalTextStyle='bold_14'
 					NormalUncheckedImage='uncheckedImage'
 					TextOffset='28,4'
 				/>
@@ -39433,11 +39433,11 @@
 							MouseOverSound='ui_rollover'
 							MouseOverTextColor='#18393D'
 							MouseOverTextMargin='9,0,9,0'
-							MouseOverTextStyle='bold_11'
+							MouseOverTextStyle='bold_13'
 							Name='style'
 							NormalTextColor='#2FF4FF'
 							NormalTextMargin='9,0,9,0'
-							NormalTextStyle='bold_11'
+							NormalTextStyle='bold_13'
 							PalActivatedText='textactivated'
 							PalDisabledText='textdisabled'
 							PalHoverText='texthover'
@@ -39453,7 +39453,7 @@
 							RStyleMouseOverSelected='hover.rs'
 							RStyleSelected='selected.rs'
 							SelectedTextMargin='9,0,9,0'
-							SelectedTextStyle='bold_11'
+							SelectedTextStyle='bold_13'
 						/>
 					</Namespace>
 				</Namespace>
@@ -39560,7 +39560,7 @@
 							RStyleSelected='selected.rs'
 							SelectedTextColor='#D2FDFF'
 							SelectedTextMargin='8,0,8,0'
-							SelectedTextStyle='bold_13'
+							SelectedTextStyle='bold_14'
 							TextAlignment='Left'
 						/>
 						<Namespace
