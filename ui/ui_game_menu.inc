@@ -2,8 +2,8 @@
 		BackgroundOpacity='0.50'
 		Name='GameMenu'
 		PackSize='1,1'
-		ScrollExtent='1024,768'
-		Size='1024,768'
+		ScrollExtent='1440,960'
+		Size='1440,960'
 		Visible='false'
 	>
 		<Data
@@ -20,7 +20,7 @@
 		<Button
 			BackgroundOpacity='0.80'
 			LocalText='[@game_menu_locations]'
-			Location='407,458'
+			Location='613,607'
 			Name='locationsButton'
 			PackLocation='cfc,nfc'
 			RStyleDefault='rs_default'
@@ -29,61 +29,61 @@
 			Style='/Styles.New.buttons.hud.style'
 		>@game_menu_locations</Button>
 		<Page
-			Location='372,315'
-			MaximumSize='280,160'
-			MinimumSize='255,138'
+			Location='538,416'
+			MaximumSize='381,196'
+			MinimumSize='381,196'
 			Name='menu'
 			PackLocation='cfc,cfc'
 			PackSize='a,f'
 			RStyleDefault='rs_default'
-			ScrollExtent='280,138'
-			Size='280,138'
+			ScrollExtent='381,196'
+			Size='381,196'
 			UserMovable='true'
 		>
 			<Button
 				LocalText='[@game_menu_credits]'
-				Location='27,38'
+				Location='36,41'
 				MinimumSize='0,19'
 				Name='buttonCredits'
 				PackLocation='cfc,nfn'
 				PackSize='p,f'
-				ScrollExtent='231,23'
-				Size='231,23'
+				ScrollExtent='313,39'
+				Size='313,39'
 				Style='/Styles.New.buttons.hud.style'
 			>@game_menu_credits</Button>
 			<Button
 				IsCancelButton='true'
 				LocalText='[@game_menu_resume]'
-				Location='159,113'
+				Location='223,147'
 				MinimumSize='0,19'
 				Name='resumeButton'
 				PackLocation='fff,fff'
 				PackSize='p,f'
-				ScrollExtent='104,19'
-				Size='104,19'
+				ScrollExtent='141,39'
+				Size='141,39'
 				Style='/Styles.New.buttons.hud.style'
 			>@game_menu_resume</Button>
 			<Button
 				IsDefaultButton='true'
 				LocalText='[@game_menu_disconnect]'
-				Location='27,67'
+				Location='36,87'
 				MinimumSize='0,19'
 				Name='disconnectButton'
 				PackLocation='cfc,nfn'
 				PackSize='p,f'
-				ScrollExtent='231,23'
-				Size='231,23'
+				ScrollExtent='313,39'
+				Size='313,39'
 				Style='/Styles.New.buttons.hud.style'
 			>@game_menu_disconnect</Button>
 			<Button
 				LocalText='[@game_exit]'
-				Location='16,113'
+				Location='16,147'
 				MinimumSize='0,19'
 				Name='exitButton'
 				PackLocation='nfn,fff'
 				PackSize='p,f'
-				ScrollExtent='104,19'
-				Size='104,19'
+				ScrollExtent='141,39'
+				Size='141,39'
 				Style='/Styles.New.buttons.hud.style'
 			>@game_exit</Button>
 			<Page
@@ -96,8 +96,8 @@
 				PackSize='a,a'
 				PalBgTint='line1'
 				RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-				ScrollExtent='261,76'
-				Size='261,76'
+				ScrollExtent='362,116'
+				Size='362,116'
 			>
 				<Page
 					BackgroundColor='#FFFFFF'
@@ -109,19 +109,19 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.pill_lrg.rs_default'
-					ScrollExtent='255,70'
-					Size='255,70'
+					ScrollExtent='356,110'
+					Size='356,110'
 				/>
 			</Page>
 			<Page
 				Name='bg'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='280,138'
-				Size='280,138'
+				ScrollExtent='381,196'
+				Size='381,196'
 			>
 				<Page
-					Location='269,8'
+					Location='370,8'
 					Name='mmc'
 					PackLocation='fff,nfn'
 					PackSize='f,f'
@@ -147,8 +147,8 @@
 					Name='caption'
 					PackLocation='nfn,nfn'
 					PackSize='a,f'
-					ScrollExtent='168,19'
-					Size='168,19'
+					ScrollExtent='269,19'
+					Size='269,19'
 				>
 					<Text
 						Enabled='false'
@@ -160,8 +160,8 @@
 						Name='text'
 						PackSize='a,f'
 						PalText='titletext'
-						ScrollExtent='168,19'
-						Size='168,19'
+						ScrollExtent='269,19'
+						Size='269,19'
 						TextAlignmentVertical='Center'
 						TextCapital='true'
 						TextColor='#00354F'
@@ -176,9 +176,9 @@
 					PackSize='a,a'
 					PalBgTint='baselight'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='279,138'
+					ScrollExtent='380,196'
 					Selectable='true'
-					Size='279,138'
+					Size='380,196'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -187,19 +187,19 @@
 						Name='lines'
 						PackSize='a,a'
 						RStyleDefault='/Styles.space.boxes.generic4.rs_default'
-						ScrollExtent='279,138'
-						Size='279,138'
+						ScrollExtent='380,196'
+						Size='380,196'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='0,116'
+							Location='0,174'
 							Name='outlineBL'
 							OpacityRelativeMin='0.80'
 							PackLocation='nfn,fff'
 							PackSize='p,f'
-							ScrollExtent='218,22'
-							Size='218,22'
+							ScrollExtent='296,22'
+							Size='296,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -212,21 +212,21 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlinebottomLeft2.rs_default'
-								ScrollExtent='218,9'
-								Size='218,9'
+								ScrollExtent='296,9'
+								Size='296,9'
 							/>
 						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='77,116'
+							Location='106,174'
 							Name='outlineBR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,fff'
 							PackSize='p,f'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-							ScrollExtent='202,22'
-							Size='202,22'
+							ScrollExtent='274,22'
+							Size='274,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -239,20 +239,20 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlinebottomRight2.rs_default'
-								ScrollExtent='202,9'
-								Size='202,9'
+								ScrollExtent='274,9'
+								Size='274,9'
 							/>
 						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='77,0'
+							Location='106,0'
 							Name='outlineTR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,nfn'
 							PackSize='p,f'
-							ScrollExtent='202,22'
-							Size='202,22'
+							ScrollExtent='274,22'
+							Size='274,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -264,8 +264,8 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlineTopRight2.rs_default'
-								ScrollExtent='202,9'
-								Size='202,9'
+								ScrollExtent='274,9'
+								Size='274,9'
 							/>
 						</Page>
 						<Page
@@ -276,8 +276,8 @@
 							PackLocation='nfn,nfn'
 							PackSize='p,f'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-							ScrollExtent='218,22'
-							Size='218,22'
+							ScrollExtent='296,22'
+							Size='296,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -289,8 +289,8 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlineTopLeft2.rs_default'
-								ScrollExtent='218,9'
-								Size='218,9'
+								ScrollExtent='296,9'
+								Size='296,9'
 							/>
 						</Page>
 					</Page>
@@ -301,18 +301,18 @@
 						PackLocation='nfn,nfn'
 						PackSize='a,f'
 						RStyleDefault='/Styles.New.main_TR.rs_default'
-						ScrollExtent='280,29'
-						Size='280,29'
+						ScrollExtent='381,29'
+						Size='381,29'
 					/>
 					<Page
 						BackgroundOpacity='1.00'
-						Location='0,115'
+						Location='0,173'
 						Name='bottom'
 						PackLocation='nfn,fff'
 						PackSize='a,f'
 						RStyleDefault='/Styles.New.main_BR.rs_default'
-						ScrollExtent='279,23'
-						Size='279,23'
+						ScrollExtent='380,23'
+						Size='380,23'
 					/>
 				</Page>
 				<Page
@@ -325,9 +325,9 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.thin_in_small.rs_default'
-					ScrollExtent='280,137'
+					ScrollExtent='381,195'
 					Selectable='true'
-					Size='280,137'
+					Size='381,195'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
@@ -338,9 +338,9 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.space.spaceglow.rs_default'
-					ScrollExtent='280,137'
+					ScrollExtent='381,195'
 					Selectable='true'
-					Size='280,137'
+					Size='381,195'
 				/>
 			</Page>
 		</Page>

@@ -30774,7 +30774,7 @@
 						Name='style'
 						NormalTextColor='#2FF4FF'
 						NormalTextMargin='5,0,5,0'
-						NormalTextStyle='bold_11'
+						NormalTextStyle='bold_13'
 						PalActivatedText='tableHeadertextActivated'
 						PalDisabledText='tableHeadertextDisabled'
 						PalHoverText='tableHeadertextHover'
@@ -69841,7 +69841,7 @@
 					<TextboxStyle
 						CaratColor='#B6FD31'
 						Name='Style_out'
-						NormalTextStyle='fixed_14'
+						NormalTextStyle='fixed_18'
 						PalCarat='carat'
 						PalText='text1'
 						RStyleDefault='rs_default'
@@ -70463,7 +70463,7 @@
 				<TextboxStyle
 					CaratColor='#B6FD31'
 					Name='Style_out'
-					NormalTextStyle='fixed_14'
+					NormalTextStyle='fixed_18'
 					PalCarat='carat'
 					PalText='text1'
 					RStyleDefault='window.chat.persistent.inner.rs_default'
