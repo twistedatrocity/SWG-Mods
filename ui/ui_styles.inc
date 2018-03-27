@@ -29857,12 +29857,12 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#18393D'
 						MouseOverTextMargin='3,0,3,0'
-						MouseOverTextStyle='bold_11'
+						MouseOverTextStyle='bold_13'
 						Name='style'
 						NormalIconColor='#00D6FB'
 						NormalTextColor='#2FF4FF'
 						NormalTextMargin='3,0,3,0'
-						NormalTextStyle='bold_11'
+						NormalTextStyle='bold_13'
 						PalActivatedText='textactivated'
 						PalDisabledText='textdisabled'
 						PalHoverText='texthover'
@@ -32989,7 +32989,7 @@
 				<CheckboxStyle
 					Name='Style2'
 					NormalCheckedImage='checkedImage'
-					NormalTextStyle='bold_11'
+					NormalTextStyle='bold_13'
 					NormalUncheckedImage='uncheckedImage'
 					TextOffset='24,0'
 				/>
