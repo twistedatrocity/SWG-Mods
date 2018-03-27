@@ -70655,13 +70655,13 @@
 			>
 				<TooltipStyle
 					BackgroundOpacity='0.80'
-					MaxWidth='245'
+					MaxWidth='845'
 					Name='style'
 					PalText='text1'
 					RStyleDefault='New.tool.tool_tip.rs_default'
 					TextColor='#96F4FC'
 					TextPadding='8,8,8,8'
-					TextStyle='normal_12'
+					TextStyle='normal_18'
 				/>
 			</Namespace>
 		</Namespace>
