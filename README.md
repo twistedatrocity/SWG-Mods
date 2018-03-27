@@ -4,7 +4,7 @@ Collection of SWG mods that I have made.
 ## Silent Crafting Stations Mod
 * does exactly what the name implies
 
-### No Squint Mod (v2 release 3/26/2018)
+## No Squint Mod (v2 release 3/26/2018)
 * This mod resizes elements / increases font sizes for <b>1920x1080</b> screens (I do not have a 4k screen or I would make a separate version for those).
 * Entertainer image designer has been redone so that the color palletes are easier to see.
 * Crafting windows tweaked for readability and also color pallettes.
