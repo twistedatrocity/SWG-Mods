@@ -1,10 +1,10 @@
 	<Page
 		Location='349,269'
-		MaximumSize='575,300'
-		MinimumSize='453,248'
+		MaximumSize='430,228'
+		MinimumSize='430,228'
 		Name='option'
-		ScrollExtent='575,300'
-		Size='575,300'
+		ScrollExtent='430,228'
+		Size='430,228'
 		UserMovable='true'
 		UserResizable='true'
 		Visible='false'
@@ -17,7 +17,7 @@
 			Name='CodeData'
 		/>
 		<Text
-			Font='bold_13'
+			Font='bold_14'
 			LocalText='[@ui_craft:cpt_crafting_completion]'
 			Location='26,44'
 			Margin='2,2,2,2'
@@ -28,8 +28,8 @@
 			PackSize='p,f'
 			PalText='header'
 			RStyleDefault='rs_default'
-			ScrollExtent='486,19'
-			Size='486,19'
+			ScrollExtent='363,19'
+			Size='363,19'
 			TextAlignment='Center'
 			TextColor='#97FFFF'
 		>@ui_craft:cpt_crafting_completion</Text>
@@ -39,8 +39,8 @@
 			Orientation='Horizontal'
 			PackLocation='nfn,nfn'
 			PackSize='a,f'
-			ScrollExtent='547,32'
-			Size='547,32'
+			ScrollExtent='402,32'
+			Size='402,32'
 			Visible='false'
 		>
 			<Text
@@ -65,46 +65,46 @@
 			Name='completion'
 			PackLocation='nfn,nfn'
 			PackSize='a,a'
-			ScrollExtent='547,223'
+			ScrollExtent='402,151'
 			Selectable='true'
-			Size='547,223'
+			Size='402,151'
 		>
 			<Button
 				IsDefaultButton='true'
 				LocalText='[@ui_craft:exp]'
-				Location='41,32'
+				Location='31,20'
 				MinimumSize='0,19'
 				Name='buttonExperiment'
 				PackLocation='cpc,cpc'
 				PackSize='p,f'
 				RStyleDefault='/top_Buttons.roundButtonLarge.style'
-				ScrollExtent='464,39'
-				Size='464,39'
+				ScrollExtent='341,30'
+				Size='341,30'
 				Style='/Styles.New.buttons.hud.style'
 			>@ui_craft:exp</Button>
 			<Button
 				IsDefaultButton='true'
 				LocalText='[@ui_craft:create_prototype]'
-				Location='41,90'
+				Location='31,59'
 				MinimumSize='0,19'
 				Name='buttonPrototype'
 				PackLocation='cpc,cpc'
 				PackSize='p,f'
 				RStyleDefault='/top_Buttons.roundButtonLarge.style'
-				ScrollExtent='464,39'
-				Size='464,39'
+				ScrollExtent='341,30'
+				Size='341,30'
 				Style='/Styles.New.buttons.hud.style'
 			>@ui_craft:create_prototype</Button>
 			<Button
 				LocalText='[@ui_craft:create_manf_schem]'
-				Location='41,148'
+				Location='31,97'
 				MinimumSize='0,19'
 				Name='buttonSchematic'
 				PackLocation='cpc,cpc'
 				PackSize='p,f'
 				RStyleDefault='/top_Buttons.roundButtonLarge.style'
-				ScrollExtent='464,39'
-				Size='464,39'
+				ScrollExtent='341,30'
+				Size='341,30'
 				Style='/Styles.New.buttons.hud.style'
 			>@ui_craft:create_manf_schem</Button>
 			<Page
@@ -116,8 +116,8 @@
 				PackSize='a,a'
 				PalBgTint='line1'
 				RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-				ScrollExtent='547,223'
-				Size='547,223'
+				ScrollExtent='402,151'
+				Size='402,151'
 			/>
 			<Page
 				BackgroundColor='#FFFFFF'
@@ -128,19 +128,19 @@
 				PackSize='a,a'
 				PalBgTint='back1'
 				RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-				ScrollExtent='547,223'
-				Size='547,223'
+				ScrollExtent='402,151'
+				Size='402,151'
 			/>
 		</Page>
 		<Page
 			Name='bg'
 			PackLocation='nfn,nfn'
 			PackSize='a,a'
-			ScrollExtent='575,300'
-			Size='575,300'
+			ScrollExtent='430,228'
+			Size='430,228'
 		>
 			<Page
-				Location='564,8'
+				Location='419,8'
 				Name='mmc'
 				PackLocation='fff,nfn'
 				PackSize='f,f'
@@ -166,8 +166,8 @@
 				Name='caption'
 				PackLocation='nfn,nfn'
 				PackSize='a,f'
-				ScrollExtent='433,19'
-				Size='433,19'
+				ScrollExtent='288,19'
+				Size='288,19'
 			>
 				<Text
 					Enabled='false'
@@ -181,8 +181,8 @@
 					PackLocation='nfn,nfn'
 					PackSize='a,f'
 					PalText='titletext'
-					ScrollExtent='366,19'
-					Size='366,19'
+					ScrollExtent='221,19'
+					Size='221,19'
 					TextAlignmentVertical='Center'
 					TextCapital='true'
 					TextColor='#00354F'
@@ -191,7 +191,7 @@
 					Enabled='false'
 					Font='bold_13'
 					LocalText='STEP 4/6'
-					Location='361,0'
+					Location='216,0'
 					Margin='6,-2,0,0'
 					MaxLines='1'
 					MinimumSize='0,19'
@@ -216,9 +216,9 @@
 				PackSize='a,a'
 				PalBgTint='baselight'
 				RStyleDefault='/Styles.New.thin_in.rs_default'
-				ScrollExtent='574,300'
+				ScrollExtent='429,228'
 				Selectable='true'
-				Size='574,300'
+				Size='429,228'
 			>
 				<Page
 					BackgroundColor='#FFFFFF'
@@ -227,19 +227,19 @@
 					Name='lines'
 					PackSize='a,a'
 					RStyleDefault='/Styles.space.boxes.generic4.rs_default'
-					ScrollExtent='574,300'
-					Size='574,300'
+					ScrollExtent='429,228'
+					Size='429,228'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
 						GetsInput='false'
-						Location='0,278'
+						Location='0,206'
 						Name='outlineBL'
 						OpacityRelativeMin='0.80'
 						PackLocation='nfn,fff'
 						PackSize='p,f'
-						ScrollExtent='452,22'
-						Size='452,22'
+						ScrollExtent='337,22'
+						Size='337,22'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -252,21 +252,21 @@
 							PackSize='a,a'
 							PalBgTint='line1'
 							RStyleDefault='/Styles.space.boxes.boxlinebottomLeft2.rs_default'
-							ScrollExtent='452,9'
-							Size='452,9'
+							ScrollExtent='337,9'
+							Size='337,9'
 						/>
 					</Page>
 					<Page
 						BackgroundColor='#FFFFFF'
 						GetsInput='false'
-						Location='155,278'
+						Location='116,206'
 						Name='outlineBR'
 						OpacityRelativeMin='0.80'
 						PackLocation='fff,fff'
 						PackSize='p,f'
 						RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-						ScrollExtent='419,22'
-						Size='419,22'
+						ScrollExtent='313,22'
+						Size='313,22'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -279,20 +279,20 @@
 							PackSize='a,a'
 							PalBgTint='line1'
 							RStyleDefault='/Styles.space.boxes.boxlinebottomRight2.rs_default'
-							ScrollExtent='419,9'
-							Size='419,9'
+							ScrollExtent='313,9'
+							Size='313,9'
 						/>
 					</Page>
 					<Page
 						BackgroundColor='#FFFFFF'
 						GetsInput='false'
-						Location='155,0'
+						Location='116,0'
 						Name='outlineTR'
 						OpacityRelativeMin='0.80'
 						PackLocation='fff,nfn'
 						PackSize='p,f'
-						ScrollExtent='419,22'
-						Size='419,22'
+						ScrollExtent='313,22'
+						Size='313,22'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -304,8 +304,8 @@
 							PackSize='a,a'
 							PalBgTint='line1'
 							RStyleDefault='/Styles.space.boxes.boxlineTopRight2.rs_default'
-							ScrollExtent='419,9'
-							Size='419,9'
+							ScrollExtent='313,9'
+							Size='313,9'
 						/>
 					</Page>
 					<Page
@@ -316,8 +316,8 @@
 						PackLocation='nfn,nfn'
 						PackSize='p,f'
 						RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-						ScrollExtent='452,22'
-						Size='452,22'
+						ScrollExtent='337,22'
+						Size='337,22'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -329,8 +329,8 @@
 							PackSize='a,a'
 							PalBgTint='line1'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft2.rs_default'
-							ScrollExtent='452,9'
-							Size='452,9'
+							ScrollExtent='337,9'
+							Size='337,9'
 						/>
 					</Page>
 				</Page>
@@ -341,18 +341,18 @@
 					PackLocation='nfn,nfn'
 					PackSize='a,f'
 					RStyleDefault='/Styles.New.main_TR.rs_default'
-					ScrollExtent='575,29'
-					Size='575,29'
+					ScrollExtent='430,29'
+					Size='430,29'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
-					Location='0,277'
+					Location='0,205'
 					Name='bottom'
 					PackLocation='nfn,fff'
 					PackSize='a,f'
 					RStyleDefault='/Styles.New.main_BR.rs_default'
-					ScrollExtent='574,23'
-					Size='574,23'
+					ScrollExtent='429,23'
+					Size='429,23'
 				/>
 			</Page>
 			<Page
@@ -365,9 +365,9 @@
 				PackSize='a,a'
 				PalBgTint='back1'
 				RStyleDefault='/Styles.New.thin_in.rs_default'
-				ScrollExtent='575,292'
+				ScrollExtent='430,220'
 				Selectable='true'
-				Size='575,292'
+				Size='430,220'
 			/>
 			<Page
 				BackgroundOpacity='1.00'
@@ -378,9 +378,9 @@
 				PackSize='a,a'
 				PalBgTint='back1'
 				RStyleDefault='/Styles.space.spaceglow.rs_default'
-				ScrollExtent='575,300'
+				ScrollExtent='430,228'
 				Selectable='true'
-				Size='575,300'
+				Size='430,228'
 			/>
 		</Page>
 	</Page>
