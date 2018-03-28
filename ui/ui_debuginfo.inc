@@ -1624,7 +1624,7 @@
 				>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='[@fps]'
 						Location='6,0'
 						MaximumSize='16384,19'
@@ -1638,7 +1638,7 @@
 					>@fps</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='[@player_w]'
 						Location='6,19'
 						MaximumSize='16384,19'
@@ -1652,7 +1652,7 @@
 					>@player_w</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='[@player_p]'
 						Location='6,38'
 						MaximumSize='16384,19'
@@ -1666,7 +1666,7 @@
 					>@player_p</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='[@camera_w]'
 						Location='6,57'
 						MaximumSize='16384,19'
@@ -1680,7 +1680,7 @@
 					>@camera_w</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='[@camera_p]'
 						Location='6,76'
 						MaximumSize='16384,19'
@@ -1694,7 +1694,7 @@
 					>@camera_p</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='[@terrain]'
 						Location='6,95'
 						MaximumSize='16384,19'
@@ -1708,7 +1708,7 @@
 					>@terrain</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='[@pingtime]'
 						Location='6,114'
 						MaximumSize='16384,19'
@@ -1722,7 +1722,7 @@
 					>@pingtime</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='[@bandwidth]'
 						Location='6,133'
 						MaximumSize='16384,19'
@@ -1736,7 +1736,7 @@
 					>@bandwidth</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='[@serverlooptime]'
 						Location='6,152'
 						MaximumSize='16384,19'
@@ -1750,7 +1750,7 @@
 					>@serverlooptime</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='[@version]'
 						Location='6,171'
 						MaximumSize='16384,19'
@@ -1765,7 +1765,7 @@
 					>@version</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='[@playerserverspeedenabled]'
 						Location='6,190'
 						MaximumSize='16384,19'
@@ -1780,7 +1780,7 @@
 					>@playerserverspeedenabled</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='[@playerserverspeed]'
 						Location='6,209'
 						MaximumSize='16384,19'
@@ -1795,7 +1795,7 @@
 					>@playerserverspeed</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='animInfo'
 						Location='6,228'
 						MaximumSize='16384,19'
@@ -1810,7 +1810,7 @@
 					>animInfo</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='track0'
 						Location='6,247'
 						MaximumSize='16384,19'
@@ -1825,7 +1825,7 @@
 					>track0</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='track1'
 						Location='6,266'
 						MaximumSize='16384,19'
@@ -1840,7 +1840,7 @@
 					>track1</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='track2'
 						Location='6,285'
 						MaximumSize='16384,19'
@@ -1855,7 +1855,7 @@
 					>track2</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='track3'
 						Location='6,304'
 						MaximumSize='16384,19'
@@ -1870,7 +1870,7 @@
 					>track3</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='track4'
 						Location='6,323'
 						MaximumSize='16384,19'
@@ -1885,7 +1885,7 @@
 					>track4</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='track5'
 						Location='6,342'
 						MaximumSize='16384,19'
@@ -1900,7 +1900,7 @@
 					>track5</Text>
 					<Text
 						BackgroundOpacity='0.01'
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='track6'
 						Location='6,361'
 						MaximumSize='16384,19'
@@ -1939,7 +1939,7 @@
 					SpacingType='Fill'
 				>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						MaximumSize='16384,19'
 						MaxLines='1'
@@ -1953,7 +1953,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,19'
 						MaximumSize='16384,19'
@@ -1968,7 +1968,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,38'
 						MaximumSize='16384,19'
@@ -1983,7 +1983,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,57'
 						MaximumSize='16384,19'
@@ -1998,7 +1998,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,76'
 						MaximumSize='16384,19'
@@ -2013,7 +2013,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,95'
 						MaximumSize='16384,19'
@@ -2028,7 +2028,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,114'
 						MaximumSize='16384,19'
@@ -2043,7 +2043,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,133'
 						MaximumSize='16384,19'
@@ -2058,7 +2058,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,152'
 						MaximumSize='16384,19'
@@ -2073,7 +2073,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,171'
 						MaximumSize='16384,19'
@@ -2089,7 +2089,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,190'
 						MaximumSize='16384,19'
@@ -2105,7 +2105,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,209'
 						MaximumSize='16384,19'
@@ -2121,7 +2121,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,228'
 						MaximumSize='16384,19'
@@ -2137,7 +2137,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,247'
 						MaximumSize='16384,19'
@@ -2153,7 +2153,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,266'
 						MaximumSize='16384,19'
@@ -2169,7 +2169,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,285'
 						MaximumSize='16384,19'
@@ -2185,7 +2185,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,304'
 						MaximumSize='16384,19'
@@ -2201,7 +2201,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,323'
 						MaximumSize='16384,19'
@@ -2217,7 +2217,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,342'
 						MaximumSize='16384,19'
@@ -2233,7 +2233,7 @@
 						TextColor='#96F4FC'
 					>this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use</Text>
 					<Text
-						Font='bold_11'
+						Font='bold_14'
 						LocalText='this is the text you use this is the text you use this is the text you use this is the text you use this is the text you use'
 						Location='0,361'
 						MaximumSize='16384,19'
