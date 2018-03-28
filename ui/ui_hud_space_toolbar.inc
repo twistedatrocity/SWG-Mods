@@ -1,7 +1,7 @@
 		<Page
 			BackgroundColor='#0000FF'
 			buttonactive.style='/Styles.buttons.smallest_boxes.style'
-			Location='306,1'
+			Location='514,1'
 			MaximumSize='412,52'
 			MinimumSize='412,52'
 			Name='Toolbar'
@@ -67,6 +67,7 @@
 				PackSize='a,f'
 				ScrollExtent='279,12'
 				Size='279,12'
+				Style='/Styles.New.tabs.hud.style'
 				Visible='false'
 				DataSource='TabData'
 				ActiveTab='0'
@@ -1018,7 +1019,7 @@
 		<Page
 			BackgroundColor='#0000FF'
 			buttonactive.style='/Styles.buttons.smallest_boxes.style'
-			Location='306,1'
+			Location='514,1'
 			MaximumSize='412,82'
 			MinimumSize='412,82'
 			Name='DoubleToolbar'

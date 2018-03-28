@@ -1,6 +1,6 @@
 		<Page
 			BackgroundColor='#FFFFFF'
-			Location='870,39'
+			Location='1224,39'
 			MinimumSize='136,68'
 			Name='CombatQueue'
 			OnDisableEffector='/Effectors.FadeThreeQuarter'
@@ -8,8 +8,8 @@
 			PackLocation='fff,nfn'
 			PackSize='p,p'
 			RStyleDefault='/Styles.window.mfd.mfd3b.rs_default'
-			ScrollExtent='153,158'
-			Size='153,158'
+			ScrollExtent='215,194'
+			Size='215,194'
 			SizeIncrement='1,18'
 			TextOpacityRelativeApply='true'
 			TextOpacityRelativeMin='0.80'
@@ -31,26 +31,26 @@
 				Dragable='true'
 				DragType='uicommand'
 				LocalText='[@combat_queue_clear]'
-				Location='11,137'
+				Location='11,173'
 				Name='ClearButton'
 				PackLocation='nfn,fff'
 				PackSize='p,f'
-				ScrollExtent='58,14'
-				Size='58,14'
+				ScrollExtent='81,14'
+				Size='81,14'
 				Style='/Styles.New.buttons.hud.style'
 			>@combat_queue_clear</Button>
 			<Text
 				Enabled='false'
-				Font='bold_12'
+				Font='bold_11'
 				LocalText='xxx Enemy Name'
-				Location='5,111'
+				Location='5,147'
 				Name='NameText'
 				PackLocation='fff,fff'
 				PackSize='a,f'
 				PalText='highlight'
 				RStyleDefault='rs_default'
-				ScrollExtent='143,23'
-				Size='143,23'
+				ScrollExtent='205,23'
+				Size='205,23'
 				TextAlignment='Center'
 				TextAlignmentVertical='Center'
 				TextColor='#00FFFF'
@@ -60,13 +60,13 @@
 				Dragable='true'
 				DragType='uicommand'
 				LocalText='[@combat_peace]'
-				Location='85,137'
+				Location='124,173'
 				Name='PeaceAttackButton'
 				PackLocation='fff,fff'
 				PackSize='p,f'
-				ScrollExtent='58,14'
+				ScrollExtent='81,14'
 				Selectable='true'
-				Size='58,14'
+				Size='81,14'
 				Style='/Styles.New.buttons.hud.style'
 			>@combat_peace</Button>
 			<Page
@@ -93,7 +93,7 @@
 				/>
 				<Text
 					Enabled='false'
-					Font='bold_12'
+					Font='bold_11'
 					LocalText='xxx action name'
 					Location='25,0'
 					Margin='4,0,4,0'
@@ -111,20 +111,20 @@
 				CellAlignmentV='bottom'
 				CellCount='1,3'
 				CellCountFixed='1,0'
-				CellSize='132,24'
+				CellSize='194,24'
 				GetsInput='false'
 				Location='2,4'
-				MinimumScrollExtent='4,80'
+				MinimumScrollExtent='138,80'
 				MultiSelection='false'
 				Name='QueuePage'
 				PackSize='a,a'
 				RStyleDefault='/Styles.window.chat.tiny_frame.rs_default'
-				ScrollExtent='136,107'
-				Size='136,107'
+				ScrollExtent='198,143'
+				Size='198,143'
 			>
 				<Page
 					Dragable='true'
-					Location='2,29'
+					Location='2,65'
 					MaximumSize='132,24'
 					MinimumSize='132,24'
 					Name='SampleItem'
@@ -145,7 +145,7 @@
 					/>
 					<Text
 						Enabled='false'
-						Font='bold_12'
+						Font='bold_11'
 						LocalText='xxx action name'
 						Location='33,0'
 						Name='NameText'
@@ -161,7 +161,7 @@
 				</Page>
 				<Page
 					Dragable='true'
-					Location='2,55'
+					Location='2,91'
 					MaximumSize='132,24'
 					MinimumSize='132,24'
 					Name='SampleItem'
@@ -182,7 +182,7 @@
 					/>
 					<Text
 						Enabled='false'
-						Font='bold_12'
+						Font='bold_11'
 						LocalText='xxx action name'
 						Location='33,0'
 						Name='NameText'
@@ -198,7 +198,7 @@
 				</Page>
 				<Page
 					Dragable='true'
-					Location='2,81'
+					Location='2,117'
 					MaximumSize='132,24'
 					MinimumSize='132,24'
 					Name='SampleItem'
@@ -219,7 +219,7 @@
 					/>
 					<Text
 						Enabled='false'
-						Font='bold_12'
+						Font='bold_11'
 						LocalText='xxx action name'
 						Location='33,0'
 						Name='NameText'
@@ -237,13 +237,13 @@
 			<Scrollbar
 				Control='QueuePage'
 				Enabled='false'
-				Location='136,4'
+				Location='198,4'
 				Name='Scroll'
 				Opacity='0.70'
 				PackLocation='fff,nfn'
 				PackSize='f,a'
-				ScrollExtent='12,107'
-				Size='12,107'
+				ScrollExtent='12,143'
+				Size='12,143'
 				Style='/Styles.scrollbar.default.vHud.style'
 			>
 			</Scrollbar>
@@ -257,8 +257,8 @@
 				PackLocation='fff,nfn'
 				PackSize='a,a'
 				RStyleDefault='/Styles.window.mfd.mfd3b.rs_default'
-				ScrollExtent='153,158'
-				Size='153,158'
+				ScrollExtent='215,194'
+				Size='215,194'
 				SizeIncrement='1,18'
 				TextOpacityRelativeApply='true'
 				TextOpacityRelativeMin='0.80'

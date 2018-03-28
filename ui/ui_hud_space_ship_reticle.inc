@@ -1,14 +1,14 @@
 		<Page
 			AbsorbsInput='false'
 			BackgroundColor='#FFFFFF'
-			Location='335,242'
+			Location='524,321'
 			MaximumSize='392,318'
 			Name='ShipReticle'
 			OpacityRelativeMin='1.00'
 			PackLocation='cfc,cfc'
 			PackSize='a,a'
-			ScrollExtent='354,284'
-			Size='354,284'
+			ScrollExtent='392,318'
+			Size='392,318'
 		>
 			<Data
 				BoosterGauge='Gauges.BoosterGauge'
@@ -22,8 +22,8 @@
 				Name='Weapons'
 				PackLocation='fff,nfn'
 				PackSize='a,a'
-				ScrollExtent='354,284'
-				Size='354,284'
+				ScrollExtent='392,318'
+				Size='392,318'
 				Visible='false'
 			>
 				<Page
@@ -59,13 +59,13 @@
 			<Page
 				AbsorbsInput='false'
 				BackgroundColor='#FFFFFF'
-				Location='145,110'
+				Location='161,124'
 				Name='Reticles'
 				OpacityRelativeMin='1.00'
 				PackLocation='cfc,cfc'
 				PackSize='p,p'
-				ScrollExtent='64,64'
-				Size='64,64'
+				ScrollExtent='70,71'
+				Size='70,71'
 			>
 				<Image
 					AbsorbsInput='false'
@@ -77,8 +77,8 @@
 					PackLocation='cfc,cfc'
 					PackSize='p,p'
 					RStyleDefault='/Styles.space.reticles.e.rs_default'
-					ScrollExtent='64,64'
-					Size='64,64'
+					ScrollExtent='70,71'
+					Size='70,71'
 					SourceRect='0,0,1024,1024'
 				/>
 				<Image
@@ -91,8 +91,8 @@
 					PackLocation='cfc,cfc'
 					PackSize='p,p'
 					RStyleDefault='/Styles.space.reticles.h.rs_default'
-					ScrollExtent='64,64'
-					Size='64,64'
+					ScrollExtent='70,71'
+					Size='70,71'
 					SourceRect='0,0,1024,1024'
 					Visible='false'
 				/>
@@ -106,8 +106,8 @@
 					PackLocation='cfc,cfc'
 					PackSize='p,p'
 					RStyleDefault='/Styles.space.reticles.g.rs_default'
-					ScrollExtent='64,64'
-					Size='64,64'
+					ScrollExtent='70,71'
+					Size='70,71'
 					SourceRect='0,0,1024,1024'
 					Visible='false'
 				/>
@@ -121,8 +121,8 @@
 					PackLocation='cfc,cfc'
 					PackSize='p,p'
 					RStyleDefault='/Styles.space.reticles.f.rs_default'
-					ScrollExtent='64,64'
-					Size='64,64'
+					ScrollExtent='70,71'
+					Size='70,71'
 					SourceRect='0,0,1024,1024'
 					Visible='false'
 				/>
@@ -136,8 +136,8 @@
 					PackLocation='cfc,cfc'
 					PackSize='p,p'
 					RStyleDefault='/Styles.space.reticles.d.rs_default'
-					ScrollExtent='64,64'
-					Size='64,64'
+					ScrollExtent='70,71'
+					Size='70,71'
 					SourceRect='0,0,1024,1024'
 					Visible='false'
 				/>
@@ -151,8 +151,8 @@
 					PackLocation='cfc,cfc'
 					PackSize='p,p'
 					RStyleDefault='/Styles.space.reticles.e.rs_default'
-					ScrollExtent='64,64'
-					Size='64,64'
+					ScrollExtent='70,71'
+					Size='70,71'
 					Visible='false'
 				/>
 				<Image
@@ -165,8 +165,8 @@
 					PackLocation='cfc,cfc'
 					PackSize='p,p'
 					RStyleDefault='/Styles.space.reticles.j.rs_default'
-					ScrollExtent='64,64'
-					Size='64,64'
+					ScrollExtent='70,71'
+					Size='70,71'
 					SourceRect='0,0,1024,1024'
 					Visible='false'
 				/>
@@ -174,7 +174,7 @@
 			<Page
 				BackgroundColor='#FFFFFF'
 				GetsInput='false'
-				Location='69,37'
+				Location='88,54'
 				Name='center'
 				Opacity='0.60'
 				PackLocation='cfc,cfc'
@@ -289,7 +289,7 @@
 			</Page>
 			<Page
 				AbsorbsInput='false'
-				Location='86,54'
+				Location='105,71'
 				Name='Gauges'
 				OpacityRelativeMin='0.80'
 				PackLocation='cfc,cfc'
