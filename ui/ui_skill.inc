@@ -46,6 +46,7 @@
 				RStyleDefault='/Styles.New.tool.tool_TL_in.rs_default'
 				ScrollExtent='185,120'
 				Size='185,120'
+				Visible='false'
 			>
 				<Composite
 					Name='comp'
@@ -2029,12 +2030,14 @@
 				>
 					<Page
 						BackgroundOpacity='1.00'
+						Enabled='false'
 						Name='macropage'
 						PackLocation='nfn,nfn'
 						PackSize='a,a'
 						RStyleDefault='/Styles.New.whiteOutline.rs_default'
 						ScrollExtent='840,418'
 						Size='840,418'
+						Visible='false'
 					>
 						<Page
 							Activated='true'
@@ -2305,7 +2308,6 @@
 					</Page>
 					<Page
 						BackgroundTint='#1CFFFF'
-						Enabled='false'
 						Name='page'
 						PackLocation='nfn,nfn'
 						PackSize='a,a'
@@ -2313,7 +2315,6 @@
 						RStyleDefault='/Styles.New.whiteOutline.rs_default'
 						ScrollExtent='840,418'
 						Size='840,418'
-						Visible='false'
 					>
 						<Page
 							Activated='true'
@@ -2799,7 +2800,7 @@
 				Size='824,26'
 				Style='/Styles.New.tabs.horizontal_10.style'
 				DataSource='TabData'
-				ActiveTab='6'
+				ActiveTab='0'
 				Style='/Styles.New.tabs.horizontal_10.style'
 				TargetPage='comp.target'
 			>
