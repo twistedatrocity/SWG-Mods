@@ -390,16 +390,15 @@ buttonsComposite.enabled=1'
 			<Composite
 				BackgroundColor='#FFFFFF'
 				BackgroundOpacity='1.00'
-				Location='0,44'
+				Location='0,62'
 				MaximumSize='150,440'
 				MinimumSize='150,22'
 				Name='buttonsComposite'
 				RStyleDefault='/Styles.New.tool.tool_TL_ime.rs_default'
-				ScrollExtent='150,396'
+				ScrollExtent='150,374'
 				ShrinkWrap='true'
-				Size='150,396'
+				Size='150,374'
 				SpacingType='Fill'
-				Visible='false'
 			>
 				<Composite
 					MaximumSize='150,22'
@@ -1051,45 +1050,6 @@ buttonsComposite.enabled=1'
 					Location='0,308'
 					MaximumSize='150,22'
 					MinimumSize='150,22'
-					Name='buttonTcgComposite'
-					Orientation='Horizontal'
-					ScrollExtent='150,22'
-					Size='150,22'
-				>
-					<Text
-						Font='bold_16'
-						GetsInput='true'
-						LocalText='[@button_bar_tcg]'
-						MaximumSize='128,22'
-						MinimumSize='128,22'
-						Name='buttonTcgText'
-						ScrollExtent='128,34'
-						Size='128,22'
-						TextAlignmentVertical='Center'
-					>@button_bar_tcg</Text>
-					<Button
-						BackgroundColor='#FFFFFF'
-						BackgroundOpacity='0.90'
-						cmdname='CMD_uiTcg'
-						ContextToParent='true'
-						Dragable='true'
-						DragType='command'
-						Icon='/Styles.Icon.UIv2.CMD_uiTcg'
-						IconShrink='true'
-						IconStretch='true'
-						Location='128,0'
-						MaximumSize='22,22'
-						MinimumSize='22,22'
-						Name='tcg'
-						ScrollExtent='22,22'
-						Size='22,22'
-						Style='/Styles.buttons.buttonBar.all.style'
-					></Button>
-				</Composite>
-				<Composite
-					Location='0,330'
-					MaximumSize='150,22'
-					MinimumSize='150,22'
 					Name='buttonHomePortComposite'
 					Orientation='Horizontal'
 					ScrollExtent='150,22'
@@ -1124,7 +1084,7 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,352'
+					Location='0,330'
 					MaximumSize='150,22'
 					MinimumSize='150,22'
 					Name='buttonServiceComposite'
@@ -1161,7 +1121,7 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,374'
+					Location='0,352'
 					MaximumSize='150,22'
 					MinimumSize='150,22'
 					Name='buttonMenuComposite'
