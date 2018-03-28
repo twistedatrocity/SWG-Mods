@@ -55657,7 +55657,7 @@
 				<CheckboxStyle
 					Name='Style'
 					NormalCheckedImage='checkedImage'
-					NormalTextStyle='bold_11'
+					NormalTextStyle='bold_13'
 					NormalUncheckedImage='uncheckedImage'
 					TextOffset='34,1'
 				/>
@@ -62510,10 +62510,10 @@
 					<ListStyle
 						BackgroundColor='#00D6FB'
 						BackgroundOpacity='0.00'
-						CellHeight='19'
+						CellHeight='22'
 						CellPadding='4,2'
 						DefaultTextColor='#96F4FC'
-						DefaultTextStyle='bold_11'
+						DefaultTextStyle='bold_14'
 						GridColor='#1CFFFF'
 						Margin='3,4,3,3'
 						Name='style'
@@ -69996,12 +69996,12 @@
 				Name='tree'
 			>
 				<TreeViewStyle
-					CellHeight='19'
+					CellHeight='22'
 					CellPadding='-9,3'
 					DefaultTextColor='#003842'
 					DefaultTextColorHighlight='#96F4FC'
 					DefaultTextColorLowlight='#FFFFFF'
-					DefaultTextStyle='bold_11'
+					DefaultTextStyle='bold_14'
 					GridColor='#1CFFFF'
 					ImageStyleCollapsed='image.collapsed'
 					ImageStyleExpanded='image.expanded'
