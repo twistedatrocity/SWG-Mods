@@ -54756,7 +54756,7 @@
 					Name='style'
 					NormalTextColor='#2FF4FF'
 					NormalTextMargin='8,1,8,0'
-					NormalTextStyle='bold_11'
+					NormalTextStyle='bold_14'
 					PalActivatedText='textActivated'
 					PalDisabledText='textActivated'
 					PalHoverText='textHover'
