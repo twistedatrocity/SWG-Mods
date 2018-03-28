@@ -393,17 +393,17 @@
 					TargetOpacity2='1.00'
 				/>
 				<Text
-					Font='bold_11'
+					Font='bold_14'
 					LocalText='Group Member Name'
-					Location='38,3'
+					Location='38,1'
 					MaxLines='1'
-					MinimumSize='167,12'
+					MinimumSize='167,14'
 					Name='textName'
 					PackLocation='nfn,nfn'
 					PackSize='a,f'
 					PalText='text1'
-					ScrollExtent='167,13'
-					Size='167,12'
+					ScrollExtent='167,14'
+					Size='167,14'
 					TextAlignmentVertical='Center'
 					TextColor='#96F4FC'
 				>Group Member Name</Text>

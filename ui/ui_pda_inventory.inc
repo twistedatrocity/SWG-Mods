@@ -372,19 +372,19 @@ oldEqVisible=oldEqVisibleTmp'
 											Size='249,16'
 										>
 											<Text
-												Font='bold_12'
+												Font='bold_14'
 												LocalText='Manufactured'
 												MaximumSize='125,16384'
 												MaxLines='1'
-												MinimumSize='76,0'
+												MinimumSize='86,0'
 												Name='Tier'
 												OpacityRelativeMin='0.20'
 												PackSize='a,a'
-												ScrollExtent='76,16'
-												Size='76,16'
+												ScrollExtent='86,16'
+												Size='86,16'
 											>Manufactured</Text>
 											<Text
-												Font='bold_12'
+												Font='bold_14'
 												LocalText='[@object_usability:unique]'
 												Location='76,0'
 												MaximumSize='125,16384'
@@ -399,7 +399,7 @@ oldEqVisible=oldEqVisibleTmp'
 											>@object_usability:unique</Text>
 											<Text
 												ColorSelection='#FF0000'
-												Font='bold_12'
+												Font='bold_14'
 												LocalText='[@object_usability:no_trade]'
 												Location='201,0'
 												MaximumSize='125,16384'
@@ -415,7 +415,7 @@ oldEqVisible=oldEqVisibleTmp'
 										</Composite>
 									</Page>
 									<Text
-										Font='bold_13'
+										Font='bold_16'
 										LocalText='xxx attrib 1:    info here
 xxx attrib 2:    info here
 xxx attrib 3:    info here
@@ -445,7 +445,7 @@ xxx attrib 7:    info here
 xxx attrib 8:    info here
 </Text>
 									<Text
-										Font='bold_13'
+										Font='bold_16'
 										LocalText='xxx Description goes into this field with all the other text ok you can stop now.'
 										Location='0,161'
 										Margin='4,4,4,4'
@@ -1023,7 +1023,7 @@ Lightsaber.SizeY=SizeY'
 							CellDragAccepts='GameObject'
 							CellSelectionOverlay='/Styles.New.overlay.rs_default'
 							CellSelectionOverlayOpacity='0.90'
-							CellSize='64,64'
+							CellSize='80,80'
 							DragAccepts='GameObject'
 							Location='4,7'
 							MinimumScrollExtent='136,68'
@@ -1413,7 +1413,7 @@ parent.scrollIcon.visible=visible'
 							ContextCapable='true'
 							ContextCapableAlternate='true'
 							DefaultTextColor='#96F4FC'
-							DefaultTextStyle='bold_11'
+							DefaultTextStyle='bold_16'
 							Dragable='true'
 							DragAccepts='gameobject'
 							GridColorHorizontal='#1CFFFF'

@@ -463,18 +463,18 @@
 			>999</Text>
 			<Text
 				BackgroundOpacity='0.50'
-				Font='bold_11'
+				Font='bold_14'
 				LocalText='Target Name'
-				Location='49,8'
-				MaximumSize='299,12'
+				Location='50,7'
+				MaximumSize='299,14'
 				MaxLines='1'
 				MinimumSize='167,12'
 				Name='targetName'
 				PackLocation='nfn,nfn'
 				PackSize='a,f'
 				PalText='text1'
-				ScrollExtent='198,13'
-				Size='198,12'
+				ScrollExtent='198,14'
+				Size='198,14'
 				TextAlignmentVertical='Center'
 				TextColor='#96F4FC'
 			>Target Name</Text>
