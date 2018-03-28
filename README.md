@@ -1,5 +1,5 @@
 # SWG-Mods
-Collection of SWG mods that I have made.
+Collection of SWG mods that I have made. These are all for NGE version.
 
 ## Silent Crafting Stations Mod
 * does exactly what the name implies
