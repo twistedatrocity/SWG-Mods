@@ -25,13 +25,13 @@
 		/>
 		<Button
 			LocalText='[@ui_pm:close]'
-			Location='504,572'
+			Location='504,573'
 			Name='buttonOk'
 			PackLocation='fff,fff'
 			PackSize='p,f'
 			RStyleDefault='/Styles.New.buttons.hud.style'
-			ScrollExtent='320,31'
-			Size='320,31'
+			ScrollExtent='320,30'
+			Size='320,30'
 			Style='/Styles.New.buttons.hud.style'
 			TextColor='#000000'
 		>@ui_pm:close</Button>
@@ -276,7 +276,7 @@
 						BackgroundScrolls='false'
 						CursorMark='33'
 						CursorPoint='33'
-						Font='default_18'
+						Font='normal_18'
 						GetsInput='true'
 						LocalText='xxx
 LINE ONE
