@@ -399,6 +399,7 @@ buttonsComposite.enabled=1'
 				ShrinkWrap='true'
 				Size='150,374'
 				SpacingType='Fill'
+				Visible='false'
 			>
 				<Composite
 					MaximumSize='150,22'
