@@ -16,7 +16,7 @@ Collection of SWG mods that I have made. These are all for NGE version.
 ## Installation
 Just download and extract to your base SWG game folder then restart the game.
 
-<b>Note: This mod resizes the main game menu, to avoid it going offscreen and having to do a /ui hudreset, before you apply this mod, go ingame and move that game menu (the little silver button) toward the center of screen on ALL toons. After the mod has been applied you can then place it back wherever you want.</b>
+<b>Note: As of v3, this mod resizes the main game menu. To avoid it going offscreen and having to do a /ui hudreset... before you apply this mod, go ingame and move that game menu (the little silver button) toward the center of screen on ALL toons. After the mod has been applied you can then place it back wherever you want. If you had v3 in the past and are just upgrading there should be no need to do this.</b>
 
 ## Uninstallation
 Simply delete the files it placed in your SWG/ui folder.
