@@ -25401,10 +25401,10 @@
 				<ListStyle
 					BackgroundColor='#00D6FB'
 					BackgroundOpacity='0.00'
-					CellHeight='19'
+					CellHeight='22'
 					CellPadding='4,2'
 					DefaultTextColor='#96F4FC'
-					DefaultTextStyle='bold_11'
+					DefaultTextStyle='bold_14'
 					GridColor='#1CFFFF'
 					Margin='3,4,3,3'
 					Name='style'
@@ -29902,12 +29902,12 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#18393D'
 						MouseOverTextMargin='3,0,3,0'
-						MouseOverTextStyle='bold_11'
+						MouseOverTextStyle='bold_13'
 						Name='style'
 						NormalIconColor='#00D6FB'
 						NormalTextColor='#2FF4FF'
 						NormalTextMargin='3,0,3,0'
-						NormalTextStyle='bold_11'
+						NormalTextStyle='bold_13'
 						PalActivatedText='textactivated'
 						PalDisabledText='textdisabled'
 						PalHoverText='texthover'
@@ -30819,7 +30819,7 @@
 						Name='style'
 						NormalTextColor='#2FF4FF'
 						NormalTextMargin='5,0,5,0'
-						NormalTextStyle='bold_11'
+						NormalTextStyle='bold_13'
 						PalActivatedText='tableHeadertextActivated'
 						PalDisabledText='tableHeadertextDisabled'
 						PalHoverText='tableHeadertextHover'
@@ -33034,7 +33034,7 @@
 				<CheckboxStyle
 					Name='Style2'
 					NormalCheckedImage='checkedImage'
-					NormalTextStyle='bold_11'
+					NormalTextStyle='bold_13'
 					NormalUncheckedImage='uncheckedImage'
 					TextOffset='24,0'
 				/>
@@ -36757,7 +36757,7 @@
 				<CheckboxStyle
 					Name='Style'
 					NormalCheckedImage='checkedImage'
-					NormalTextStyle='bold_11'
+					NormalTextStyle='bold_14'
 					NormalUncheckedImage='uncheckedImage'
 					TextOffset='28,4'
 				/>
@@ -39478,11 +39478,11 @@
 							MouseOverSound='ui_rollover'
 							MouseOverTextColor='#18393D'
 							MouseOverTextMargin='9,0,9,0'
-							MouseOverTextStyle='bold_11'
+							MouseOverTextStyle='bold_13'
 							Name='style'
 							NormalTextColor='#2FF4FF'
 							NormalTextMargin='9,0,9,0'
-							NormalTextStyle='bold_11'
+							NormalTextStyle='bold_13'
 							PalActivatedText='textactivated'
 							PalDisabledText='textdisabled'
 							PalHoverText='texthover'
@@ -39498,7 +39498,7 @@
 							RStyleMouseOverSelected='hover.rs'
 							RStyleSelected='selected.rs'
 							SelectedTextMargin='9,0,9,0'
-							SelectedTextStyle='bold_11'
+							SelectedTextStyle='bold_13'
 						/>
 					</Namespace>
 				</Namespace>
@@ -39605,7 +39605,7 @@
 							RStyleSelected='selected.rs'
 							SelectedTextColor='#D2FDFF'
 							SelectedTextMargin='8,0,8,0'
-							SelectedTextStyle='bold_13'
+							SelectedTextStyle='bold_14'
 							TextAlignment='Left'
 						/>
 						<Namespace
@@ -54451,7 +54451,7 @@
 					Name='style'
 					NormalTextColor='#2FF4FF'
 					NormalTextMargin='8,1,8,0'
-					NormalTextStyle='bold_11'
+					NormalTextStyle='bold_14'
 					PalActivatedText='textActivated'
 					PalDisabledText='textActivated'
 					PalHoverText='textHover'
@@ -54801,7 +54801,7 @@
 					Name='style'
 					NormalTextColor='#2FF4FF'
 					NormalTextMargin='8,1,8,0'
-					NormalTextStyle='bold_11'
+					NormalTextStyle='bold_14'
 					PalActivatedText='textActivated'
 					PalDisabledText='textActivated'
 					PalHoverText='textHover'
@@ -55702,7 +55702,7 @@
 				<CheckboxStyle
 					Name='Style'
 					NormalCheckedImage='checkedImage'
-					NormalTextStyle='bold_11'
+					NormalTextStyle='bold_13'
 					NormalUncheckedImage='uncheckedImage'
 					TextOffset='34,1'
 				/>
@@ -62555,10 +62555,10 @@
 					<ListStyle
 						BackgroundColor='#00D6FB'
 						BackgroundOpacity='0.00'
-						CellHeight='19'
+						CellHeight='22'
 						CellPadding='4,2'
 						DefaultTextColor='#96F4FC'
-						DefaultTextStyle='bold_11'
+						DefaultTextStyle='bold_14'
 						GridColor='#1CFFFF'
 						Margin='3,4,3,3'
 						Name='style'
@@ -69811,11 +69811,11 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#18393D'
 						MouseOverTextMargin='1,0,13,0'
-						MouseOverTextStyle='bold_11'
+						MouseOverTextStyle='bold_16'
 						Name='style'
 						NormalTextColor='#2FF4FF'
 						NormalTextMargin='1,0,13,0'
-						NormalTextStyle='bold_11'
+						NormalTextStyle='bold_16'
 						PalActivatedText='Textactivated'
 						PalDisabledText='textdisabled'
 						PalHoverText='texthover'
@@ -69831,7 +69831,7 @@
 						RStyleMouseOverSelected='hover.rs'
 						RStyleSelected='selected.rs'
 						SelectedTextMargin='1,0,13,0'
-						SelectedTextStyle='bold_11'
+						SelectedTextStyle='bold_16'
 						TextCapital='true'
 					/>
 				</Namespace>
@@ -69859,7 +69859,7 @@
 						CaratColor='#B6FD31'
 						CaratWidth='2'
 						Name='Style_bold'
-						NormalTextStyle='default_13'
+						NormalTextStyle='default_18'
 						PalCarat='carat'
 						PalText='text1'
 						SelectionColor='#555555'
@@ -69886,7 +69886,7 @@
 					<TextboxStyle
 						CaratColor='#B6FD31'
 						Name='Style_out'
-						NormalTextStyle='fixed_14'
+						NormalTextStyle='fixed_18'
 						PalCarat='carat'
 						PalText='text1'
 						RStyleDefault='rs_default'
@@ -70041,12 +70041,12 @@
 				Name='tree'
 			>
 				<TreeViewStyle
-					CellHeight='19'
+					CellHeight='22'
 					CellPadding='-9,3'
 					DefaultTextColor='#003842'
 					DefaultTextColorHighlight='#96F4FC'
 					DefaultTextColorLowlight='#FFFFFF'
-					DefaultTextStyle='bold_11'
+					DefaultTextStyle='bold_14'
 					GridColor='#1CFFFF'
 					ImageStyleCollapsed='image.collapsed'
 					ImageStyleExpanded='image.expanded'
@@ -70508,7 +70508,7 @@
 				<TextboxStyle
 					CaratColor='#B6FD31'
 					Name='Style_out'
-					NormalTextStyle='fixed_14'
+					NormalTextStyle='fixed_18'
 					PalCarat='carat'
 					PalText='text1'
 					RStyleDefault='window.chat.persistent.inner.rs_default'
@@ -70700,13 +70700,13 @@
 			>
 				<TooltipStyle
 					BackgroundOpacity='0.80'
-					MaxWidth='245'
+					MaxWidth='845'
 					Name='style'
 					PalText='text1'
 					RStyleDefault='New.tool.tool_tip.rs_default'
 					TextColor='#96F4FC'
 					TextPadding='8,8,8,8'
-					TextStyle='normal_12'
+					TextStyle='normal_18'
 				/>
 			</Namespace>
 		</Namespace>
@@ -70719,7 +70719,7 @@
 				DefaultTextColor='#003842'
 				DefaultTextColorHighlight='#96F4FC'
 				DefaultTextColorLowlight='#FFFFFF'
-				DefaultTextStyle='normal_12'
+				DefaultTextStyle='normal_13'
 				GridColor='#1CFFFF'
 				ImageStyleCollapsed='image.collapsed'
 				ImageStyleExpanded='image.expanded'
