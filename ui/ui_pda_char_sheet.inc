@@ -341,7 +341,7 @@
 										TextColor='#97FFFF'
 									>@ui_charsheet:gcw_rank</Text>
 									<Text
-										Font='bold_14'
+										Font='bold_15'
 										LocalText='[@ui_charsheet:gcw_progress]'
 										Location='48,125'
 										Margin='5,0,0,0'
@@ -491,7 +491,7 @@
 										TextColor='#97FFFF'
 									></Text>
 									<Text
-										Font='bold_14'
+										Font='bold_15'
 										Location='264,125'
 										Margin='5,0,0,0'
 										MinimumSize='0,15'
@@ -527,21 +527,21 @@
 										TextColor='#97FFFF'
 									>@ui_charsheet:gcw_rank1</Text>
 									<Text
-										Font='bold_14'
+										Font='bold_15'
 										LocalText='[@ui_charsheet:gcw_timer]'
-										Location='53,203'
+										Location='34,207'
 										Margin='5,0,0,0'
 										MinimumSize='0,19'
 										Name='label_gcw_timer'
 										PalText='header'
-										ScrollExtent='160,30'
-										Size='160,19'
+										ScrollExtent='208,19'
+										Size='208,19'
 										TextColor='#97FFFF'
 									>@ui_charsheet:gcw_timer</Text>
 									<Text
-										Font='bold_14'
+										Font='bold_15'
 										LocalText='[@ui_charsheet:gcw_timer]'
-										Location='222,203'
+										Location='245,207'
 										Margin='5,0,0,0'
 										MinimumSize='0,19'
 										Name='value_gcw_timer'
@@ -1082,7 +1082,6 @@
 										BackgroundOpacity='1.00'
 										Location='1,168'
 										Name='light22'
-										Opacity='0.00'
 										PackSize='a,a'
 										RStyleDefault='/Styles.New.line.rs_default'
 										ScrollExtent='652,5'
@@ -1093,7 +1092,6 @@
 										BackgroundOpacity='1.00'
 										Location='1,198'
 										Name='light19'
-										Opacity='0.00'
 										PackSize='a,a'
 										RStyleDefault='/Styles.New.line.rs_default'
 										ScrollExtent='652,5'
@@ -1258,6 +1256,7 @@
 										BackgroundOpacity='1.00'
 										Location='1,88'
 										Name='light30'
+										Opacity='0.00'
 										PackSize='a,a'
 										RStyleDefault='/Styles.New.line.rs_default'
 										ScrollExtent='652,5'
@@ -1268,6 +1267,7 @@
 										BackgroundOpacity='1.00'
 										Location='1,278'
 										Name='light11'
+										Opacity='0.00'
 										PackSize='a,a'
 										RStyleDefault='/Styles.New.line.rs_default'
 										ScrollExtent='652,5'
@@ -1686,7 +1686,7 @@
 								Size='300,20'
 							>
 								<Text
-									Font='bold_14'
+									Font='bold_15'
 									LocalText='[@ui_charsheet:attributes]'
 									Margin='5,0,0,0'
 									MinimumSize='0,19'
@@ -2421,7 +2421,7 @@
 						</Page>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='xxx bindLocation'
 							Location='329,169'
 							Margin='2,2,2,2'
@@ -2438,7 +2438,7 @@
 						>xxx bindLocation</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='[@ui_charsheet:chronicle_update]'
 							Location='8,169'
 							Margin='2,2,2,2'
@@ -2454,7 +2454,7 @@
 						>@ui_charsheet:chronicle_update</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='xxx bindLocation'
 							Location='329,146'
 							Margin='2,2,2,2'
@@ -2471,7 +2471,7 @@
 						>xxx bindLocation</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='[@ui_charsheet:chronicle_rating]'
 							Location='8,146'
 							Margin='2,2,2,2'
@@ -2487,7 +2487,7 @@
 						>@ui_charsheet:chronicle_rating</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='xxx bindLocation'
 							Location='303,123'
 							Margin='2,2,2,2'
@@ -2504,7 +2504,7 @@
 						>xxx bindLocation</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='[@ui_charsheet:bindlabel]'
 							Location='8,123'
 							Margin='2,2,2,2'
@@ -2520,7 +2520,7 @@
 						>@ui_charsheet:bindlabel</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='xxx married'
 							Location='303,101'
 							Margin='2,2,2,2'
@@ -2537,7 +2537,7 @@
 						>xxx married</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='[@ui_charsheet:marriedlabel]'
 							Location='8,101'
 							Margin='2,2,2,2'
@@ -2553,7 +2553,7 @@
 						>@ui_charsheet:marriedlabel</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='xxx lots'
 							Location='303,79'
 							Margin='2,2,2,2'
@@ -2570,7 +2570,7 @@
 						>xxx lots</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='[@ui_charsheet:lotslabel]'
 							Location='8,79'
 							Margin='2,2,2,2'
@@ -2586,7 +2586,7 @@
 						>@ui_charsheet:lotslabel</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='xxx home'
 							Location='303,57'
 							Margin='2,2,2,2'
@@ -2603,7 +2603,7 @@
 						>xxx home</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='[@ui_charsheet:homelabel]'
 							Location='8,57'
 							Margin='2,2,2,2'
@@ -2619,7 +2619,7 @@
 						>@ui_charsheet:homelabel</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='xxx played'
 							Location='303,61'
 							Margin='2,2,2,2'
@@ -2637,7 +2637,7 @@
 						>xxx played</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='[@ui_charsheet:playedlabel]'
 							Location='8,61'
 							Margin='2,2,2,2'
@@ -2654,7 +2654,7 @@
 						>@ui_charsheet:playedlabel</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='xxx species'
 							Location='303,34'
 							Margin='2,2,2,2'
@@ -2671,7 +2671,7 @@
 						>xxx species</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='[@ui_charsheet:specieslabel]'
 							Location='8,34'
 							Margin='2,2,2,2'
@@ -2687,7 +2687,7 @@
 						>@ui_charsheet:specieslabel</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='xxx borndate'
 							Location='303,28'
 							Margin='2,2,2,2'
@@ -2705,7 +2705,7 @@
 						>xxx borndate</Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='[@ui_charsheet:bornlabel]'
 							Location='8,28'
 							Margin='2,2,2,2'
@@ -2783,7 +2783,7 @@
 						Visible='false'
 					>
 						<Text
-							Font='bold_14'
+							Font='bold_15'
 							GetsInput='true'
 							Location='9,29'
 							MaxLines='50'
@@ -2797,7 +2797,7 @@
 						></Text>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='[@ui_charsheet:badgeslabel]'
 							Margin='4,2,2,2'
 							MaxLines='1'
@@ -2985,7 +2985,7 @@
 								<Text
 									BackgroundOpacity='1.00'
 									BackgroundTint='#00D6FB'
-									Font='bold_14'
+									Font='bold_15'
 									LocalText='0'
 									Location='170,70'
 									MinimumSize='0,19'
@@ -3006,7 +3006,7 @@
 									BackgroundTint='#00D6FB'
 									ColorCarat='#FFAC00'
 									ColorSelection='#FFC600'
-									Font='bold_14'
+									Font='bold_15'
 									LocalText='0'
 									Location='169,133'
 									MinimumSize='0,19'
