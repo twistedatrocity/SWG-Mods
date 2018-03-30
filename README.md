@@ -31,7 +31,7 @@ For those that ask about chat bubbles and game objects, there are sliders for bo
 * Restart the game.
 
 ## Uninstallation
-Simply delete the files it placed in your SWG/ui folder.
+Simply delete the files it placed in your SWG folder.
 
 ## Downloads
 * [Silent Crafting Stations Mod](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_silent_crafting_stations.zip)
