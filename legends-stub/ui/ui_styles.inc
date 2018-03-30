@@ -29902,12 +29902,12 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#18393D'
 						MouseOverTextMargin='3,0,3,0'
-						MouseOverTextStyle='bold_13'
+						MouseOverTextStyle='bold_16'
 						Name='style'
 						NormalIconColor='#00D6FB'
 						NormalTextColor='#2FF4FF'
 						NormalTextMargin='3,0,3,0'
-						NormalTextStyle='bold_13'
+						NormalTextStyle='bold_16'
 						PalActivatedText='textactivated'
 						PalDisabledText='textdisabled'
 						PalHoverText='texthover'
@@ -46130,7 +46130,7 @@
 				<PopupMenuStyle
 					BackgroundOpacity='0.00'
 					ButtonStyle='New.buttons.hud.style'
-					ItemHeight='24'
+					ItemHeight='40'
 					Name='style'
 					RStyleDefault='rs_default'
 				/>

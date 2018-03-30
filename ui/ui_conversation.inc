@@ -1,8 +1,8 @@
 	<Page
 		Name='Convo'
 		PackSize='1,1'
-		ScrollExtent='1024,768'
-		Size='1024,768'
+		ScrollExtent='1440,960'
+		Size='1440,960'
 		Visible='false'
 		VisualEditLock='true'
 	>
@@ -109,52 +109,58 @@
 				/>
 			</Page>
 			<PopupMenu
+				BackgroundColor='#FFFFFF'
+				BackgroundOpacity='0.8'
+				BackgroundTint='#000000'
 				DataSource='test'
 				Location='492,310'
-				MaximumSize='101,72'
-				MinimumSize='101,72'
+				MaximumSize='143,90'
+				MinimumSize='143,90'
 				Name='buttons'
 				RStyleDefault='rs_default'
-				ScrollExtent='101,72'
-				Size='101,72'
+				ScrollExtent='143,90'
+				Size='143,90'
 				Style='/Styles.popupmenu.convo.style'
 			>
 			</PopupMenu>
 			<Text
 				BackgroundColor='#FFFFFF'
-				BackgroundOpacity='0.70'
+				BackgroundOpacity='0.7'
+				BackgroundTint='#999999'
 				ColorCarat='#FEB301'
 				ColorSelection='#FFFFFF'
-				Font='bold_13'
+				Font='bold_18'
 				LocalText='The conversation text goes here.
 Click a button below to choose a response.
 What do you have to say to that?'
-				Location='116,275'
-				Margin='18,18,18,18'
-				MaximumSize='240,16384'
-				MinimumSize='240,0'
+				Location='20,275'
+				Margin='20,20,20,20'
+				MaximumSize='336,16384'
+				MinimumSize='336,247'
 				Name='text'
-				OpacityRelativeMin='0.50'
+				OpacityRelativeMin='0.60'
 				PalText='text1'
 				RStyleDefault='/Styles.New.tool.tool_tip.rs_default'
 				RStyleDisabled='/Styles.New.thin_in.rs_default'
 				RStyleMouseOver='/Styles.New.whiteOutline.rs_default'
-				ScrollExtent='240,177'
-				Size='240,177'
+				ScrollExtent='336,247'
+				Size='336,247'
 				TextColor='#96F4FC'
 			>The conversation text goes here.
 Click a button below to choose a response.
 What do you have to say to that?</Text>
 			<Page
 				BackgroundColor='#FFFFFF'
+				BackgroundOpacity='1.00'
 				BackgroundTint='#00D6FB'
-				Location='192,64'
+				Location='122,66'
 				Name='Panel'
 				OnDisableEffector='/Effectors.FadeHalf'
 				OnEnableEffector='/Effectors.FadeThreeQuarter'
 				PalBgTint='back1'
 				ScrollExtent='560,184'
 				Size='560,184'
+				Visible='false'
 			/>
 		</Page>
 	</Page>
