@@ -129,7 +129,7 @@
 				BackgroundTint='#999999'
 				ColorCarat='#FEB301'
 				ColorSelection='#FFFFFF'
-				Font='bold_18'
+				Font='bold_20'
 				LocalText='The conversation text goes here.
 Click a button below to choose a response.
 What do you have to say to that?'
