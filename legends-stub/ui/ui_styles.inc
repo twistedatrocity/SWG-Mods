@@ -25300,10 +25300,10 @@
 			>
 				<ListStyle
 					BackgroundColor='#3A4439'
-					CellHeight='19'
+					CellHeight='22'
 					CellPadding='8,2'
 					DefaultTextColor='#96F4FC'
-					DefaultTextStyle='bold_13'
+					DefaultTextStyle='bold_14'
 					GridColor='#1CFFFF'
 					Margin='2,1,2,2'
 					Name='style'
