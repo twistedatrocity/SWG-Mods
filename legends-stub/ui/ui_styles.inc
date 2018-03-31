@@ -33105,7 +33105,7 @@
 				<CheckboxStyle
 					Name='Style'
 					NormalCheckedImage='checkedImage'
-					NormalTextStyle='bold_11'
+					NormalTextStyle='bold_13'
 					NormalUncheckedImage='uncheckedImage'
 					TextOffset='26,0'
 				/>
