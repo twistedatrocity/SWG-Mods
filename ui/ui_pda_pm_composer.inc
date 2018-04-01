@@ -122,7 +122,7 @@
 				></Textbox>
 				<Text
 					Enabled='false'
-					Font='bold_13'
+					Font='bold_16'
 					LocalText='[@ui_pm:recipient_name]'
 					Location='5,4'
 					MaxLines='1'
@@ -137,7 +137,7 @@
 				>@ui_pm:recipient_name</Text>
 				<Text
 					Enabled='false'
-					Font='bold_13'
+					Font='bold_16'
 					LocalText='[@ui_pm:subject]'
 					Location='5,58'
 					MaxLines='1'
@@ -288,8 +288,8 @@
 					<Page
 						Name='body'
 						PackSize='f,a'
-						ScrollExtent='575,257'
-						Size='575,257'
+						ScrollExtent='562,257'
+						Size='562,257'
 					>
 						<Text
 							BackgroundColor='#FFFFFF'
@@ -298,7 +298,7 @@
 							CursorPoint='28'
 							Editable='true'
 							EditableUnicode='true'
-							Font='default_18'
+							Font='normal_18'
 							GetsInput='true'
 							IME='true'
 							LocalText='xxx
@@ -320,8 +320,8 @@ LINE ELEVEN
 							PackSize='a,a'
 							PalText='text1'
 							RStyleDefault='/Styles.New.whitebox.rs_default'
-							ScrollExtent='549,251'
-							Size='549,246'
+							ScrollExtent='536,251'
+							Size='536,246'
 							TextColor='#96F4FC'
 						>xxx
 LINE ONE
@@ -339,7 +339,7 @@ LINE ELEVEN
 						<Scrollbar
 							AutoVisibility='true'
 							Control='text'
-							Location='560,6'
+							Location='547,6'
 							Name='Scroll'
 							PackLocation='fff,nfn'
 							PackSize='f,a'
@@ -357,8 +357,8 @@ LINE ELEVEN
 							PackSize='a,a'
 							PalBgTint='line2'
 							RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-							ScrollExtent='575,257'
-							Size='575,257'
+							ScrollExtent='562,257'
+							Size='562,257'
 						/>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -370,20 +370,20 @@ LINE ELEVEN
 							PackSize='a,a'
 							PalBgTint='back3'
 							RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-							ScrollExtent='556,249'
-							Size='556,249'
+							ScrollExtent='543,249'
+							Size='543,249'
 						/>
 					</Page>
 					<Page
-						Location='579,0'
-						MaximumSize='104,16384'
-						MinimumSize='104,0'
+						Location='566,0'
+						MaximumSize='117,16384'
+						MinimumSize='117,0'
 						Name='attach'
 						OnHide='parent.pack=t'
 						OnShow='parent.pack=t'
 						PackSize='f,a'
-						ScrollExtent='104,257'
-						Size='104,257'
+						ScrollExtent='117,257'
+						Size='117,257'
 					>
 						<VolumePage
 							BackgroundScrolls='false'
@@ -397,8 +397,8 @@ LINE ELEVEN
 							OnShow='parent.visible=visible'
 							PackSize='a,a'
 							RStyleDefault='/Styles.New.whitebox.rs_default'
-							ScrollExtent='85,227'
-							Size='85,227'
+							ScrollExtent='98,227'
+							Size='98,227'
 						>
 							<Text
 								Activated='true'
@@ -485,20 +485,21 @@ LINE ELEVEN
 </Text>
 						</VolumePage>
 						<Text
-							Font='bold_13'
+							Font='bold_14'
 							LocalText='[@ui_pm:attachments]'
 							MinimumSize='0,19'
 							Name='label'
 							PackSize='a'
 							PalText='header'
-							ScrollExtent='103,28'
-							Size='103,19'
+							ScrollExtent='116,30'
+							Size='116,19'
+							TextAlignment='Center'
 							TextColor='#97FFFF'
 						>@ui_pm:attachments</Text>
 						<Scrollbar
 							AutoVisibility='true'
 							Control='volume'
-							Location='90,19'
+							Location='103,19'
 							Name='Scroll'
 							PackLocation='fff,nfn'
 							PackSize='f,a'
@@ -517,8 +518,8 @@ LINE ELEVEN
 							PackSize='a,a'
 							PalBgTint='line2'
 							RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-							ScrollExtent='104,243'
-							Size='104,243'
+							ScrollExtent='117,243'
+							Size='117,243'
 						/>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -530,8 +531,8 @@ LINE ELEVEN
 							PackSize='a,a'
 							PalBgTint='back3'
 							RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-							ScrollExtent='88,233'
-							Size='88,233'
+							ScrollExtent='101,233'
+							Size='101,233'
 						/>
 					</Page>
 				</Composite>
@@ -588,7 +589,7 @@ LINE ELEVEN
 				</Page>
 				<Text
 					Enabled='false'
-					Font='bold_13'
+					Font='bold_16'
 					LocalText='[@ui_pm:text]'
 					Location='0,5'
 					MaxLines='1'
@@ -599,11 +600,12 @@ LINE ELEVEN
 					PalText='header'
 					ScrollExtent='244,19'
 					Size='244,19'
+					TextAlignmentVertical='Center'
 					TextColor='#97FFFF'
 				>@ui_pm:text</Text>
 				<Text
 					Enabled='false'
-					Font='bold_13'
+					Font='bold_16'
 					LocalText='[@ui_pm:text_max]'
 					Location='170,5'
 					MaxLines='1'
@@ -614,6 +616,7 @@ LINE ELEVEN
 					PalText='header'
 					ScrollExtent='415,19'
 					Size='415,19'
+					TextAlignmentVertical='Center'
 					TextColor='#97FFFF'
 				>@ui_pm:text_max</Text>
 			</Page>
