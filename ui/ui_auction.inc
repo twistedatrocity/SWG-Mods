@@ -8909,8 +8909,8 @@ parent.radioCity.checked=false'
 								PackLocation='nfn,fff'
 								PackSize='f,f'
 								PalColor='text1'
-								ScrollExtent='201,19'
-								Size='201,19'
+								ScrollExtent='280,19'
+								Size='280,19'
 								Style='/Styles.New.Checkbox.Style2'
 							>@ui_auc:include_entrance_fee</Checkbox>
 							<Checkbox
