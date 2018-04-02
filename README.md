@@ -4,7 +4,7 @@ Collection of SWG mods that I have made. These are all for NGE version.
 ## Silent Crafting Stations Mod
 * does exactly what the name implies
 
-## No Squint Mod (v5 release 3/30/2018) (Legends stub added 3/29/2018)
+## No Squint Mod (v6 release 4/1/2018) (Legends stub added 3/29/2018)
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) **Note: This mod is not compatible with ILM, or other font mods that increase size, please remove/disable those when using this one.**
 
 The main mod file is based on the last official patch from SOE in the leaked code. Since all servers have their own way of updating game files the main mod might not be enough, thus a server specific stub may be needed.
@@ -35,5 +35,5 @@ Simply delete the files it placed in your SWG folder.
 
 ## Downloads
 * [Silent Crafting Stations Mod](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_silent_crafting_stations.zip)
-* [No Squint Mod Main v5](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_mod_v5.zip)
-  * [Legends Server No Squint stub v5](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_legends_stubv5.zip)
+* [No Squint Mod Main v6](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_mod_v6.zip)
+  * [Legends Server No Squint stub v6](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_legends_stubv6.zip)
