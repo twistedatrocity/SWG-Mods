@@ -103,18 +103,18 @@
 				/>
 				<Data
 					Constant='false'
-					Proportion='0.49'
-					Width='316'
+					Proportion='0.37'
+					Width='208'
 				/>
 				<Data
 					Constant='false'
-					Proportion='0.51'
-					Width='326'
+					Proportion='0.63'
+					Width='361'
 				/>
 				<Data
 					Constant='true'
 					Proportion='0.23'
-					Width='96'
+					Width='169'
 				/>
 			</DataSource>
 			<Scrollbar
@@ -474,6 +474,7 @@ LINE ELEVEN
 					<Scrollbar
 						AutoVisibility='true'
 						Control='volume'
+						Enabled='false'
 						Location='98,17'
 						Name='Scroll'
 						PackLocation='fff,nfn'
