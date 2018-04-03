@@ -99,16 +99,16 @@
 				<Data
 					Constant='true'
 					Proportion='0.07'
-					Width='41'
+					Width='28'
 				/>
 				<Data
 					Constant='false'
-					Proportion='0.37'
-					Width='208'
+					Proportion='0.38'
+					Width='221'
 				/>
 				<Data
 					Constant='false'
-					Proportion='0.63'
+					Proportion='0.62'
 					Width='361'
 				/>
 				<Data
