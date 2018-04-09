@@ -1,11 +1,12 @@
 		<Page
 			Location='189,113'
-			MinimumSize='613,450'
+			MinimumSize='613,470'
 			Name='Surveying'
-			ScrollExtent='636,450'
-			Size='636,450'
+			ScrollExtent='636,470'
+			Size='636,470'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				buttonclose='menu.bg.mmc.close'
@@ -26,77 +27,78 @@
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
 				RStyleDefault='rs_default'
-				ScrollExtent='636,450'
-				Size='636,450'
+				ScrollExtent='636,470'
+				Size='636,470'
 			>
 				<Button
 					LocalText='[@res_survey_sample]'
-					Location='17,423'
-					MinimumSize='0,19'
+					Location='17,432'
+					MinimumSize='0,30'
 					Name='SampleButton'
 					PackLocation='nfn,fff'
 					PackSize='p,f'
-					ScrollExtent='141,19'
-					Size='141,19'
+					ScrollExtent='141,30'
+					Size='141,30'
 					Style='/Styles.New.buttons.hud.style'
 				>@res_survey_sample</Button>
 				<Button
 					IsDefaultButton='true'
 					LocalText='[@res_survey]'
-					Location='478,423'
-					MinimumSize='0,19'
+					Location='478,432'
+					MinimumSize='0,30'
 					Name='SurveyButton'
 					PackLocation='fff,fff'
 					PackSize='p,f'
-					ScrollExtent='141,19'
-					Size='141,19'
+					ScrollExtent='141,30'
+					Size='141,30'
 					Style='/Styles.New.buttons.hud.style'
 				>@res_survey</Button>
 				<Text
-					Font='bold_13'
+					Font='bold_18'
 					LocalText='[@res_survey_range]'
-					Location='14,362'
+					Location='15,362'
 					Margin='2,2,2,2'
-					MinimumSize='0,19'
+					MinimumSize='0,24'
 					Name='labelRange'
 					PackLocation='nfn,nfn'
 					PackSize='p,f'
 					PalText='header'
-					ScrollExtent='138,32'
-					Size='138,20'
+					ScrollExtent='89,61'
+					Size='89,24'
 					TextColor='#97FFFF'
 				>@res_survey_range</Text>
 				<Text
-					Font='bold_13'
+					Font='bold_18'
 					LocalText='50/1000'
-					Location='177,362'
+					Location='117,362'
 					Margin='2,2,2,2'
-					MinimumSize='0,19'
+					MinimumSize='0,24'
 					Name='textRange'
 					PackLocation='nfn,nfn'
 					PackSize='p,f'
 					PalText='text1'
-					ScrollExtent='99,20'
-					Size='99,20'
+					ScrollExtent='101,24'
+					Size='101,24'
 					TextColor='#96F4FC'
 				>50/1000</Text>
 				<Text
-					Font='bold_13'
+					Font='bold_18'
 					LocalText='[@res_survey_icon]'
-					Location='429,362'
+					Location='370,362'
 					Margin='2,2,2,2'
-					MinimumSize='0,19'
+					MinimumSize='0,24'
 					Name='icontext'
 					PackLocation='fff,fff'
 					PackSize='p,f'
 					PalText='header'
-					ScrollExtent='109,32'
-					Size='109,20'
+					ScrollExtent='178,24'
+					Size='178,24'
+					TextAlignment='Right'
 					TextColor='#97FFFF'
 				>@res_survey_icon</Text>
 				<Page
 					BackgroundTint='#1CFFFF'
-					Location='554,354'
+					Location='554,361'
 					Name='ViewerPage'
 					PackLocation='fff,fff'
 					PackSize='f,f'
@@ -210,8 +212,8 @@
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
 					RStyleDefault='rs_default'
-					ScrollExtent='615,375'
-					Size='615,375'
+					ScrollExtent='615,395'
+					Size='615,395'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -272,7 +274,7 @@
 						>
 							<Text
 								ColorCarat='#FFFFFF'
-								Font='bold_24'
+								Font='bold_25'
 								LocalText='81%'
 								Margin='2,2,2,2'
 								Name='text'
@@ -382,27 +384,27 @@
 						Name='Areas'
 						PackLocation='fff,nfn'
 						PackSize='a,a'
-						ScrollExtent='288,314'
-						Size='288,314'
+						ScrollExtent='288,320'
+						Size='288,320'
 					>
 						<Page
 							Name='TreePage'
 							PackSize='a,a'
-							ScrollExtent='281,304'
-							Size='281,304'
+							ScrollExtent='281,310'
+							Size='281,310'
 						>
 							<Text
-								Font='bold_12'
+								Font='bold_18'
 								LocalText='[@res_survey_resnames]'
 								Location='0,5'
 								MaxLines='1'
-								MinimumSize='0,19'
+								MinimumSize='0,24'
 								Name='lblTitle'
 								PackLocation='nfn,nfn'
 								PackSize='a,f'
 								PalText='header'
-								ScrollExtent='269,19'
-								Size='269,19'
+								ScrollExtent='269,24'
+								Size='269,24'
 								TextAlignment='Center'
 								TextColor='#97FFFF'
 							>@res_survey_resnames</Text>
@@ -412,18 +414,18 @@
 								BackgroundScrolls='false'
 								BackgroundTint='#00D6FB'
 								DataSourceContainer='data'
-								Location='11,25'
-								MinimumScrollExtent='255,273'
+								Location='11,28'
+								MinimumScrollExtent='255,299'
 								Name='tree'
 								PackLocation='nfn,nfn'
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.New.pill_lrg.rs_default'
-								ScrollExtent='255,275'
+								ScrollExtent='255,299'
 								SelectedRow='13'
 								SelectedRowCount='1'
 								SelectionAllowedMultiRow='false'
-								Size='255,275'
+								Size='255,278'
 								Style='/Styles.tree.style'
 							/>
 							<DataSourceContainer
@@ -540,13 +542,12 @@
 							</DataSourceContainer>
 							<Scrollbar
 								Control='tree'
-								Enabled='false'
 								Location='267,22'
 								Name='scroll'
 								PackLocation='fff,nfn'
 								PackSize='f,a'
-								ScrollExtent='11,281'
-								Size='11,281'
+								ScrollExtent='11,287'
+								Size='11,287'
 								Style='/Styles.scrollbar.default.vHud4.style'
 							>
 							</Scrollbar>
@@ -569,9 +570,9 @@
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
 							RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-							ScrollExtent='284,312'
+							ScrollExtent='284,318'
 							Selectable='true'
-							Size='284,312'
+							Size='284,318'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -582,8 +583,8 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-								ScrollExtent='284,312'
-								Size='284,312'
+								ScrollExtent='284,318'
+								Size='284,318'
 							/>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -594,8 +595,8 @@
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-								ScrollExtent='284,312'
-								Size='284,312'
+								ScrollExtent='284,318'
+								Size='284,318'
 							/>
 						</Page>
 					</Page>
@@ -604,8 +605,8 @@
 					Name='bg'
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
-					ScrollExtent='636,450'
-					Size='636,450'
+					ScrollExtent='636,470'
+					Size='636,470'
 				>
 					<Page
 						Location='625,8'
@@ -663,9 +664,9 @@
 						PackSize='a,a'
 						PalBgTint='baselight'
 						RStyleDefault='/Styles.New.thin_in.rs_default'
-						ScrollExtent='635,450'
+						ScrollExtent='635,470'
 						Selectable='true'
-						Size='635,450'
+						Size='635,470'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -674,13 +675,13 @@
 							Name='lines'
 							PackSize='a,a'
 							RStyleDefault='/Styles.space.boxes.generic4.rs_default'
-							ScrollExtent='635,450'
-							Size='635,450'
+							ScrollExtent='635,470'
+							Size='635,470'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
 								GetsInput='false'
-								Location='0,428'
+								Location='0,448'
 								Name='outlineBL'
 								OpacityRelativeMin='0.80'
 								PackLocation='nfn,fff'
@@ -706,7 +707,7 @@
 							<Page
 								BackgroundColor='#FFFFFF'
 								GetsInput='false'
-								Location='172,428'
+								Location='172,448'
 								Name='outlineBR'
 								OpacityRelativeMin='0.80'
 								PackLocation='fff,fff'
@@ -793,7 +794,7 @@
 						/>
 						<Page
 							BackgroundOpacity='1.00'
-							Location='0,427'
+							Location='0,447'
 							Name='bottom'
 							PackLocation='nfn,fff'
 							PackSize='a,f'
@@ -812,9 +813,9 @@
 						PackSize='a,a'
 						PalBgTint='back1'
 						RStyleDefault='/Styles.New.thin_in.rs_default'
-						ScrollExtent='636,442'
+						ScrollExtent='636,462'
 						Selectable='true'
-						Size='636,442'
+						Size='636,462'
 					/>
 					<Page
 						BackgroundOpacity='1.00'
@@ -825,9 +826,9 @@
 						PackSize='a,a'
 						PalBgTint='back1'
 						RStyleDefault='/Styles.space.spaceglow.rs_default'
-						ScrollExtent='636,450'
+						ScrollExtent='636,470'
 						Selectable='true'
-						Size='636,450'
+						Size='636,470'
 					/>
 				</Page>
 			</Page>

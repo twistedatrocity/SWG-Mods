@@ -30807,7 +30807,7 @@
 						Name='style'
 						NormalTextColor='#2FF4FF'
 						NormalTextMargin='5,0,5,0'
-						NormalTextStyle='bold_13'
+						NormalTextStyle='bold_16'
 						PalActivatedText='tableHeadertextActivated'
 						PalDisabledText='tableHeadertextDisabled'
 						PalHoverText='tableHeadertextHover'
@@ -31141,6 +31141,34 @@
 							West='w'
 						/>
 					</Namespace>
+					<ButtonStyle
+						DisabledTextColor='#028BA8'
+						DisabledTextMargin='5,0,5,0'
+						MouseOverSound='ui_rollover'
+						MouseOverTextColor='#18393D'
+						MouseOverTextMargin='5,0,5,0'
+						Name='style_16'
+						NormalTextColor='#2FF4FF'
+						NormalTextMargin='5,0,5,0'
+						NormalTextStyle='bold_16'
+						PalActivatedText='tableHeadertextActivated'
+						PalDisabledText='tableHeadertextDisabled'
+						PalHoverText='tableHeadertextHover'
+						PalNormalText='tableHeadertextDefault'
+						PalSelectedText='tableHeadertextSelected'
+						PressedTextColor='#00ECFF'
+						PressedTextMargin='5,0,5,0'
+						ReleaseSound='ui_deselect'
+						RStyleActivated='activated.rs'
+						RStyleDefault='default.rs'
+						RStyleDisabled='disabled.rs'
+						RStyleMouseOver='hover.rs'
+						RStyleMouseOverActivated='activated.rs'
+						RStyleMouseOverSelected='selected.rs'
+						RStyleSelected='selected.rs'
+						SelectedTextColor='#00ECFF'
+						SelectedTextMargin='5,0,5,0'
+					/>
 				</Namespace>
 				<Namespace
 					Name='newInFrame3'
@@ -69847,7 +69875,7 @@
 						CaratColor='#B6FD31'
 						CaratWidth='2'
 						Name='Style_bold'
-						NormalTextStyle='default_18'
+						NormalTextStyle='normal_18'
 						PalCarat='carat'
 						PalText='text1'
 						SelectionColor='#555555'
@@ -69874,7 +69902,7 @@
 					<TextboxStyle
 						CaratColor='#B6FD31'
 						Name='Style_out'
-						NormalTextStyle='fixed_18'
+						NormalTextStyle='fixed_16'
 						PalCarat='carat'
 						PalText='text1'
 						RStyleDefault='rs_default'
@@ -69979,6 +70007,16 @@
 						CaratWidth='2'
 						Name='Style_16'
 						NormalTextStyle='bold_13'
+						PalText='text1'
+						SelectionColor='#00FF00'
+						TextColor='#96F4FC'
+						TextPadding='7,7,7,2'
+					/>
+					<TextboxStyle
+						CaratColor='#00FF00'
+						CaratWidth='2'
+						Name='Style_18'
+						NormalTextStyle='bold_18'
 						PalText='text1'
 						SelectionColor='#00FF00'
 						TextColor='#96F4FC'
@@ -70496,7 +70534,7 @@
 				<TextboxStyle
 					CaratColor='#B6FD31'
 					Name='Style_out'
-					NormalTextStyle='fixed_18'
+					NormalTextStyle='fixed_16'
 					PalCarat='carat'
 					PalText='text1'
 					RStyleDefault='window.chat.persistent.inner.rs_default'
@@ -70617,6 +70655,17 @@
 					TextColor='#96F4FC'
 					TextPadding='7,7,7,2'
 				/>
+				<TextboxStyle
+					CaratColor='#B6FD31'
+					CaratWidth='2'
+					Name='Style_18'
+					NormalTextStyle='bold_18'
+					PalCarat='carat'
+					PalText='text1'
+					SelectionColor='#00FF00'
+					TextColor='#96F4FC'
+					TextPadding='7,7,7,2'
+				/>
 			</Namespace>
 			<Namespace
 				Name='combo'
@@ -70702,12 +70751,12 @@
 			Name='tree'
 		>
 			<TreeViewStyle
-				CellHeight='19'
+				CellHeight='21'
 				CellPadding='8,2'
 				DefaultTextColor='#003842'
 				DefaultTextColorHighlight='#96F4FC'
 				DefaultTextColorLowlight='#FFFFFF'
-				DefaultTextStyle='normal_13'
+				DefaultTextStyle='normal_16'
 				GridColor='#1CFFFF'
 				ImageStyleCollapsed='image.collapsed'
 				ImageStyleExpanded='image.expanded'
