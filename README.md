@@ -38,4 +38,4 @@ Simply delete the files it placed in your SWG folder.
 ## Downloads
 * [Silent Crafting Stations Mod](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_silent_crafting_stations.zip)
 * [No Squint Mod Main v7](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_mod_v7.zip)
-  * [Legends Server No Squint stub v7](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_legends_stubv7.zip)
+  * [Legends Server No Squint stub v8](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_legends_stubv8.zip)
