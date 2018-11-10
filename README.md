@@ -7,7 +7,7 @@ Collection of SWG mods that I have made. These are all for NGE version.
 ## No Squint Mod (Vanilla v7 release 4/9/2018) (Legends FULL VERSION updated 10/24/2018)
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) **Note: This mod is not compatible with ILM, or other font mods that increase size, please remove/disable those when using this one.**
 
-The main mod file is based on the last official patch from SOE in the leaked code. Since all servers have their own way of updating game files the main mod might not be enough, thus a server specific stub may be needed.
+The main mod file is based on the last official patch from SOE in the leaked code. Since all servers have their own way of updating game files, a server specific version may be needed. Full versions are available below.
 
 
 * This mod resizes elements / increases font sizes for screens with <b>1920x1080 resolution and higher</b>. Yes it will work fine on a 4k screen, feedback from folks using it on 4k says it helps quite a bit.
