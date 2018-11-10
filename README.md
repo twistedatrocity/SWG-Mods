@@ -4,7 +4,7 @@ Collection of SWG mods that I have made. These are all for NGE version.
 ## Silent Crafting Stations Mod
 * does exactly what the name implies
 
-## No Squint Mod (v7 release 4/9/2018) (Legends stub updated 10/24/2018)
+## No Squint Mod (Vanilla v7 release 4/9/2018) (Legends FULL VERSION updated 10/24/2018)
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) **Note: This mod is not compatible with ILM, or other font mods that increase size, please remove/disable those when using this one.**
 
 The main mod file is based on the last official patch from SOE in the leaked code. Since all servers have their own way of updating game files the main mod might not be enough, thus a server specific stub may be needed.
@@ -28,14 +28,17 @@ v5 contains a new ground chatbox that is deskinned. It borrows elements from the
 For those that ask about chat bubbles and game objects, there are sliders for both in the in-game options. Chat Bubbles:  **Options -> Chat -> Chat Bubble Font Size (slider)** and for game objects in spacial: **Options -> Misc -> Object Name Font Size (slider)**
 
 ## Installation
-* Download and extract the main mod zip to your base SWG game folder.
-* Download server specific stub zip (if available) and extract into your base SWG game folder (allow it to overwrite anything from the main mod if asked)
+* Download and extract the main mod zip for your server to your base SWG game folder.
+* Download server specific zip (if available, if not just use vanilla) and extract into your base SWG game folder (allow it to overwrite anything from the main mod if asked). Full version for Legends now provided, no need to download two zips.
 * Restart the game.
+
+## Updates
+* remove ui folder, unpack new zip.
 
 ## Uninstallation
 Simply delete the files it placed in your SWG folder.
 
 ## Downloads
 * [Silent Crafting Stations Mod](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_silent_crafting_stations.zip)
-* [No Squint Mod Main v7](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_mod_v7.zip)
-  * [Legends Server No Squint stub v8](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_legends_stubv8.zip)
+* [Vanilla SWG No Squint Mod Main v7 FULL VERSION](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_mod_v7.zip)
+* [Legends Server No Squint v8 FULL VERSION](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_mod_v8_legends_full.zip)
