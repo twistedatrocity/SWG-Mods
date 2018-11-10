@@ -28,8 +28,7 @@ v5 contains a new ground chatbox that is deskinned. It borrows elements from the
 For those that ask about chat bubbles and game objects, there are sliders for both in the in-game options. Chat Bubbles:  **Options -> Chat -> Chat Bubble Font Size (slider)** and for game objects in spacial: **Options -> Misc -> Object Name Font Size (slider)**
 
 ## Installation
-* Download and extract the main mod zip for your server to your base SWG game folder.
-* Download server specific zip (if available, if not just use vanilla) and extract into your base SWG game folder (allow it to overwrite anything from the main mod if asked). Full version for Legends now provided, no need to download two zips.
+* Download server specific zip (if available, if not just use vanilla) and extract into your base SWG game folder. Full version for Legends now provided, no need to download two zips.
 * Restart the game.
 
 ## Updates
