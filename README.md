@@ -10,7 +10,7 @@ Collection of SWG mods that I have made. These are all for NGE version.
 The main mod file is based on the last official patch from SOE in the leaked code. Since all servers have their own way of updating game files, a server specific version may be needed. Full versions are available below.
 
 
-* This mod resizes elements / increases font sizes for screens with <b>1920x1080 resolution and higher</b>. Yes it will work fine on a 4k screen, feedback from folks using it on 4k says it helps quite a bit.
+* This mod resizes elements / increases font sizes for screens with <b>1920x1080 resolution and higher</b>. Yes it will work fine on a 4k screen, feedback from folks using it on 4k says it helps quite a bit. For best results on a 4k screen set your in-game resolution to 1920x1080
 * Entertainer image designer has been redone so that the color palletes are easier to see.
 * Crafting windows tweaked for readability and also color pallettes.
 * Mail, various lists and dialogues.
@@ -40,4 +40,4 @@ Simply delete the files it placed in your SWG folder.
 ## Downloads
 * [Silent Crafting Stations Mod](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_silent_crafting_stations.zip)
 * [Vanilla SWG No Squint Mod Main v7 FULL VERSION](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_mod_v7.zip)
-* [Legends Server No Squint v8 FULL VERSION](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_mod_v8_legends_full.zip)
+* [Legends Server No Squint v9 FULL VERSION](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_mod_v9_legends_full.zip)
