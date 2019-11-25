@@ -54315,7 +54315,7 @@
 					NormalIconColor='#00D6FB'
 					NormalTextColor='#2FF4FF'
 					NormalTextMargin='7,0,7,0'
-					NormalTextStyle='bold_11'
+					NormalTextStyle='bold_13'
 					PalActivatedText='textactivated'
 					PalDisabledText='textdisabled'
 					PalHoverText='texthover'
