@@ -2,7 +2,7 @@
 			AbsorbsInput='false'
 			AllowLookAtTargetSelection='true'
 			ContextCapable='true'
-			Location='450,70'
+			Location='866,262'
 			MaximumSize='260,550'
 			MinimumSize='260,550'
 			Name='ButtonBar'
@@ -172,12 +172,12 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,22'
+					Location='0,29'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonMapComposite'
 					Orientation='Horizontal'
-					ScrollExtent='260,29'
+					ScrollExtent='295,29'
 					Size='260,29'
 				>
 					<Text
@@ -187,8 +187,8 @@ buttonsComposite.enabled=1'
 						MaximumSize='16834,16834'
 						MinimumSize='231,29'
 						Name='buttonMapText'
-						ScrollExtent='231,29'
-						Size='231,29'
+						ScrollExtent='266,29'
+						Size='266,29'
 						TextAlignmentVertical='Center'
 					>@button_bar_planet_map</Text>
 					<Button
@@ -200,7 +200,7 @@ buttonsComposite.enabled=1'
 						Icon='/Styles.Icon.UIv2.CMD_uiPlanetMap'
 						IconShrink='true'
 						IconStretch='true'
-						Location='231,0'
+						Location='266,0'
 						MaximumSize='16834,16834'
 						MinimumSize='29,29'
 						Name='buttonMap'
@@ -212,12 +212,12 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,44'
+					Location='0,58'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonJournalComposite'
 					Orientation='Horizontal'
-					ScrollExtent='260,29'
+					ScrollExtent='315,29'
 					Size='260,29'
 				>
 					<Text
@@ -227,8 +227,8 @@ buttonsComposite.enabled=1'
 						MaximumSize='16834,16834'
 						MinimumSize='231,29'
 						Name='buttonJournalText'
-						ScrollExtent='231,29'
-						Size='231,29'
+						ScrollExtent='286,29'
+						Size='286,29'
 						TextAlignmentVertical='Center'
 					>@button_bar_quest_journal</Text>
 					<Button
@@ -240,7 +240,7 @@ buttonsComposite.enabled=1'
 						IconShrink='true'
 						IconStretch='true'
 						LocalText='[@button_bar_quest_journal]'
-						Location='231,0'
+						Location='286,0'
 						MaximumSize='16834,16834'
 						MinimumSize='29,29'
 						Name='buttonJournal'
@@ -250,12 +250,12 @@ buttonsComposite.enabled=1'
 					>@button_bar_quest_journal</Button>
 				</Composite>
 				<Composite
-					Location='0,66'
+					Location='0,87'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonRoadmapComposite'
 					Orientation='Horizontal'
-					ScrollExtent='260,29'
+					ScrollExtent='266,29'
 					Size='260,29'
 				>
 					<Text
@@ -265,8 +265,8 @@ buttonsComposite.enabled=1'
 						MaximumSize='16834,16834'
 						MinimumSize='231,29'
 						Name='buttonRoadmapText'
-						ScrollExtent='231,29'
-						Size='231,29'
+						ScrollExtent='237,29'
+						Size='237,29'
 						TextAlignmentVertical='Center'
 					>@button_bar_roadmap</Text>
 					<Button
@@ -278,7 +278,7 @@ buttonsComposite.enabled=1'
 						IconShrink='true'
 						IconStretch='true'
 						LocalText='[@button_bar_quest_journal]'
-						Location='231,0'
+						Location='237,0'
 						MaximumSize='16834,16834'
 						MinimumSize='29,29'
 						Name='buttonRoadmap'
@@ -288,12 +288,12 @@ buttonsComposite.enabled=1'
 					>@button_bar_quest_journal</Button>
 				</Composite>
 				<Composite
-					Location='0,88'
+					Location='0,116'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonExpertiseComposite'
 					Orientation='Horizontal'
-					ScrollExtent='260,29'
+					ScrollExtent='270,29'
 					Size='260,29'
 				>
 					<Text
@@ -303,8 +303,8 @@ buttonsComposite.enabled=1'
 						MaximumSize='16834,16834'
 						MinimumSize='231,29'
 						Name='buttonExpertiseText'
-						ScrollExtent='231,29'
-						Size='231,29'
+						ScrollExtent='241,29'
+						Size='241,29'
 						TextAlignmentVertical='Center'
 					>@button_bar_expertise</Text>
 					<Button
@@ -316,7 +316,7 @@ buttonsComposite.enabled=1'
 						Icon='/Styles.Icon.UIv2.CMD_uiExpertise'
 						IconShrink='true'
 						IconStretch='true'
-						Location='231,0'
+						Location='241,0'
 						MaximumSize='16834,16834'
 						MinimumSize='29,29'
 						Name='expertise'
@@ -326,12 +326,12 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,110'
+					Location='0,145'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonAppearance'
 					Orientation='Horizontal'
-					ScrollExtent='260,29'
+					ScrollExtent='291,29'
 					Size='260,29'
 				>
 					<Text
@@ -341,8 +341,8 @@ buttonsComposite.enabled=1'
 						MaximumSize='16834,16834'
 						MinimumSize='231,29'
 						Name='buttonAppearanceText'
-						ScrollExtent='231,29'
-						Size='231,29'
+						ScrollExtent='262,29'
+						Size='262,29'
 						TextAlignmentVertical='Center'
 					>@button_bar_appearance</Text>
 					<Button
@@ -355,7 +355,7 @@ buttonsComposite.enabled=1'
 						Icon='/Styles.Icon.UIv2.CMD_uiAppearance'
 						IconShrink='true'
 						IconStretch='true'
-						Location='231,0'
+						Location='262,0'
 						MaximumSize='16834,16834'
 						MinimumSize='29,29'
 						Name='appearance'
@@ -365,12 +365,12 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,132'
+					Location='0,174'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonInventoryComposite'
 					Orientation='Horizontal'
-					ScrollExtent='260,29'
+					ScrollExtent='273,29'
 					Size='260,29'
 				>
 					<Text
@@ -380,8 +380,8 @@ buttonsComposite.enabled=1'
 						MaximumSize='16834,16834'
 						MinimumSize='231,29'
 						Name='buttonInventoryText'
-						ScrollExtent='231,29'
-						Size='231,29'
+						ScrollExtent='244,29'
+						Size='244,29'
 						TextAlignmentVertical='Center'
 					>@button_bar_inventory</Text>
 					<Button
@@ -393,7 +393,7 @@ buttonsComposite.enabled=1'
 						Icon='/Styles.Icon.UIv2.CMD_uiInventoryClose'
 						IconShrink='true'
 						IconStretch='true'
-						Location='231,0'
+						Location='244,0'
 						MaximumSize='16834,16834'
 						MinimumSize='29,29'
 						Name='inventory'
@@ -403,7 +403,7 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,154'
+					Location='0,203'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonDatapadComposite'
@@ -442,12 +442,12 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,176'
+					Location='0,232'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonCharacterComposite'
 					Orientation='Horizontal'
-					ScrollExtent='260,29'
+					ScrollExtent='271,29'
 					Size='260,29'
 				>
 					<Text
@@ -457,8 +457,8 @@ buttonsComposite.enabled=1'
 						MaximumSize='16834,16834'
 						MinimumSize='231,29'
 						Name='buttonCharacterText'
-						ScrollExtent='231,29'
-						Size='231,29'
+						ScrollExtent='242,29'
+						Size='242,29'
 						TextAlignmentVertical='Center'
 					>@button_bar_character</Text>
 					<Button
@@ -470,7 +470,7 @@ buttonsComposite.enabled=1'
 						Icon='/Styles.Icon.UIv2.CMD_uiCharacterSheet'
 						IconShrink='true'
 						IconStretch='true'
-						Location='231,0'
+						Location='242,0'
 						MaximumSize='16834,16834'
 						MinimumSize='29,29'
 						Name='character'
@@ -480,12 +480,12 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,198'
+					Location='0,261'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonQuestBuilder'
 					Orientation='Horizontal'
-					ScrollExtent='260,29'
+					ScrollExtent='302,29'
 					Size='260,29'
 				>
 					<Text
@@ -495,8 +495,8 @@ buttonsComposite.enabled=1'
 						MaximumSize='16834,16834'
 						MinimumSize='231,29'
 						Name='buttonQuestBuilderText'
-						ScrollExtent='231,29'
-						Size='231,29'
+						ScrollExtent='273,29'
+						Size='273,29'
 						TextAlignmentVertical='Center'
 					>@button_bar_questbuilder</Text>
 					<Button
@@ -509,7 +509,7 @@ buttonsComposite.enabled=1'
 						Icon='/Styles.Icon.UIv2.CMD_uiQuestBuilder'
 						IconShrink='true'
 						IconStretch='true'
-						Location='231,0'
+						Location='273,0'
 						MaximumSize='16834,16834'
 						MinimumSize='29,29'
 						Name='questbuilder'
@@ -519,7 +519,7 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,220'
+					Location='0,290'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonMailComposite'
@@ -558,7 +558,7 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,242'
+					Location='0,319'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonOptionsComposite'
@@ -596,12 +596,12 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,264'
+					Location='0,348'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonCommunityComposite'
 					Orientation='Horizontal'
-					ScrollExtent='260,29'
+					ScrollExtent='289,29'
 					Size='260,29'
 				>
 					<Text
@@ -611,8 +611,8 @@ buttonsComposite.enabled=1'
 						MaximumSize='16834,16834'
 						MinimumSize='231,29'
 						Name='buttonCommunityText'
-						ScrollExtent='231,29'
-						Size='231,29'
+						ScrollExtent='260,29'
+						Size='260,29'
 						TextAlignmentVertical='Center'
 					>@button_bar_community</Text>
 					<Button
@@ -624,7 +624,7 @@ buttonsComposite.enabled=1'
 						Icon='/Styles.Icon.UIv2.CMD_uiCommunity'
 						IconShrink='true'
 						IconStretch='true'
-						Location='231,0'
+						Location='260,0'
 						MaximumSize='16834,16834'
 						MinimumSize='29,29'
 						Name='community'
@@ -634,12 +634,12 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,286'
+					Location='0,377'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonCommandsComposite'
 					Orientation='Horizontal'
-					ScrollExtent='260,29'
+					ScrollExtent='285,29'
 					Size='260,29'
 				>
 					<Text
@@ -649,8 +649,8 @@ buttonsComposite.enabled=1'
 						MaximumSize='16834,16834'
 						MinimumSize='231,29'
 						Name='buttonCommandsText'
-						ScrollExtent='231,29'
-						Size='231,29'
+						ScrollExtent='256,29'
+						Size='256,29'
 						TextAlignmentVertical='Center'
 					>@button_bar_commands</Text>
 					<Button
@@ -663,7 +663,7 @@ buttonsComposite.enabled=1'
 						Icon='/Styles.Icon.UIv2.CMD_uiCommandBrowser'
 						IconShrink='true'
 						IconStretch='true'
-						Location='231,0'
+						Location='256,0'
 						MaximumSize='16834,16834'
 						MinimumSize='29,29'
 						Name='commands'
@@ -673,12 +673,12 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,308'
+					Location='0,406'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonMyCollectionsComposite'
 					Orientation='Horizontal'
-					ScrollExtent='260,29'
+					ScrollExtent='326,29'
 					Size='260,29'
 				>
 					<Text
@@ -688,8 +688,8 @@ buttonsComposite.enabled=1'
 						MaximumSize='16834,16834'
 						MinimumSize='231,29'
 						Name='buttonMyCollectionsText'
-						ScrollExtent='231,29'
-						Size='231,29'
+						ScrollExtent='297,29'
+						Size='297,29'
 						TextAlignmentVertical='Center'
 					>@button_bar_my_collections</Text>
 					<Button
@@ -702,7 +702,7 @@ buttonsComposite.enabled=1'
 						Icon='/Styles.Icon.UIv2.CMD_uiMyCollections'
 						IconShrink='true'
 						IconStretch='true'
-						Location='231,0'
+						Location='297,0'
 						MaximumSize='16834,16834'
 						MinimumSize='29,29'
 						Name='myCollections'
@@ -712,7 +712,7 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,352'
+					Location='0,435'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonServiceComposite'
@@ -750,7 +750,7 @@ buttonsComposite.enabled=1'
 					></Button>
 				</Composite>
 				<Composite
-					Location='0,374'
+					Location='0,464'
 					MaximumSize='16834,16834'
 					MinimumSize='260,29'
 					Name='buttonMenuComposite'
