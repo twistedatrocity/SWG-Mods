@@ -2,7 +2,7 @@
 			AbsorbsInput='false'
 			AllowLookAtTargetSelection='true'
 			ContextCapable='true'
-			Location='866,230'
+			Location='843,153'
 			MaximumSize='260,582'
 			MinimumSize='260,582'
 			Name='ButtonBar'
