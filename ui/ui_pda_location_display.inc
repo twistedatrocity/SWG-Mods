@@ -24,7 +24,7 @@
 			Size='40,40'
 		>
 			<Text
-				Font='starwars_22'
+				Font='starwars_28'
 				LocalText='5'
 				Name='text'
 				PackLocation='nfn,cfc'

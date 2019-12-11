@@ -4,8 +4,8 @@
 			Name='AllTargets'
 			OpacityRelativeMin='1.00'
 			PackSize='1,1'
-			ScrollExtent='1024,768'
-			Size='1024,768'
+			ScrollExtent='1440,960'
+			Size='1440,960'
 			TextOpacityRelativeApply='true'
 			TextOpacityRelativeMin='0.80'
 		>
@@ -720,7 +720,7 @@
 			</Page>
 			<Text
 				BackgroundColor='#FFFFFF'
-				Font='bold_22'
+				Font='bold_23'
 				LocalText='8000'
 				Location='108,432'
 				MaximumSize='300,300'
@@ -737,7 +737,7 @@
 			<Page
 				BackgroundColor='#FFFFFF'
 				Color='#AFAFAF'
-				Location='414,279'
+				Location='622,375'
 				Name='sampleWaypointArrow'
 				OnDisableEffector='/effectors.opacity.slow.fadeout'
 				OnEnableEffector='/effectors.opacity.fast.fadefull'
@@ -769,7 +769,7 @@
 			</Page>
 			<Page
 				BackgroundColor='#FFFFFF'
-				Location='415,287'
+				Location='623,383'
 				Name='sampleArrow'
 				OnDisableEffector='/effectors.opacity.slow.fadeout'
 				OnEnableEffector='/effectors.opacity.fast.fadefull'

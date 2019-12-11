@@ -142,7 +142,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_gcw]'
 						MaximumSize='229,31'
@@ -181,7 +181,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_planet_map]'
 						MaximumSize='229,31'
@@ -221,7 +221,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_quest_journal]'
 						MaximumSize='229,31'
@@ -259,7 +259,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_roadmap]'
 						MaximumSize='229,31'
@@ -297,7 +297,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_expertise]'
 						MaximumSize='229,31'
@@ -335,7 +335,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_appearance]'
 						MaximumSize='229,31'
@@ -374,7 +374,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_inventory]'
 						MaximumSize='229,31'
@@ -412,7 +412,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_datapad]'
 						MaximumSize='229,31'
@@ -451,7 +451,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_character]'
 						MaximumSize='229,31'
@@ -489,7 +489,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_questbuilder]'
 						MaximumSize='229,31'
@@ -528,7 +528,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_mail]'
 						MaximumSize='229,31'
@@ -567,7 +567,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_options]'
 						MaximumSize='229,31'
@@ -605,7 +605,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_community]'
 						MaximumSize='229,31'
@@ -643,7 +643,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_commands]'
 						MaximumSize='229,31'
@@ -682,7 +682,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_my_collections]'
 						MaximumSize='229,31'
@@ -721,7 +721,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_service]'
 						MaximumSize='229,31'
@@ -759,7 +759,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_22'
+						Font='bold_23'
 						GetsInput='true'
 						LocalText='[@button_bar_menu]'
 						MaximumSize='229,31'
