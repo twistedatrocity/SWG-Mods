@@ -44,12 +44,12 @@
 				/>
 				<Composite
 					GetsInput='false'
-					Location='-3,5'
+					Location='-1,5'
 					Name='skin'
 					Orientation='Horizontal'
 					PackSize='a,a'
-					ScrollExtent='490,66'
-					Size='490,66'
+					ScrollExtent='486,66'
+					Size='486,66'
 					SpacingType='Skinned'
 				>
 					<Image
@@ -63,13 +63,13 @@
 						Location='100,0'
 						Name='fill'
 						PackSize='p,f'
-						ScrollExtent='298,66'
-						Size='298,66'
+						ScrollExtent='295,66'
+						Size='295,66'
 						SourceRect='101,370,200,420'
 						SourceResource='hud_ground_skin'
 					/>
 					<Image
-						Location='390,0'
+						Location='386,0'
 						Name='right'
 						ScrollExtent='100,66'
 						Size='100,66'
@@ -799,12 +799,12 @@
 			>
 				<Image
 					AbsorbsInput='false'
-					Location='44,31'
+					Location='47,31'
 					Name='skinToolbar'
 					PackLocation='nnn,nnn'
 					PackSize='f,f'
-					ScrollExtent='655,64'
-					Size='655,64'
+					ScrollExtent='648,64'
+					Size='648,64'
 					SourceRect='0,370,499,420'
 					SourceResource='hud_ground_skin'
 				/>
@@ -2387,12 +2387,12 @@
 				/>
 				<Composite
 					GetsInput='false'
-					Location='-3,5'
+					Location='-1,5'
 					Name='skin'
 					Orientation='Horizontal'
 					PackSize='a,a'
-					ScrollExtent='490,66'
-					Size='490,66'
+					ScrollExtent='487,66'
+					Size='487,66'
 					SpacingType='Skinned'
 				>
 					<Image
@@ -2406,13 +2406,13 @@
 						Location='100,0'
 						Name='fill'
 						PackSize='p,f'
-						ScrollExtent='298,66'
-						Size='298,66'
+						ScrollExtent='296,66'
+						Size='296,66'
 						SourceRect='101,370,200,420'
 						SourceResource='hud_ground_skin'
 					/>
 					<Image
-						Location='390,0'
+						Location='387,0'
 						Name='right'
 						ScrollExtent='100,66'
 						Size='100,66'
@@ -3143,34 +3143,34 @@
 			>
 				<Image
 					AbsorbsInput='false'
-					Location='43,123'
+					Location='47,123'
 					Name='skinToolbarBottom'
 					PackLocation='fff,fff'
 					PackSize='f,f'
-					ScrollExtent='655,21'
-					Size='655,21'
+					ScrollExtent='646,21'
+					Size='646,21'
 					SourceRect='0,406,499,420'
 					SourceResource='hud_ground_skin'
 				/>
 				<Image
 					AbsorbsInput='false'
-					Location='43,50'
+					Location='47,50'
 					Name='skinToolbarMiddle'
 					PackLocation='fff,fff'
 					PackSize='f,f'
-					ScrollExtent='655,73'
-					Size='655,73'
+					ScrollExtent='646,73'
+					Size='646,73'
 					SourceRect='0,385,499,405'
 					SourceResource='hud_ground_skin'
 				/>
 				<Image
 					AbsorbsInput='false'
-					Location='43,29'
+					Location='47,29'
 					Name='skinToolbarTop'
 					PackLocation='fff,fff'
 					PackSize='f,f'
-					ScrollExtent='655,21'
-					Size='655,21'
+					ScrollExtent='646,21'
+					Size='646,21'
 					SourceRect='0,370,499,384'
 					SourceResource='hud_ground_skin'
 				/>
