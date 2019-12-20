@@ -3,10 +3,9 @@
 			MinimumSize='123,186'
 			Name='whackamole'
 			PackSize='a'
-			ScrollExtent='316,186'
-			Size='316,186'
+			ScrollExtent='1148,186'
+			Size='1148,186'
 			UserMovable='true'
-			Visible='false'
 		>
 			<Data
 				button0='buttons.button0'
@@ -17,17 +16,17 @@
 				scoreBox='score.number'
 			/>
 			<VolumePage
-				CellCount='3,1'
+				CellCount='11,1'
 				CellPadding='6,0'
 				CellSelectionOverlayOpacity='1.00'
 				CellSize='89,89'
 				Location='12,27'
-				MinimumScrollExtent='202,89'
+				MinimumScrollExtent='297,89'
 				Name='buttons'
 				OpacityRelativeMin='1.00'
 				PackSize='a,a'
-				ScrollExtent='291,92'
-				Size='291,92'
+				ScrollExtent='1123,92'
+				Size='1123,92'
 			>
 				<Button
 					BackgroundTint='#00FF00'
@@ -62,7 +61,7 @@
 			</VolumePage>
 			<Page
 				BackgroundTint='#1CFFFF'
-				Location='107,127'
+				Location='403,127'
 				MaximumSize='342,44'
 				MinimumSize='103,37'
 				Name='score'
@@ -70,8 +69,8 @@
 				PackSize='a,f'
 				PalBgTint='line1'
 				RStyleDefault='/Styles.New.whiteOutline.rs_default'
-				ScrollExtent='103,37'
-				Size='103,37'
+				ScrollExtent='342,37'
+				Size='342,37'
 			>
 				<Textbox
 					BackgroundColor='#FFFFFF'
@@ -84,8 +83,8 @@
 					PackSize='a,f'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-					ScrollExtent='103,37'
-					Size='103,37'
+					ScrollExtent='342,37'
+					Size='342,37'
 					Style='/Styles.textbox.chat.number'
 				></Textbox>
 				<Page
@@ -98,20 +97,20 @@
 					PackSize='a,f'
 					PalBgTint='back2'
 					RStyleDefault='/Styles.New.whitebox.rs_default'
-					ScrollExtent='99,33'
-					Size='99,33'
+					ScrollExtent='338,33'
+					Size='338,33'
 				/>
 			</Page>
 			<Page
 				Name='bg'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='316,185'
-				Size='316,185'
+				ScrollExtent='1148,185'
+				Size='1148,185'
 			>
 				<Page
 					BackgroundTint='#00D6FB'
-					Location='298,20'
+					Location='1130,20'
 					Name='mmc'
 					PackLocation='fff,nfn'
 					PackSize='f,f'
@@ -139,8 +138,8 @@
 					Name='caption'
 					PackLocation='nfn,nfn'
 					PackSize='a,f'
-					ScrollExtent='250,19'
-					Size='250,19'
+					ScrollExtent='1082,19'
+					Size='1082,19'
 				>
 					<Text
 						Enabled='false'
@@ -151,8 +150,8 @@
 						Name='lblTitle'
 						PackSize='a,f'
 						PalText='titletext'
-						ScrollExtent='250,19'
-						Size='250,19'
+						ScrollExtent='1082,19'
+						Size='1082,19'
 						TextAlignment='Center'
 						TextAlignmentVertical='Center'
 						TextCapital='true'
@@ -168,9 +167,9 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.sui.eightball.rs_default'
-					ScrollExtent='316,185'
+					ScrollExtent='1148,185'
 					Selectable='true'
-					Size='316,185'
+					Size='1148,185'
 				/>
 				<Image
 					Color='#00A6C4'
@@ -178,8 +177,8 @@
 					PackLocation='cfc,cfc'
 					PackSize='a,a'
 					PalColor='gamblingglow'
-					ScrollExtent='316,185'
-					Size='316,185'
+					ScrollExtent='1148,185'
+					Size='1148,185'
 					SourceRect='344,160,394,199'
 					SourceResource='ui_gambling'
 				/>

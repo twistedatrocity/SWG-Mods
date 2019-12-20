@@ -11,7 +11,6 @@
 			slow.period='0.00'
 			UserMovable='true'
 			UserResizable='true'
-			Visible='false'
 		>
 			<Data
 				Name='CodeData'

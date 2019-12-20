@@ -4,7 +4,6 @@
 			Name='textbox'
 			ScrollExtent='555,342'
 			Size='555,342'
-			Visible='false'
 		>
 			<Page
 				BackgroundOpacity='1.00'
@@ -15,12 +14,12 @@
 				PackSize='a,a'
 				PalBgTint='line1'
 				RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-				ScrollExtent='533,284'
-				Size='533,284'
+				ScrollExtent='533,263'
+				Size='533,263'
 			>
 				<Text
 					Editable='true'
-					Font='bold_13'
+					Font='bold_16'
 					GetsInput='true'
 					Location='3,4'
 					Margin='4,4,4,4'
@@ -28,9 +27,9 @@
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
 					PreLocalized='true'
-					ScrollExtent='515,278'
+					ScrollExtent='515,257'
 					Selectable='true'
-					Size='515,278'
+					Size='515,257'
 				></Text>
 				<Scrollbar
 					Control='text'
@@ -39,8 +38,8 @@
 					Name='scroll'
 					PackLocation='fff,nfn'
 					PackSize='f,a'
-					ScrollExtent='11,266'
-					Size='11,266'
+					ScrollExtent='11,245'
+					Size='11,245'
 					Style='/Styles.scrollbar.default.vHud4.style'
 				>
 				</Scrollbar>
@@ -55,34 +54,34 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.pill_lrg.rs_default'
-					ScrollExtent='512,272'
+					ScrollExtent='512,251'
 					Selectable='true'
-					Size='512,272'
+					Size='512,251'
 				/>
 			</Page>
 			<Button
 				IsDefaultButton='true'
 				LocalText='[@ok]'
-				Location='374,315'
-				MinimumSize='0,19'
+				Location='374,304'
+				MinimumSize='0,30'
 				Name='btnOk'
 				PackLocation='fff,fff'
 				PackSize='p,f'
-				ScrollExtent='166,19'
-				Size='166,19'
+				ScrollExtent='166,30'
+				Size='166,30'
 				Style='/Styles.New.buttons.hud.style'
 				TextColor='#000000'
 			>@ok</Button>
 			<Button
 				IsCancelButton='true'
 				LocalText='[@cancel]'
-				Location='16,315'
-				MinimumSize='0,19'
+				Location='16,304'
+				MinimumSize='0,30'
 				Name='btnCancel'
 				PackLocation='nfn,fff'
 				PackSize='p,f'
-				ScrollExtent='166,19'
-				Size='166,19'
+				ScrollExtent='166,30'
+				Size='166,30'
 				Style='/Styles.New.buttons.hud.style'
 				TextColor='#000000'
 			>@cancel</Button>
