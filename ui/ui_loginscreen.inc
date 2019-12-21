@@ -2,8 +2,8 @@
 		Name='Login'
 		PackSize='1,1'
 		pageButtonsBottom.visible='true'
-		ScrollExtent='1440,1020'
-		Size='1440,1020'
+		ScrollExtent='1440,900'
+		Size='1440,900'
 		Visible='false'
 		VisualEditLock='true'
 	>
@@ -22,7 +22,7 @@
 		<Page
 			BackgroundColor='#00FF00'
 			flow.visible='false'
-			Location='491,277'
+			Location='491,244'
 			MinimumSize='308,177'
 			Name='session'
 			OnShow='parent.flow.visible=false'
@@ -234,7 +234,7 @@
 		</Page>
 		<Page
 			BackgroundColor='#00FF00'
-			Location='463,345'
+			Location='463,304'
 			MaximumSize='16384,256'
 			MinimumSize='492,256'
 			Name='flow'
@@ -528,7 +528,7 @@ parent.pageButtonsBottom.visible=true'
 			AbsorbsInput='false'
 			Activated='true'
 			BackgroundColor='#259C3A'
-			Location='0,937'
+			Location='0,830'
 			MaximumSize='16384,70'
 			Name='pageButtonsBottom'
 			PackLocation='cfc,fff'

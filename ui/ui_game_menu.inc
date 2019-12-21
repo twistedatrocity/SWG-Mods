@@ -2,8 +2,8 @@
 		BackgroundOpacity='0.50'
 		Name='GameMenu'
 		PackSize='1,1'
-		ScrollExtent='1440,960'
-		Size='1440,960'
+		ScrollExtent='1440,900'
+		Size='1440,900'
 		Visible='false'
 	>
 		<Data
@@ -20,7 +20,7 @@
 		<Button
 			BackgroundOpacity='0.80'
 			LocalText='[@game_menu_locations]'
-			Location='613,607'
+			Location='613,577'
 			Name='locationsButton'
 			PackLocation='cfc,nfc'
 			RStyleDefault='rs_default'
@@ -29,7 +29,7 @@
 			Style='/Styles.New.buttons.hud.style'
 		>@game_menu_locations</Button>
 		<Page
-			Location='565,422'
+			Location='565,392'
 			MaximumSize='327,184'
 			MinimumSize='327,184'
 			Name='menu'
@@ -54,13 +54,13 @@
 			<Button
 				IsCancelButton='true'
 				LocalText='[@game_menu_resume]'
-				Location='189,144'
-				MinimumSize='0,19'
+				Location='165,144'
+				MinimumSize='145,30'
 				Name='resumeButton'
 				PackLocation='fff,fff'
 				PackSize='p,f'
-				ScrollExtent='121,30'
-				Size='121,30'
+				ScrollExtent='145,30'
+				Size='145,30'
 				Style='/Styles.New.buttons.hud.style'
 			>@game_menu_resume</Button>
 			<Button
@@ -77,13 +77,13 @@
 			>@game_menu_disconnect</Button>
 			<Button
 				LocalText='[@game_exit]'
-				Location='16,144'
-				MinimumSize='0,19'
+				Location='13,144'
+				MinimumSize='145,30'
 				Name='exitButton'
 				PackLocation='nfn,fff'
 				PackSize='p,f'
-				ScrollExtent='121,30'
-				Size='121,30'
+				ScrollExtent='145,30'
+				Size='145,30'
 				Style='/Styles.New.buttons.hud.style'
 			>@game_exit</Button>
 			<Page

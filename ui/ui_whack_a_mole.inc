@@ -6,6 +6,7 @@
 			ScrollExtent='1148,186'
 			Size='1148,186'
 			UserMovable='true'
+			Visible='false'
 		>
 			<Data
 				button0='buttons.button0'

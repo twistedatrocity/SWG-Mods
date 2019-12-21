@@ -372,7 +372,7 @@ oldEqVisible=oldEqVisibleTmp'
 										Size='295,16'
 									>
 										<Text
-											Font='bold_14'
+											Font='bold_15'
 											LocalText='Manufactured'
 											MaximumSize='125,16384'
 											MaxLines='1'
@@ -384,7 +384,7 @@ oldEqVisible=oldEqVisibleTmp'
 											Size='125,16'
 										>Manufactured</Text>
 										<Text
-											Font='bold_14'
+											Font='bold_15'
 											LocalText='[@object_usability:unique]'
 											Location='125,0'
 											MaximumSize='125,16384'
@@ -399,7 +399,7 @@ oldEqVisible=oldEqVisibleTmp'
 										>@object_usability:unique</Text>
 										<Text
 											ColorSelection='#FF0000'
-											Font='bold_14'
+											Font='bold_15'
 											LocalText='[@object_usability:no_trade]'
 											Location='250,0'
 											MaximumSize='125,16384'
@@ -654,7 +654,7 @@ oldIconVisible=parent.details.visible'
 					PalBgTint='default'
 					ScrollExtent='387,24'
 					Size='387,24'
-					Style='hud.style'
+					Style='/Styles.New.buttons.hud.style'
 					TextColor='#000000'
 					Visible='false'
 				>Change View</Button>
@@ -1578,7 +1578,7 @@ parent.scrollIcon.visible=visible'
 					>
 						<Text
 							BackgroundColor='#000055'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='[@container_capacity]'
 							Margin='8,2,2,2'
 							MaxLines='1'
@@ -1593,7 +1593,7 @@ parent.scrollIcon.visible=visible'
 						>@container_capacity</Text>
 						<Text
 							BackgroundColor='#000055'
-							Font='bold_14'
+							Font='bold_15'
 							GetsInput='true'
 							LocalText='xxx%'
 							Location='201,0'
@@ -1711,7 +1711,7 @@ oldIconVisible=parent.details.visible'
 					PalBgTint='default'
 					ScrollExtent='387,24'
 					Size='387,24'
-					Style='hud.style'
+					Style='/Styles.New.buttons.hud.style'
 					TextColor='#000000'
 				>@inventory_loot_all</Button>
 				<Button
@@ -1729,7 +1729,7 @@ oldIconVisible=parent.details.visible'
 					PalBgTint='default'
 					ScrollExtent='387,24'
 					Size='387,24'
-					Style='hud.style'
+					Style='/Styles.New.buttons.hud.style'
 					TextColor='#000000'
 					Visible='false'
 				>Use</Button>

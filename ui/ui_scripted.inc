@@ -3,8 +3,8 @@
 		BackgroundOpacity='0.50'
 		Name='Script'
 		PackSize='1,1'
-		ScrollExtent='1440,1020'
-		Size='1440,1020'
+		ScrollExtent='1440,900'
+		Size='1440,900'
 		Visible='false'
 		VisualEditLock='true'
 	>
@@ -13,19 +13,20 @@
 			Name='tablePage'
 			PackSize='a,a'
 			RStyleDefault='rs_default'
-			ScrollExtent='901,686'
+			ScrollExtent='901,566'
 			Selectable='true'
-			Size='901,686'
+			Size='901,566'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Composite
 				Location='17,27'
 				Name='comp'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='872,598'
-				Size='872,598'
+				ScrollExtent='872,478'
+				Size='872,478'
 				SpacingType='Fill'
 			>
 				<Page
@@ -92,8 +93,8 @@
 					Name='TablePage'
 					PackSize='a,a'
 					RStyleDefault='rs_default'
-					ScrollExtent='874,527'
-					Size='874,527'
+					ScrollExtent='874,407'
+					Size='874,407'
 				>
 					<TableModelDefault
 						DataSourceContainer='dataTable'
@@ -122,13 +123,13 @@
 						PalSelectionRect='listline'
 						PalText='text1'
 						RStyleDefault='/Styles.New.pill_lrg.rs_default'
-						ScrollExtent='860,498'
+						ScrollExtent='860,378'
 						Selectable='true'
 						SelectionAllowedMultiRow='false'
 						SelectionColorBackground='#35CBD7'
 						SelectionColorRect='#37FD06'
 						SelectionTextColor='#003842'
-						Size='860,498'
+						Size='860,378'
 						TableModel='model'
 					/>
 					<TableHeader
@@ -152,8 +153,8 @@
 						Name='Scroll'
 						PackLocation='fff,nfn'
 						PackSize='f,a'
-						ScrollExtent='11,506'
-						Size='11,506'
+						ScrollExtent='11,386'
+						Size='11,386'
 						Style='/Styles.scrollbar.default.vHud4.style'
 					>
 					</Scrollbar>
@@ -169,7 +170,7 @@
 			/>
 			<Button
 				LocalText='[@export]'
-				Location='532,638'
+				Location='532,518'
 				MinimumSize='0,30'
 				Name='btnExport'
 				OnPress='parent.exportPressed=true
@@ -183,7 +184,7 @@ parent.btnOk.Press=t'
 			>@export</Button>
 			<Button
 				LocalText='xxx label'
-				Location='363,639'
+				Location='363,519'
 				MinimumSize='0,30'
 				Name='btnOther'
 				OnPress='parent.otherPressed=true
@@ -199,7 +200,7 @@ parent.btnOk.Press=t'
 			<Button
 				IsDefaultButton='true'
 				LocalText='[@ok]'
-				Location='721,638'
+				Location='721,518'
 				MinimumSize='0,30'
 				Name='btnOk'
 				PackLocation='fff,fff'
@@ -212,7 +213,7 @@ parent.btnOk.Press=t'
 			<Button
 				IsCancelButton='true'
 				LocalText='[@cancel]'
-				Location='19,640'
+				Location='19,520'
 				MinimumSize='0,30'
 				Name='btnCancel'
 				PackLocation='nfn,fff'
@@ -226,8 +227,8 @@ parent.btnOk.Press=t'
 				Name='bg'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='902,682'
-				Size='902,682'
+				ScrollExtent='902,562'
+				Size='902,562'
 			>
 				<Page
 					Location='892,8'
@@ -285,9 +286,9 @@ parent.btnOk.Press=t'
 					PackSize='a,a'
 					PalBgTint='baselight'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='901,682'
+					ScrollExtent='901,562'
 					Selectable='true'
-					Size='901,682'
+					Size='901,562'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -296,13 +297,13 @@ parent.btnOk.Press=t'
 						Name='lines'
 						PackSize='a,a'
 						RStyleDefault='/Styles.space.boxes.generic4.rs_default'
-						ScrollExtent='901,682'
-						Size='901,682'
+						ScrollExtent='901,562'
+						Size='901,562'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='0,660'
+							Location='0,540'
 							Name='outlineBL'
 							OpacityRelativeMin='0.80'
 							PackLocation='nfn,fff'
@@ -328,7 +329,7 @@ parent.btnOk.Press=t'
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='262,660'
+							Location='262,540'
 							Name='outlineBR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,fff'
@@ -415,7 +416,7 @@ parent.btnOk.Press=t'
 					/>
 					<Page
 						BackgroundOpacity='1.00'
-						Location='0,659'
+						Location='0,539'
 						Name='bottom'
 						PackLocation='nfn,fff'
 						PackSize='a,f'
@@ -434,9 +435,9 @@ parent.btnOk.Press=t'
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='902,674'
+					ScrollExtent='902,554'
 					Selectable='true'
-					Size='902,674'
+					Size='902,554'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
@@ -447,9 +448,9 @@ parent.btnOk.Press=t'
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.space.spaceglow.rs_default'
-					ScrollExtent='902,682'
+					ScrollExtent='902,562'
 					Selectable='true'
-					Size='902,682'
+					Size='902,562'
 				/>
 			</Page>
 		</Page>
@@ -541,7 +542,7 @@ parent.btnOk.Press=t'
 					ColorCarat='#FFFFFF'
 					ColorSelection='#FFFFFF'
 					Enabled='false'
-					Font='bold_13'
+					Font='bold_16'
 					LocalText='lblPrompt'
 					Location='7,6'
 					Margin='2,2,2,2'
@@ -872,6 +873,7 @@ parent.btnOk.Press=t'
 			Size='802,445'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Page
 				BackgroundOpacity='0.70'
@@ -1328,6 +1330,7 @@ parent.btnOk.Press=t'
 			Size='689,377'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Button
 				LocalText='[@ui_numpad:cut_white]'
@@ -1606,6 +1609,7 @@ parent.btnOk.Press=t'
 			Size='581,376'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Button
 				IsDefaultButton='true'
@@ -2545,6 +2549,7 @@ parent.btnOk.Press=t'
 			Size='358,401'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				buttonclose='bg.mmc.close'
@@ -2777,6 +2782,7 @@ parent.btnOk.Press=t'
 			Size='729,600'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Page
 				BackgroundOpacity='1.00'
@@ -3156,6 +3162,7 @@ parent.btnOk.Press=t'
 			Size='876,680'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Page
 				BackgroundColor='#FFFFFF'
@@ -3874,6 +3881,7 @@ parent.btnOk.Press=t'
 			ScrollExtent='320,180'
 			Size='320,180'
 			UserMovable='true'
+			Visible='false'
 		>
 			<Data
 				buttonclose='bg.mmc.close'
@@ -4215,6 +4223,7 @@ parent.btnOk.Press=t'
 			Size='741,636'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Button
 				IsCancelButton='true'
@@ -4598,6 +4607,7 @@ parent.btnOk.Press=t'
 			Size='1024,768'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Page
 				Location='6,14'
@@ -7121,6 +7131,7 @@ locationY = parent.sizeY - sizeY'
 			Size='621,585'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				buttonclose='bg.mmc.close'
@@ -9365,7 +9376,6 @@ xxx attrib 8:    info here
 							PalBgTint='back2'
 							RStyleDefault='/Styles.New.whitebox.rs_default'
 							ScrollExtent='168,22'
-							ScrollLocation='0,2'
 							Size='168,20'
 							Style='/Styles.textbox.login.Style_13'
 						>dfssdfsdg</Textbox>
@@ -9408,7 +9418,6 @@ xxx attrib 8:    info here
 							PalBgTint='back2'
 							RStyleDefault='/Styles.New.whitebox_square.rs_default'
 							ScrollExtent='216,22'
-							ScrollLocation='0,2'
 							Size='216,20'
 							Style='/Styles.textbox.login.Style_13'
 						>dfssdfsdg</Textbox>
@@ -9482,7 +9491,6 @@ xxx attrib 8:    info here
 							PalBgTint='back2'
 							RStyleDefault='/Styles.New.whitebox_square.rs_default'
 							ScrollExtent='447,22'
-							ScrollLocation='0,2'
 							Size='447,20'
 							Style='/Styles.textbox.login.Style_13'
 						>dfssdfsdg</Textbox>
@@ -10028,6 +10036,7 @@ xxx attrib 8:    info here
 			Size='329,631'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Button
 				IsCancelButton='true'
@@ -10432,6 +10441,7 @@ xxx attrib 8:    info here
 			Size='435,467'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				buttonclose='bg.mmc.close'
@@ -11842,6 +11852,7 @@ xxx attrib 8:    info here
 			Size='223,168'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				buttonclose='bg.mmc.close'
@@ -11976,6 +11987,7 @@ xxx attrib 8:    info here
 			Size='416,476'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				buttonclose='bg.mmc.close'
@@ -13044,7 +13056,6 @@ xxx attrib 8:    info here
 							PalBgTint='back2'
 							RStyleDefault='/Styles.New.whitebox.rs_default'
 							ScrollExtent='105,22'
-							ScrollLocation='0,2'
 							Size='105,20'
 							Style='/Styles.textbox.login.Style_13'
 						>dfssdfsdg</Textbox>
@@ -13085,7 +13096,6 @@ xxx attrib 8:    info here
 							PalBgTint='back2'
 							RStyleDefault='/Styles.New.whitebox_square.rs_default'
 							ScrollExtent='134,22'
-							ScrollLocation='0,2'
 							Size='134,20'
 							Style='/Styles.textbox.login.Style_13'
 						>dfssdfsdg</Textbox>
@@ -13158,7 +13168,6 @@ xxx attrib 8:    info here
 							PalBgTint='back2'
 							RStyleDefault='/Styles.New.whitebox_square.rs_default'
 							ScrollExtent='277,22'
-							ScrollLocation='0,2'
 							Size='277,20'
 							Style='/Styles.textbox.login.Style_13'
 						>dfssdfsdg</Textbox>
@@ -13696,6 +13705,7 @@ xxx attrib 8:    info here
 			Size='243,219'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				buttonclose='bg.mmc.close'
@@ -13858,10 +13868,11 @@ xxx attrib 8:    info here
 			Name='progressBar'
 			PackSize='p,p'
 			RStyleDefault='rs_default'
-			ScrollExtent='524,132'
-			Size='524,132'
+			ScrollExtent='524,116'
+			Size='524,116'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				buttonclose='bg.mmc.close'
@@ -13876,8 +13887,8 @@ parent.compBg.location=location'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
 				Padding='Both'
-				ScrollExtent='487,105'
-				Size='487,105'
+				ScrollExtent='487,89'
+				Size='487,89'
 				Spacing='9'
 				SpacingType='Constant'
 			>
@@ -14067,8 +14078,8 @@ parent.compBg.location=location'
 				Name='bg'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='524,132'
-				Size='524,132'
+				ScrollExtent='524,116'
+				Size='524,116'
 			>
 				<Page
 					BackgroundColor='#FFFFFF'
@@ -14138,8 +14149,8 @@ parent.compBg.location=location'
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
 					RStyleDefault='rs_default'
-					ScrollExtent='504,129'
-					Size='504,129'
+					ScrollExtent='504,113'
+					Size='504,113'
 				>
 					<Page
 						GetsInput='false'
@@ -14147,9 +14158,9 @@ parent.compBg.location=location'
 						PackLocation='nfn,nfn'
 						PackSize='a,a'
 						RStyleDefault='/Styles.New.chat.small.rs_default'
-						ScrollExtent='504,129'
+						ScrollExtent='504,113'
 						Selectable='true'
-						Size='504,129'
+						Size='504,113'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -14161,8 +14172,8 @@ parent.compBg.location=location'
 							PackSize='a,a'
 							PalBgTint='back1'
 							RStyleDefault='/Styles.New.chat.small.rs_default'
-							ScrollExtent='503,129'
-							Size='503,129'
+							ScrollExtent='503,113'
+							Size='503,113'
 						/>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -14174,8 +14185,8 @@ parent.compBg.location=location'
 							PackSize='a,a'
 							PalBgTint='back1'
 							RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-							ScrollExtent='496,116'
-							Size='496,116'
+							ScrollExtent='496,100'
+							Size='496,100'
 						/>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -14187,8 +14198,8 @@ parent.compBg.location=location'
 							PackSize='a,a'
 							PalBgTint='back1'
 							RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-							ScrollExtent='505,128'
-							Size='505,128'
+							ScrollExtent='505,112'
+							Size='505,112'
 						/>
 					</Page>
 				</Page>
@@ -14200,9 +14211,9 @@ parent.compBg.location=location'
 					PackSize='a,a'
 					PalBgTint='baselight'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='524,132'
+					ScrollExtent='524,116'
 					Selectable='true'
-					Size='524,132'
+					Size='524,116'
 				>
 					<Page
 						BackgroundOpacity='1.00'
@@ -14216,7 +14227,7 @@ parent.compBg.location=location'
 					/>
 					<Page
 						BackgroundOpacity='1.00'
-						Location='478,96'
+						Location='478,80'
 						MaximumSize='200,36'
 						MinimumSize='30,29'
 						Name='main_BR'
@@ -14238,7 +14249,7 @@ parent.compBg.location=location'
 					/>
 					<Page
 						BackgroundOpacity='1.00'
-						Location='0,96'
+						Location='0,80'
 						MinimumSize='28,0'
 						Name='main_BL'
 						PackLocation='nfn,fff'
@@ -14258,9 +14269,9 @@ parent.compBg.location=location'
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.thin_message.rs_default'
-					ScrollExtent='500,124'
+					ScrollExtent='500,108'
 					Selectable='true'
-					Size='500,124'
+					Size='500,108'
 					Visible='false'
 				/>
 			</Page>
@@ -14276,6 +14287,7 @@ parent.compBg.location=location'
 			Size='450,33'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				focusGlow='false'
@@ -14337,6 +14349,7 @@ parent.compBg.location=location'
 			Size='366,351'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				keypad='Keypad'
@@ -15346,6 +15359,7 @@ parent.compBg.location=location'
 			Size='343,194'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				buttonclose='bg.mmc.close'
@@ -15721,6 +15735,7 @@ parent.compBg.location=location'
 			Size='861,254'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				hueobject='HueObject'
@@ -16242,6 +16257,7 @@ parent.compBg.location=location'
 			Size='520,291'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				buttonclose='bg.mmc.close'
@@ -16755,6 +16771,7 @@ parent.compBg.location=location'
 			Size='351,308'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				buttonclose='bg.mmc.close'
@@ -17171,6 +17188,7 @@ parent.compBg.location=location'
 			Size='744,176'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				colorPicker='ColorPicker'
@@ -17545,9 +17563,10 @@ parent.compBg.location=location'
 			MinimumSize='692,546'
 			Name='GamblingGames'
 			PackSize='1,1'
-			ScrollExtent='1440,1020'
-			Size='1440,1020'
+			ScrollExtent='1440,900'
+			Size='1440,900'
 			TextAlignment='center'
+			Visible='false'
 		>
 			<Page
 				gamblingRouletteGlow='#FFC600'
@@ -22287,6 +22306,7 @@ parent.compBg.location=location'
 			Size='220,124'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Checkbox
 				Location='25,35'

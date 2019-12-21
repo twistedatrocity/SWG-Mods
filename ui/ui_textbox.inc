@@ -4,6 +4,7 @@
 			Name='textbox'
 			ScrollExtent='555,342'
 			Size='555,342'
+			Visible='false'
 		>
 			<Page
 				BackgroundOpacity='1.00'
