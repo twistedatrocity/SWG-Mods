@@ -4,8 +4,8 @@ Collection of SWG mods that I have made. These are all for NGE version.
 ## Silent Crafting Stations Mod
 * does exactly what the name implies
 
-## No Squint Mod (Vanilla v7 release 4/9/2018) (Legends FULL VERSION 11 updated 12/10/2019)
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) **Note: This mod is not compatible with ILM, or other font mods that increase size, please remove/disable those when using this one.**
+## No Squint Mod (Vanilla v7 release 4/9/2018) (Legends FULL VERSION 12 updated 12/23/2019)
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) **Note: This mod is not compatible with ILM, or other font mods that increase size, please remove/disable those when using this one unless you know what you're doing with tweaks.**
 
 The main mod file is based on the last official patch from SOE in the leaked code. Since all servers have their own way of updating game files, a server specific version may be needed. Full versions are available below.
 
@@ -21,7 +21,9 @@ The main mod file is based on the last official patch from SOE in the leaked cod
 
 [A few ScreenShots can be viewed in this thread](https://swglegends.com/forums/showthread.php?28081-Mod-NoSquint-%28UI-font-and-element-size-increase%29)
 
-<b>Note: As of v3, this mod resizes the main game menu (ground). To avoid it going offscreen and having to do a /ui hudreset... before you apply this mod, go ingame and move that game menu (the little silver button) toward the center of screen on ALL toons. After the mod has been applied you can then place it back wherever you want. If you had v3 (or higher) in the past and are just upgrading there should be no need to do this.</b>
+<b>Note: As of v3 and v11, this mod resizes the main game menu in ground and space. To avoid it going offscreen and having to do a /ui hudreset... before you apply this mod, go ingame and move that game menu (the little silver button) toward the center of screen on ALL toons, do this in space also if you have already been playing in space. After the mod has been applied you can then place it back wherever you want. If you had v3 or v11 (or higher) in the past and are just upgrading there should be no need to do this.
+
+If you do not want to do the above and find your stuff too far off screen to get back, just simply do a "/ui hudreset" in the chat window and restart game. Everything will be placed back at default locations. You will of course have to re-arrange everything again to your liking.</b>
 
 
 v5 contains a new ground chatbox that is deskinned. It borrows elements from the space chatbox. This was done to facilitate making the static elements in it bigger to accomodate larger fonts. If you would prefer the old chatbox back but still use this mod simply delete the ui_ground_hud_chat_window_skinned.inc in the SWG  ui folder.
@@ -30,10 +32,11 @@ For those that ask about chat bubbles and game objects, there are sliders for bo
 
 ## Installation
 * Download server specific zip (if available, if not just use vanilla) and extract into your base SWG game folder. Full version for Legends now provided, no need to download two zips.
+* the zip contains two folders: ui and texture . Copy these folders directly to your main SWG game directory, allow it to overwrite existing files.
 * Restart the game.
 
 ## Updates
-* remove ui (and texture if satmaps used) folder, unpack new zip.
+* remove ui (and texture if satmaps used) folder, unpack new zip using directions above.
 
 ## Uninstallation
 Simply delete the files it placed in your SWG folder.
@@ -41,4 +44,4 @@ Simply delete the files it placed in your SWG folder.
 ## Downloads
 * [Silent Crafting Stations Mod](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_silent_crafting_stations.zip)
 * [Vanilla SWG No Squint Mod Main v7 FULL VERSION](https://github.com/twistedatrocity/SWG-Mods/raw/master/downloads/miagis_nosquint_mod_v7.zip)
-* [Legends Server No Squint v11 FULL VERSION with satmaps](https://mega.nz/#!yXpkVKQa!0lapKsAr_nT55ZAwI7dSn_W9e9Aiz1JUIm6O6iLLEoM)
+* [Legends Server No Squint v12 FULL VERSION with satmaps](https://mega.nz/#!yS5wEYzY!00bLDIuGbM-NPaAf7VWo3E52nzuMBEYYSLrsnsYnGnY)
