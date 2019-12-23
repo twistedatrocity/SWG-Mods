@@ -10244,12 +10244,12 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#82FFFF'
 						MouseOverTextMargin='3,0,3,0'
-						MouseOverTextStyle='bold_32'
+						MouseOverTextStyle='bold_31'
 						Name='style'
 						NormalIconColor='#00D6FB'
 						NormalTextColor='#3EFFFF'
 						NormalTextMargin='3,0,3,0'
-						NormalTextStyle='bold_23'
+						NormalTextStyle='bold_22'
 						PressedTextColor='#82FFFF'
 						PressedTextMargin='3,0,3,0'
 						ReleaseSound='ui_deselect'
@@ -10522,13 +10522,13 @@
 						MouseOverIconColor='#BA1801'
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#7D0000'
-						MouseOverTextStyle='bold_32'
+						MouseOverTextStyle='bold_31'
 						Name='style'
 						NormalIconColor='#FF7E40'
 						NormalTextColor='#FF7E40'
-						NormalTextStyle='bold_23'
+						NormalTextStyle='bold_22'
 						PressedTextColor='#7D0000'
-						PressedTextStyle='bold_23'
+						PressedTextStyle='bold_22'
 						ReleaseSound='ui_deselect'
 						RStyleActivated='activated.rs'
 						RStyleDefault='default.rs'
@@ -10539,7 +10539,7 @@
 						RStyleSelected='activated.rs'
 						SelectedIconColor='#000000'
 						SelectedTextColor='#FFBA17'
-						SelectedTextStyle='bold_32'
+						SelectedTextStyle='bold_31'
 					/>
 				</Namespace>
 				<Namespace
@@ -10843,15 +10843,15 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#7D0000'
 						MouseOverTextMargin='0,7,0,0'
-						MouseOverTextStyle='bold_32'
+						MouseOverTextStyle='bold_31'
 						Name='style'
 						NormalIconColor='#FF7E40'
 						NormalTextColor='#FF7E40'
 						NormalTextMargin='1,10,0,0'
-						NormalTextStyle='bold_23'
+						NormalTextStyle='bold_22'
 						PressedTextColor='#7D0000'
 						PressedTextMargin='1,10,0,0'
-						PressedTextStyle='bold_23'
+						PressedTextStyle='bold_22'
 						ReleaseSound='ui_deselect'
 						RStyleActivated='activated.rs'
 						RStyleDefault='default.rs'
@@ -10860,7 +10860,7 @@
 						SelectedIconColor='#000000'
 						SelectedTextColor='#FFBA17'
 						SelectedTextMargin='1,10,0,0'
-						SelectedTextStyle='bold_32'
+						SelectedTextStyle='bold_31'
 						TextAlignmentVertical='Top'
 						TextCapital='true'
 					/>
@@ -10933,12 +10933,12 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#82FFFF'
 						MouseOverTextMargin='0,7,0,0'
-						MouseOverTextStyle='bold_32'
+						MouseOverTextStyle='bold_31'
 						Name='style'
 						NormalIconColor='#00D6FB'
 						NormalTextColor='#3EFFFF'
 						NormalTextMargin='1,10,0,0'
-						NormalTextStyle='bold_23'
+						NormalTextStyle='bold_22'
 						PressedTextColor='#82FFFF'
 						PressedTextMargin='0,11,0,0'
 						ReleaseSound='ui_deselect'
@@ -13370,6 +13370,61 @@
 			<Namespace
 				Name='buffs'
 			>
+				<ImageStyle
+					Name='of_adv_paint_debuff'
+					Source='ui_new_icons_temp'
+					SourceRect='305,17,352,64'
+				/>
+				<ImageStyle
+					Name='of_adv_paint_expose'
+					Source='ui_new_icons_temp'
+					SourceRect='353,17,400,64'
+				/>
+				<ImageStyle
+					Name='wod_unstoppable_attack'
+					Source='ui_new_icons_temp2'
+					SourceRect='17,257,64,304'
+				/>
+				<ImageStyle
+					Name='wod_lethal_reflexes'
+					Source='ui_new_icons_temp4'
+					SourceRect='401,449,448,496'
+				/>
+				<ImageStyle
+					Name='wod_adaptive_bio'
+					Source='ui_new_icons_temp7'
+					SourceRect='161,305,208,352'
+				/>
+				<ImageStyle
+					Name='wod_super_strength'
+					Source='ui_new_icons_temp7'
+					SourceRect='17,401,64,448'
+				/>
+				<ImageStyle
+					Name='wod_razor_claws'
+					Source='ui_new_icons_temp8'
+					SourceRect='161,17,208,64'
+				/>
+				<ImageStyle
+					Name='wod_mutant_rancor'
+					Source='ui_new_icons_temp8'
+					SourceRect='17,65,64,112'
+				/>
+				<ImageStyle
+					Name='tcg_series8_wampa_arm'
+					Source='ui_new_icons_temp11'
+					SourceRect='305,161,352,208'
+				/>
+				<ImageStyle
+					Name='scary_halloween_hand'
+					Source='ui_new_icons_temp10'
+					SourceRect='17,353,64,400'
+				/>
+				<ImageStyle
+					Name='duel_recorder'
+					Source='ui_new_icons_temp10'
+					SourceRect='256,449,305,497'
+				/>
 				<ImageStyle
 					Name='loveday_hearts'
 					Source='ui_new_icons_temp10'
@@ -16871,6 +16926,15 @@
 				bactaToss_1='bactaToss'
 				bactaToss_2='bactaToss'
 				bandage_1='bandage'
+				bandflourish+1='/styles.icon.music.band_flourish1'
+				bandflourish+2='/styles.icon.music.band_flourish2'
+				bandflourish+3='/styles.icon.music.band_flourish3'
+				bandflourish+4='/styles.icon.music.band_flourish4'
+				bandflourish+5='/styles.icon.music.band_flourish5'
+				bandflourish+6='/styles.icon.music.band_flourish6'
+				bandflourish+7='/styles.icon.music.band_flourish7'
+				bandflourish+8='/styles.icon.music.band_flourish8'
+				bandflourish+9='/styles.icon.music.band_flourish9'
 				berserk_1='berserk'
 				bh_ae_dm_1='bh_ae_dm'
 				bh_ae_dm_2='bh_ae_dm'
@@ -17216,6 +17280,7 @@
 				flourish+6='/styles.icon.music.song_flourish6'
 				flourish+7='/styles.icon.music.song_flourish7'
 				flourish+8='/styles.icon.music.song_flourish8'
+				flourish+9='/styles.icon.music.song_flourish9'
 				fs_ae_dm_cc_1='fs_ae_dm_cc'
 				fs_ae_dm_cc_2='fs_ae_dm_cc'
 				fs_ae_dm_cc_3='fs_ae_dm_cc'
@@ -17280,6 +17345,7 @@
 				language='/styles.icon.command.sysGroup'
 				language+bothese='/styles.icon.command.sysGroup'
 				language+dosh='/styles.icon.command.sysGroup'
+				language+huttese='/styles.icon.command.sysGroup'
 				language+ithorian='/styles.icon.command.sysGroup'
 				language+lekku='/styles.icon.command.sysGroup'
 				language+moncalamarian='/styles.icon.command.sysGroup'
@@ -17368,6 +17434,9 @@
 				me_hot_1='me_hot'
 				me_hot_2='me_hot'
 				me_hot_3='me_hot'
+				me_hot_ae_1='me_hot_ae'
+				me_hot_ae_2='me_hot_ae'
+				me_hot_ae_3='me_hot'
 				me_induce_insanity='me_induce_insanity_1'
 				me_reckless_stimulation_1='me_reckless_stimulation'
 				me_reckless_stimulation_2='me_reckless_stimulation'
@@ -17598,6 +17667,10 @@
 				startdance+basic2='/styles.icon.music.basic'
 				startdance+breakdance='/styles.icon.music.breakdance'
 				startdance+breakdance2='/styles.icon.music.breakdance'
+				startdance+breakdance3='/styles.icon.music.breakdance'
+				startdance+breakdance4='/styles.icon.music.breakdance'
+				startdance+breakdance5='/styles.icon.music.breakdance'
+				startdance+breakdance6='/styles.icon.music.breakdance'
 				startdance+bunduki='/styles.icon.music.bunduki'
 				startdance+bunduki2='/styles.icon.music.bunduki'
 				startdance+exotic='/styles.icon.music.exotic'
@@ -17671,6 +17744,171 @@
 				wookiee_ability_1='wookiee_ability'
 				zabrak_ability_1='zabrak_ability'
 			>
+				<ImageStyle
+					Name='costume_hutt_female'
+					Source='ui_new_icons_temp10'
+					SourceRect='305,448,353,496'
+				/>
+				<ImageStyle
+					Name='me_hot_ae'
+					Source='ui_new_icons_temp'
+					SourceRect='64,304,113,353'
+				/>
+				<ImageStyle
+					Name='startband'
+					Source='ui_new_icons_temp11'
+					SourceRect='17,401,64,448'
+				/>
+				<ImageStyle
+					Name='stopband'
+					Source='ui_new_icons_temp11'
+					SourceRect='65,401,112,448'
+				/>
+				<ImageStyle
+					Name='startgroupdance'
+					Source='ui_new_icons_temp11'
+					SourceRect='113,401,160,448'
+				/>
+				<ImageStyle
+					Name='stopgroupdance'
+					Source='ui_new_icons_temp11'
+					SourceRect='161,401,208,448'
+				/>
+				<ImageStyle
+					Name='of_deadeye_debuff'
+					Source='ui_new_icons_temp'
+					SourceRect='113,209,160,256'
+				/>
+				<ImageStyle
+					Name='of_emergency_shield'
+					Source='ui_new_icons_temp8'
+					SourceRect='209,209,257,256'
+				/>
+				<ImageStyle
+					Name='of_paint_debuff'
+					Source='ui_new_icons_temp'
+					SourceRect='401,17,448,64'
+				/>
+				<ImageStyle
+					Name='of_paint_expose'
+					Source='ui_new_icons_temp'
+					SourceRect='401,65,448,112'
+				/>
+				<ImageStyle
+					Name='of_leg_strike'
+					Source='ui_new_icons_temp'
+					SourceRect='113,305,160,352'
+				/>
+				<ImageStyle
+					Name='wod_stun'
+					Source='ui_new_icons_temp6'
+					SourceRect='305,209,352,256'
+				/>
+				<ImageStyle
+					Name='wod_poison_dot'
+					Source='ui_new_icons_temp6'
+					SourceRect='113,353,160,400'
+				/>
+				<ImageStyle
+					Name='wod_poison_root'
+					Source='ui_new_icons_temp7'
+					SourceRect='161,401,208,448'
+				/>
+				<ImageStyle
+					Name='wod_cripple'
+					Source='ui_new_icons_temp3'
+					SourceRect='305,161,352,208'
+				/>
+				<ImageStyle
+					Name='wod_agony'
+					Source='ui_new_icons_temp3'
+					SourceRect='113,65,160,112'
+				/>
+				<ImageStyle
+					Name='wod_avoid_damage'
+					Source='ui_new_icons_temp2'
+					SourceRect='257,353,304,400'
+				/>
+				<ImageStyle
+					Name='callforslave1pickup'
+					Source='ui_new_icons_space'
+					SourceRect='449,17,496,64'
+				/>
+				<ImageStyle
+					Name='costume_esb_boba_fett'
+					Source='ui_new_icons_temp11'
+					SourceRect='113,161,160,208'
+				/>
+				<ImageStyle
+					Name='fs_general_premonition'
+					Source='ui_new_icons_temp2'
+					SourceRect='65,449,112,496'
+				/>
+				<ImageStyle
+					Name='fs_general_grace_in_motion'
+					Source='ui_new_icons_temp2'
+					SourceRect='353,401,400,448'
+				/>
+				<ImageStyle
+					Name='callforsnowspeeder'
+					Source='ui_new_icons_temp9'
+					SourceRect='401,65,448,112'
+				/>
+				<ImageStyle
+					Name='bm_improved_healing'
+					Source='ui_new_icons_temp'
+					SourceRect='353,449,400,496'
+				/>
+				<ImageStyle
+					Name='bm_erratic_genius'
+					Source='ui_new_icons_temp2'
+					SourceRect='353,257,400,304'
+				/>
+				<ImageStyle
+					Name='bm_pet_dodge'
+					Source='ui_new_icons_temp3'
+					SourceRect='209,161,256,208'
+				/>
+				<ImageStyle
+					Name='bm_evasion'
+					Source='ui_new_icons_temp5'
+					SourceRect='65,17,112,64'
+				/>
+				<ImageStyle
+					Name='fs_general_grace_in_motion'
+					Source='ui_new_icons_temp2'
+					SourceRect='353,401,400,448'
+				/>
+				<ImageStyle
+					Name='costume_esb_leia'
+					Source='ui_new_icons_temp11'
+					SourceRect='401,113,448,160'
+				/>
+				<ImageStyle
+					Name='costume_esb_luke'
+					Source='ui_new_icons_temp11'
+					SourceRect='449,113,496,160'
+				/>
+				<ImageStyle
+					Name='costume_esb_han_solo'
+					Source='ui_new_icons_temp11'
+					SourceRect='353,113,400,160'
+				/>
+				<ImageStyle
+					Name='costume_esb_lando'
+					Source='ui_new_icons_temp11'
+					SourceRect='305,113,352,160'
+				/>
+				<ImageStyle
+					Name='costume_esb_darth_vader'
+					Source='ui_new_icons_temp11'
+					SourceRect='18,161,64,208'
+				/>
+				<ImageStyle
+					Name='costume_esb_yoda'
+					Source='ui_new_icons_temp11'
+					SourceRect='64,161,113,208'
+				/>
 				<ImageStyle
 					Name='chroniclesLootToggle'
 					Source='ui_collections_icons_16'
@@ -19333,6 +19571,11 @@
 				/>
 				<ImageStyle
 					Name='disarmTrap'
+					Source='ui_new_icons_temp5'
+					SourceRect='65,65,112,112'
+				/>
+				<ImageStyle
+					Name='recalibration'
 					Source='ui_new_icons_temp5'
 					SourceRect='65,65,112,112'
 				/>
@@ -22457,9 +22700,89 @@
 					SourceRect='209,208,256,257'
 				/>
 				<ImageStyle
+					Name='costume_seven_obi_wan_ghost'
+					Source='ui_new_icons_temp11'
+					SourceRect='161,161,208,208'
+				/>
+				<ImageStyle
+					Name='costume_axkva_min'
+					Source='ui_new_icons_temp11'
+					SourceRect='209,161,256,209'
+				/>
+				<ImageStyle
+					Name='costume_meatlump_king'
+					Source='ui_new_icons_temp11'
+					SourceRect='257,161,304,208'
+				/>
+				<ImageStyle
+					Name='costume_wampa'
+					Source='ui_new_icons_temp11'
+					SourceRect='305,161,352,208'
+				/>
+				<ImageStyle
+					Name='costume_rancor'
+					Source='ui_new_icons_temp11'
+					SourceRect='353,161,400,208'
+				/>
+				<ImageStyle
+					Name='costume_mutant_rancor'
+					Source='ui_new_icons_temp11'
+					SourceRect='401,161,448,208'
+				/>
+				<ImageStyle
+					Name='costume_blackwing_rancor'
+					Source='ui_new_icons_temp11'
+					SourceRect='449,161,496,208'
+				/>
+				<ImageStyle
+					Name='costume_tusken_king'
+					Source='ui_new_icons_temp11'
+					SourceRect='17,209,64,256'
+				/>
+				<ImageStyle
+					Name='costume_zozpheratu'
+					Source='ui_new_icons_temp11'
+					SourceRect='66,209,112,256'
+				/>
+				<ImageStyle
+					Name='costume_skeleton'
+					Source='ui_new_icons_temp11'
+					SourceRect='113,209,160,256'
+				/>
+				<ImageStyle
+					Name='costume_geonosian'
+					Source='ui_new_icons_temp11'
+					SourceRect='161,209,208,256'
+				/>
+				<ImageStyle
+					Name='costume_tauntaun'
+					Source='ui_new_icons_temp11'
+					SourceRect='209,209,256,256'
+				/>
+				<ImageStyle
+					Name='costume_mynock'
+					Source='ui_new_icons_temp11'
+					SourceRect='257,209,304,256'
+				/>
+				<ImageStyle
+					Name='costume_dug'
+					Source='ui_new_icons_temp11'
+					SourceRect='306,209,353,256'
+				/>
+				<ImageStyle
+					Name='costume_ugnaught'
+					Source='ui_new_icons_temp11'
+					SourceRect='353,209,400,256'
+				/>
+				<ImageStyle
 					Name='en_heal'
 					Source='ui_new_icons_temp11'
 					SourceRect='160,304,209,353'
+				/>
+				<ImageStyle
+					Name='trader_heal'
+					Source='ui_new_icons_temp3'
+					SourceRect='304,448,353,497'
 				/>
 				<ImageStyle
 					Name='en_focused_control'
@@ -23457,6 +23780,7 @@
 				timid='careful'
 				tired='sleepy'
 				troubled='sad'
+				undead='undead'
 				unhappy='sad'
 				unwilling='careful'
 				vengeful='mean'
@@ -23760,6 +24084,11 @@
 					SourceRect='305,257,352,304'
 				/>
 				<ImageStyle
+					Name='undead'
+					Source='ui_new_icons_temp3'
+					SourceRect='354,209,401,256'
+				/>
+				<ImageStyle
 					Name='uncertain'
 					Source='ui_new_icons_temp3'
 					SourceRect='401,305,448,352'
@@ -23773,6 +24102,51 @@
 			<Namespace
 				Name='music'
 			>
+				<ImageStyle
+					Name='band_flourish1'
+					Source='ui_new_icons_temp11'
+					SourceRect='17,353,64,400'
+				/>
+				<ImageStyle
+					Name='band_flourish2'
+					Source='ui_new_icons_temp11'
+					SourceRect='65,353,112,400'
+				/>
+				<ImageStyle
+					Name='band_flourish3'
+					Source='ui_new_icons_temp11'
+					SourceRect='113,353,160,400'
+				/>
+				<ImageStyle
+					Name='band_flourish4'
+					Source='ui_new_icons_temp11'
+					SourceRect='161,353,208,400'
+				/>
+				<ImageStyle
+					Name='band_flourish5'
+					Source='ui_new_icons_temp11'
+					SourceRect='209,353,256,400'
+				/>
+				<ImageStyle
+					Name='band_flourish6'
+					Source='ui_new_icons_temp11'
+					SourceRect='257,353,304,400'
+				/>
+				<ImageStyle
+					Name='band_flourish7'
+					Source='ui_new_icons_temp11'
+					SourceRect='305,353,352,400'
+				/>
+				<ImageStyle
+					Name='band_flourish8'
+					Source='ui_new_icons_temp11'
+					SourceRect='353,353,400,400'
+				/>
+				<ImageStyle
+					Name='band_flourish9'
+					Source='ui_new_icons_temp11'
+					SourceRect='401,353,448,400'
+				/>
 				<ImageStyle
 					Name='dirge'
 					Source='ui_new_icons_temp3'
@@ -24057,6 +24431,11 @@
 					Name='pop'
 					Source='ui_new_icons_temp4'
 					SourceRect='352,401,399,448'
+				/>
+				<ImageStyle
+					Name='song_flourish9'
+					Source='ui_new_icons_temp11'
+					SourceRect='256,304,305,353'
 				/>
 			</Namespace>
 			<Namespace
@@ -24577,6 +24956,8 @@
 				twistarm='chestpound'
 				twitch='bmoc'
 				uncle='apologize'
+				undead_claw='undead'
+				undead_crouch='undead'
 				up='accuse'
 				veto='disagree'
 				waft='nose'
@@ -24815,6 +25196,11 @@
 					Name='thumbsup'
 					Source='ui_new_icons_temp3'
 					SourceRect='401,160,448,207'
+				/>
+				<ImageStyle
+					Name='undead'
+					Source='ui_new_icons_temp3'
+					SourceRect='354,210,401,257'
 				/>
 				<ImageStyle
 					Name='wince'
@@ -26609,7 +26995,7 @@
 						Name='style'
 						NormalIconColor='#00D6FB'
 						NormalTextColor='#00FFFF'
-						NormalTextStyle='bold_15'
+						NormalTextStyle='bold_21'
 						PressedIconColor='#F5FF42'
 						PressedTextColor='#04575E'
 						ReleaseSound='ui_deselect'
@@ -29459,12 +29845,12 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#18393D'
 						MouseOverTextMargin='3,0,3,0'
-						MouseOverTextStyle='bold_23'
+						MouseOverTextStyle='bold_22'
 						Name='style_friend'
 						NormalIconColor='#00D6FB'
 						NormalTextColor='#2FF4FF'
 						NormalTextMargin='3,0,3,0'
-						NormalTextStyle='bold_23'
+						NormalTextStyle='bold_22'
 						PalActivatedText='textactivated'
 						PalDisabledText='textdisabled'
 						PalHoverText='texthover'
@@ -33102,7 +33488,7 @@
 				<CheckboxStyle
 					Name='Style'
 					NormalCheckedImage='checkedImage'
-					NormalTextStyle='bold_11'
+					NormalTextStyle='bold_16'
 					NormalUncheckedImage='uncheckedImage'
 					TextOffset='48,0'
 				/>
@@ -33157,7 +33543,7 @@
 				<CheckboxStyle
 					Name='Style'
 					NormalCheckedImage='checkedImage'
-					NormalTextStyle='bold_11'
+					NormalTextStyle='bold_16'
 					NormalUncheckedImage='uncheckedImage'
 					TextOffset='26,0'
 				/>
@@ -39559,7 +39945,7 @@
 							RStyleMouseOverSelected='hover.rs'
 							RStyleSelected='selected.rs'
 							SelectedTextMargin='9,0,9,0'
-							SelectedTextStyle='bold_13'
+							SelectedTextStyle='bold_18'
 						/>
 					</Namespace>
 				</Namespace>
@@ -55744,6 +56130,101 @@
 				</Namespace>
 			</Namespace>
 			<Namespace
+				Name='buttontemp_color'
+			>
+				<ButtonStyle
+					DisabledIconColor='#80FFFF'
+					DisabledTextColor='#F4D3B9'
+					DisabledTextMargin='7,0,7,0'
+					MouseOverIconColor='#00FFFF'
+					MouseOverSound='ui_rollover'
+					MouseOverTextColor='#CEE6FF'
+					MouseOverTextMargin='7,0,7,0'
+					MouseOverTextStyle='bold_11'
+					Name='style'
+					NormalIconColor='#F4D3B9'
+					NormalTextColor='#F4D3B9'
+					NormalTextMargin='7,0,7,0'
+					NormalTextStyle='bold_11'
+					PressedTextColor='#F4D3B9'
+					PressedTextMargin='7,0,7,0'
+					ReleaseSound='ui_deselect'
+					RStyleActivated='activated.rs'
+					RStyleDefault='default.rs'
+					RStyleDisabled='disabled.rs'
+					RStyleMouseOver='hover.rs'
+					RStyleMouseOverActivated='activated.rs'
+					RStyleMouseOverSelected='hover.rs'
+					RStyleSelected='selected.rs'
+					SelectedIconColor='#000000'
+					SelectedTextColor='#F4D3B9'
+					SelectedTextMargin='7,0,7,0'
+					TextCapital='true'
+				/>
+				<Namespace
+					Name='default'
+				>
+					<RectangleStyle
+						Center='c'
+						Color='#F4D3B9'
+						East='e'
+						Name='rs'
+						North='n'
+						NorthEast='ne'
+						NorthWest='nw'
+						South='s'
+						SouthEast='se'
+						SouthWest='sw'
+						West='w'
+					/>
+					<ImageStyle
+						Name='nw'
+						Source='ui_shader_add:ui_space_hud'
+						SourceRect='421,131,431,140'
+					/>
+					<ImageStyle
+						Name='ne'
+						Source='ui_shader_add:ui_space_hud'
+						SourceRect='431,131,421,140'
+					/>
+					<ImageStyle
+						Name='n'
+						Source='ui_shader_add:ui_space_hud'
+						SourceRect='432,130,433,139'
+					/>
+					<ImageStyle
+						Name='sw'
+						Source='ui_shader_add:ui_space_hud'
+						SourceRect='421,140,431,131'
+					/>
+					<ImageStyle
+						Name='se'
+						Source='ui_shader_add:ui_space_hud'
+						SourceRect='431,140,421,131'
+					/>
+					<ImageStyle
+						Name='s'
+						Source='ui_shader_add:ui_space_hud'
+						SourceRect='431,140,432,131'
+					/>
+					<ImageStyle
+						Name='w'
+						Source='ui_shader_add:ui_space_hud'
+						SourceRect='421,138,431,139'
+					/>
+					<ImageStyle
+						Name='e'
+						Source='ui_shader_add:ui_space_hud'
+						SourceRect='431,138,421,139'
+					/>
+					<ImageStyle
+						Name='c'
+						Source='ui_shader_add:ui_space_hud'
+						SourceRect='52,295,57,297'
+					/>
+				</Namespace>
+			</Namespace>
+			<Namespace
 				Name='Checkbox'
 				Size='128,64'
 			>
@@ -57736,6 +58217,11 @@
 					stopmusic='/styles.icon.music.ballad'
 					takecover='/styles.icon.state.cover'
 				>
+					<ImageStyle
+						Name='spacebattlestatus'
+						Source='ui_new_icons_space'
+						SourceRect='449,113,496,160'
+					/>
 					<ImageStyle
 						Name='spacefaction'
 						Source='ui_collections_icons_space_06'
@@ -60491,6 +60977,7 @@
 					timid='careful'
 					tired='sleepy'
 					troubled='sad'
+					undead='undead'
 					unhappy='sad'
 					unwilling='careful'
 					vengeful='mean'
@@ -60797,6 +61284,11 @@
 						Name='uncertain'
 						Source='ui_rebel_icons'
 						SourceRect='301,2,325,26'
+					/>
+					<ImageStyle
+						Name='undead'
+						Source='ui_rebel_icons'
+						SourceRect='393,24,417,48'
 					/>
 					<ImageStyle
 						Name='whiny'
@@ -61461,6 +61953,8 @@
 					twistarm='flex'
 					twitch='/styles.Icon.mood.careful'
 					uncle='/styles.Icon.mood.taunting'
+					undead_claw='undead'
+					undead_crouch='undead'
 					waft='/styles.Icon.mood.hysterical'
 					ward='defend'
 					wave='hand'
@@ -61979,6 +62473,11 @@
 						Name='triangle'
 						Source='ui_rebel_icons'
 						SourceRect='117,186,141,210'
+					/>
+					<ImageStyle
+						Name='undead'
+						Source='ui_rebel_icons'
+						SourceRect='416,187,440,163'
 					/>
 					<ImageStyle
 						Name='up'
@@ -62538,10 +63037,10 @@
 					<ListStyle
 						BackgroundColor='#00D6FB'
 						BackgroundOpacity='0.00'
-						CellHeight='19'
+						CellHeight='25'
 						CellPadding='4,2'
 						DefaultTextColor='#96F4FC'
-						DefaultTextStyle='bold_11'
+						DefaultTextStyle='bold_16'
 						GridColor='#1CFFFF'
 						Margin='3,4,3,3'
 						Name='style_nolines'
@@ -62598,7 +63097,7 @@
 						CellHeight='14'
 						CellPadding='4,3'
 						DefaultTextColor='#96F4FC'
-						DefaultTextStyle='normal_11'
+						DefaultTextStyle='normal_12'
 						GridColor='#1CFFFF'
 						Margin='2,0,0,0'
 						Name='style_all'
@@ -62616,10 +63115,10 @@
 					<ListStyle
 						BackgroundColor='#00D6FB'
 						BackgroundOpacity='0.00'
-						CellHeight='22'
+						CellHeight='25'
 						CellPadding='4,2'
 						DefaultTextColor='#96F4FC'
-						DefaultTextStyle='bold_15'
+						DefaultTextStyle='bold_16'
 						GridColor='#1CFFFF'
 						Margin='3,4,3,3'
 						Name='style'
@@ -70129,7 +70628,7 @@
 					DefaultTextColor='#003842'
 					DefaultTextColorHighlight='#96F4FC'
 					DefaultTextColorLowlight='#FFFFFF'
-					DefaultTextStyle='normal_11'
+					DefaultTextStyle='normal_12'
 					GridColor='#1CFFFF'
 					ImageStyleCollapsed='image.collapsed'
 					ImageStyleExpanded='image.expanded'

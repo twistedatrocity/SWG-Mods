@@ -13,6 +13,7 @@ parent.summary.visible=false'
 			Size='781,527'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				buttonCancel='buttonCancel'

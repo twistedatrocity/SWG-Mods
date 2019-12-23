@@ -38,7 +38,7 @@
 					CursorPoint='15'
 					Editable='true'
 					EditableUnicode='true'
-					Font='normal_12'
+					Font='normal_18'
 					GetsInput='true'
 					IME='true'
 					LocalText='Fetching bio...'

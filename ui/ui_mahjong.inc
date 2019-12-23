@@ -5,6 +5,7 @@
 			ScrollExtent='897,653'
 			Size='897,653'
 			UserMovable='true'
+			Visible='false'
 		>
 			<Data
 				chaintext='controls.comp.text.chain.valueText'
@@ -957,7 +958,7 @@
 					>
 						<Text
 							Enabled='false'
-							Font='bold_25'
+							Font='bold_31'
 							LocalText='Game Over'
 							Margin='2,0,0,0'
 							MinimumSize='0,19'

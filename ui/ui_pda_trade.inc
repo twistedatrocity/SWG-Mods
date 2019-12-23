@@ -2,14 +2,13 @@
 			BackgroundColor='#CB9BFF'
 			layout.enabled='true'
 			Location='251,30'
-			MinimumSize='470,355'
+			MinimumSize='671,779'
 			Name='Trade'
 			RStyleDefault='rs_default'
-			ScrollExtent='470,592'
-			Size='470,592'
+			ScrollExtent='671,779'
+			Size='671,779'
 			UserMovable='true'
 			UserResizable='true'
-			Visible='false'
 		>
 			<Data
 				buttonclose='bg.mmc.close'
@@ -21,28 +20,28 @@
 			<Button
 				IsDefaultButton='true'
 				LocalText='[@ok]'
-				Location='26,565'
-				MinimumSize='0,19'
+				Location='26,744'
+				MinimumSize='0,26'
 				Name='buttonOk'
 				OnDisableEffector='/effectors.fadeout'
 				OnEnableEffector='/effectors.fadefull'
 				PackLocation='nfn,fff'
 				PackSize='p,f'
-				ScrollExtent='141,19'
-				Size='141,19'
+				ScrollExtent='201,26'
+				Size='201,26'
 				Style='/Styles.New.buttons.hud.style'
 				TextColor='#000000'
 			>@ok</Button>
 			<Button
 				IsCancelButton='true'
 				LocalText='[@cancel]'
-				Location='300,565'
-				MinimumSize='0,19'
+				Location='441,744'
+				MinimumSize='0,26'
 				Name='buttonCancel'
 				PackLocation='fff,fff'
 				PackSize='p,f'
-				ScrollExtent='141,19'
-				Size='141,19'
+				ScrollExtent='201,26'
+				Size='201,26'
 				Style='/Styles.New.buttons.hud.style'
 				TextColor='#000000'
 			>@cancel</Button>
@@ -52,12 +51,12 @@
 				OnHide='parent.layout.enabled=true'
 				OnShow='parent.layout.enabled=false'
 				PackSize='a,h'
-				ScrollExtent='454,239'
-				Size='454,239'
+				ScrollExtent='655,332'
+				Size='655,332'
 				Visible='false'
 			>
 				<Runner
-					Location='140,196'
+					Location='240,289'
 					MaximumSize='179,20'
 					Name='runner'
 					PackLocation='cfc,fff'
@@ -209,14 +208,14 @@
 					/>
 				</Runner>
 				<Text
-					Font='bold_16'
+					Font='bold_22'
 					LocalText='xxx Waiting For Somebody to Complete the Trade...'
 					Name='text'
 					OnHide='parent.visible=visible'
 					OnShow='parent.visible=visible'
 					PackSize='a,a'
-					ScrollExtent='454,239'
-					Size='454,239'
+					ScrollExtent='655,332'
+					Size='655,332'
 					TextAlignment='Center'
 					TextAlignmentVertical='Center'
 					Visible='false'
@@ -226,8 +225,8 @@
 					Name='bg'
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
-					ScrollExtent='454,239'
-					Size='454,239'
+					ScrollExtent='655,332'
+					Size='655,332'
 				>
 					<Page
 						BackgroundOpacity='1.00'
@@ -240,9 +239,9 @@
 						PackSize='a,a'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-						ScrollExtent='454,238'
+						ScrollExtent='655,331'
 						Selectable='true'
-						Size='454,238'
+						Size='655,331'
 					/>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -255,9 +254,9 @@
 						PackSize='a,a'
 						PalBgTint='back2'
 						RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-						ScrollExtent='449,235'
+						ScrollExtent='650,328'
 						Selectable='true'
-						Size='449,235'
+						Size='650,328'
 					/>
 				</Page>
 			</Page>
@@ -268,9 +267,9 @@
 				OnEnableEffector='/effectors.opacity.fast.fadefull'
 				Orientation='Horizontal'
 				PackSize='a,a'
-				ScrollExtent='454,533'
+				ScrollExtent='655,711'
 				Selectable='true'
-				Size='454,533'
+				Size='655,711'
 				Spacing='2'
 				SpacingType='Fill'
 			>
@@ -280,8 +279,8 @@
 					Name='self'
 					PackSize='a,a'
 					RStyleDefault='rs_default'
-					ScrollExtent='226,533'
-					Size='226,533'
+					ScrollExtent='326,711'
+					Size='326,711'
 				>
 					<Data
 						Checkbox='check'
@@ -290,9 +289,10 @@
 						Name='CodeData'
 						Text='textName'
 						textboxmoney='money.textboxMoney'
+						textboxMoneyDelimited='money.textboxMoney'
 					/>
 					<Text
-						Font='bold_12'
+						Font='bold_16'
 						LocalText='xxx player name'
 						Location='13,0'
 						MaxLines='1'
@@ -301,15 +301,15 @@
 						PackLocation='nfn,nfn'
 						PackSize='a,f'
 						PalText='header'
-						ScrollExtent='200,19'
-						Size='200,19'
+						ScrollExtent='300,19'
+						Size='300,19'
 						TextAlignment='Center'
 						TextColor='#97FFFF'
 					>xxx player name</Text>
 					<Text
-						Font='bold_12'
+						Font='bold_16'
 						LocalText='[@ui_trade:offer_money_self]'
-						Location='10,474'
+						Location='10,652'
 						Margin='2,2,2,2'
 						MaxLines='1'
 						MinimumSize='0,19'
@@ -318,8 +318,8 @@
 						PackSize='a,f'
 						PalText='header'
 						RStyleDefault='rs_default'
-						ScrollExtent='211,19'
-						Size='211,19'
+						ScrollExtent='311,21'
+						Size='311,19'
 						TextAlignment='Center'
 						TextColor='#97FFFF'
 					>@ui_trade:offer_money_self</Text>
@@ -333,22 +333,22 @@
 						PackLocation='nfn,nfn'
 						PackSize='a,f'
 						PalColor='text1'
-						ScrollExtent='211,19'
-						Size='211,19'
+						ScrollExtent='311,19'
+						Size='311,19'
 						Style='/Styles.New.Checkbox2.Style'
 					>@ui_trade:acceptable</Checkbox>
 					<Page
 						BackgroundOpacity='0.70'
 						BackgroundTint='#00FFFF'
-						Location='10,494'
+						Location='10,672'
 						Name='money'
 						PackLocation='nfn,fff'
 						PackSize='a,f'
 						PalBgTint='line2'
 						RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-						ScrollExtent='205,31'
+						ScrollExtent='305,31'
 						Selectable='true'
-						Size='205,31'
+						Size='305,31'
 					>
 						<Textbox
 							BackgroundOpacity='0.60'
@@ -362,9 +362,9 @@
 							PalBgTint='back3'
 							RStyleDefault='/Styles.New.whitebox_palW.rs_default'
 							RStyleDisabled='/Styles.New.whiteOutline.rs_default'
-							ScrollExtent='200,25'
+							ScrollExtent='300,25'
 							selected='true'
-							Size='200,25'
+							Size='300,25'
 							Style='/Styles.textbox.default.Style_16'
 						></Textbox>
 					</Page>
@@ -379,9 +379,9 @@
 						PackSize='a,h'
 						PalBgTint='line2'
 						RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-						ScrollExtent='209,207'
+						ScrollExtent='309,296'
 						Selectable='true'
-						Size='209,207'
+						Size='309,296'
 					>
 						<Data
 							AutoEnableContent='true'
@@ -404,13 +404,13 @@
 							PackSize='a,a'
 							PalBgTint='back1'
 							RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-							ScrollExtent='189,193'
-							Size='189,193'
+							ScrollExtent='289,282'
+							Size='289,282'
 							Spacing='1'
 							SpacingType='Constant'
 						>
 							<Text
-								Font='bold_12'
+								Font='bold_16'
 								LocalText='xxx data_obj_name'
 								Margin='2,2,2,2'
 								MinimumSize='0,19'
@@ -419,54 +419,46 @@
 								PackSize='a,f'
 								PalText='header'
 								RStyleDefault='/Styles.New.pill_med.rs_default'
-								ScrollExtent='189,19'
-								Size='189,19'
+								ScrollExtent='289,21'
+								Size='289,21'
 								TextAlignment='Center'
 								TextColor='#97FFFF'
 							>xxx data_obj_name</Text>
 							<Text
-								Font='bold_12'
-								LocalText='xxx attrib 1:    info here
-xxx attrib 2:    info here
-xxx attrib 3:    info here
-xxx attrib 4:    info here
-xxx attrib 5:    info here
-xxx attrib 6:    info here
-xxx attrib 7:    info here
-xxx attrib 8:    info here
-'
-								Location='3,20'
+								Font='bold_16'
+								LocalText='xxx attrib 1:    info herexxx attrib 2:    info herexxx attrib 3:    info herexxx attrib 4:    info herexxx attrib 5:    info herexxx attrib 6:    info herexxx attrib 7:    info herexxx attrib 8:    info here'
+								Location='3,22'
 								Name='textAttribs'
 								PackSize='a,f'
 								PalText='text1'
 								RStyleDefault='rs_default'
-								ScrollExtent='186,117'
-								Size='186,117'
+								ScrollExtent='286,85'
+								Size='286,85'
 								TextColor='#96F4FC'
 							>xxx attrib 1:    info herexxx attrib 2:    info herexxx attrib 3:    info herexxx attrib 4:    info herexxx attrib 5:    info herexxx attrib 6:    info herexxx attrib 7:    info herexxx attrib 8:    info here</Text>
 							<Text
-								Font='bold_12'
+								Font='bold_16'
 								LocalText='xxx Description goes into this field with all the other text ok you can stop now.'
-								Location='3,138'
+								Location='3,108'
 								Name='textDesc'
 								PackSize='a,f'
 								PalText='text1'
 								RStyleDefault='rs_default'
-								ScrollExtent='186,39'
-								Size='186,39'
+								ScrollExtent='286,51'
+								Size='286,51'
 								TextColor='#96F4FC'
 							>xxx Description goes into this field with all the other text ok you can stop now.</Text>
 						</Composite>
 						<Scrollbar
 							Control='content'
 							Enabled='false'
-							Location='194,8'
+							Location='294,8'
 							Name='Scroll'
 							Opacity='0.90'
 							PackLocation='fff,nfn'
 							PackSize='f,a'
-							ScrollExtent='11,191'
-							Size='11,191'
+							ScrollExtent='11,280'
+							Size='11,280'
 							Style='/Styles.scrollbar.default.vHud4.style'
 						>
 						</Scrollbar>
@@ -475,14 +467,14 @@ xxx attrib 8:    info here
 						BackgroundOpacity='1.00'
 						BackgroundTint='#00FFFF'
 						details.visible='false'
-						Location='9,263'
+						Location='9,352'
 						Name='container'
 						PackLocation='nfn,fff'
 						PackSize='a,h'
 						PalBgTint='line2'
 						RStyleDefault='/Styles.New.whiteOutline.rs_default'
-						ScrollExtent='209,211'
-						Size='209,211'
+						ScrollExtent='309,300'
+						Size='309,300'
 					>
 						<Data
 							DisableRadial='true'
@@ -497,24 +489,24 @@ xxx attrib 8:    info here
 							OnShow='parent.details.visible=false'
 							PackSize='a,a'
 							RStyleDefault='rs_default'
-							ScrollExtent='206,205'
-							Size='206,205'
+							ScrollExtent='306,294'
+							Size='306,294'
 						>
 							<VolumePage
 								BackgroundColor='#FFFFFF'
-								CellCount='2,1'
+								CellCount='3,1'
 								CellDragAccepts='GameObject,CraftIngredient'
-								CellSize='64,64'
+								CellSize='90,90'
 								DragAccepts='GameObject'
 								Location='4,5'
-								MinimumScrollExtent='70,68'
+								MinimumScrollExtent='188,94'
 								Name='volume'
 								OnHide='parent.details.visible=trueparent.scrollIcon.visible=visible'
 								OnShow='parent.details.visible=falseparent.scrollIcon.visible=visible'
 								PackSize='a,a'
 								RStyleDefault='rs_default'
-								ScrollExtent='187,195'
-								Size='187,195'
+								ScrollExtent='287,284'
+								Size='287,284'
 							>
 								<Button
 									DragAccepts='CraftIngredient,GameObject,GameObject,CraftIngredient'
@@ -523,11 +515,11 @@ xxx attrib 8:    info here
 									IsDefaultButton='true'
 									LocalText='X'
 									Location='2,2'
-									MaximumSize='64,64'
-									MinimumSize='64,64'
+									MaximumSize='90,90'
+									MinimumSize='90,90'
 									Name='buttonExit'
-									ScrollExtent='64,64'
-									Size='64,64'
+									ScrollExtent='90,90'
+									Size='90,90'
 									Style='/Styles.Frame.buttonClose.style'
 								>X</Button>
 								<Button
@@ -536,12 +528,12 @@ xxx attrib 8:    info here
 									IsCancelButton='true'
 									IsDefaultButton='true'
 									LocalText='X'
-									Location='68,2'
-									MaximumSize='64,64'
-									MinimumSize='64,64'
+									Location='94,2'
+									MaximumSize='90,90'
+									MinimumSize='90,90'
 									Name='buttonExit'
-									ScrollExtent='64,64'
-									Size='64,64'
+									ScrollExtent='90,90'
+									Size='90,90'
 									Style='/Styles.Frame.buttonClose.style'
 								>X</Button>
 							</VolumePage>
@@ -549,12 +541,12 @@ xxx attrib 8:    info here
 								CellSize='128,128'
 								Control='volume'
 								Enabled='false'
-								Location='192,5'
+								Location='292,5'
 								Name='scroll'
 								PackLocation='fff,nfn'
 								PackSize='f,a'
-								ScrollExtent='11,197'
-								Size='11,197'
+								ScrollExtent='11,286'
+								Size='11,286'
 								Style='/Styles.scrollbar.default.vHud4.style'
 							>
 							</Scrollbar>
@@ -565,9 +557,9 @@ xxx attrib 8:    info here
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
 							RStyleDefault='/Styles.New.whiteOutline.rs_default'
-							ScrollExtent='209,211'
+							ScrollExtent='309,300'
 							Selectable='true'
-							Size='209,211'
+							Size='309,300'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -578,8 +570,8 @@ xxx attrib 8:    info here
 								PackSize='a,a'
 								PalBgTint='line2'
 								RStyleDefault='/Styles.New.whiteOutline.rs_default'
-								ScrollExtent='209,211'
-								Size='209,211'
+								ScrollExtent='309,300'
+								Size='309,300'
 							/>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -591,8 +583,8 @@ xxx attrib 8:    info here
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-								ScrollExtent='184,193'
-								Size='184,193'
+								ScrollExtent='284,282'
+								Size='284,282'
 							/>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -603,8 +595,8 @@ xxx attrib 8:    info here
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-								ScrollExtent='209,211'
-								Size='209,211'
+								ScrollExtent='309,300'
+								Size='309,300'
 							/>
 						</Page>
 					</Page>
@@ -614,8 +606,8 @@ xxx attrib 8:    info here
 						Name='bg'
 						PackLocation='nfn,nfn'
 						PackSize='a,a'
-						ScrollExtent='226,512'
-						Size='226,512'
+						ScrollExtent='326,690'
+						Size='326,690'
 					>
 						<Page
 							BackgroundOpacity='0.90'
@@ -628,9 +620,9 @@ xxx attrib 8:    info here
 							PackSize='a,a'
 							PalBgTint='line1'
 							RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-							ScrollExtent='226,511'
+							ScrollExtent='326,689'
 							Selectable='true'
-							Size='226,511'
+							Size='326,689'
 						/>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -643,21 +635,21 @@ xxx attrib 8:    info here
 							PackSize='a,a'
 							PalBgTint='back2'
 							RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-							ScrollExtent='221,508'
+							ScrollExtent='321,686'
 							Selectable='true'
-							Size='221,508'
+							Size='321,686'
 						/>
 					</Page>
 				</Page>
 				<Page
 					checkthree.checked='false'
 					checktwo.checked='false'
-					Location='228,0'
+					Location='328,0'
 					Name='other'
 					PackSize='a,a'
 					RStyleDefault='rs_default'
-					ScrollExtent='226,533'
-					Size='226,533'
+					ScrollExtent='327,711'
+					Size='327,711'
 				>
 					<Data
 						Checkbox='check'
@@ -666,9 +658,10 @@ xxx attrib 8:    info here
 						Name='CodeData'
 						Text='textName'
 						textboxmoney='money.textboxMoney'
+						textboxMoneyDelimited='money.textboxMoney'
 					/>
 					<Text
-						Font='bold_12'
+						Font='bold_16'
 						LocalText='xxx player name'
 						Location='13,0'
 						MaxLines='1'
@@ -677,15 +670,15 @@ xxx attrib 8:    info here
 						PackLocation='nfn,nfn'
 						PackSize='a,f'
 						PalText='header'
-						ScrollExtent='200,19'
-						Size='200,19'
+						ScrollExtent='301,19'
+						Size='301,19'
 						TextAlignment='Center'
 						TextColor='#97FFFF'
 					>xxx player name</Text>
 					<Text
-						Font='bold_12'
+						Font='bold_16'
 						LocalText='[@ui_trade:offer_money_other]'
-						Location='10,474'
+						Location='10,652'
 						Margin='2,2,2,2'
 						MaxLines='1'
 						MinimumSize='0,19'
@@ -694,8 +687,8 @@ xxx attrib 8:    info here
 						PackSize='a,f'
 						PalText='header'
 						RStyleDefault='rs_default'
-						ScrollExtent='211,19'
-						Size='211,19'
+						ScrollExtent='312,21'
+						Size='312,19'
 						TextAlignment='Center'
 						TextColor='#97FFFF'
 					>@ui_trade:offer_money_other</Text>
@@ -709,22 +702,22 @@ xxx attrib 8:    info here
 						PackLocation='nfn,nfn'
 						PackSize='a,f'
 						PalColor='text1'
-						ScrollExtent='211,19'
-						Size='211,19'
+						ScrollExtent='312,19'
+						Size='312,19'
 						Style='/Styles.New.Checkbox2.Style'
 					>@ui_trade:acceptable</Checkbox>
 					<Page
 						BackgroundOpacity='0.70'
 						BackgroundTint='#00FFFF'
-						Location='10,494'
+						Location='10,672'
 						Name='money'
 						PackLocation='nfn,fff'
 						PackSize='a,f'
 						PalBgTint='line2'
 						RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-						ScrollExtent='205,31'
+						ScrollExtent='306,31'
 						Selectable='true'
-						Size='205,31'
+						Size='306,31'
 					>
 						<Textbox
 							BackgroundOpacity='0.60'
@@ -738,9 +731,9 @@ xxx attrib 8:    info here
 							PalBgTint='back3'
 							RStyleDefault='/Styles.New.whitebox_palW.rs_default'
 							RStyleDisabled='/Styles.New.whiteOutline.rs_default'
-							ScrollExtent='199,24'
+							ScrollExtent='300,24'
 							selected='true'
-							Size='199,24'
+							Size='300,24'
 							Style='/Styles.textbox.default.Style_16'
 						></Textbox>
 					</Page>
@@ -755,9 +748,9 @@ xxx attrib 8:    info here
 						PackSize='a,h'
 						PalBgTint='line2'
 						RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-						ScrollExtent='209,207'
+						ScrollExtent='310,296'
 						Selectable='true'
-						Size='209,207'
+						Size='310,296'
 					>
 						<Data
 							AutoEnableContent='true'
@@ -780,13 +773,13 @@ xxx attrib 8:    info here
 							PackSize='a,a'
 							PalBgTint='back1'
 							RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-							ScrollExtent='190,197'
-							Size='190,197'
+							ScrollExtent='291,286'
+							Size='291,286'
 							Spacing='1'
 							SpacingType='Constant'
 						>
 							<Text
-								Font='bold_12'
+								Font='bold_16'
 								LocalText='xxx data_obj_name'
 								Margin='2,2,2,2'
 								MinimumSize='0,19'
@@ -795,54 +788,46 @@ xxx attrib 8:    info here
 								PackSize='a,f'
 								PalText='header'
 								RStyleDefault='/Styles.New.pill_med.rs_default'
-								ScrollExtent='190,19'
-								Size='190,19'
+								ScrollExtent='291,21'
+								Size='291,21'
 								TextAlignment='Center'
 								TextColor='#97FFFF'
 							>xxx data_obj_name</Text>
 							<Text
-								Font='bold_12'
-								LocalText='xxx attrib 1:    info here
-xxx attrib 2:    info here
-xxx attrib 3:    info here
-xxx attrib 4:    info here
-xxx attrib 5:    info here
-xxx attrib 6:    info here
-xxx attrib 7:    info here
-xxx attrib 8:    info here
-'
-								Location='3,20'
+								Font='bold_16'
+								LocalText='xxx attrib 1:    info herexxx attrib 2:    info herexxx attrib 3:    info herexxx attrib 4:    info herexxx attrib 5:    info herexxx attrib 6:    info herexxx attrib 7:    info herexxx attrib 8:    info here'
+								Location='3,22'
 								Name='textAttribs'
 								PackSize='a,f'
 								PalText='text1'
 								RStyleDefault='rs_default'
-								ScrollExtent='187,117'
-								Size='187,117'
+								ScrollExtent='288,85'
+								Size='288,85'
 								TextColor='#96F4FC'
 							>xxx attrib 1:    info herexxx attrib 2:    info herexxx attrib 3:    info herexxx attrib 4:    info herexxx attrib 5:    info herexxx attrib 6:    info herexxx attrib 7:    info herexxx attrib 8:    info here</Text>
 							<Text
-								Font='bold_12'
+								Font='bold_16'
 								LocalText='xxx Description goes into this field with all the other text ok you can stop now.'
-								Location='3,138'
+								Location='3,108'
 								Name='textDesc'
 								PackSize='a,f'
 								PalText='text1'
 								RStyleDefault='rs_default'
-								ScrollExtent='187,39'
-								Size='187,39'
+								ScrollExtent='288,51'
+								Size='288,51'
 								TextColor='#96F4FC'
 							>xxx Description goes into this field with all the other text ok you can stop now.</Text>
 						</Composite>
 						<Scrollbar
 							Control='content'
 							Enabled='false'
-							Location='194,10'
+							Location='295,10'
 							Name='Scroll'
 							Opacity='0.90'
 							PackLocation='fff,nfn'
 							PackSize='f,a'
-							ScrollExtent='11,191'
-							Size='11,191'
+							ScrollExtent='11,280'
+							Size='11,280'
 							Style='/Styles.scrollbar.default.vHud4.style'
 						>
 						</Scrollbar>
@@ -850,14 +835,14 @@ xxx attrib 8:    info here
 					<Page
 						BackgroundTint='#1CFFFF'
 						details.visible='false'
-						Location='9,263'
+						Location='9,352'
 						Name='container'
 						PackLocation='nfn,fff'
 						PackSize='a,h'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-						ScrollExtent='209,211'
-						Size='209,211'
+						ScrollExtent='310,300'
+						Size='310,300'
 					>
 						<Data
 							DisableRadial='true'
@@ -872,24 +857,24 @@ xxx attrib 8:    info here
 							OnShow='parent.details.visible=false'
 							PackSize='a,a'
 							RStyleDefault='rs_default'
-							ScrollExtent='206,207'
-							Size='206,207'
+							ScrollExtent='307,296'
+							Size='307,296'
 						>
 							<VolumePage
 								BackgroundColor='#FFFFFF'
-								CellCount='2,1'
+								CellCount='3,1'
 								CellDragAccepts='GameObject,CraftIngredient'
-								CellSize='64,64'
+								CellSize='90,90'
 								DragAccepts='GameObject'
 								Location='4,5'
-								MinimumScrollExtent='70,68'
+								MinimumScrollExtent='188,94'
 								Name='volume'
 								OnHide='parent.details.visible=trueparent.scrollIcon.visible=visible'
 								OnShow='parent.details.visible=falseparent.scrollIcon.visible=visible'
 								PackSize='a,a'
 								RStyleDefault='rs_default'
-								ScrollExtent='184,197'
-								Size='184,197'
+								ScrollExtent='285,286'
+								Size='285,286'
 							>
 								<Button
 									DragAccepts='CraftIngredient,GameObject,GameObject,CraftIngredient'
@@ -898,11 +883,11 @@ xxx attrib 8:    info here
 									IsDefaultButton='true'
 									LocalText='X'
 									Location='2,2'
-									MaximumSize='64,64'
-									MinimumSize='64,64'
+									MaximumSize='90,90'
+									MinimumSize='90,90'
 									Name='buttonExit'
-									ScrollExtent='64,64'
-									Size='64,64'
+									ScrollExtent='90,90'
+									Size='90,90'
 									Style='/Styles.Frame.buttonClose.style'
 								>X</Button>
 								<Button
@@ -911,12 +896,12 @@ xxx attrib 8:    info here
 									IsCancelButton='true'
 									IsDefaultButton='true'
 									LocalText='X'
-									Location='68,2'
-									MaximumSize='64,64'
-									MinimumSize='64,64'
+									Location='94,2'
+									MaximumSize='90,90'
+									MinimumSize='90,90'
 									Name='buttonExit'
-									ScrollExtent='64,64'
-									Size='64,64'
+									ScrollExtent='90,90'
+									Size='90,90'
 									Style='/Styles.Frame.buttonClose.style'
 								>X</Button>
 							</VolumePage>
@@ -924,12 +909,12 @@ xxx attrib 8:    info here
 								CellSize='128,128'
 								Control='volume'
 								Enabled='false'
-								Location='191,5'
+								Location='292,5'
 								Name='scroll'
 								PackLocation='fff,nfn'
 								PackSize='f,a'
-								ScrollExtent='11,197'
-								Size='11,197'
+								ScrollExtent='11,286'
+								Size='11,286'
 								Style='/Styles.scrollbar.default.vHud4.style'
 							>
 							</Scrollbar>
@@ -940,9 +925,9 @@ xxx attrib 8:    info here
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
 							RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-							ScrollExtent='208,211'
+							ScrollExtent='309,300'
 							Selectable='true'
-							Size='208,211'
+							Size='309,300'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -953,8 +938,8 @@ xxx attrib 8:    info here
 								PackSize='a,a'
 								PalBgTint='line2'
 								RStyleDefault='/Styles.New.whiteOutline.rs_default'
-								ScrollExtent='208,211'
-								Size='208,211'
+								ScrollExtent='309,300'
+								Size='309,300'
 							/>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -966,8 +951,8 @@ xxx attrib 8:    info here
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-								ScrollExtent='183,193'
-								Size='183,193'
+								ScrollExtent='284,282'
+								Size='284,282'
 							/>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -978,8 +963,8 @@ xxx attrib 8:    info here
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-								ScrollExtent='208,211'
-								Size='208,211'
+								ScrollExtent='309,300'
+								Size='309,300'
 							/>
 						</Page>
 					</Page>
@@ -989,8 +974,8 @@ xxx attrib 8:    info here
 						Name='bg'
 						PackLocation='nfn,nfn'
 						PackSize='a,a'
-						ScrollExtent='226,512'
-						Size='226,512'
+						ScrollExtent='327,690'
+						Size='327,690'
 					>
 						<Page
 							BackgroundOpacity='0.90'
@@ -1003,9 +988,9 @@ xxx attrib 8:    info here
 							PackSize='a,a'
 							PalBgTint='line1'
 							RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-							ScrollExtent='226,511'
+							ScrollExtent='327,689'
 							Selectable='true'
-							Size='226,511'
+							Size='327,689'
 						/>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -1018,9 +1003,9 @@ xxx attrib 8:    info here
 							PackSize='a,a'
 							PalBgTint='back2'
 							RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-							ScrollExtent='221,508'
+							ScrollExtent='322,686'
 							Selectable='true'
-							Size='221,508'
+							Size='322,686'
 						/>
 					</Page>
 				</Page>
@@ -1029,11 +1014,11 @@ xxx attrib 8:    info here
 				Name='bg'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='470,592'
-				Size='470,592'
+				ScrollExtent='671,779'
+				Size='671,779'
 			>
 				<Page
-					Location='459,8'
+					Location='660,8'
 					Name='mmc'
 					PackLocation='fff,nfn'
 					PackSize='f,f'
@@ -1059,8 +1044,8 @@ xxx attrib 8:    info here
 					Name='caption'
 					PackLocation='nfn,nfn'
 					PackSize='a,f'
-					ScrollExtent='336,19'
-					Size='336,19'
+					ScrollExtent='537,19'
+					Size='537,19'
 				>
 					<Text
 						Enabled='false'
@@ -1072,8 +1057,8 @@ xxx attrib 8:    info here
 						Name='text'
 						PackSize='a,f'
 						PalText='titletext'
-						ScrollExtent='336,19'
-						Size='336,19'
+						ScrollExtent='537,19'
+						Size='537,19'
 						TextAlignmentVertical='Center'
 						TextCapital='true'
 						TextColor='#00354F'
@@ -1088,9 +1073,9 @@ xxx attrib 8:    info here
 					PackSize='a,a'
 					PalBgTint='baselight'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='469,592'
+					ScrollExtent='670,779'
 					Selectable='true'
-					Size='469,592'
+					Size='670,779'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -1099,19 +1084,19 @@ xxx attrib 8:    info here
 						Name='lines'
 						PackSize='a,a'
 						RStyleDefault='/Styles.space.boxes.generic4.rs_default'
-						ScrollExtent='469,592'
-						Size='469,592'
+						ScrollExtent='670,779'
+						Size='670,779'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='0,570'
+							Location='0,757'
 							Name='outlineBL'
 							OpacityRelativeMin='0.80'
 							PackLocation='nfn,fff'
 							PackSize='p,f'
-							ScrollExtent='369,22'
-							Size='369,22'
+							ScrollExtent='527,22'
+							Size='527,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1124,21 +1109,21 @@ xxx attrib 8:    info here
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlinebottomLeft2.rs_default'
-								ScrollExtent='369,9'
-								Size='369,9'
+								ScrollExtent='527,9'
+								Size='527,9'
 							/>
 						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='129,570'
+							Location='185,757'
 							Name='outlineBR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,fff'
 							PackSize='p,f'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-							ScrollExtent='340,22'
-							Size='340,22'
+							ScrollExtent='485,22'
+							Size='485,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1151,20 +1136,20 @@ xxx attrib 8:    info here
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlinebottomRight2.rs_default'
-								ScrollExtent='340,9'
-								Size='340,9'
+								ScrollExtent='485,9'
+								Size='485,9'
 							/>
 						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='129,0'
+							Location='185,0'
 							Name='outlineTR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,nfn'
 							PackSize='p,f'
-							ScrollExtent='340,22'
-							Size='340,22'
+							ScrollExtent='485,22'
+							Size='485,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1176,8 +1161,8 @@ xxx attrib 8:    info here
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlineTopRight2.rs_default'
-								ScrollExtent='340,9'
-								Size='340,9'
+								ScrollExtent='485,9'
+								Size='485,9'
 							/>
 						</Page>
 						<Page
@@ -1188,8 +1173,8 @@ xxx attrib 8:    info here
 							PackLocation='nfn,nfn'
 							PackSize='p,f'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-							ScrollExtent='369,22'
-							Size='369,22'
+							ScrollExtent='527,22'
+							Size='527,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1201,8 +1186,8 @@ xxx attrib 8:    info here
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlineTopLeft2.rs_default'
-								ScrollExtent='369,9'
-								Size='369,9'
+								ScrollExtent='527,9'
+								Size='527,9'
 							/>
 						</Page>
 					</Page>
@@ -1213,18 +1198,18 @@ xxx attrib 8:    info here
 						PackLocation='nfn,nfn'
 						PackSize='a,f'
 						RStyleDefault='/Styles.New.main_TR.rs_default'
-						ScrollExtent='470,29'
-						Size='470,29'
+						ScrollExtent='671,29'
+						Size='671,29'
 					/>
 					<Page
 						BackgroundOpacity='1.00'
-						Location='0,569'
+						Location='0,756'
 						Name='bottom'
 						PackLocation='nfn,fff'
 						PackSize='a,f'
 						RStyleDefault='/Styles.New.main_BR.rs_default'
-						ScrollExtent='469,23'
-						Size='469,23'
+						ScrollExtent='670,23'
+						Size='670,23'
 					/>
 				</Page>
 				<Page
@@ -1237,9 +1222,9 @@ xxx attrib 8:    info here
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='470,584'
+					ScrollExtent='671,771'
 					Selectable='true'
-					Size='470,584'
+					Size='671,771'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
@@ -1250,9 +1235,9 @@ xxx attrib 8:    info here
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.space.spaceglow.rs_default'
-					ScrollExtent='470,592'
+					ScrollExtent='671,779'
 					Selectable='true'
-					Size='470,592'
+					Size='671,779'
 				/>
 			</Page>
 		</Page>

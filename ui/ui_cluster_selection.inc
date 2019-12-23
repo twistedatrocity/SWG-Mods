@@ -1,20 +1,20 @@
 	<Page
 		Name='ClusterSel'
 		PackSize='1,1'
-		ScrollExtent='1440,900'
-		Size='1440,900'
+		ScrollExtent='1440,980'
+		Size='1440,980'
 		Visible='false'
 		VisualEditLock='true'
 	>
 		<Page
-			Location='333,221'
+			Location='333,240'
 			MinimumSize='410,183'
 			Name='main2'
 			PackLocation='cpc,npn'
 			PackSize='p,p'
 			RStyleDefault='rs_default'
-			ScrollExtent='757,375'
-			Size='757,375'
+			ScrollExtent='757,408'
+			Size='757,408'
 		>
 			<Page
 				BackgroundTint='#1CFFFF'
@@ -22,8 +22,8 @@
 				Name='pageTable'
 				PackSize='a,a'
 				PalBgTint='line1'
-				ScrollExtent='711,302'
-				Size='711,302'
+				ScrollExtent='711,335'
+				Size='711,335'
 			>
 				<Composite
 					Location='44,56'
@@ -77,8 +77,8 @@
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
 					PalText='text1'
-					ScrollExtent='689,179'
-					Size='689,179'
+					ScrollExtent='689,212'
+					Size='689,212'
 					TextAlignment='Center'
 					TextColor='#96F4FC'
 				>@cluster_definition</Text>
@@ -90,8 +90,8 @@
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
 					PalText='text1'
-					ScrollExtent='695,95'
-					Size='695,95'
+					ScrollExtent='695,128'
+					Size='695,128'
 					TextAlignment='Center'
 					TextColor='#96F4FC'
 				>@recommended_cluster</Text>
@@ -101,8 +101,8 @@
 				Name='back'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='757,376'
-				Size='757,376'
+				ScrollExtent='757,409'
+				Size='757,409'
 			>
 				<Page
 					BackgroundColor='#FFFFFF'
@@ -115,8 +115,8 @@
 					PackSize='a,a'
 					PalBgTint='line1'
 					RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-					ScrollExtent='722,319'
-					Size='722,319'
+					ScrollExtent='722,352'
+					Size='722,352'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -129,8 +129,8 @@
 						PackSize='a,a'
 						PalBgTint='back3'
 						RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-						ScrollExtent='715,315'
-						Size='715,315'
+						ScrollExtent='715,348'
+						Size='715,348'
 					/>
 				</Page>
 				<Page
@@ -144,8 +144,8 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.window.mfd.mfd5.rs_default'
-					ScrollExtent='722,321'
-					Size='722,321'
+					ScrollExtent='722,354'
+					Size='722,354'
 					Visible='false'
 				/>
 				<Text
@@ -171,8 +171,8 @@
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
 					RStyleDefault='/Styles.New.fullFrame.rs_default'
-					ScrollExtent='757,376'
-					Size='757,376'
+					ScrollExtent='757,409'
+					Size='757,409'
 				/>
 				<Page
 					BackgroundColor='#FFFFFF'
@@ -181,9 +181,9 @@
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
 					RStyleDefault='/Styles.New.fatFrameInside.rs_default'
-					ScrollExtent='734,350'
+					ScrollExtent='734,383'
 					Selectable='true'
-					Size='734,350'
+					Size='734,383'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
@@ -194,8 +194,8 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.fullFrameIn.rs_default'
-					ScrollExtent='734,353'
-					Size='734,353'
+					ScrollExtent='734,386'
+					Size='734,386'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
@@ -205,8 +205,8 @@
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
 					RStyleDefault='/Styles.New.fullFrame.rs_default'
-					ScrollExtent='737,362'
-					Size='737,362'
+					ScrollExtent='737,395'
+					Size='737,395'
 				/>
 			</Page>
 		</Page>
@@ -227,7 +227,7 @@
 			AbsorbsInput='false'
 			Activated='true'
 			BackgroundColor='#259C3A'
-			Location='0,830'
+			Location='0,910'
 			MaximumSize='16384,70'
 			MinimumSize='0,70'
 			Name='pageButtonsBottom'
@@ -291,7 +291,7 @@
 						Color='#00FFFF'
 						Location='6,2'
 						Name='p'
-						Opacity='0.00'
+						Opacity='0.98'
 						PalBgColor='highlight'
 						PalColor='highlight'
 						RStyleDefault='/Styles.mfd.statusbars.arrows_right.rs_default'
@@ -304,7 +304,6 @@
 						Color='#00FFFF'
 						Location='23,2'
 						Name='p'
-						Opacity='0.20'
 						PalBgColor='highlight'
 						PalColor='highlight'
 						RStyleDefault='/Styles.mfd.statusbars.arrows_right.rs_default'
@@ -317,7 +316,7 @@
 						Color='#00FFFF'
 						Location='40,2'
 						Name='p'
-						Opacity='0.50'
+						Opacity='0.13'
 						PalBgColor='highlight'
 						PalColor='highlight'
 						RStyleDefault='/Styles.mfd.statusbars.arrows_right.rs_default'
@@ -330,7 +329,7 @@
 						Color='#00FFFF'
 						Location='57,2'
 						Name='p'
-						Opacity='0.82'
+						Opacity='0.12'
 						PalBgColor='highlight'
 						PalColor='highlight'
 						RStyleDefault='/Styles.mfd.statusbars.arrows_right.rs_default'
@@ -343,6 +342,7 @@
 						Color='#00FFFF'
 						Location='74,2'
 						Name='p'
+						Opacity='0.42'
 						PalBgColor='highlight'
 						PalColor='highlight'
 						RStyleDefault='/Styles.mfd.statusbars.arrows_right.rs_default'
@@ -355,6 +355,7 @@
 						Color='#00FFFF'
 						Location='91,2'
 						Name='p'
+						Opacity='0.70'
 						PalColor='highlight'
 						RStyleDefault='/Styles.mfd.statusbars.arrows_right.rs_default'
 						ScrollExtent='14,12'
@@ -363,12 +364,12 @@
 				</Runner>
 				<Button
 					IsCancelButton='true'
-					Location='21,13'
+					Location='20,13'
 					Name='buttonPrev'
 					PackLocation='nfn,nfn'
 					PackSize='a,f'
-					ScrollExtent='188,28'
-					Size='188,28'
+					ScrollExtent='188,27'
+					Size='188,27'
 					Style='/Styles.buttons.button_prev.style'
 				></Button>
 			</Page>
@@ -426,7 +427,7 @@
 						Color='#00FFFF'
 						Location='6,2'
 						Name='p'
-						Opacity='0.00'
+						Opacity='0.98'
 						PalBgColor='highlight'
 						PalColor='highlight'
 						RStyleDefault='/Styles.mfd.statusbars.arrows_right.rs_default'
@@ -439,7 +440,6 @@
 						Color='#00FFFF'
 						Location='23,2'
 						Name='p'
-						Opacity='0.20'
 						PalBgColor='highlight'
 						PalColor='highlight'
 						RStyleDefault='/Styles.mfd.statusbars.arrows_right.rs_default'
@@ -452,7 +452,7 @@
 						Color='#00FFFF'
 						Location='40,2'
 						Name='p'
-						Opacity='0.50'
+						Opacity='0.13'
 						PalBgColor='highlight'
 						PalColor='highlight'
 						RStyleDefault='/Styles.mfd.statusbars.arrows_right.rs_default'
@@ -465,7 +465,7 @@
 						Color='#00FFFF'
 						Location='57,2'
 						Name='p'
-						Opacity='0.82'
+						Opacity='0.12'
 						PalBgColor='highlight'
 						PalColor='highlight'
 						RStyleDefault='/Styles.mfd.statusbars.arrows_right.rs_default'
@@ -478,6 +478,7 @@
 						Color='#00FFFF'
 						Location='74,2'
 						Name='p'
+						Opacity='0.42'
 						PalBgColor='highlight'
 						PalColor='highlight'
 						RStyleDefault='/Styles.mfd.statusbars.arrows_right.rs_default'
@@ -490,6 +491,7 @@
 						Color='#00FFFF'
 						Location='91,2'
 						Name='p'
+						Opacity='0.70'
 						PalColor='highlight'
 						RStyleDefault='/Styles.mfd.statusbars.arrows_right.rs_default'
 						ScrollExtent='14,12'
@@ -498,12 +500,12 @@
 				</Runner>
 				<Button
 					IsDefaultButton='true'
-					Location='13,15'
+					Location='13,13'
 					Name='buttonNext'
 					PackLocation='nfn,fff'
 					PackSize='f,a'
-					ScrollExtent='188,28'
-					Size='188,28'
+					ScrollExtent='188,27'
+					Size='188,27'
 					Style='/Styles.buttons.button_next.style'
 				></Button>
 			</Page>
@@ -559,14 +561,14 @@
 			</Page>
 		</Page>
 		<Page
-			Location='216,79'
+			Location='216,86'
 			MinimumSize='410,183'
 			Name='main'
 			PackLocation='cpc,npn'
 			PackSize='p,p'
 			RStyleDefault='rs_default'
-			ScrollExtent='1009,657'
-			Size='1009,657'
+			ScrollExtent='1009,715'
+			Size='1009,715'
 		>
 			<Page
 				BackgroundTint='#1CFFFF'
@@ -574,8 +576,8 @@
 				Name='pageTable'
 				PackSize='a,a'
 				PalBgTint='line1'
-				ScrollExtent='968,594'
-				Size='968,594'
+				ScrollExtent='968,652'
+				Size='968,652'
 			>
 				<DataSource
 					Name='colSizes'
@@ -609,8 +611,8 @@
 					Name='scroll'
 					PackLocation='fff,fff'
 					PackSize='f,a'
-					ScrollExtent='11,566'
-					Size='11,566'
+					ScrollExtent='11,624'
+					Size='11,624'
 					Style='/Styles.scrollbar.default.vHud4.style'
 				>
 				</Scrollbar>
@@ -751,12 +753,12 @@
 					PalSelectionRect='listline'
 					PalText='text1'
 					RStyleDefault='/Styles.New.pill_lrg.rs_default'
-					ScrollExtent='946,553'
+					ScrollExtent='946,611'
 					SelectionAllowedMultiRow='false'
 					SelectionColorBackground='#35CBD7'
 					SelectionColorRect='#37FD06'
 					SelectionTextColor='#003842'
-					Size='946,553'
+					Size='946,611'
 					TableModel='model'
 				/>
 				<TableHeader
@@ -780,8 +782,8 @@
 				Name='back'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='1009,658'
-				Size='1009,658'
+				ScrollExtent='1009,716'
+				Size='1009,716'
 			>
 				<Page
 					BackgroundColor='#FFFFFF'
@@ -794,8 +796,8 @@
 					PackSize='a,a'
 					PalBgTint='line1'
 					RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-					ScrollExtent='974,601'
-					Size='974,601'
+					ScrollExtent='974,659'
+					Size='974,659'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -808,8 +810,8 @@
 						PackSize='a,a'
 						PalBgTint='back3'
 						RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-						ScrollExtent='967,597'
-						Size='967,597'
+						ScrollExtent='967,655'
+						Size='967,655'
 					/>
 				</Page>
 				<Page
@@ -823,8 +825,8 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.window.mfd.mfd5.rs_default'
-					ScrollExtent='974,603'
-					Size='974,603'
+					ScrollExtent='974,661'
+					Size='974,661'
 					Visible='false'
 				/>
 				<Text
@@ -850,8 +852,8 @@
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
 					RStyleDefault='/Styles.New.fullFrame.rs_default'
-					ScrollExtent='1009,658'
-					Size='1009,658'
+					ScrollExtent='1009,716'
+					Size='1009,716'
 				/>
 				<Page
 					BackgroundColor='#FFFFFF'
@@ -860,9 +862,9 @@
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
 					RStyleDefault='/Styles.New.fatFrameInside.rs_default'
-					ScrollExtent='986,632'
+					ScrollExtent='986,690'
 					Selectable='true'
-					Size='986,632'
+					Size='986,690'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
@@ -873,8 +875,8 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.fullFrameIn.rs_default'
-					ScrollExtent='986,635'
-					Size='986,635'
+					ScrollExtent='986,693'
+					Size='986,693'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
@@ -884,8 +886,8 @@
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
 					RStyleDefault='/Styles.New.fullFrame.rs_default'
-					ScrollExtent='989,644'
-					Size='989,644'
+					ScrollExtent='989,702'
+					Size='989,702'
 				/>
 			</Page>
 		</Page>

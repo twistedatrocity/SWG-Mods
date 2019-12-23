@@ -4,8 +4,8 @@
 			Name='DroidCommand'
 			PackSize='a,a'
 			RStyleDefault='/Styles.droid.boxLine.rs_default'
-			ScrollExtent='411,265'
-			Size='411,265'
+			ScrollExtent='1243,689'
+			Size='1243,689'
 			UserMovable='true'
 			UserResizable='true'
 			Visible='false'
@@ -26,7 +26,7 @@
 				volumeHolster='comp.droids.inner.value'
 			/>
 			<Page
-				Location='325,19'
+				Location='1157,19'
 				MaximumSize='16328,16328'
 				MinimumSize='41,0'
 				Name='circle'
@@ -282,7 +282,7 @@
 			<Page
 				BackgroundOpacity='1.00'
 				BackgroundTint='#00D6FB'
-				Location='186,86'
+				Location='602,222'
 				MaximumSize='36,100'
 				MinimumSize='36,55'
 				Name='buttons'
@@ -325,7 +325,7 @@
 			</Page>
 			<Runner
 				Color='#1CFFFF'
-				Location='201,86'
+				Location='617,98'
 				MaximumSize='400,400'
 				Name='lights'
 				PackLocation='cfc,cfc'
@@ -338,8 +338,8 @@
 				RunPaused='false'
 				RunReversing='true'
 				RunSimultaneous='2'
-				ScrollExtent='8,0'
-				Size='8,0'
+				ScrollExtent='8,400'
+				Size='8,400'
 			>
 				<Page
 					BackgroundColor='#FFFFFF'
@@ -541,16 +541,16 @@
 				PackSize='a,a'
 				PalBgTint='back1'
 				RStyleDefault='/Styles.space.boxes.compBack.rs_default'
-				ScrollExtent='374,194'
-				Size='374,194'
+				ScrollExtent='1206,607'
+				Size='1206,607'
 				SpacingType='Fill'
 			>
 				<Composite
 					Name='commands'
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
-					ScrollExtent='187,194'
-					Size='187,194'
+					ScrollExtent='603,607'
+					Size='603,607'
 					SpacingType='Fill'
 				>
 					<Page
@@ -563,8 +563,8 @@
 						PackSize='a,f'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.droid.caption.rs_default'
-						ScrollExtent='166,20'
-						Size='166,20'
+						ScrollExtent='582,20'
+						Size='582,20'
 					>
 						<Composite
 							MaximumSize='16384,20'
@@ -573,14 +573,14 @@
 							Orientation='Horizontal'
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
-							ScrollExtent='166,20'
-							Size='166,20'
+							ScrollExtent='582,20'
+							Size='582,20'
 							Spacing='2'
 							SpacingType='Fill'
 						>
 							<Text
 								Enabled='false'
-								Font='bold_12'
+								Font='bold_16'
 								LocalText='[@ui_droid:available_commands]'
 								Margin='2,2,2,2'
 								MaximumSize='16384,20'
@@ -591,14 +591,14 @@
 								PackSize='f,a'
 								PalText='header'
 								RStyleDefault='rs_default'
-								ScrollExtent='124,30'
-								Size='124,20'
+								ScrollExtent='460,21'
+								Size='460,20'
 								TextColor='#97FFFF'
 							>@ui_droid:available_commands</Text>
 							<Page
 								BackgroundOpacity='1.00'
 								BackgroundTint='#1CFFFF'
-								Location='126,0'
+								Location='462,0'
 								MaximumSize='120,20'
 								MinimumSize='0,19'
 								Name='line'
@@ -606,8 +606,8 @@
 								PackSize='f,f'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.droid.caption.rs_default'
-								ScrollExtent='40,20'
-								Size='40,20'
+								ScrollExtent='120,20'
+								Size='120,20'
 							/>
 						</Composite>
 					</Page>
@@ -621,8 +621,8 @@
 						PackSize='a,a'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.droid.small_frame1.rs_default'
-						ScrollExtent='187,115'
-						Size='187,115'
+						ScrollExtent='603,501'
+						Size='603,501'
 					>
 						<Page
 							BackgroundOpacity='1.00'
@@ -632,17 +632,17 @@
 							PackSize='a,a'
 							PalBgTint='line1'
 							RStyleDefault='/Styles.droid.boxLine.rs_default'
-							ScrollExtent='151,81'
-							Size='151,81'
+							ScrollExtent='567,467'
+							Size='567,467'
 						>
 							<Scrollbar
 								Control='list'
-								Location='141,7'
+								Location='557,7'
 								Name='scrollList'
 								PackLocation='fff'
 								PackSize='f,a'
-								ScrollExtent='10,64'
-								Size='10,64'
+								ScrollExtent='10,450'
+								Size='10,450'
 								Style='/Styles.space.scrollbar.vHud4.style'
 							>
 							</Scrollbar>
@@ -736,16 +736,16 @@
 								BackgroundOpacity='0.00'
 								DataSource='ListData'
 								Location='8,7'
-								MinimumScrollExtent='127,343'
+								MinimumScrollExtent='543,343'
 								Name='list'
 								OpacityRelativeMin='0.80'
 								PackLocation='nfn,nfn'
 								PackSize='a,a'
-								ScrollExtent='127,343'
+								ScrollExtent='543,450'
 								SelectedRow='2'
 								SelectedRowCount='1'
 								SelectionAllowedMultiRow='false'
-								Size='127,64'
+								Size='543,450'
 								Style='/Styles.space.list.combo.style_nolines'
 							/>
 						</Page>
@@ -756,8 +756,8 @@
 							PackSize='a,p'
 							PalBgTint='line1'
 							RStyleDefault='/Styles.droid.small_frame1.rs_default'
-							ScrollExtent='187,115'
-							Size='187,115'
+							ScrollExtent='603,501'
+							Size='603,501'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -768,8 +768,8 @@
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.droid.small_fill.rs_default'
-								ScrollExtent='171,99'
-								Size='171,99'
+								ScrollExtent='587,485'
+								Size='587,485'
 							>
 								<Page
 									BackgroundOpacity='0.50'
@@ -781,9 +781,9 @@
 									PackSize='a,a'
 									PalBgTint='back1'
 									RStyleDefault='/Styles.droid.droidGlow.rs_default'
-									ScrollExtent='171,99'
+									ScrollExtent='587,485'
 									Selectable='true'
-									Size='171,99'
+									Size='587,485'
 								/>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -794,8 +794,8 @@
 									PackSize='a,a'
 									PalBgTint='back1'
 									RStyleDefault='/Styles.droid.small_fill.rs_default'
-									ScrollExtent='171,99'
-									Size='171,99'
+									ScrollExtent='587,485'
+									Size='587,485'
 								/>
 							</Page>
 						</Page>
@@ -803,20 +803,20 @@
 					<Page
 						BackgroundColor='#FFFFFF'
 						BackgroundTint='#1CFFFF'
-						Location='0,135'
+						Location='0,521'
 						MaximumSize='16384,86'
 						Name='left'
 						PackLocation='nfn,fff'
 						PackSize='a,0.9'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.droid.small_frame2.rs_default'
-						ScrollExtent='187,59'
-						Size='187,59'
+						ScrollExtent='603,86'
+						Size='603,86'
 					>
 						<Text
 							BackgroundTint='#1CFFFF'
 							Enabled='false'
-							Font='bold_12'
+							Font='bold_16'
 							LocalText='Description of commands and chipsa
 a
 a
@@ -844,8 +844,8 @@ a'
 							PalBgTint='line1'
 							PalText='text1'
 							RStyleDefault='/Styles.droid.valueLine.rs_default'
-							ScrollExtent='145,276'
-							Size='145,33'
+							ScrollExtent='561,343'
+							Size='561,60'
 							TextColor='#96F4FC'
 						>Description of commands and chipsa
 a
@@ -869,12 +869,12 @@ a
 a</Text>
 						<Scrollbar
 							Control='text'
-							Location='165,9'
+							Location='581,9'
 							Name='scroll'
 							PackLocation='fff'
 							PackSize='f,a'
-							ScrollExtent='10,39'
-							Size='10,39'
+							ScrollExtent='10,66'
+							Size='10,66'
 							Style='/Styles.space.scrollbar.vHud4.style'
 						>
 						</Scrollbar>
@@ -888,8 +888,8 @@ a</Text>
 							PackSize='a,a'
 							PalBgTint='line1'
 							RStyleDefault='/Styles.droid.small_frame2.rs_default'
-							ScrollExtent='187,59'
-							Size='187,59'
+							ScrollExtent='603,86'
+							Size='603,86'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -902,19 +902,19 @@ a</Text>
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.droid.small_fill.rs_default'
-								ScrollExtent='169,44'
-								Size='169,44'
+								ScrollExtent='585,71'
+								Size='585,71'
 							/>
 						</Page>
 					</Page>
 				</Composite>
 				<Composite
-					Location='187,0'
+					Location='603,0'
 					Name='droids'
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
-					ScrollExtent='187,194'
-					Size='187,194'
+					ScrollExtent='603,607'
+					Size='603,607'
 					SpacingType='Fill'
 				>
 					<Page
@@ -927,8 +927,8 @@ a</Text>
 						PackSize='a,f'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.droid.caption.rs_default'
-						ScrollExtent='146,20'
-						Size='146,20'
+						ScrollExtent='562,20'
+						Size='562,20'
 					>
 						<Composite
 							MaximumSize='16384,20'
@@ -937,14 +937,14 @@ a</Text>
 							Orientation='Horizontal'
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
-							ScrollExtent='146,20'
-							Size='146,20'
+							ScrollExtent='562,20'
+							Size='562,20'
 							Spacing='2'
 							SpacingType='Fill'
 						>
 							<Text
 								Enabled='false'
-								Font='bold_12'
+								Font='bold_16'
 								LocalText='[@ui_droid:loaded_commands]'
 								Margin='2,2,2,2'
 								MaximumSize='16384,20'
@@ -955,14 +955,14 @@ a</Text>
 								PackSize='f,a'
 								PalText='header'
 								RStyleDefault='rs_default'
-								ScrollExtent='124,30'
-								Size='124,20'
+								ScrollExtent='440,21'
+								Size='440,20'
 								TextColor='#97FFFF'
 							>@ui_droid:loaded_commands</Text>
 							<Page
 								BackgroundOpacity='1.00'
 								BackgroundTint='#1CFFFF'
-								Location='126,0'
+								Location='442,0'
 								MaximumSize='120,20'
 								MinimumSize='0,19'
 								Name='line'
@@ -970,8 +970,8 @@ a</Text>
 								PackSize='f,f'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.droid.caption.rs_default'
-								ScrollExtent='20,20'
-								Size='20,20'
+								ScrollExtent='120,20'
+								Size='120,20'
 							/>
 						</Composite>
 					</Page>
@@ -985,22 +985,22 @@ a</Text>
 						PackSize='a,a'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.droid.small_frame3.rs_default'
-						ScrollExtent='187,115'
-						Size='187,115'
+						ScrollExtent='603,501'
+						Size='603,501'
 					>
 						<Composite
 							BackgroundColor='#FFFFFF'
 							BackgroundOpacity='1.00'
 							BackgroundTint='#1CFFFF'
-							Location='145,38'
+							Location='561,38'
 							Name='value'
 							PackLocation='fff,fff'
 							PackSize='f,a'
 							Padding='External'
 							PalBgTint='line1'
 							RStyleDefault='/Styles.droid.valueLine.rs_default'
-							ScrollExtent='17,52'
-							Size='17,52'
+							ScrollExtent='17,438'
+							Size='17,438'
 							SpacingType='Fill'
 						>
 							<Page
@@ -1014,28 +1014,28 @@ a</Text>
 								PackSize='f,f'
 								PalColor='contrast2'
 								RStyleDefault='/Styles.droid.valueBar.rs_default'
-								ScrollExtent='9,26'
-								Size='9,26'
+								ScrollExtent='9,219'
+								Size='9,219'
 							/>
 							<Page
 								BackgroundColor='#FFFFFF'
 								BackgroundOpacity='1.00'
 								Color='#62FF15'
-								Location='5,26'
+								Location='5,219'
 								Name='a'
 								OpacityRelativeMin='1.00'
 								PackLocation='cfc,fff'
 								PackSize='f,f'
 								PalColor='contrast1'
 								RStyleDefault='/Styles.droid.valueBar.rs_default'
-								ScrollExtent='9,26'
-								Size='9,26'
+								ScrollExtent='9,219'
+								Size='9,219'
 							/>
 						</Composite>
 						<Runner
 							BackgroundColor='#FFFFFF'
 							Color='#1CFFFF'
-							Location='49,94'
+							Location='377,480'
 							MaximumSize='215,9'
 							MinimumSize='11,0'
 							Name='lights'
@@ -1049,8 +1049,8 @@ a</Text>
 							RunPaused='false'
 							RunReversing='true'
 							RunSimultaneous='2'
-							ScrollExtent='127,9'
-							Size='127,9'
+							ScrollExtent='215,9'
+							Size='215,9'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1246,7 +1246,7 @@ a</Text>
 						<Runner
 							BackgroundColor='#FFFFFF'
 							Color='#1CFFFF'
-							Location='165,45'
+							Location='581,324'
 							MaximumSize='11,169'
 							MinimumSize='0,9'
 							Name='lights'
@@ -1260,8 +1260,8 @@ a</Text>
 							RunPaused='false'
 							RunReversing='true'
 							RunSimultaneous='2'
-							ScrollExtent='11,58'
-							Size='11,58'
+							ScrollExtent='11,165'
+							Size='11,165'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1458,7 +1458,7 @@ a</Text>
 							Enabled='false'
 							Font='bold_13'
 							LocalText='xxxx/10000'
-							Location='98,73'
+							Location='370,459'
 							Margin='6,3,0,0'
 							MaximumSize='16384,19'
 							MinimumSize='0,19'
@@ -1466,8 +1466,8 @@ a</Text>
 							PackLocation='fff,fff'
 							PackSize='p,f'
 							PalText='header'
-							ScrollExtent='65,31'
-							Size='65,19'
+							ScrollExtent='209,19'
+							Size='209,19'
 							TextAlignment='Right'
 							TextColor='#97FFFF'
 							Visible='false'
@@ -1476,8 +1476,8 @@ a</Text>
 							Location='15,15'
 							Name='list'
 							PackSize='a,a'
-							ScrollExtent='124,74'
-							Size='124,74'
+							ScrollExtent='540,460'
+							Size='540,460'
 						>
 							<Page
 								BackgroundOpacity='1.00'
@@ -1487,8 +1487,8 @@ a</Text>
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.droid.boxLine.rs_default'
-								ScrollExtent='120,74'
-								Size='120,74'
+								ScrollExtent='536,460'
+								Size='536,460'
 							>
 								<DataSource
 									Name='ListData'
@@ -1570,26 +1570,26 @@ a</Text>
 									BackgroundOpacity='0.00'
 									DataSource='ListData'
 									Location='6,10'
-									MinimumScrollExtent='100,301'
+									MinimumScrollExtent='516,343'
 									Name='list'
 									OpacityRelativeMin='0.80'
 									PackLocation='nfn,nfn'
 									PackSize='a,a'
-									ScrollExtent='100,301'
+									ScrollExtent='516,440'
 									SelectedRow='3'
 									SelectedRowCount='1'
 									SelectionAllowedMultiRow='false'
-									Size='100,54'
+									Size='516,440'
 									Style='/Styles.space.list.combo.style'
 								/>
 								<Scrollbar
 									Control='list'
-									Location='110,16'
+									Location='526,16'
 									Name='scrollList'
 									PackLocation='fff'
 									PackSize='f,a'
-									ScrollExtent='10,48'
-									Size='10,48'
+									ScrollExtent='10,434'
+									Size='10,434'
 									Style='/Styles.space.scrollbar.vHud4.style'
 								>
 								</Scrollbar>
@@ -1604,8 +1604,8 @@ a</Text>
 							PackSize='a,a'
 							PalBgTint='line1'
 							RStyleDefault='/Styles.droid.small_frame3.rs_default'
-							ScrollExtent='187,115'
-							Size='187,115'
+							ScrollExtent='603,501'
+							Size='603,501'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1616,8 +1616,8 @@ a</Text>
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.droid.small_fill.rs_default'
-								ScrollExtent='171,99'
-								Size='171,99'
+								ScrollExtent='587,485'
+								Size='587,485'
 							>
 								<Page
 									BackgroundOpacity='0.50'
@@ -1629,9 +1629,9 @@ a</Text>
 									PackSize='a,a'
 									PalBgTint='back1'
 									RStyleDefault='/Styles.droid.droidGlow.rs_default'
-									ScrollExtent='171,99'
+									ScrollExtent='587,485'
 									Selectable='true'
-									Size='171,99'
+									Size='587,485'
 								/>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -1642,8 +1642,8 @@ a</Text>
 									PackSize='a,a'
 									PalBgTint='back1'
 									RStyleDefault='/Styles.droid.small_fill.rs_default'
-									ScrollExtent='171,99'
-									Size='171,99'
+									ScrollExtent='587,485'
+									Size='587,485'
 								/>
 							</Page>
 						</Page>
@@ -1652,19 +1652,19 @@ a</Text>
 						BackgroundColor='#FFFFFF'
 						BackgroundOpacity='1.00'
 						BackgroundTint='#1CFFFF'
-						Location='0,135'
+						Location='0,521'
 						MaximumSize='16384,86'
 						Name='right'
 						PackLocation='nfn,fff'
 						PackSize='a,0.9'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.droid.small_frame4.rs_default'
-						ScrollExtent='187,59'
-						Size='187,59'
+						ScrollExtent='603,86'
+						Size='603,86'
 					>
 						<Text
 							Enabled='false'
-							Font='bold_12'
+							Font='bold_16'
 							LocalText='Description of commands and chips
 a
 a
@@ -1687,8 +1687,8 @@ a'
 							Name='text'
 							PackSize='a,a'
 							PalText='text1'
-							ScrollExtent='147,237'
-							Size='147,33'
+							ScrollExtent='563,292'
+							Size='563,60'
 							TextColor='#96F4FC'
 						>Description of commands and chips
 a
@@ -1709,12 +1709,12 @@ a
 a</Text>
 						<Scrollbar
 							Control='text'
-							Location='166,9'
+							Location='582,9'
 							Name='scroll'
 							PackLocation='fff'
 							PackSize='f,a'
-							ScrollExtent='10,39'
-							Size='10,39'
+							ScrollExtent='10,66'
+							Size='10,66'
 							Style='/Styles.space.scrollbar.vHud4.style'
 						>
 						</Scrollbar>
@@ -1728,8 +1728,8 @@ a</Text>
 							PackSize='a,a'
 							PalBgTint='line1'
 							RStyleDefault='/Styles.droid.small_frame4.rs_default'
-							ScrollExtent='187,59'
-							Size='187,59'
+							ScrollExtent='603,86'
+							Size='603,86'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1742,8 +1742,8 @@ a</Text>
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.droid.small_fill.rs_default'
-								ScrollExtent='169,44'
-								Size='169,44'
+								ScrollExtent='585,71'
+								Size='585,71'
 							/>
 						</Page>
 					</Page>
@@ -1755,12 +1755,12 @@ a</Text>
 				Name='caption'
 				PackLocation='nfn,nfn'
 				PackSize='p,f'
-				ScrollExtent='166,30'
-				Size='166,30'
+				ScrollExtent='502,30'
+				Size='502,30'
 			>
 				<Text
 					Enabled='false'
-					Font='bold_13'
+					Font='bold_18'
 					LocalText='[@UI_DROID:CAPTION]'
 					Margin='6,0,0,0'
 					MinimumSize='0,19'
@@ -1768,21 +1768,21 @@ a</Text>
 					OpacityRelativeMin='0.80'
 					PackSize='a,a'
 					PalText='header'
-					ScrollExtent='166,30'
-					Size='166,30'
+					ScrollExtent='502,30'
+					Size='502,30'
 					TextCapital='true'
 					TextColor='#97FFFF'
 				>@ui_droid:caption</Text>
 			</Page>
 			<Page
-				Location='393,26'
+				Location='1223,24'
 				Name='mmc'
 				OpacityRelativeMin='0.80'
 				PackLocation='fff,nfn'
 				PackSize='f,f'
 				RStyleDefault='/Styles.New.thin_mmc.rs_default'
-				ScrollExtent='13,13'
-				Size='13,13'
+				ScrollExtent='18,19'
+				Size='18,19'
 			>
 				<Button
 					BackgroundColor='#FFFFFF'
@@ -1791,21 +1791,21 @@ a</Text>
 					Name='close'
 					PackLocation='fff,cfc'
 					PackSize='f,f'
-					ScrollExtent='13,13'
-					Size='13,13'
+					ScrollExtent='18,18'
+					Size='18,18'
 					Style='/Styles.Frame.buttonClose.style'
 				></Button>
 			</Page>
 			<Button
 				BackgroundOpacity='0.60'
 				LocalText='[@commit]'
-				Location='69,234'
-				MinimumSize='0,19'
+				Location='69,649'
+				MinimumSize='0,27'
 				Name='btnOk'
 				PackLocation='nfn,fff'
 				PackSize='p,f'
-				ScrollExtent='96,21'
-				Size='96,21'
+				ScrollExtent='290,27'
+				Size='290,27'
 				Style='/Styles.New.buttons.hud.style'
 				TextColor='#000000'
 			>@commit</Button>
@@ -1813,22 +1813,22 @@ a</Text>
 				BackgroundOpacity='0.60'
 				IsCancelButton='true'
 				LocalText='[@cancel]'
-				Location='245,234'
-				MinimumSize='0,19'
+				Location='883,649'
+				MinimumSize='0,27'
 				Name='btnCancel'
 				OpacityRelativeMin='0.70'
 				PackLocation='fff,fff'
 				PackSize='p,f'
-				ScrollExtent='96,21'
-				Size='96,21'
+				ScrollExtent='290,27'
+				Size='290,27'
 				Style='/Styles.New.buttons.hud.style'
 			>@cancel</Button>
 			<Page
 				Name='bg'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='411,265'
-				Size='411,265'
+				ScrollExtent='1243,689'
+				Size='1243,689'
 			>
 				<Page
 					BackgroundOpacity='0.50'
@@ -1841,9 +1841,9 @@ a</Text>
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.space.spaceglow.rs_default'
-					ScrollExtent='412,261'
+					ScrollExtent='1244,685'
 					Selectable='true'
-					Size='412,261'
+					Size='1244,685'
 					Visible='false'
 				/>
 				<Composite
@@ -1854,8 +1854,8 @@ a</Text>
 					PackSize='a,a'
 					PalBgColor='line1'
 					RStyleDefault='/Styles.Gambling.saarlacCornerAdd.rs_default'
-					ScrollExtent='364,160'
-					Size='364,160'
+					ScrollExtent='1196,584'
+					Size='1196,584'
 					SpacingType='Fill'
 					Visible='false'
 				>
@@ -1865,8 +1865,8 @@ a</Text>
 						Orientation='Horizontal'
 						PackLocation='nfn,nfn'
 						PackSize='a,f'
-						ScrollExtent='364,80'
-						Size='364,80'
+						ScrollExtent='1196,292'
+						Size='1196,292'
 						SpacingType='Fill'
 					>
 						<Image
@@ -1876,33 +1876,33 @@ a</Text>
 							PackLocation='nfn,nfn'
 							PackSize='f,a'
 							PalColor='gamblingCircle'
-							ScrollExtent='182,80'
-							Size='182,80'
+							ScrollExtent='598,292'
+							Size='598,292'
 							SourceRect='293,280,338,99'
 							SourceResource='ui_gambling'
 						/>
 						<Image
 							Color='#00B7D7'
-							Location='182,0'
+							Location='598,0'
 							Name='ne'
 							PackLocation='fff,nfn'
 							PackSize='f,a'
 							PalColor='gamblingCircle'
-							ScrollExtent='182,80'
-							Size='182,80'
+							ScrollExtent='598,292'
+							Size='598,292'
 							SourceRect='338,280,293,99'
 							SourceResource='ui_gambling'
 						/>
 					</Composite>
 					<Composite
-						Location='0,80'
+						Location='0,292'
 						Name='bottom'
 						Opacity='0.70'
 						Orientation='Horizontal'
 						PackLocation='nfn,nfn'
 						PackSize='a,f'
-						ScrollExtent='364,80'
-						Size='364,80'
+						ScrollExtent='1196,292'
+						Size='1196,292'
 						SpacingType='Fill'
 					>
 						<Image
@@ -1911,20 +1911,20 @@ a</Text>
 							PackLocation='nfn,fff'
 							PackSize='f,a'
 							PalColor='gamblingCircle'
-							ScrollExtent='182,80'
-							Size='182,80'
+							ScrollExtent='598,292'
+							Size='598,292'
 							SourceRect='293,99,338,280'
 							SourceResource='ui_gambling'
 						/>
 						<Image
 							Color='#00B7D7'
-							Location='182,0'
+							Location='598,0'
 							Name='se'
 							PackLocation='fff,fff'
 							PackSize='f,a'
 							PalColor='gamblingCircle'
-							ScrollExtent='182,80'
-							Size='182,80'
+							ScrollExtent='598,292'
+							Size='598,292'
 							SourceRect='338,99,293,280'
 							SourceResource='ui_gambling'
 						/>
@@ -1939,8 +1939,8 @@ a</Text>
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.droid.frame.rs_default'
-					ScrollExtent='412,261'
-					Size='412,261'
+					ScrollExtent='1244,685'
+					Size='1244,685'
 				/>
 			</Page>
 		</Page>

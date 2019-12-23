@@ -400,7 +400,7 @@
 					BackgroundTint='#00D6FB'
 					DataSource='dataList'
 					Location='5,8'
-					MinimumScrollExtent='436,49'
+					MinimumScrollExtent='436,61'
 					Name='lstList'
 					PackSize='a,a'
 					PalBgTint='back1'

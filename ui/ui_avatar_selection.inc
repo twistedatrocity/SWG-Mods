@@ -1,8 +1,8 @@
 	<Page
 		Name='AvSel'
 		PackSize='1,1'
-		ScrollExtent='1440,900'
-		Size='1440,900'
+		ScrollExtent='1440,980'
+		Size='1440,980'
 		Visible='false'
 		VisualEditLock='true'
 	>
@@ -26,14 +26,14 @@
 			BackgroundOpacity='0.70'
 			Name='deleteConfirmationBackground'
 			PackSize='1,1'
-			ScrollExtent='1440,900'
-			Size='1440,900'
+			ScrollExtent='1440,980'
+			Size='1440,980'
 			Visible='false'
 		>
 			<Page
 				BackgroundColor='#00FF00'
 				flow.visible='false'
-				Location='401,283'
+				Location='401,323'
 				MinimumSize='643,377'
 				Name='deleteConfirmation'
 				OnHide='parent.visible=visible'
@@ -105,7 +105,7 @@
 							PackSize='p,f'
 							PalBgTint='back2'
 							RStyleDefault='/Styles.New.whitebox_square.rs_default'
-							ScrollExtent='553,22'
+							ScrollExtent='553,25'
 							Size='553,21'
 							Style='/Styles.textbox.login.Style_13'
 						>abcdefgABCDEFG</Textbox>
@@ -197,7 +197,7 @@
 			AbsorbsInput='false'
 			Activated='true'
 			BackgroundColor='#259C3A'
-			Location='0,830'
+			Location='0,910'
 			MaximumSize='16384,70'
 			MinimumSize='0,70'
 			Name='pageButtonsBottom'
@@ -351,13 +351,13 @@
 				</Runner>
 				<Button
 					IsCancelButton='true'
-					Location='20,14'
+					Location='20,13'
 					MinimumSize='0,26'
 					Name='buttonPrev'
 					PackLocation='nfn,nfn'
 					PackSize='a,f'
-					ScrollExtent='189,26'
-					Size='189,26'
+					ScrollExtent='188,27'
+					Size='188,27'
 					Style='/Styles.buttons.button_prev.style'
 				></Button>
 			</Page>
@@ -488,7 +488,7 @@
 				</Runner>
 				<Button
 					IsDefaultButton='true'
-					Location='12,12'
+					Location='12,13'
 					Name='buttonNext'
 					PackLocation='nfn,fff'
 					PackSize='f,a'
@@ -499,7 +499,7 @@
 			</Page>
 			<Page
 				BackgroundColor='#FFFFFF'
-				Location='280,20'
+				Location='280,-1'
 				Name='help'
 				PackLocation='cfc,fff'
 				PackSize='p,f'
@@ -550,8 +550,8 @@
 			Name='pageSelection'
 			PackLocation='fpf,npn'
 			PackSize='p,p'
-			ScrollExtent='748,446'
-			Size='748,446'
+			ScrollExtent='748,485'
+			Size='748,485'
 		>
 			<Checkbox
 				Color='#96F4FC'
@@ -588,8 +588,8 @@
 				OnShow='parent.bg.visible=false'
 				PackSize='a,a'
 				RStyleDefault='rs_default'
-				ScrollExtent='700,316'
-				Size='700,316'
+				ScrollExtent='700,355'
+				Size='700,355'
 			>
 				<DataSource
 					Name='colSize'
@@ -638,8 +638,8 @@
 					Name='scroll'
 					PackLocation='fff,fff'
 					PackSize='f,a'
-					ScrollExtent='11,295'
-					Size='11,295'
+					ScrollExtent='11,334'
+					Size='11,334'
 					Style='/Styles.scrollbar.default.vHud4.style'
 				>
 				</Scrollbar>
@@ -749,18 +749,18 @@
 					PalSelectionRect='listline'
 					PalText='text1'
 					RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-					ScrollExtent='685,284'
+					ScrollExtent='685,323'
 					SelectionAllowedMultiRow='false'
 					SelectionColorBackground='#35CBD7'
 					SelectionColorRect='#37FD06'
 					SelectionTextColor='#003842'
-					Size='685,284'
+					Size='685,323'
 					TableModel='model'
 				/>
 			</Page>
 			<Button
 				LocalText='[@avatar_delete]'
-				Location='424,394'
+				Location='424,433'
 				MinimumSize='0,19'
 				Name='buttonDelete'
 				PackLocation='fpc,fff'
@@ -771,7 +771,7 @@
 			>@avatar_delete</Button>
 			<Button
 				LocalText='[@avatar_create]'
-				Location='69,395'
+				Location='69,434'
 				MinimumSize='0,19'
 				Name='buttonCreate'
 				PackLocation='npc,fff'
@@ -785,8 +785,8 @@
 				Name='back'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='748,446'
-				Size='748,446'
+				ScrollExtent='748,485'
+				Size='748,485'
 			>
 				<Page
 					BackgroundColor='#FFFFFF'
@@ -799,8 +799,8 @@
 					PackSize='a,a'
 					PalBgTint='line1'
 					RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-					ScrollExtent='713,392'
-					Size='713,392'
+					ScrollExtent='713,431'
+					Size='713,431'
 				/>
 				<Text
 					Font='bold_16'
@@ -825,8 +825,8 @@
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
 					RStyleDefault='/Styles.New.fullFrame.rs_default'
-					ScrollExtent='748,446'
-					Size='748,446'
+					ScrollExtent='748,485'
+					Size='748,485'
 				/>
 				<Page
 					BackgroundColor='#FFFFFF'
@@ -838,8 +838,8 @@
 					PackSize='a,a'
 					PalBgTint='line1'
 					RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-					ScrollExtent='713,394'
-					Size='713,394'
+					ScrollExtent='713,433'
+					Size='713,433'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -852,8 +852,8 @@
 						PackSize='a,a'
 						PalBgTint='back3'
 						RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-						ScrollExtent='706,390'
-						Size='706,390'
+						ScrollExtent='706,429'
+						Size='706,429'
 						Visible='false'
 					/>
 				</Page>
@@ -867,9 +867,9 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-					ScrollExtent='709,328'
+					ScrollExtent='709,367'
 					Selectable='true'
-					Size='709,328'
+					Size='709,367'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
@@ -880,8 +880,8 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.fullFrameIn.rs_default'
-					ScrollExtent='725,423'
-					Size='725,423'
+					ScrollExtent='725,462'
+					Size='725,462'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
@@ -891,15 +891,15 @@
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
 					RStyleDefault='/Styles.New.fullFrame.rs_default'
-					ScrollExtent='728,432'
-					Size='728,432'
+					ScrollExtent='728,471'
+					Size='728,471'
 				/>
 			</Page>
 		</Page>
 		<Text
-			Font='bold_60'
+			Font='bold_32'
 			LocalText='xxx Player Name Here'
-			Location='2,769'
+			Location='2,849'
 			Name='textName'
 			PackLocation='nfn,fff'
 			PackSize='p,f'
@@ -921,7 +921,7 @@
 			Location='0,-4'
 			Name='viewer'
 			PackSize='p,p'
-			ScrollExtent='1440,904'
-			Size='1440,904'
+			ScrollExtent='1440,984'
+			Size='1440,984'
 		/>
 	</Page>

@@ -96,7 +96,7 @@
 						>
 							<Text
 								Enabled='false'
-								Font='bold_12'
+								Font='bold_11'
 								LocalText='[@chat_channels_available]'
 								Location='8,0'
 								Margin='2,2,2,2'
@@ -151,7 +151,7 @@
 									BackgroundOpacity='0.00'
 									DataSource='ListData'
 									Location='6,0'
-									MinimumScrollExtent='184,49'
+									MinimumScrollExtent='184,61'
 									Name='list'
 									PackLocation='nfn,nfn'
 									PackSize='a,a'
@@ -276,7 +276,7 @@
 						>
 							<Text
 								Enabled='false'
-								Font='bold_12'
+								Font='bold_11'
 								LocalText='[@chat_channels_tab]'
 								Location='8,0'
 								Margin='2,2,2,2'
@@ -336,7 +336,7 @@
 									BackgroundOpacity='0.00'
 									DataSource='ListData'
 									Location='3,-1'
-									MinimumScrollExtent='184,70'
+									MinimumScrollExtent='184,88'
 									Name='list'
 									PackLocation='nfn,nfn'
 									PackSize='a,a'
@@ -366,7 +366,7 @@
 							</Page>
 							<Text
 								Enabled='false'
-								Font='bold_12'
+								Font='bold_11'
 								LocalText='[@chat_channel_default]'
 								Location='10,116'
 								Margin='2,2,2,2'
@@ -387,7 +387,7 @@
 								BackgroundTint='#03546B'
 								ColorCarat='#FFFFFF'
 								Enabled='false'
-								Font='bold_12'
+								Font='bold_11'
 								LocalText='THE DEFAULT'
 								Location='11,135'
 								Margin='2,2,2,2'
@@ -524,7 +524,7 @@
 				</Composite>
 				<Text
 					Enabled='false'
-					Font='bold_12'
+					Font='bold_11'
 					LocalText='[@chat_channel_tab_set_name]'
 					Location='11,203'
 					MaxLines='1'

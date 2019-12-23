@@ -6,6 +6,7 @@
 			ScrollExtent='358,401'
 			Size='358,401'
 			UserMovable='true'
+			Visible='false'
 		>
 			<Page
 				BackgroundOpacity='1.00'
@@ -20,7 +21,7 @@
 				Size='338,99'
 			>
 				<Text
-					Font='verdana_14'
+					Font='default_14'
 					LocalText='[@ui:rate_header]'
 					LocalTooltip='[@ui:rate_header_tooltip]'
 					Location='67,9'
@@ -31,7 +32,7 @@
 					Tooltip='[@ui:rate_header_tooltip]'
 				>@ui:rate_header</Text>
 				<Text
-					Font='verdana_14'
+					Font='default_14'
 					LocalText='[@ui:great]'
 					LocalTooltip='[@ui:great]'
 					Location='293,35'
@@ -41,7 +42,7 @@
 					Tooltip='[@ui:great]'
 				>@ui:great</Text>
 				<Text
-					Font='verdana_14'
+					Font='default_14'
 					LocalText='[@ui:poor]'
 					LocalTooltip='[@ui:poor]'
 					Location='11,34'

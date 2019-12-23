@@ -7,8 +7,8 @@
 		Name='PDA'
 		option.visible='false'
 		PackSize='1,1'
-		ScrollExtent='1024,768'
-		Size='1024,768'
+		ScrollExtent='1440,980'
+		Size='1440,980'
 		SourceRect='501,29,505,36'
 		summary.visible='false'
 		Tooltip='[@ui_charsheet:strength_tooltip]'
@@ -17,12 +17,13 @@
 		<include>ui_gcw_information.inc</include>
 		<Page
 			Location='85,18'
-			MaximumSize='897,653'
-			MinimumSize='897,653'
+			MaximumSize='1020,663'
+			MinimumSize='1020,663'
 			Name='Roadmap'
-			ScrollExtent='897,653'
-			Size='897,653'
+			ScrollExtent='1020,663'
+			Size='1020,663'
 			UserMovable='true'
+			Visible='false'
 		>
 			<Data
 				ActivityDescription='Top.body.left.leftVertical.ActivityDescription.Text'
@@ -56,23 +57,23 @@
 				Location='20,25'
 				Name='Top'
 				PackSize='a,a'
-				ScrollExtent='861,613'
-				Size='861,613'
+				ScrollExtent='984,623'
+				Size='984,623'
 			>
 				<Composite
-					MaximumSize='16384,19'
-					MinimumSize='0,19'
+					MaximumSize='16384,30'
+					MinimumSize='986,30'
 					Name='Title'
 					Orientation='Horizontal'
-					ScrollExtent='836,19'
-					Size='836,19'
+					ScrollExtent='1291,30'
+					Size='986,30'
 				>
 					<Composite
-						MinimumSize='526,0'
+						MinimumSize='986,30'
 						Name='Left'
 						Orientation='Horizontal'
-						ScrollExtent='526,19'
-						Size='526,19'
+						ScrollExtent='986,30'
+						Size='986,30'
 					>
 						<Page
 							Location='49,0'
@@ -84,7 +85,7 @@
 							Visible='false'
 						>
 							<Text
-								Font='bold_25'
+								Font='bold_31'
 								Name='Text'
 								ScrollExtent='305,48'
 								Size='305,48'
@@ -92,9 +93,10 @@
 							></Text>
 						</Page>
 						<Page
+							MinimumSize='986,30'
 							Name='Tabs'
-							ScrollExtent='251,19'
-							Size='251,19'
+							ScrollExtent='986,30'
+							Size='986,30'
 						>
 							<DataSource
 								Name='TabData'
@@ -119,11 +121,11 @@
 							</DataSource>
 							<TabbedPane
 								BackgroundColor='#009977'
-								MinimumScrollExtent='228,0'
-								MinimumSize='0,19'
+								MinimumScrollExtent='325,0'
+								MinimumSize='986,27'
 								Name='tabs'
-								ScrollExtent='243,19'
-								Size='243,19'
+								ScrollExtent='986,27'
+								Size='986,27'
 								Style='/Styles.New.tabs.horizontal_10.style'
 								TargetPage='parent.body.right'
 								DataSource='TabData'
@@ -135,7 +137,7 @@
 						</Page>
 					</Composite>
 					<Page
-						Location='531,0'
+						Location='986,0'
 						MinimumSize='305,48'
 						Name='Right'
 						ScrollExtent='305,48'
@@ -143,11 +145,12 @@
 					/>
 				</Composite>
 				<Composite
-					Location='0,20'
+					Location='0,30'
+					MinimumSize='983,593'
 					Name='body'
 					Orientation='Horizontal'
-					ScrollExtent='861,593'
-					Size='861,593'
+					ScrollExtent='983,593'
+					Size='983,593'
 					Spacing='5'
 					SpacingType='Constant'
 				>
@@ -169,22 +172,23 @@
 							skillname='skillname'
 						>
 							<Page
-								Location='8,547'
+								Location='8,541'
+								MinimumSize='0,30'
 								Name='ExperienceBar'
-								ScrollExtent='539,18'
-								Size='539,18'
+								ScrollExtent='539,30'
+								Size='539,30'
 							>
 								<Page
 									BackgroundOpacity='1.00'
-									MaximumSize='16384,39'
-									MinimumSize='0,39'
+									MaximumSize='16384,27'
+									MinimumSize='0,27'
 									Name='0'
 									OnDisable='bg.enabled=enabled'
 									OnEnable='bg.enabled=enabled'
 									PackSize='a'
 									RStyleDefault='/Styles.Roadmap.progress.rs_default'
-									ScrollExtent='534,39'
-									Size='534,39'
+									ScrollExtent='534,27'
+									Size='534,27'
 								>
 									<Data
 										colorComplete='#00ff00'
@@ -194,11 +198,11 @@
 										pageBar='barParent.pageBar'
 									/>
 									<Page
-										MinimumSize='0,2'
+										MinimumSize='0,27'
 										Name='barParent'
 										OpacityRelativeMin='0.50'
-										ScrollExtent='532,21'
-										Size='532,21'
+										ScrollExtent='532,27'
+										Size='532,27'
 									>
 										<Page
 											BackgroundColor='#FFFFFF'
@@ -206,8 +210,8 @@
 											Name='pageBar'
 											PackSize='p,a'
 											RStyleDefault='/Styles.Roadmap.progress_fill.rs_default'
-											ScrollExtent='230,21'
-											Size='230,21'
+											ScrollExtent='230,27'
+											Size='230,27'
 											Spacing='0'
 										/>
 									</Page>
@@ -348,7 +352,7 @@
 									Color='#E4C86B'
 									DropShadow='false'
 									DropShadowAutoDetect='false'
-									Font='starwars_21'
+									Font='starwars_25'
 									LocalText='1'
 									Location='16,48'
 									Name='phaseNumber'
@@ -372,7 +376,6 @@
 									PieAngleStart='3.99'
 									PieColor='#FF0000'
 									PieInnerRadius='11'
-									PieInnerRadiusPackInfo='13,1'
 									PieInnerRadiusType='Absolute'
 									PieSegmentStretchType='Stretch'
 									PieUseTextureOnce='true'
@@ -444,7 +447,7 @@
 								Size='34,36'
 							/>
 							<Text
-								Font='bold_20'
+								Font='bold_21'
 								LocalText='Smuggler
 Phase I
 Basic Training'
@@ -602,7 +605,7 @@ Basic Training</Text>
 									</Page>
 								</Page>
 								<Text
-									Font='bold_25'
+									Font='bold_31'
 									LocalText='Smuggler Phase I: 
 
 Marksman
@@ -1426,7 +1429,7 @@ Brawler</Text>
 								/>
 								<Text
 									Color='#E4C86B'
-									Font='starwars_21'
+									Font='starwars_25'
 									LocalText='Commando'
 									Location='8,513'
 									Name='RoadmapTitle'
@@ -1474,7 +1477,7 @@ Brawler</Text>
 									DropShadowAutoDetect='false'
 									Editable='true'
 									EditableUnicode='true'
-									Font='starwars_21'
+									Font='starwars_25'
 									LocalText='Level'
 									Location='223,420'
 									Name='WordLevel'
@@ -1487,7 +1490,7 @@ Brawler</Text>
 								<Text
 									Color='#E4C86B'
 									DropShadowAutoDetect='false'
-									Font='starwars_18'
+									Font='starwars_20'
 									LocalText='Transporter'
 									Location='204,337'
 									Name='PhaseTitle'
@@ -1724,7 +1727,6 @@ Brawler</Text>
 									PieAngleStart='3.61'
 									PieColor='#FF0000'
 									PieInnerRadius='88'
-									PieInnerRadiusPackInfo='112,1'
 									PieInnerRadiusType='Absolute'
 									PieSegmentStretchType='Stretch'
 									PieUseTextureOnce='true'
@@ -2158,15 +2160,17 @@ Brawler</Text>
 					<Page
 						BackgroundOpacity='1.00'
 						Location='556,0'
+						MinimumSize='427,592'
 						Name='left'
 						RStyleDefault='/Styles.Roadmap.whiteOutline.rs_default'
-						ScrollExtent='305,592'
-						Size='305,592'
+						ScrollExtent='427,592'
+						Size='427,592'
 					>
 						<Composite
+							MinimumSize='305,592'
 							Name='leftVertical'
-							ScrollExtent='305,567'
-							Size='305,567'
+							ScrollExtent='427,592'
+							Size='427,592'
 						>
 							<Page
 								Location='2,0'
@@ -2175,23 +2179,24 @@ Brawler</Text>
 								Size='301,10'
 							/>
 							<Composite
-								Location='8,25'
+								Location='8,22'
+								MinimumSize='416,80'
 								Name='Top'
 								Orientation='Horizontal'
-								ScrollExtent='297,60'
-								Size='297,60'
+								ScrollExtent='416,80'
+								Size='416,80'
 								Spacing='5'
 							>
 								<Page
 									AbsorbsInput='false'
 									BackgroundColor='#FFFF00'
 									GetsInput='false'
-									MaximumSize='56,56'
-									MinimumSize='56,56'
+									MaximumSize='78,78'
+									MinimumSize='78,78'
 									Name='highlight'
 									RStyleDefault='/Styles.Roadmap.highlight.rs_default'
-									ScrollExtent='56,56'
-									Size='56,56'
+									ScrollExtent='78,78'
+									Size='78,78'
 								>
 									<Page
 										AbsorbsInput='false'
@@ -2199,71 +2204,76 @@ Brawler</Text>
 										BackgroundOpacity='1.00'
 										Color='#E4C86B'
 										GetsInput='false'
-										MaximumSize='56,56'
-										MinimumSize='56,56'
+										MaximumSize='78,78'
+										MinimumSize='78,78'
 										Name='highlight'
 										RStyleDefault='/Styles.Roadmap.highlight.rs_default'
-										ScrollExtent='56,56'
-										Size='56,56'
+										ScrollExtent='78,78'
+										Size='78,78'
 									/>
 									<Page
 										BackgroundOpacity='1.00'
 										Location='5,5'
+										MinimumSize='68,68'
 										Name='Icon'
 										RStyleDefault='/Styles.Icon.neutral.rs_default'
-										ScrollExtent='47,47'
-										Size='47,47'
+										ScrollExtent='68,68'
+										Size='68,68'
 									>
 										<Image
-											Location='3,3'
+											Location='5,5'
+											MinimumSize='58,58'
 											Name='Image'
 											PackLocation='cfc,cfc'
-											ScrollExtent='41,41'
-											Size='41,41'
+											ScrollExtent='58,58'
+											Size='58,58'
 											SourceRect='161,113,208,160'
 											SourceResource='ui_new_icons_temp'
 										/>
 									</Page>
 								</Page>
 								<Composite
-									Location='62,3'
-									MinimumSize='235,0'
+									Location='87,1'
+									MinimumSize='329,78'
 									Name='Right'
-									ScrollExtent='235,52'
-									Size='235,52'
+									ScrollExtent='329,78'
+									Size='329,78'
 								>
 									<Page
+										MinimumSize='329,0'
 										Name='CurrentActivity'
-										ScrollExtent='231,42'
-										Size='231,42'
+										ScrollExtent='329,42'
+										Size='329,42'
 									>
 										<Text
 											Color='#E4C86B'
-											Font='starwars_21'
+											Font='starwars_25'
 											LocalText='Das Underhalter Der Studebakers Von Burritos'
+											MinimumSize='329,0'
 											Name='ActivityName'
-											ScrollExtent='225,66'
-											Size='225,42'
+											ScrollExtent='329,44'
+											Size='329,42'
 											TextAlignmentVertical='Center'
 										>Das Underhalter Der Studebakers Von Burritos</Text>
 									</Page>
 									<Page
-										Location='0,42'
+										Location='0,51'
+										MinimumSize='329,27'
 										Name='ExperienceBar'
-										ScrollExtent='234,10'
-										Size='234,10'
+										ScrollExtent='329,27'
+										Size='329,27'
 									>
 										<Page
 											BackgroundOpacity='1.00'
-											MaximumSize='16384,13'
-											MinimumSize='0,13'
+											MaximumSize='16384,27'
+											MinimumSize='329,27'
 											Name='0'
 											OnDisable='bg.enabled=enabled'
 											OnEnable='bg.enabled=enabled'
 											PackSize='a'
 											RStyleDefault='/Styles.Roadmap.progress.rs_default'
-											ScrollExtent='214,13'
-											Size='214,13'
+											ScrollExtent='329,27'
+											Size='329,27'
 										>
 											<Data
 												colorComplete='#00ff00'
@@ -2273,11 +2283,11 @@ Brawler</Text>
 												pageBar='barParent.pageBar'
 											/>
 											<Page
-												MinimumSize='0,2'
+												MinimumSize='329,27'
 												Name='barParent'
 												OpacityRelativeMin='0.50'
-												ScrollExtent='277,13'
-												Size='277,13'
+												ScrollExtent='329,27'
+												Size='329,27'
 											>
 												<Page
 													BackgroundColor='#FFFFFF'
@@ -2285,8 +2295,8 @@ Brawler</Text>
 													Name='pageBar'
 													PackSize='p,a'
 													RStyleDefault='/Styles.Roadmap.progress_fill.rs_default'
-													ScrollExtent='120,13'
-													Size='120,13'
+													ScrollExtent='142,27'
+													Size='142,27'
 													Spacing='0'
 												/>
 											</Page>
@@ -2295,81 +2305,86 @@ Brawler</Text>
 								</Composite>
 							</Composite>
 							<Page
-								Location='9,100'
+								Location='9,114'
+								MinimumSize='416,0'
 								Name='ActivityDescription'
-								ScrollExtent='288,137'
-								Size='288,137'
+								ScrollExtent='416,114'
+								Size='416,114'
 							>
 								<Text
 									Color='#E4C86B'
-									Font='bold_15'
+									Font='bold_16'
 									LocalText='Flurry shot is the awesomest thing since awesomeness was invented.  You get it by shooting your pistol an awful lot.'
-									Location='8,0'
+									MinimumSize='416,0'
 									Name='Text'
-									ScrollExtent='265,136'
-									Size='265,136'
+									ScrollExtent='416,136'
+									Size='416,136'
 								>Flurry shot is the awesomest thing since awesomeness was invented.  You get it by shooting your pistol an awful lot.</Text>
 							</Page>
 							<Page
-								Location='2,219'
+								Location='2,239'
 								Name='HorizontalLine'
-								ScrollExtent='301,10'
-								Size='301,10'
+								ScrollExtent='423,10'
+								Size='423,10'
 								Visible='false'
 							>
 								<Image
 									Color='#00D6FB'
 									Name='HorizontalLine'
 									PalColor='baselight'
-									ScrollExtent='305,10'
-									Size='305,10'
+									ScrollExtent='422,10'
+									Size='422,10'
 									SourceRect='452,103,464,112'
 									SourceResource='ui_rebel_final'
 								/>
 							</Page>
 							<Page
-								Location='8,252'
+								Location='8,242'
+								MinimumSize='416,0'
 								Name='Rewards'
 								RStyleDefault='/Styles.Roadmap.whiteOutline.rs_default'
-								ScrollExtent='289,315'
-								Size='289,315'
+								ScrollExtent='416,350'
+								Size='416,350'
 							>
 								<Text
 									Color='#E4C86B'
-									Font='starwars_21'
+									Font='starwars_25'
 									LocalText='[@ui_roadmap:rewards_title]'
+									MinimumSize='416,0'
 									Name='RewardsTitle'
-									ScrollExtent='289,44'
-									Size='289,32'
+									ScrollExtent='416,32'
+									Size='416,32'
 									TextAlignmentVertical='Center'
 								>@ui_roadmap:rewards_title</Text>
 								<Scrollbar
 									Control='ScrollablePage'
 									Enabled='false'
-									Location='273,37'
+									Location='400,37'
 									Name='Scroll'
 									PackLocation='fff'
 									PackSize='f,a'
-									ScrollExtent='11,278'
-									Size='11,278'
+									ScrollExtent='11,313'
+									Size='11,313'
 									Style='/Styles.scrollbar.default.vHud4.style'
 								>
 								</Scrollbar>
 								<Composite
-									Location='6,37'
+									Location='1,37'
+									MinimumSize='398,278'
 									Name='ScrollablePage'
 									RStyleDefault=' '
-									ScrollExtent='274,278'
-									Size='274,278'
+									ScrollExtent='398,278'
+									Size='398,278'
 									SpacingType='Constant'
 								>
 									<Page
 										BackgroundColor='#FFFFFF'
 										Location='8,0'
+										MinimumSize='389,128'
 										Name='commands'
 										RStyleDefault='/Styles.New.whiteOutline.rs_default'
-										ScrollExtent='272,128'
-										Size='272,128'
+										ScrollExtent='389,128'
+										Size='389,128'
 									>
 										<DataSource
 											Name='colSizes'
@@ -2377,12 +2392,12 @@ Brawler</Text>
 											<Data
 												Constant='false'
 												Proportion='0.14'
-												Width='39'
+												Width='55'
 											/>
 											<Data
 												Constant='false'
 												Proportion='0.90'
-												Width='242'
+												Width='345'
 											/>
 										</DataSource>
 										<TableHeader
@@ -2391,11 +2406,12 @@ Brawler</Text>
 											ButtonStyle='/Styles.New.buttons.newInFrame2.style'
 											CursorResize='/Styles.Cursors.resizeHoriz'
 											Location='5,6'
-											MinimumScrollExtent='272,0'
+											MinimumScrollExtent='387,0'
+											MinimumSize='380,27'
 											Name='header'
 											PackSize='a,f'
-											ScrollExtent='272,19'
-											Size='250,19'
+											ScrollExtent='387,27'
+											Size='380,27'
 											Table='table'
 											Visible='false'
 										>
@@ -2405,24 +2421,24 @@ Brawler</Text>
 											BackgroundOpacity='0.00'
 											BackgroundScrolls='false'
 											BackgroundTint='#00D6FB'
-											CellHeight='24'
+											CellHeight='34'
 											ColumnSizeDataSource='colSizes'
 											DefaultTextColor='#96F4FC'
-											DefaultTextStyle='bold_11'
+											DefaultTextStyle='bold_16'
 											DrawGridLines='false'
 											GridColorHorizontal='#01687E'
 											GridColorVertical='#01687E'
 											Location='3,0'
-											MinimumScrollExtent='272,0'
+											MinimumScrollExtent='387,0'
 											Name='table'
 											RStyleDefault='/Styles.New.pill_med.rs_default'
-											ScrollExtent='272,128'
+											ScrollExtent='387,128'
 											SelectionAllowedMultiRow='false'
 											SelectionAllowedRow='false'
 											SelectionColorBackground='#27BECB'
 											SelectionColorRect='#62FF15'
 											SelectionTextColor='#04575E'
-											Size='272,128'
+											Size='387,128'
 											TableModel='model'
 										/>
 										<DataSourceContainer
@@ -2446,16 +2462,18 @@ Brawler</Text>
 									</Page>
 									<Composite
 										Location='8,128'
+										MinimumSize='0,57'
 										Name='Reward'
 										Orientation='Horizontal'
-										ScrollExtent='264,43'
-										Size='264,43'
+										ScrollExtent='390,57'
+										Size='390,57'
 									>
 										<Page
+											MinimumSize='57,57'
 											Name='Icon'
 											RStyleDefault='/Styles.Icon.neutral.rs_default'
-											ScrollExtent='41,41'
-											Size='41,41'
+											ScrollExtent='57,57'
+											Size='57,57'
 										>
 											<CuiWidget3dObjectListViewer
 												BackgroundTint='#00D6FB'
@@ -2466,21 +2484,21 @@ Brawler</Text>
 												PackSize='a,a'
 												PalBgTint='back1'
 												RStyleDefault='/Styles.sui.eightball.rs_default'
-												ScrollExtent='41,41'
-												Size='41,41'
+												ScrollExtent='57,57'
+												Size='57,57'
 											/>
 										</Page>
 										<Text
 											Color='#96F4FC'
-											Font='bold_11'
+											Font='bold_16'
 											LocalText='\\\>010- DH-9 Pistol
 - 1000 Credits
 '
-											Location='46,0'
-											MinimumSize='218,0'
+											Location='64,0'
+											MinimumSize='326,57'
 											Name='RewardName'
-											ScrollExtent='218,41'
-											Size='218,41'
+											ScrollExtent='326,57'
+											Size='326,57'
 											TextAlignmentVertical='Center'
 										>\\\>010- DH-9 Pistol
 - 1000 Credits
@@ -2489,10 +2507,10 @@ Brawler</Text>
 								</Composite>
 							</Page>
 							<Page
-								Location='13,547'
+								Location='13,572'
 								Name='NextActivityAurabesh'
-								ScrollExtent='227,20'
-								Size='227,20'
+								ScrollExtent='405,20'
+								Size='405,20'
 								Visible='false'
 							>
 								<Text
@@ -2513,8 +2531,8 @@ Brawler</Text>
 							Opacity='0.20'
 							PackSize='a,a'
 							RStyleDefault='/Styles.window.gridbg.rs_default'
-							ScrollExtent='305,592'
-							Size='305,592'
+							ScrollExtent='427,592'
+							Size='427,592'
 						/>
 						<Page
 							BackgroundOpacity='1.00'
@@ -2523,15 +2541,15 @@ Brawler</Text>
 							Opacity='0.20'
 							PackSize='a,a'
 							RStyleDefault='/Styles.window.gradientbg.rs_default'
-							ScrollExtent='551,592'
-							Size='551,592'
+							ScrollExtent='673,592'
+							Size='673,592'
 						/>
 						<Page
 							Name='bg'
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
-							ScrollExtent='305,592'
-							Size='305,592'
+							ScrollExtent='427,592'
+							Size='427,592'
 						>
 							<Page
 								GetsInput='false'
@@ -2540,8 +2558,8 @@ Brawler</Text>
 								PackLocation='nfn,nfn'
 								PackSize='a,a'
 								RStyleDefault='/Styles.New.whiteOutline.rs_default'
-								ScrollExtent='298,583'
-								Size='298,583'
+								ScrollExtent='420,583'
+								Size='420,583'
 							/>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -2552,8 +2570,8 @@ Brawler</Text>
 								PackSize='a,a'
 								PalBgTint='baselight'
 								RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-								ScrollExtent='305,592'
-								Size='305,592'
+								ScrollExtent='427,592'
+								Size='427,592'
 							>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -2566,8 +2584,8 @@ Brawler</Text>
 									PackSize='a,a'
 									PalBgTint='back2'
 									RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-									ScrollExtent='286,580'
-									Size='286,580'
+									ScrollExtent='408,580'
+									Size='408,580'
 								/>
 							</Page>
 							<Page
@@ -2580,8 +2598,8 @@ Brawler</Text>
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.New.fatFrameInside.rs_default'
-								ScrollExtent='301,588'
-								Size='301,588'
+								ScrollExtent='423,588'
+								Size='423,588'
 							/>
 						</Page>
 					</Page>
@@ -2591,11 +2609,11 @@ Brawler</Text>
 				Name='bg'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='897,653'
-				Size='897,653'
+				ScrollExtent='1020,663'
+				Size='1020,663'
 			>
 				<Page
-					Location='887,8'
+					Location='1010,8'
 					Name='mmc'
 					PackLocation='fff,nfn'
 					PackSize='f,f'
@@ -2621,8 +2639,8 @@ Brawler</Text>
 					Name='caption'
 					PackLocation='nfn,nfn'
 					PackSize='a,f'
-					ScrollExtent='750,19'
-					Size='750,19'
+					ScrollExtent='873,19'
+					Size='873,19'
 				>
 					<Text
 						Enabled='false'
@@ -2633,8 +2651,8 @@ Brawler</Text>
 						Name='lblTitle'
 						PackSize='a,f'
 						PalText='titletext'
-						ScrollExtent='750,19'
-						Size='750,19'
+						ScrollExtent='873,19'
+						Size='873,19'
 						TextAlignmentVertical='Center'
 						TextCapital='true'
 						TextColor='#00354F'
@@ -2649,9 +2667,9 @@ Brawler</Text>
 					PackSize='a,a'
 					PalBgTint='baselight'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='896,653'
+					ScrollExtent='1019,663'
 					Selectable='true'
-					Size='896,653'
+					Size='1019,663'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -2660,19 +2678,19 @@ Brawler</Text>
 						Name='lines'
 						PackSize='a,a'
 						RStyleDefault='/Styles.space.boxes.generic4.rs_default'
-						ScrollExtent='896,653'
-						Size='896,653'
+						ScrollExtent='1019,663'
+						Size='1019,663'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='0,631'
+							Location='0,641'
 							Name='outlineBL'
 							OpacityRelativeMin='0.80'
 							PackLocation='nfn,fff'
 							PackSize='p,f'
-							ScrollExtent='701,22'
-							Size='701,22'
+							ScrollExtent='797,22'
+							Size='797,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -2685,21 +2703,21 @@ Brawler</Text>
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlinebottomLeft2.rs_default'
-								ScrollExtent='701,9'
-								Size='701,9'
+								ScrollExtent='797,9'
+								Size='797,9'
 							/>
 						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='253,631'
+							Location='288,641'
 							Name='outlineBR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,fff'
 							PackSize='p,f'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-							ScrollExtent='643,22'
-							Size='643,22'
+							ScrollExtent='731,22'
+							Size='731,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -2712,20 +2730,20 @@ Brawler</Text>
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlinebottomRight2.rs_default'
-								ScrollExtent='643,9'
-								Size='643,9'
+								ScrollExtent='731,9'
+								Size='731,9'
 							/>
 						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='253,0'
+							Location='288,0'
 							Name='outlineTR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,nfn'
 							PackSize='p,f'
-							ScrollExtent='643,22'
-							Size='643,22'
+							ScrollExtent='731,22'
+							Size='731,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -2737,8 +2755,8 @@ Brawler</Text>
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlineTopRight2.rs_default'
-								ScrollExtent='643,9'
-								Size='643,9'
+								ScrollExtent='731,9'
+								Size='731,9'
 							/>
 						</Page>
 						<Page
@@ -2749,8 +2767,8 @@ Brawler</Text>
 							PackLocation='nfn,nfn'
 							PackSize='p,f'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-							ScrollExtent='701,22'
-							Size='701,22'
+							ScrollExtent='797,22'
+							Size='797,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -2762,8 +2780,8 @@ Brawler</Text>
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlineTopLeft2.rs_default'
-								ScrollExtent='701,9'
-								Size='701,9'
+								ScrollExtent='797,9'
+								Size='797,9'
 							/>
 						</Page>
 					</Page>
@@ -2774,18 +2792,18 @@ Brawler</Text>
 						PackLocation='nfn,nfn'
 						PackSize='a,f'
 						RStyleDefault='/Styles.New.main_TR.rs_default'
-						ScrollExtent='897,29'
-						Size='897,29'
+						ScrollExtent='1020,29'
+						Size='1020,29'
 					/>
 					<Page
 						BackgroundOpacity='1.00'
-						Location='0,630'
+						Location='0,640'
 						Name='bottom'
 						PackLocation='nfn,fff'
 						PackSize='a,f'
 						RStyleDefault='/Styles.New.main_BR.rs_default'
-						ScrollExtent='896,23'
-						Size='896,23'
+						ScrollExtent='1019,23'
+						Size='1019,23'
 					/>
 				</Page>
 				<Page
@@ -2798,9 +2816,9 @@ Brawler</Text>
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='897,645'
+					ScrollExtent='1020,655'
 					Selectable='true'
-					Size='897,645'
+					Size='1020,655'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
@@ -2811,9 +2829,9 @@ Brawler</Text>
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.Roadmap.roadglow.rs_default'
-					ScrollExtent='897,653'
+					ScrollExtent='1020,663'
 					Selectable='true'
-					Size='897,653'
+					Size='1020,663'
 				/>
 			</Page>
 		</Page>
@@ -2825,11 +2843,12 @@ Brawler</Text>
 			Location='71,80'
 			MinimumSize='400,200'
 			Name='WebBrowser'
-			ScrollExtent='640,480'
+			ScrollExtent='977,698'
 			Selectable='true'
-			Size='640,480'
+			Size='977,698'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Button
 				AutoRegister='true'
@@ -2837,11 +2856,11 @@ Brawler</Text>
 				IsDefaultButton='true'
 				LocalText='[@refresh]'
 				Location='173,28'
-				MinimumSize='0,19'
+				MinimumSize='0,27'
 				Name='buttonRefresh'
 				OpacityRelativeMin='0.70'
-				ScrollExtent='76,19'
-				Size='76,19'
+				ScrollExtent='76,27'
+				Size='76,27'
 				Style='/Styles.New.buttons.hud.style'
 			>@refresh</Button>
 			<Button
@@ -2850,11 +2869,11 @@ Brawler</Text>
 				IsDefaultButton='true'
 				LocalText='X'
 				Location='254,28'
-				MinimumSize='0,19'
+				MinimumSize='0,27'
 				Name='buttonStop'
 				OpacityRelativeMin='0.70'
-				ScrollExtent='32,19'
-				Size='32,19'
+				ScrollExtent='32,27'
+				Size='32,27'
 				Style='/Styles.New.buttons.hud.style'
 			>X</Button>
 			<Button
@@ -2862,23 +2881,24 @@ Brawler</Text>
 				BackgroundOpacity='0.80'
 				IsDefaultButton='true'
 				LocalText='[@go]'
-				Location='576,27'
-				MinimumSize='0,19'
+				Location='906,28'
+				MinimumSize='0,27'
 				Name='buttonGo'
 				OpacityRelativeMin='0.70'
 				PackLocation='fff,nfn'
 				PackSize='f,f'
-				ScrollExtent='55,19'
-				Size='55,19'
+				ScrollExtent='62,27'
+				Size='62,27'
 				Style='/Styles.New.buttons.hud.style'
 			>@go</Button>
 			<Page
 				Location='295,28'
+				MinimumSize='0,27'
 				Name='dummyURLBox'
 				PackSize='a,f'
-				ScrollExtent='277,23'
+				ScrollExtent='607,27'
 				Selectable='true'
-				Size='277,23'
+				Size='607,27'
 			>
 				<Text
 					BackgroundTint='#03546B'
@@ -2886,12 +2906,13 @@ Brawler</Text>
 					CursorPoint='11'
 					Editable='true'
 					EditableUnicode='true'
-					Font='normal_12'
+					Font='normal_17'
 					GetsInput='true'
 					IME='true'
 					LocalText='about:blank'
-					Location='6,4'
+					Location='6,0'
 					MaxLines='0'
+					MinimumSize='0,27'
 					Name='text'
 					PackSize='a,a'
 					PalBgTint='back3'
@@ -2899,8 +2920,9 @@ Brawler</Text>
 					ParentSize='true'
 					PreLocalized='true'
 					RStyleDefault='/Styles.New.pill_lrg.rs_default'
-					ScrollExtent='265,14'
-					Size='265,14'
+					ScrollExtent='595,27'
+					Size='595,27'
+					TextAlignmentVertical='Center'
 					TextColor='#96F4FC'
 				></Text>
 				<Page
@@ -2908,14 +2930,14 @@ Brawler</Text>
 					BackgroundTint='#03546B'
 					Enabled='false'
 					GetsInput='false'
-					MaximumSize='277,23'
-					MinimumSize='277,23'
+					MaximumSize='607,27'
+					MinimumSize='607,27'
 					Name='box'
 					PalBgTint='back3'
 					ParentSize='true'
 					RStyleDefault='/Styles.New.pill_lrg.rs_default'
-					ScrollExtent='277,23'
-					Size='277,23'
+					ScrollExtent='607,27'
+					Size='607,27'
 				/>
 			</Page>
 			<Button
@@ -2924,11 +2946,11 @@ Brawler</Text>
 				IsDefaultButton='true'
 				LocalText='[@forward]'
 				Location='92,27'
-				MinimumSize='0,19'
+				MinimumSize='0,27'
 				Name='buttonNext'
 				OpacityRelativeMin='0.70'
-				ScrollExtent='76,19'
-				Size='76,19'
+				ScrollExtent='76,27'
+				Size='76,27'
 				Style='/Styles.New.buttons.hud.style'
 			>@forward</Button>
 			<Button
@@ -2937,11 +2959,11 @@ Brawler</Text>
 				IsCancelButton='true'
 				LocalText='[@back]'
 				Location='12,26'
-				MinimumSize='0,19'
+				MinimumSize='0,27'
 				Name='buttonBack'
 				OpacityRelativeMin='0.70'
-				ScrollExtent='76,19'
-				Size='76,19'
+				ScrollExtent='76,27'
+				Size='76,27'
 				Style='/Styles.New.buttons.hud.style'
 			>@back</Button>
 			<ImageStyle
@@ -2963,12 +2985,12 @@ Brawler</Text>
 			/>
 			<Page
 				AutoRegister='true'
-				Location='14,58'
+				Location='14,65'
 				Name='webBrowserControl'
 				PackSize='a,a'
-				ScrollExtent='614,408'
+				ScrollExtent='951,619'
 				Selectable='true'
-				Size='614,408'
+				Size='951,619'
 			>
 				<Image
 					AutoRegister='true'
@@ -2976,8 +2998,8 @@ Brawler</Text>
 					Name='webBrowserScreen'
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
-					ScrollExtent='614,408'
-					Size='614,408'
+					ScrollExtent='951,619'
+					Size='951,619'
 					SourceRect='0,0,1024,1024'
 					SourceResource='ui_webbrowser_scratch'
 					Style='WebBrowser'
@@ -2987,11 +3009,11 @@ Brawler</Text>
 				Name='bg'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='638,482'
-				Size='638,482'
+				ScrollExtent='975,700'
+				Size='975,700'
 			>
 				<Page
-					Location='624,8'
+					Location='961,8'
 					Name='mmc'
 					PackLocation='fff,nfn'
 					PackSize='f,f'
@@ -3019,12 +3041,12 @@ Brawler</Text>
 					Name='caption'
 					PackLocation='nfn,nfn'
 					PackSize='a,f'
-					ScrollExtent='488,19'
-					Size='488,19'
+					ScrollExtent='825,19'
+					Size='825,19'
 				>
 					<Text
 						Enabled='false'
-						Font='bold_13'
+						Font='bold_18'
 						LocalText='WEB BROWSER'
 						Margin='6,0,0,3'
 						MaxLines='1'
@@ -3033,8 +3055,8 @@ Brawler</Text>
 						OpacityRelativeMin='0.80'
 						PackSize='a,f'
 						PalText='titletext'
-						ScrollExtent='488,19'
-						Size='488,19'
+						ScrollExtent='825,22'
+						Size='825,19'
 						TextAlignmentVertical='Bottom'
 						TextCapital='true'
 						TextColor='#00354F'
@@ -3049,9 +3071,9 @@ Brawler</Text>
 					PackSize='a,a'
 					PalBgTint='baselight'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='637,482'
+					ScrollExtent='974,700'
 					Selectable='true'
-					Size='637,482'
+					Size='974,700'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -3060,19 +3082,19 @@ Brawler</Text>
 						Name='lines'
 						PackSize='a,a'
 						RStyleDefault='/Styles.space.boxes.generic4.rs_default'
-						ScrollExtent='637,482'
-						Size='637,482'
+						ScrollExtent='974,700'
+						Size='974,700'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='0,460'
+							Location='0,678'
 							Name='outlineBL'
 							OpacityRelativeMin='0.80'
 							PackLocation='nfn,fff'
 							PackSize='p,f'
-							ScrollExtent='494,22'
-							Size='494,22'
+							ScrollExtent='755,22'
+							Size='755,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -3085,21 +3107,21 @@ Brawler</Text>
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlinebottomLeft2.rs_default'
-								ScrollExtent='494,9'
-								Size='494,9'
+								ScrollExtent='755,9'
+								Size='755,9'
 							/>
 						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='182,460'
+							Location='279,678'
 							Name='outlineBR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,fff'
 							PackSize='p,f'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-							ScrollExtent='455,22'
-							Size='455,22'
+							ScrollExtent='695,22'
+							Size='695,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -3112,20 +3134,20 @@ Brawler</Text>
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlinebottomRight2.rs_default'
-								ScrollExtent='455,9'
-								Size='455,9'
+								ScrollExtent='695,9'
+								Size='695,9'
 							/>
 						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='182,0'
+							Location='279,0'
 							Name='outlineTR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,nfn'
 							PackSize='p,f'
-							ScrollExtent='455,22'
-							Size='455,22'
+							ScrollExtent='695,22'
+							Size='695,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -3137,8 +3159,8 @@ Brawler</Text>
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlineTopRight2.rs_default'
-								ScrollExtent='455,9'
-								Size='455,9'
+								ScrollExtent='695,9'
+								Size='695,9'
 							/>
 						</Page>
 						<Page
@@ -3149,8 +3171,8 @@ Brawler</Text>
 							PackLocation='nfn,nfn'
 							PackSize='p,f'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-							ScrollExtent='494,22'
-							Size='494,22'
+							ScrollExtent='755,22'
+							Size='755,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -3162,8 +3184,8 @@ Brawler</Text>
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlineTopLeft2.rs_default'
-								ScrollExtent='494,9'
-								Size='494,9'
+								ScrollExtent='755,9'
+								Size='755,9'
 							/>
 						</Page>
 					</Page>
@@ -3177,21 +3199,21 @@ Brawler</Text>
 						PackSize='a,f'
 						PalBgTint='titleBar'
 						RStyleDefault='main_TR.rs_default'
-						ScrollExtent='638,29'
-						Size='638,29'
+						ScrollExtent='975,29'
+						Size='975,29'
 					/>
 					<Page
 						BackgroundColor='#1FE6F5'
 						BackgroundOpacity='1.00'
 						BackgroundTint='#1FE6F5'
-						Location='0,459'
+						Location='0,677'
 						Name='bottom'
 						PackLocation='nfn,fff'
 						PackSize='a,f'
 						PalBgTint='bottomBar'
 						RStyleDefault='main_BR.rs_default'
-						ScrollExtent='637,23'
-						Size='637,23'
+						ScrollExtent='974,23'
+						Size='974,23'
 					/>
 					<Namespace
 						Name='main_TR'
@@ -3264,9 +3286,9 @@ Brawler</Text>
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='638,474'
+					ScrollExtent='975,692'
 					Selectable='true'
-					Size='638,474'
+					Size='975,692'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
@@ -3277,9 +3299,9 @@ Brawler</Text>
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.space.spaceglow.rs_default'
-					ScrollExtent='638,482'
+					ScrollExtent='975,700'
 					Selectable='true'
-					Size='638,482'
+					Size='975,700'
 				/>
 			</Page>
 		</Page>

@@ -98,8 +98,8 @@
 							PackSize='a,a'
 							PalBgTint='line1'
 							RStyleDefault='/Styles.New.whiteOutline.rs_default'
-							ScrollExtent='569,713'
-							Size='569,713'
+							ScrollExtent='501,713'
+							Size='501,713'
 						>
 							<CuiWidget3dObjectListViewer
 								camerafitbone='true'
@@ -113,8 +113,8 @@
 								lookatboneonlyy='false'
 								Name='viewer'
 								PackSize='p,p'
-								ScrollExtent='525,657'
-								Size='525,657'
+								ScrollExtent='461,657'
+								Size='461,657'
 							/>
 							<Text
 								Font='bold_18'
@@ -125,10 +125,10 @@
 								Name='label'
 								PackSize='a,f'
 								PalText='header'
-								ScrollExtent='483,21'
-								Size='483,21'
+								ScrollExtent='415,21'
+								Size='415,21'
 								TextAlignment='Center'
-								TextColor='#BFFFFF'
+								TextColor='#97FFFF'
 							>xxx character name here</Text>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -140,12 +140,12 @@
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.New.view_side.rs_default'
-								ScrollExtent='554,678'
-								Size='554,678'
+								ScrollExtent='486,678'
+								Size='486,678'
 							/>
 							<Image
 								Color='#1CFFFF'
-								Location='51,132'
+								Location='17,132'
 								Name='New Image'
 								Opacity='0.30'
 								PackLocation='cfc,cfc'
@@ -167,29 +167,29 @@
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.New.pill_lrg.rs_default'
-								ScrollExtent='546,671'
-								Size='546,671'
+								ScrollExtent='478,671'
+								Size='478,671'
 							/>
 						</Page>
 						<Page
-							Location='576,0'
-							MaximumSize='429,16384'
+							Location='506,0'
+							MaximumSize='504,16384'
 							Name='Right'
 							PackSize='a,a'
-							ScrollExtent='429,696'
-							Size='429,696'
+							ScrollExtent='501,696'
+							Size='501,696'
 						>
 							<TabbedPane
 								BackgroundColor='#009977'
 								DataSource='TabData'
 								Location='6,0'
-								MinimumScrollExtent='419,0'
+								MinimumScrollExtent='666,0'
 								MinimumSize='0,31'
 								Name='tabs'
 								PackLocation='nfn,nfn'
 								PackSize='a,f'
-								ScrollExtent='420,31'
-								Size='420,31'
+								ScrollExtent='666,31'
+								Size='492,31'
 								Style='/Styles.New.tabs.horizontal_10.style'
 								TargetPage='Target'
 								DataSource='TabData'
@@ -217,17 +217,16 @@
 								Location='0,24'
 								Name='Target'
 								PackSize='a,a'
-								ScrollExtent='431,600'
-								Size='431,600'
+								ScrollExtent='503,600'
+								Size='503,600'
 							>
 								<Page
 									Enabled='false'
 									Location='0,11'
 									Name='Customizations'
 									PackSize='a,a'
-									ScrollExtent='435,595'
-									Size='435,595'
-									Visible='false'
+									ScrollExtent='507,595'
+									Size='507,595'
 								>
 									<Text
 										Font='bold_13'
@@ -239,8 +238,8 @@
 										PackSize='a,f'
 										PalText='header'
 										RStyleDefault='rs_default'
-										ScrollExtent='107,16'
-										Size='107,16'
+										ScrollExtent='179,16'
+										Size='179,16'
 										TextCapital='true'
 										TextColor='#97FFFF'
 										Visible='false'
@@ -256,8 +255,8 @@
 										PackSize='f,f'
 										Padding='Both'
 										RStyleDefault='rs_default'
-										ScrollExtent='426,459'
-										Size='426,459'
+										ScrollExtent='505,459'
+										Size='505,459'
 										Spacing='2'
 										SpacingType='Fill'
 									>
@@ -265,14 +264,15 @@
 											AbsorbsInput='false'
 											BackgroundTint='#000000'
 											FillRemainder='false'
-											Location='0,2'
-											MaximumSize='121,145'
+											Location='1,2'
+											MaximumSize='194,145'
+											MinimumSize='194,0'
 											Name='compositeGroups'
 											PackLocation='fff,nfn'
 											PackSize='a,f'
 											RStyleDefault='rs_default'
-											ScrollExtent='121,145'
-											Size='121,145'
+											ScrollExtent='194,145'
+											Size='194,145'
 											Spacing='5'
 											SpacingType='Fill'
 										>
@@ -281,8 +281,8 @@
 												MinimumSize='0,19'
 												Name='sampleGroupButton'
 												PackSize='a,f'
-												ScrollExtent='121,20'
-												Size='121,20'
+												ScrollExtent='194,20'
+												Size='194,20'
 												Style='/Styles.New.buttons.hud.style'
 											>body</Button>
 											<Button
@@ -291,8 +291,8 @@
 												MinimumSize='0,19'
 												Name='sampleGroupButton'
 												PackSize='a,f'
-												ScrollExtent='121,20'
-												Size='121,20'
+												ScrollExtent='194,20'
+												Size='194,20'
 												Style='/Styles.New.buttons.hud.style'
 											>body</Button>
 											<Button
@@ -301,8 +301,8 @@
 												MinimumSize='0,19'
 												Name='sampleGroupButton'
 												PackSize='a,f'
-												ScrollExtent='121,20'
-												Size='121,20'
+												ScrollExtent='194,20'
+												Size='194,20'
 												Style='/Styles.New.buttons.hud.style'
 											>body</Button>
 											<Button
@@ -311,8 +311,8 @@
 												MinimumSize='0,19'
 												Name='sampleGroupButton'
 												PackSize='a,f'
-												ScrollExtent='121,20'
-												Size='121,20'
+												ScrollExtent='194,20'
+												Size='194,20'
 												Style='/Styles.New.buttons.hud.style'
 											>body</Button>
 											<Button
@@ -321,8 +321,8 @@
 												MinimumSize='0,19'
 												Name='sampleGroupButton'
 												PackSize='a,f'
-												ScrollExtent='121,20'
-												Size='121,20'
+												ScrollExtent='194,20'
+												Size='194,20'
 												Style='/Styles.New.buttons.hud.style'
 											>body</Button>
 											<Button
@@ -331,15 +331,15 @@
 												MinimumSize='0,19'
 												Name='sampleGroupButton'
 												PackSize='a,f'
-												ScrollExtent='121,20'
-												Size='121,20'
+												ScrollExtent='194,20'
+												Size='194,20'
 												Style='/Styles.New.buttons.hud.style'
 											>body</Button>
 										</Composite>
 										<Composite
 											BackgroundOpacity='0.45'
 											BackgroundTint='#00D6FB'
-											Location='127,0'
+											Location='197,0'
 											MaximumSize='293,456'
 											MinimumSize='293,456'
 											Name='compositeColorPicker'
@@ -402,11 +402,11 @@
 												<VolumePage
 													BackgroundColor='#0000FF'
 													BackgroundTint='#1CFFFF'
-													CellCount='10,3'
+													CellCount='22,1'
 													CellPadding='0,0'
 													CellSize='12,12'
 													Location='7,25'
-													MinimumScrollExtent='120,36'
+													MinimumScrollExtent='252,12'
 													Name='volumePage'
 													PackLocation='nfn,nfn'
 													PackSize='a,a'
@@ -529,7 +529,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='0,12'
+														Location='120,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -540,7 +540,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='12,12'
+														Location='132,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -551,7 +551,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='24,12'
+														Location='144,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -562,7 +562,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='36,12'
+														Location='156,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -573,7 +573,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='48,12'
+														Location='168,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -584,7 +584,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='60,12'
+														Location='180,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -595,7 +595,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#00FF00'
-														Location='72,12'
+														Location='192,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -606,7 +606,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='84,12'
+														Location='204,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -617,7 +617,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='96,12'
+														Location='216,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -628,7 +628,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='108,12'
+														Location='228,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -639,7 +639,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='0,24'
+														Location='240,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -652,7 +652,7 @@
 												BackgroundColor='#FFFFFF'
 												BackgroundOpacity='1.00'
 												BackgroundTint='#1CFFFF'
-												Location='4,105'
+												Location='4,230'
 												Name='picker1'
 												PackSize='a,f'
 												PalBgTint='line1'
@@ -698,11 +698,11 @@
 												<VolumePage
 													BackgroundColor='#0000FF'
 													BackgroundTint='#1CFFFF'
-													CellCount='10,3'
+													CellCount='22,1'
 													CellPadding='0,0'
 													CellSize='12,12'
 													Location='7,25'
-													MinimumScrollExtent='120,36'
+													MinimumScrollExtent='252,12'
 													Name='volumePage'
 													PackLocation='nfn,nfn'
 													PackSize='a,a'
@@ -825,7 +825,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='0,12'
+														Location='120,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -836,7 +836,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='12,12'
+														Location='132,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -847,7 +847,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='24,12'
+														Location='144,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -858,7 +858,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='36,12'
+														Location='156,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -869,7 +869,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='48,12'
+														Location='168,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -880,7 +880,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='60,12'
+														Location='180,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -891,7 +891,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#00FF00'
-														Location='72,12'
+														Location='192,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -902,7 +902,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='84,12'
+														Location='204,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -913,7 +913,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='96,12'
+														Location='216,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -924,7 +924,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='108,12'
+														Location='228,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -935,7 +935,7 @@
 														BackgroundColor='#FFFF00'
 														BackgroundOpacity='1.00'
 														BackgroundTint='#FFFF00'
-														Location='0,24'
+														Location='240,0'
 														MaximumSize='12,12'
 														MinimumSize='12,12'
 														Name='sample'
@@ -952,24 +952,24 @@
 										PackLocation='nfn,nfn'
 										PackSize='a,f'
 										RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-										ScrollExtent='123,310'
-										Size='123,310'
+										ScrollExtent='195,310'
+										Size='195,310'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											Name='Overlay'
 											PackSize='a,a'
-											ScrollExtent='123,310'
-											Size='123,310'
+											ScrollExtent='195,310'
+											Size='195,310'
 											Visible='false'
 										/>
 										<Page
-											Location='117,0'
+											Location='177,0'
 											Name='v'
 											PackLocation='fff'
 											PackSize='p,a'
-											ScrollExtent='22,310'
-											Size='22,310'
+											ScrollExtent='34,310'
+											Size='34,310'
 											Visible='false'
 										>
 											<Page
@@ -1019,36 +1019,36 @@
 											Padding='Both'
 											PalBgTint='back1'
 											RStyleDefault='/Styles.New.whitebox.rs_default'
-											ScrollExtent='114,305'
-											Size='114,305'
+											ScrollExtent='186,305'
+											Size='186,305'
 											Spacing='5'
 										>
 											<Page
 												BackgroundColor='#FFFFFF'
 												BackgroundOpacity='0.70'
 												BackgroundTint='#00D6FB'
-												Location='0,7'
+												Location='0,4'
 												Name='p1'
 												OnHide='parent.pack=true'
 												OnShow='parent.pack=true'
 												PackSize='a,f'
 												PalBgTint='back1'
 												RStyleDefault='/Styles.New.whitebox.rs_default'
-												ScrollExtent='114,35'
-												Size='114,35'
+												ScrollExtent='186,35'
+												Size='186,35'
 											>
 												<Page
 													BackgroundOpacity='0.50'
 													LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 													Name='Overlay'
 													PackSize='a,a'
-													ScrollExtent='114,35'
-													Size='114,35'
+													ScrollExtent='186,35'
+													Size='186,35'
 													Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 													Visible='false'
 												/>
 												<Text
-													Font='bold_11'
+													Font='bold_16'
 													LocalText='xxx variable here'
 													Location='4,0'
 													MaxLines='1'
@@ -1058,8 +1058,8 @@
 													PackSize='a'
 													PalText='header'
 													RStyleDefault='rs_default'
-													ScrollExtent='110,19'
-													Size='110,19'
+													ScrollExtent='182,19'
+													Size='182,19'
 													TextColor='#97FFFF'
 												>xxx variable here</Text>
 												<Sliderbar
@@ -1067,8 +1067,8 @@
 													Name='slider'
 													PackSize='a,a'
 													RStyleDefault='/Styles.Slider.default.horizontal.default.rs'
-													ScrollExtent='107,13'
-													Size='107,13'
+													ScrollExtent='179,13'
+													Size='179,13'
 													Style='/Styles.New.Slider.default.horizontal.style_test'
 													UpperLimit='100'
 												>
@@ -1078,28 +1078,28 @@
 												BackgroundColor='#FFFFFF'
 												BackgroundOpacity='0.70'
 												BackgroundTint='#00D6FB'
-												Location='0,56'
+												Location='0,47'
 												Name='p2'
 												OnHide='parent.pack=true'
 												OnShow='parent.pack=true'
 												PackSize='a,f'
 												PalBgTint='back1'
 												RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-												ScrollExtent='114,35'
-												Size='114,35'
+												ScrollExtent='186,35'
+												Size='186,35'
 											>
 												<Page
 													BackgroundOpacity='0.50'
 													LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 													Name='Overlay'
 													PackSize='a,a'
-													ScrollExtent='114,35'
-													Size='114,35'
+													ScrollExtent='186,35'
+													Size='186,35'
 													Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 													Visible='false'
 												/>
 												<Text
-													Font='bold_11'
+													Font='bold_16'
 													LocalText='xxx variable here'
 													Location='4,0'
 													MaxLines='1'
@@ -1109,8 +1109,8 @@
 													PackSize='a'
 													PalText='header'
 													RStyleDefault='rs_default'
-													ScrollExtent='110,19'
-													Size='110,19'
+													ScrollExtent='182,19'
+													Size='182,19'
 													TextColor='#97FFFF'
 												>xxx variable here</Text>
 												<Sliderbar
@@ -1118,8 +1118,8 @@
 													Name='slider'
 													PackSize='a,a'
 													RStyleDefault='/Styles.Slider.default.horizontal.default.rs'
-													ScrollExtent='107,13'
-													Size='107,13'
+													ScrollExtent='179,13'
+													Size='179,13'
 													Style='/Styles.New.Slider.default.horizontal.style_test'
 													UpperLimit='100'
 													Value='68'
@@ -1130,28 +1130,28 @@
 												BackgroundColor='#FFFFFF'
 												BackgroundOpacity='0.70'
 												BackgroundTint='#00D6FB'
-												Location='0,105'
+												Location='0,90'
 												Name='p3'
 												OnHide='parent.pack=true'
 												OnShow='parent.pack=true'
 												PackSize='a,f'
 												PalBgTint='back1'
 												RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-												ScrollExtent='114,35'
-												Size='114,35'
+												ScrollExtent='186,35'
+												Size='186,35'
 											>
 												<Page
 													BackgroundOpacity='0.50'
 													LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 													Name='Overlay'
 													PackSize='a,a'
-													ScrollExtent='114,35'
-													Size='114,35'
+													ScrollExtent='186,35'
+													Size='186,35'
 													Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 													Visible='false'
 												/>
 												<Text
-													Font='bold_11'
+													Font='bold_16'
 													LocalText='xxx variable here'
 													Location='4,0'
 													MaxLines='1'
@@ -1161,8 +1161,8 @@
 													PackSize='a'
 													PalText='header'
 													RStyleDefault='rs_default'
-													ScrollExtent='110,19'
-													Size='110,19'
+													ScrollExtent='182,19'
+													Size='182,19'
 													TextColor='#97FFFF'
 												>xxx variable here</Text>
 												<Sliderbar
@@ -1170,8 +1170,8 @@
 													Name='slider'
 													PackSize='a,a'
 													RStyleDefault='/Styles.Slider.default.horizontal.default.rs'
-													ScrollExtent='107,13'
-													Size='107,13'
+													ScrollExtent='179,13'
+													Size='179,13'
 													Style='/Styles.New.Slider.default.horizontal.style_test'
 													UpperLimit='100'
 												>
@@ -1181,28 +1181,28 @@
 												BackgroundColor='#FFFFFF'
 												BackgroundOpacity='0.70'
 												BackgroundTint='#00D6FB'
-												Location='0,154'
+												Location='0,133'
 												Name='p4'
 												OnHide='parent.pack=true'
 												OnShow='parent.pack=true'
 												PackSize='a,f'
 												PalBgTint='back1'
 												RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-												ScrollExtent='114,35'
-												Size='114,35'
+												ScrollExtent='186,35'
+												Size='186,35'
 											>
 												<Page
 													BackgroundOpacity='0.50'
 													LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 													Name='Overlay'
 													PackSize='a,a'
-													ScrollExtent='114,35'
-													Size='114,35'
+													ScrollExtent='186,35'
+													Size='186,35'
 													Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 													Visible='false'
 												/>
 												<Text
-													Font='bold_11'
+													Font='bold_16'
 													LocalText='xxx variable here'
 													Location='4,0'
 													MaxLines='1'
@@ -1212,8 +1212,8 @@
 													PackSize='a'
 													PalText='header'
 													RStyleDefault='rs_default'
-													ScrollExtent='110,19'
-													Size='110,19'
+													ScrollExtent='182,19'
+													Size='182,19'
 													TextColor='#97FFFF'
 												>xxx variable here</Text>
 												<Sliderbar
@@ -1221,8 +1221,8 @@
 													Name='slider'
 													PackSize='a,a'
 													RStyleDefault='/Styles.Slider.default.horizontal.default.rs'
-													ScrollExtent='107,13'
-													Size='107,13'
+													ScrollExtent='179,13'
+													Size='179,13'
 													Style='/Styles.New.Slider.default.horizontal.style_test'
 													UpperLimit='100'
 													Value='60'
@@ -1233,28 +1233,28 @@
 												BackgroundColor='#FFFFFF'
 												BackgroundOpacity='0.70'
 												BackgroundTint='#00D6FB'
-												Location='0,203'
+												Location='0,176'
 												Name='p5'
 												OnHide='parent.pack=true'
 												OnShow='parent.pack=true'
 												PackSize='a,f'
 												PalBgTint='back1'
 												RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-												ScrollExtent='114,35'
-												Size='114,35'
+												ScrollExtent='186,35'
+												Size='186,35'
 											>
 												<Page
 													BackgroundOpacity='0.50'
 													LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 													Name='Overlay'
 													PackSize='a,a'
-													ScrollExtent='114,35'
-													Size='114,35'
+													ScrollExtent='186,35'
+													Size='186,35'
 													Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 													Visible='false'
 												/>
 												<Text
-													Font='bold_11'
+													Font='bold_16'
 													LocalText='xxx variable here'
 													Location='4,0'
 													MaxLines='1'
@@ -1264,8 +1264,8 @@
 													PackSize='a'
 													PalText='header'
 													RStyleDefault='rs_default'
-													ScrollExtent='110,19'
-													Size='110,19'
+													ScrollExtent='182,19'
+													Size='182,19'
 													TextColor='#97FFFF'
 												>xxx variable here</Text>
 												<Sliderbar
@@ -1273,8 +1273,8 @@
 													Name='slider'
 													PackSize='a,a'
 													RStyleDefault='/Styles.Slider.default.horizontal.default.rs'
-													ScrollExtent='107,13'
-													Size='107,13'
+													ScrollExtent='179,13'
+													Size='179,13'
 													Style='/Styles.New.Slider.default.horizontal.style_test'
 													UpperLimit='100'
 												>
@@ -1284,28 +1284,28 @@
 												BackgroundColor='#FFFFFF'
 												BackgroundOpacity='0.70'
 												BackgroundTint='#00D6FB'
-												Location='0,252'
+												Location='0,219'
 												Name='p6'
 												OnHide='parent.pack=true'
 												OnShow='parent.pack=true'
 												PackSize='a,f'
 												PalBgTint='back1'
 												RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-												ScrollExtent='114,35'
-												Size='114,35'
+												ScrollExtent='186,35'
+												Size='186,35'
 											>
 												<Page
 													BackgroundOpacity='0.50'
 													LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 													Name='Overlay'
 													PackSize='a,a'
-													ScrollExtent='114,35'
-													Size='114,35'
+													ScrollExtent='186,35'
+													Size='186,35'
 													Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 													Visible='false'
 												/>
 												<Text
-													Font='bold_11'
+													Font='bold_16'
 													LocalText='xxx variable here'
 													Location='4,0'
 													MaxLines='1'
@@ -1315,8 +1315,8 @@
 													PackSize='a'
 													PalText='header'
 													RStyleDefault='rs_default'
-													ScrollExtent='110,19'
-													Size='110,19'
+													ScrollExtent='182,19'
+													Size='182,19'
 													TextColor='#97FFFF'
 												>xxx variable here</Text>
 												<Sliderbar
@@ -1324,8 +1324,8 @@
 													Name='slider'
 													PackSize='a,a'
 													RStyleDefault='/Styles.Slider.default.horizontal.default.rs'
-													ScrollExtent='107,13'
-													Size='107,13'
+													ScrollExtent='179,13'
+													Size='179,13'
 													Style='/Styles.New.Slider.default.horizontal.style_test'
 													UpperLimit='100'
 													Value='48'
@@ -1336,28 +1336,28 @@
 												BackgroundColor='#FFFFFF'
 												BackgroundOpacity='0.70'
 												BackgroundTint='#00D6FB'
-												Location='0,301'
+												Location='0,262'
 												Name='p7'
 												OnHide='parent.pack=true'
 												OnShow='parent.pack=true'
 												PackSize='a,f'
 												PalBgTint='back1'
 												RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-												ScrollExtent='114,35'
-												Size='114,35'
+												ScrollExtent='186,35'
+												Size='186,35'
 											>
 												<Page
 													BackgroundOpacity='0.50'
 													LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 													Name='Overlay'
 													PackSize='a,a'
-													ScrollExtent='114,35'
-													Size='114,35'
+													ScrollExtent='186,35'
+													Size='186,35'
 													Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 													Visible='false'
 												/>
 												<Text
-													Font='bold_11'
+													Font='bold_16'
 													LocalText='xxx variable here'
 													Location='4,0'
 													MaxLines='1'
@@ -1367,8 +1367,8 @@
 													PackSize='a'
 													PalText='header'
 													RStyleDefault='rs_default'
-													ScrollExtent='110,19'
-													Size='110,19'
+													ScrollExtent='182,19'
+													Size='182,19'
 													TextColor='#97FFFF'
 												>xxx variable here</Text>
 												<Sliderbar
@@ -1376,8 +1376,8 @@
 													Name='slider'
 													PackSize='a,a'
 													RStyleDefault='/Styles.Slider.default.horizontal.default.rs'
-													ScrollExtent='107,13'
-													Size='107,13'
+													ScrollExtent='179,13'
+													Size='179,13'
 													Style='/Styles.New.Slider.default.horizontal.style_test'
 													UpperLimit='100'
 												>
@@ -1490,8 +1490,8 @@
 											PackSize='a,a'
 											PalBgTint='line2'
 											RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-											ScrollExtent='123,310'
-											Size='123,310'
+											ScrollExtent='195,310'
+											Size='195,310'
 										>
 											<Page
 												BackgroundColor='#FFFFFF'
@@ -1504,8 +1504,8 @@
 												PackSize='a,a'
 												PalBgTint='back1'
 												RStyleDefault='/Styles.New.pill_lrg.rs_default'
-												ScrollExtent='114,304'
-												Size='114,304'
+												ScrollExtent='186,304'
+												Size='186,304'
 											/>
 										</Page>
 										<Page
@@ -1518,8 +1518,8 @@
 											PackSize='a,a'
 											PalBgTint='back1'
 											RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-											ScrollExtent='121,307'
-											Size='121,307'
+											ScrollExtent='193,307'
+											Size='193,307'
 										/>
 									</Page>
 									<Page
@@ -1532,23 +1532,23 @@
 										PackSize='a,a'
 										PalBgTint='line1'
 										RStyleDefault='/Styles.New.whiteOutline.rs_default'
-										ScrollExtent='421,127'
-										Size='421,127'
+										ScrollExtent='493,127'
+										Size='493,127'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:hair_not_available_for_this_group]'
 											Name='Overlay'
 											PackSize='a,a'
-											ScrollExtent='421,127'
-											Size='421,127'
+											ScrollExtent='493,127'
+											Size='493,127'
 											Tooltip='@ui_imagedesigner:hair_not_available_for_this_group'
 											Visible='false'
 										/>
 										<Scrollbar
 											Control='volume'
 											Enabled='false'
-											Location='387,38'
+											Location='459,38'
 											Name='scroll'
 											PackLocation='fff'
 											PackSize='f,a'
@@ -1563,11 +1563,12 @@
 											BackgroundTint='#00D6FB'
 											lightambientcolor='#cccccc'
 											Location='196,22'
+											MinimumSize='94,94'
 											Name='sampleHairBox'
 											PalBgTint='back1'
 											RStyleDefault='/Styles.New.pill_med.rs_default'
-											ScrollExtent='48,48'
-											Size='48,48'
+											ScrollExtent='94,94'
+											Size='94,94'
 										/>
 										<VolumePage
 											BackgroundColor='#FFFFFF'
@@ -1575,15 +1576,15 @@
 											CellCountFixed='4,0'
 											CellSelectionOverlay='/Styles.New.whiteOutline_palW.rs_activated'
 											CellSelectionOverlayOpacity='1.00'
-											CellSize='55,56'
+											CellSize='105,105'
 											Location='21,36'
-											MinimumScrollExtent='118,60'
+											MinimumScrollExtent='218,109'
 											MultiSelection='false'
 											Name='volume'
 											PackSize='a,a'
-											ScrollExtent='361,68'
+											ScrollExtent='433,109'
 											Selectable='true'
-											Size='361,68'
+											Size='433,68'
 										>
 											<Page
 												BackgroundColor='#FFFFFF'
@@ -1591,13 +1592,13 @@
 												Color='#1CFFFF'
 												lightambientcolor='#FFFFFF'
 												Location='2,2'
-												MaximumSize='55,56'
-												MinimumSize='55,56'
+												MaximumSize='105,105'
+												MinimumSize='105,105'
 												Name='sampleHairBox'
 												PalColor='line1'
 												RStyleDefault='/Styles.New.whiteOutline.rs_default'
-												ScrollExtent='55,56'
-												Size='55,56'
+												ScrollExtent='105,105'
+												Size='105,105'
 											/>
 											<Page
 												Activated='true'
@@ -1605,14 +1606,14 @@
 												BackgroundOpacity='1.00'
 												Color='#1CFFFF'
 												lightambientcolor='#FFFFFF'
-												Location='59,2'
-												MaximumSize='55,56'
-												MinimumSize='55,56'
+												Location='109,2'
+												MaximumSize='105,105'
+												MinimumSize='105,105'
 												Name='sampleHairBox'
 												PalColor='line1'
 												RStyleDefault='/Styles.New.whiteOutline.rs_default'
-												ScrollExtent='55,56'
-												Size='55,56'
+												ScrollExtent='105,105'
+												Size='105,105'
 											/>
 										</VolumePage>
 										<Page
@@ -1625,8 +1626,8 @@
 											PackSize='a,a'
 											PalBgTint='line1'
 											RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-											ScrollExtent='365,65'
-											Size='365,65'
+											ScrollExtent='437,65'
+											Size='437,65'
 										>
 											<Page
 												BackgroundColor='#FFFFFF'
@@ -1639,8 +1640,8 @@
 												PackSize='a,a'
 												PalBgTint='back1'
 												RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-												ScrollExtent='366,70'
-												Size='366,70'
+												ScrollExtent='438,70'
+												Size='438,70'
 											/>
 										</Page>
 										<Page
@@ -1653,8 +1654,8 @@
 											PackSize='a,a'
 											PalBgTint='line1'
 											RStyleDefault='/Styles.New.whiteOutline.rs_default'
-											ScrollExtent='421,126'
-											Size='421,126'
+											ScrollExtent='493,126'
+											Size='493,126'
 										>
 											<Page
 												BackgroundColor='#FFFFFF'
@@ -1667,8 +1668,8 @@
 												PackSize='a,a'
 												PalBgTint='back3'
 												RStyleDefault='/Styles.window.mfd.mfd5.rs_default'
-												ScrollExtent='386,76'
-												Size='386,76'
+												ScrollExtent='458,76'
+												Size='458,76'
 											/>
 											<Text
 												Font='bold_13'
@@ -1681,8 +1682,8 @@
 												PackSize='a,f'
 												PalText='header'
 												RStyleDefault='rs_default'
-												ScrollExtent='322,19'
-												Size='322,19'
+												ScrollExtent='394,19'
+												Size='394,19'
 												TextCapital='true'
 												TextColor='#97FFFF'
 											>@cpt_avatar_cust</Text>
@@ -1691,8 +1692,8 @@
 												PackLocation='nfn,nfn'
 												PackSize='a,a'
 												RStyleDefault='/Styles.New.fullFrame.rs_default'
-												ScrollExtent='421,126'
-												Size='421,126'
+												ScrollExtent='493,126'
+												Size='493,126'
 												Visible='false'
 											/>
 											<Page
@@ -1705,8 +1706,8 @@
 												PackSize='a,a'
 												PalBgTint='line1'
 												RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-												ScrollExtent='386,74'
-												Size='386,74'
+												ScrollExtent='458,74'
+												Size='458,74'
 											>
 												<Page
 													BackgroundColor='#FFFFFF'
@@ -1719,8 +1720,8 @@
 													PackSize='a,a'
 													PalBgTint='back3'
 													RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-													ScrollExtent='379,70'
-													Size='379,70'
+													ScrollExtent='451,70'
+													Size='451,70'
 													Visible='false'
 												/>
 											</Page>
@@ -1732,9 +1733,9 @@
 												PackLocation='nfn,nfn'
 												PackSize='a,a'
 												RStyleDefault='/Styles.New.fatFrameInside.rs_default'
-												ScrollExtent='398,100'
+												ScrollExtent='470,100'
 												Selectable='true'
-												Size='398,100'
+												Size='470,100'
 											/>
 											<Page
 												BackgroundOpacity='0.50'
@@ -1745,8 +1746,8 @@
 												PackSize='a,a'
 												PalBgTint='line1'
 												RStyleDefault='/Styles.New.whiteOutline.rs_default'
-												ScrollExtent='398,103'
-												Size='398,103'
+												ScrollExtent='470,103'
+												Size='470,103'
 											/>
 											<Page
 												BackgroundOpacity='1.00'
@@ -1756,19 +1757,20 @@
 												PackLocation='nfn,nfn'
 												PackSize='a,a'
 												RStyleDefault='/Styles.New.fullFrame.rs_default'
-												ScrollExtent='401,112'
-												Size='401,112'
+												ScrollExtent='473,112'
+												Size='473,112'
 												Visible='false'
 											/>
 										</Page>
 									</Page>
 								</Page>
 								<Page
-									Location='0,11'
+									Location='1,11'
 									Name='Advanced'
 									PackSize='a,a'
-									ScrollExtent='427,583'
-									Size='427,583'
+									ScrollExtent='498,583'
+									Size='498,583'
+									Visible='false'
 								>
 									<Text
 										Font='bold_18'
@@ -1780,25 +1782,25 @@
 										PackSize='a,f'
 										PalText='header'
 										RStyleDefault='rs_default'
-										ScrollExtent='417,16'
-										Size='417,16'
+										ScrollExtent='488,19'
+										Size='488,16'
 										TextAlignment='Center'
-										TextColor='#BFFFFF'
+										TextColor='#97FFFF'
 									>@ui_imagedesigner:holoemotes</Text>
 									<Page
 										Location='76,40'
 										Name='holoEmoteNone'
 										PackSize='h,f'
-										ScrollExtent='220,20'
-										Size='220,20'
+										ScrollExtent='256,20'
+										Size='256,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='220,20'
-											Size='220,20'
+											ScrollExtent='256,20'
+											Size='256,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -1812,8 +1814,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='220,20'
-											Size='220,20'
+											ScrollExtent='256,20'
+											Size='256,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_none</Checkbox>
 									</Page>
@@ -1821,16 +1823,16 @@
 										Location='4,88'
 										Name='holoEmoteBeehive'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -1844,8 +1846,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_beehive</Checkbox>
 									</Page>
@@ -1853,16 +1855,16 @@
 										Location='164,88'
 										Name='holoEmoteBrainstorm'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='193,20'
-											Size='193,20'
+											ScrollExtent='229,20'
+											Size='229,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -1876,8 +1878,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='193,20'
-											Size='193,20'
+											ScrollExtent='229,20'
+											Size='229,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_brainstorm</Checkbox>
 									</Page>
@@ -1885,16 +1887,16 @@
 										Location='4,136'
 										Name='holoEmoteImperial'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -1907,8 +1909,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_imperial</Checkbox>
 									</Page>
@@ -1916,16 +1918,16 @@
 										Location='164,136'
 										Name='holoEmoteRebel'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -1938,8 +1940,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_rebel</Checkbox>
 									</Page>
@@ -1947,16 +1949,16 @@
 										Location='4,184'
 										Name='holoEmoteBubbleHead'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -1969,8 +1971,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_bubblehead</Checkbox>
 									</Page>
@@ -1978,16 +1980,16 @@
 										Location='164,184'
 										Name='holoEmoteHologlitter'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -2000,8 +2002,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_hologlitter</Checkbox>
 									</Page>
@@ -2009,16 +2011,16 @@
 										Location='4,232'
 										Name='holoEmoteHolonotes'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -2031,8 +2033,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_holonotes</Checkbox>
 									</Page>
@@ -2040,16 +2042,16 @@
 										Location='164,232'
 										Name='holoEmoteSparky'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -2062,8 +2064,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_sparky</Checkbox>
 									</Page>
@@ -2071,16 +2073,16 @@
 										Location='4,280'
 										Name='holoEmoteBullhorns'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -2093,8 +2095,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_bullhorns</Checkbox>
 									</Page>
@@ -2102,16 +2104,16 @@
 										Location='164,280'
 										Name='holoEmoteChampagne'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -2124,8 +2126,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_champagne</Checkbox>
 									</Page>
@@ -2133,16 +2135,16 @@
 										Location='4,328'
 										Name='holoEmoteTechnokitty'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -2155,8 +2157,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_technokitty</Checkbox>
 									</Page>
@@ -2164,16 +2166,16 @@
 										Location='164,328'
 										Name='holoEmotePhonytail'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -2186,8 +2188,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_phonytail</Checkbox>
 									</Page>
@@ -2195,16 +2197,16 @@
 										Location='4,376'
 										Name='holoEmoteBlossom'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -2217,8 +2219,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_blossom</Checkbox>
 									</Page>
@@ -2226,16 +2228,16 @@
 										Location='164,376'
 										Name='holoEmoteButterflies'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -2248,8 +2250,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_butterflies</Checkbox>
 									</Page>
@@ -2257,16 +2259,16 @@
 										Location='4,424'
 										Name='holoEmoteHaunted'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -2279,8 +2281,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_haunted</Checkbox>
 									</Page>
@@ -2288,16 +2290,16 @@
 										Location='164,424'
 										Name='holoEmoteHearts'
 										PackSize='h,f'
-										ScrollExtent='199,20'
-										Size='199,20'
+										ScrollExtent='235,20'
+										Size='235,20'
 									>
 										<Page
 											BackgroundOpacity='0.50'
 											LocalTooltip='[@ui_imagedesigner:not_enough_skill_slider]'
 											Name='Overlay'
 											PackSize='a,f'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Tooltip='@ui_imagedesigner:not_enough_skill_slider'
 											Visible='false'
 										/>
@@ -2310,8 +2312,8 @@
 											PackSize='a,f'
 											PalColor='text1'
 											Radio='true'
-											ScrollExtent='199,20'
-											Size='199,20'
+											ScrollExtent='235,20'
+											Size='235,20'
 											Style='/Styles.New.RadioButton.Style'
 										>@ui_imagedesigner:holoemote_hearts</Checkbox>
 									</Page>
@@ -2355,31 +2357,30 @@
 										PackSize='a,a'
 										PalBgTint='line1'
 										RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-										ScrollExtent='432,575'
-										Size='426,575'
+										ScrollExtent='497,575'
+										Size='497,575'
 									/>
 								</Page>
 							</Page>
 							<Text
-								Font='bold_13'
+								Font='bold_16'
 								LocalText='[@ui_imagedesigner:timeleft]'
-								Location='65,629'
+								Location='43,627'
 								MaxLines='1'
-								MinimumSize='0,19'
+								MinimumSize='0,21'
 								Name='timeRemainingLabel'
 								PackLocation='fff,fff'
 								PackSize='f,f'
 								PalText='header'
-								ScrollExtent='168,19'
-								Size='168,19'
-								TextAlignment='Left'
-								TextColor='#BFFFFF'
+								ScrollExtent='262,21'
+								Size='262,21'
+								TextColor='#97FFFF'
 							>@ui_imagedesigner:timeleft</Text>
 							<Page
 								BackgroundColor='#FFFFFF'
 								BackgroundOpacity='1.00'
 								BackgroundTint='#00FFFF'
-								Location='281,625'
+								Location='353,625'
 								Name='timeRemaining'
 								PackLocation='fff,fff'
 								PackSize='f,f'
@@ -2406,24 +2407,23 @@
 								>0:00</Text>
 							</Page>
 							<Text
-								Font='bold_13'
+								Font='bold_16'
 								LocalText='[@ui_imagedesigner:offeredmoney]'
-								Location='65,653'
+								Location='43,651'
 								MaxLines='1'
-								MinimumSize='0,19'
+								MinimumSize='0,21'
 								Name='offeredMoneyLabel'
 								PackLocation='fff,fff'
 								PackSize='f,f'
 								PalText='header'
-								ScrollExtent='168,19'
-								Size='168,19'
-								TextAlignment='Left'
-								TextColor='#BFFFFF'
+								ScrollExtent='262,21'
+								Size='262,21'
+								TextColor='#97FFFF'
 							>@ui_imagedesigner:offeredmoney</Text>
 							<Text
-								Font='bold_13'
+								Font='bold_16'
 								LocalText='credits'
-								Location='279,653'
+								Location='351,653'
 								MaxLines='1'
 								MinimumSize='0,19'
 								Name='offeredMoney'
@@ -2433,27 +2433,26 @@
 								ScrollExtent='125,19'
 								Size='125,19'
 								TextAlignment='Right'
-								TextColor='#FFFFFF'
+								TextColor='#97FFFF'
 							>credits</Text>
 							<Text
-								Font='bold_13'
+								Font='bold_16'
 								LocalText='[@ui_imagedesigner:requiredcost]'
-								Location='65,677'
+								Location='43,675'
 								MaxLines='1'
-								MinimumSize='0,19'
+								MinimumSize='0,21'
 								Name='requiredCostLabel'
 								PackLocation='fff,fff'
 								PackSize='f,f'
 								PalText='header'
-								ScrollExtent='168,19'
-								Size='168,19'
-								TextAlignment='Left'
-								TextColor='#BFFFFF'
+								ScrollExtent='262,21'
+								Size='262,21'
+								TextColor='#97FFFF'
 							>@ui_imagedesigner:requiredcost</Text>
 							<Textbox
 								BackgroundOpacity='0.70'
 								BackgroundTint='#1CFFFF'
-								Location='282,673'
+								Location='354,672'
 								MinimumSize='0,19'
 								Name='costtextBox'
 								NumericInteger='true'
@@ -2461,7 +2460,8 @@
 								PackSize='f,f'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-								ScrollExtent='125,24'
+								ScrollExtent='125,25'
+								ScrollLocation='0,1'
 								Size='125,24'
 								Style='/Styles.textbox.login.Style_13'
 							>credits</Textbox>
@@ -2544,7 +2544,7 @@
 					>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							LocalText='[@ui_imagedesigner:designer_caption]'
 							Margin='6,-2,0,0'
 							MaxLines='1'
@@ -2752,11 +2752,10 @@
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
 				RStyleDefault='/Styles.New.active2.rs_default'
-				ScrollExtent='735,390'
-				Size='735,390'
+				ScrollExtent='890,488'
+				Size='890,488'
 				UserMovable='true'
 				UserResizable='true'
-				Visible='false'
 			>
 				<Data
 					bodycheckbox='checkBody'
@@ -2780,9 +2779,9 @@
 					Name='comp'
 					Orientation='Horizontal'
 					PackSize='a,a'
-					ScrollExtent='718,302'
+					ScrollExtent='873,400'
 					Selectable='true'
-					Size='718,302'
+					Size='873,400'
 					Spacing='5'
 					SpacingType='Fill'
 				>
@@ -2793,8 +2792,8 @@
 						PackSize='a,a'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.New.whiteOutline.rs_default'
-						ScrollExtent='295,302'
-						Size='295,302'
+						ScrollExtent='322,400'
+						Size='322,400'
 					>
 						<CuiWidget3dObjectListViewer
 							camerafitbone='true'
@@ -2808,8 +2807,8 @@
 							lookatboneonlyy='true'
 							Name='viewer'
 							PackSize='a,a'
-							ScrollExtent='269,257'
-							Size='269,257'
+							ScrollExtent='296,355'
+							Size='296,355'
 						/>
 						<Text
 							Font='bold_16'
@@ -2820,8 +2819,8 @@
 							Name='label'
 							PackSize='a,f'
 							PalText='header'
-							ScrollExtent='209,19'
-							Size='209,19'
+							ScrollExtent='236,19'
+							Size='236,19'
 							TextAlignment='Center'
 							TextColor='#97FFFF'
 						>@ui_imagedesigner:before</Text>
@@ -2835,8 +2834,8 @@
 							PackSize='a,a'
 							PalBgTint='back1'
 							RStyleDefault='/Styles.New.view_side.rs_default'
-							ScrollExtent='280,267'
-							Size='280,267'
+							ScrollExtent='307,365'
+							Size='307,365'
 						/>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -2848,20 +2847,20 @@
 							PackSize='a,a'
 							PalBgTint='back1'
 							RStyleDefault='/Styles.New.pill_lrg.rs_default'
-							ScrollExtent='272,260'
-							Size='272,260'
+							ScrollExtent='299,358'
+							Size='299,358'
 						/>
 					</Page>
 					<Page
 						BackgroundOpacity='0.50'
 						BackgroundTint='#1CFFFF'
-						Location='300,0'
+						Location='327,0'
 						Name='after'
 						PackSize='a,a'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.New.whiteOutline.rs_default'
-						ScrollExtent='295,302'
-						Size='295,302'
+						ScrollExtent='322,400'
+						Size='322,400'
 					>
 						<CuiWidget3dObjectListViewer
 							camerafitbone='true'
@@ -2875,8 +2874,8 @@
 							lookatboneonlyy='true'
 							Name='viewer'
 							PackSize='a,a'
-							ScrollExtent='268,256'
-							Size='268,256'
+							ScrollExtent='295,354'
+							Size='295,354'
 						/>
 						<Text
 							Font='bold_16'
@@ -2887,8 +2886,8 @@
 							Name='label'
 							PackSize='a,f'
 							PalText='header'
-							ScrollExtent='209,19'
-							Size='209,19'
+							ScrollExtent='236,19'
+							Size='236,19'
 							TextAlignment='Center'
 							TextColor='#97FFFF'
 						>@ui_imagedesigner:after</Text>
@@ -2902,8 +2901,8 @@
 							PackSize='a,a'
 							PalBgTint='back1'
 							RStyleDefault='/Styles.New.view_side.rs_default'
-							ScrollExtent='280,267'
-							Size='280,267'
+							ScrollExtent='307,365'
+							Size='307,365'
 						/>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -2915,20 +2914,21 @@
 							PackSize='a,a'
 							PalBgTint='back1'
 							RStyleDefault='/Styles.New.pill_lrg.rs_default'
-							ScrollExtent='272,260'
-							Size='272,260'
+							ScrollExtent='299,358'
+							Size='299,358'
 						/>
 					</Page>
 					<Page
 						BackgroundOpacity='0.50'
 						BackgroundTint='#1CFFFF'
-						Location='600,0'
+						Location='654,0'
+						MinimumSize='219,0'
 						Name='data'
 						PackSize='0.5,a'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.New.whiteOutline.rs_default'
-						ScrollExtent='118,302'
-						Size='118,302'
+						ScrollExtent='219,400'
+						Size='219,400'
 					>
 						<Page
 							MaximumSize='394,16384'
@@ -2936,8 +2936,8 @@
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
 							RStyleDefault='rs_default'
-							ScrollExtent='118,302'
-							Size='118,302'
+							ScrollExtent='219,400'
+							Size='219,400'
 						>
 							<Composite
 								BackgroundColor='#FFFFFF'
@@ -2949,20 +2949,20 @@
 								PackSize='a,a'
 								Padding='Both'
 								RStyleDefault='/Styles.New.whiteOutline.rs_default'
-								ScrollExtent='98,289'
-								Size='98,289'
+								ScrollExtent='199,387'
+								Size='199,387'
 							>
 								<Text
 									BackgroundColor='#000055'
 									Font='bold_13'
 									LocalText='[@ui_imagedesigner:timeleft]'
-									Location='0,4'
+									Location='0,13'
 									MinimumSize='0,19'
 									Name='captionTimeLeft'
 									PackSize='a,f'
 									PalText='header'
-									ScrollExtent='98,26'
-									Size='98,26'
+									ScrollExtent='199,19'
+									Size='199,19'
 									TextAlignmentVertical='Center'
 									TextColor='#97FFFF'
 								>@ui_imagedesigner:timeleft</Text>
@@ -2972,15 +2972,15 @@
 									BackgroundTint='#00505E'
 									Font='bold_13'
 									LocalText='time left'
-									Location='0,38'
+									Location='0,58'
 									Margin='0,0,4,2'
 									MinimumSize='0,19'
 									Name='timeLeft'
 									PackSize='a,f'
 									PalBgTint='back4'
 									PalText='text1'
-									ScrollExtent='98,19'
-									Size='98,19'
+									ScrollExtent='199,19'
+									Size='199,19'
 									TextAlignment='Right'
 									TextAlignmentVertical='Center'
 									TextColor='#96F4FC'
@@ -2989,13 +2989,13 @@
 									BackgroundColor='#000055'
 									Font='bold_13'
 									LocalText='[@ui_imagedesigner:acceptedbydesigner]'
-									Location='0,65'
+									Location='0,103'
 									MinimumSize='0,19'
 									Name='captionAcceptedByDesigner'
 									PackSize='a,f'
 									PalText='header'
-									ScrollExtent='98,39'
-									Size='98,39'
+									ScrollExtent='199,28'
+									Size='199,28'
 									TextAlignmentVertical='Center'
 									TextColor='#97FFFF'
 								>@ui_imagedesigner:acceptedbydesigner</Text>
@@ -3005,15 +3005,15 @@
 									BackgroundTint='#00505E'
 									Font='bold_13'
 									LocalText='acceptedByDesigner'
-									Location='0,112'
+									Location='0,157'
 									Margin='0,0,4,2'
 									MinimumSize='0,19'
 									Name='acceptedByDesigner'
 									PackSize='a,f'
 									PalBgTint='back4'
 									PalText='text1'
-									ScrollExtent='98,28'
-									Size='98,28'
+									ScrollExtent='199,19'
+									Size='199,19'
 									TextAlignment='Right'
 									TextAlignmentVertical='Center'
 									TextColor='#96F4FC'
@@ -3022,13 +3022,13 @@
 									BackgroundColor='#000055'
 									Font='bold_13'
 									LocalText='[@ui_imagedesigner:requiredcost]'
-									Location='0,148'
+									Location='0,202'
 									MinimumSize='0,19'
 									Name='captionCost'
 									PackSize='a,f'
 									PalText='header'
-									ScrollExtent='98,26'
-									Size='98,26'
+									ScrollExtent='199,28'
+									Size='199,28'
 									TextAlignmentVertical='Center'
 									TextColor='#97FFFF'
 								>@ui_imagedesigner:requiredcost</Text>
@@ -3038,15 +3038,15 @@
 									BackgroundTint='#00505E'
 									Font='bold_13'
 									LocalText='cost'
-									Location='0,182'
+									Location='0,256'
 									Margin='0,0,4,2'
 									MinimumSize='0,19'
 									Name='cost'
 									PackSize='a,f'
 									PalBgTint='back4'
 									PalText='text1'
-									ScrollExtent='98,19'
-									Size='98,19'
+									ScrollExtent='199,19'
+									Size='199,19'
 									TextAlignment='Right'
 									TextAlignmentVertical='Center'
 									TextColor='#96F4FC'
@@ -3055,13 +3055,13 @@
 									BackgroundColor='#000055'
 									Font='bold_13'
 									LocalText='[@ui_imagedesigner:purchasedholoemotes]'
-									Location='0,209'
+									Location='0,301'
 									MinimumSize='0,19'
 									Name='captionPurchasedHoloEmotes'
 									PackSize='a,f'
 									PalText='header'
-									ScrollExtent='98,39'
-									Size='98,39'
+									ScrollExtent='199,28'
+									Size='199,28'
 									TextAlignmentVertical='Center'
 									TextColor='#97FFFF'
 								>@ui_imagedesigner:purchasedholoemotes</Text>
@@ -3071,28 +3071,29 @@
 									BackgroundTint='#00505E'
 									Font='bold_13'
 									LocalText='asdfasdfasdfasdfasdfasdf'
-									Location='0,256'
+									Location='0,355'
 									Margin='0,0,4,2'
 									MinimumSize='0,19'
 									Name='purchasedHoloEmotes'
 									PackSize='a,f'
 									PalBgTint='back4'
 									PalText='text1'
-									ScrollExtent='98,28'
-									Size='98,28'
+									ScrollExtent='199,19'
+									Size='199,19'
 									TextAlignment='Right'
 									TextColor='#96F4FC'
 								>asdfasdfasdfasdfasdfasdf</Text>
 							</Composite>
 							<Scrollbar
 								Control='comp'
-								Location='104,8'
+								Enabled='false'
+								Location='205,8'
 								Name='Scroll'
 								Opacity='0.80'
 								PackLocation='fff,nfn'
 								PackSize='f,a'
-								ScrollExtent='11,285'
-								Size='11,285'
+								ScrollExtent='11,383'
+								Size='11,383'
 								Style='/Styles.scrollbar.default.vHud4.style'
 							>
 							</Scrollbar>
@@ -3103,7 +3104,7 @@
 					Checked='true'
 					Color='#96F4FC'
 					Font='bold_12'
-					Location='87,335'
+					Location='124,433'
 					MinimumSize='0,19'
 					Name='checkBody'
 					OnSet='parent.checkFace.checked=false'
@@ -3118,7 +3119,7 @@
 				<Checkbox
 					Color='#96F4FC'
 					Font='bold_12'
-					Location='356,335'
+					Location='449,433'
 					MinimumSize='0,19'
 					Name='checkFace'
 					OnSet='parent.checkBody.checked=false'
@@ -3133,7 +3134,7 @@
 				<Text
 					Font='bold_13'
 					LocalText='[@ui_imagedesigner:offeredmoney]'
-					Location='15,361'
+					Location='15,459'
 					MaxLines='1'
 					MinimumSize='0,19'
 					Name='paidMoneyLabel'
@@ -3148,7 +3149,7 @@
 				<Textbox
 					BackgroundOpacity='0.70'
 					BackgroundTint='#1CFFFF'
-					Location='246,355'
+					Location='310,453'
 					MaxLength='10'
 					MinimumSize='0,19'
 					Name='paymenttextBox'
@@ -3157,7 +3158,7 @@
 					PackSize='f,f'
 					PalBgTint='line1'
 					RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-					ScrollExtent='102,24'
+					ScrollExtent='102,25'
 					Size='102,24'
 					Style='/Styles.textbox.login.Style_13'
 				>credits</Textbox>
@@ -3165,7 +3166,7 @@
 					buttondelete.visible='true'
 					IsCancelButton='true'
 					LocalText='[@ui_imagedesigner:reject]'
-					Location='509,357'
+					Location='664,455'
 					MinimumSize='0,19'
 					Name='buttonReject'
 					PackLocation='fff,fff'
@@ -3179,7 +3180,7 @@
 					buttondelete.visible='true'
 					IsDefaultButton='true'
 					LocalText='[@ui_imagedesigner:accept]'
-					Location='619,357'
+					Location='774,455'
 					MinimumSize='0,19'
 					Name='buttonAccept'
 					PackLocation='fff,fff'
@@ -3193,11 +3194,11 @@
 					Name='bg'
 					PackLocation='nfn,nfn'
 					PackSize='a,a'
-					ScrollExtent='735,390'
-					Size='735,390'
+					ScrollExtent='890,488'
+					Size='890,488'
 				>
 					<Page
-						Location='724,8'
+						Location='879,8'
 						Name='mmc'
 						PackLocation='fff,nfn'
 						PackSize='f,f'
@@ -3223,8 +3224,8 @@
 						Name='caption'
 						PackLocation='nfn,nfn'
 						PackSize='a,f'
-						ScrollExtent='588,19'
-						Size='588,19'
+						ScrollExtent='743,19'
+						Size='743,19'
 					>
 						<Text
 							Enabled='false'
@@ -3236,8 +3237,8 @@
 							Name='text'
 							PackSize='a,f'
 							PalText='titletext'
-							ScrollExtent='588,19'
-							Size='588,19'
+							ScrollExtent='743,19'
+							Size='743,19'
 							TextAlignmentVertical='Center'
 							TextCapital='true'
 							TextColor='#00354F'
@@ -3252,9 +3253,9 @@
 						PackSize='a,a'
 						PalBgTint='baselight'
 						RStyleDefault='/Styles.New.thin_in.rs_default'
-						ScrollExtent='734,390'
+						ScrollExtent='889,488'
 						Selectable='true'
-						Size='734,390'
+						Size='889,488'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -3263,19 +3264,19 @@
 							Name='lines'
 							PackSize='a,a'
 							RStyleDefault='/Styles.space.boxes.generic4.rs_default'
-							ScrollExtent='734,390'
-							Size='734,390'
+							ScrollExtent='889,488'
+							Size='889,488'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
 								GetsInput='false'
-								Location='0,368'
+								Location='0,466'
 								Name='outlineBL'
 								OpacityRelativeMin='0.80'
 								PackLocation='nfn,fff'
 								PackSize='p,f'
-								ScrollExtent='577,22'
-								Size='577,22'
+								ScrollExtent='698,22'
+								Size='698,22'
 							>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -3288,21 +3289,21 @@
 									PackSize='a,a'
 									PalBgTint='line1'
 									RStyleDefault='/Styles.space.boxes.boxlinebottomLeft2.rs_default'
-									ScrollExtent='577,9'
-									Size='577,9'
+									ScrollExtent='698,9'
+									Size='698,9'
 								/>
 							</Page>
 							<Page
 								BackgroundColor='#FFFFFF'
 								GetsInput='false'
-								Location='202,368'
+								Location='245,466'
 								Name='outlineBR'
 								OpacityRelativeMin='0.80'
 								PackLocation='fff,fff'
 								PackSize='p,f'
 								RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-								ScrollExtent='532,22'
-								Size='532,22'
+								ScrollExtent='644,22'
+								Size='644,22'
 							>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -3315,20 +3316,20 @@
 									PackSize='a,a'
 									PalBgTint='line1'
 									RStyleDefault='/Styles.space.boxes.boxlinebottomRight2.rs_default'
-									ScrollExtent='532,9'
-									Size='532,9'
+									ScrollExtent='644,9'
+									Size='644,9'
 								/>
 							</Page>
 							<Page
 								BackgroundColor='#FFFFFF'
 								GetsInput='false'
-								Location='202,0'
+								Location='245,0'
 								Name='outlineTR'
 								OpacityRelativeMin='0.80'
 								PackLocation='fff,nfn'
 								PackSize='p,f'
-								ScrollExtent='532,22'
-								Size='532,22'
+								ScrollExtent='644,22'
+								Size='644,22'
 							>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -3340,8 +3341,8 @@
 									PackSize='a,a'
 									PalBgTint='line1'
 									RStyleDefault='/Styles.space.boxes.boxlineTopRight2.rs_default'
-									ScrollExtent='532,9'
-									Size='532,9'
+									ScrollExtent='644,9'
+									Size='644,9'
 								/>
 							</Page>
 							<Page
@@ -3352,8 +3353,8 @@
 								PackLocation='nfn,nfn'
 								PackSize='p,f'
 								RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-								ScrollExtent='577,22'
-								Size='577,22'
+								ScrollExtent='698,22'
+								Size='698,22'
 							>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -3365,8 +3366,8 @@
 									PackSize='a,a'
 									PalBgTint='line1'
 									RStyleDefault='/Styles.space.boxes.boxlineTopLeft2.rs_default'
-									ScrollExtent='577,9'
-									Size='577,9'
+									ScrollExtent='698,9'
+									Size='698,9'
 								/>
 							</Page>
 						</Page>
@@ -3377,18 +3378,18 @@
 							PackLocation='nfn,nfn'
 							PackSize='a,f'
 							RStyleDefault='/Styles.New.main_TR.rs_default'
-							ScrollExtent='735,29'
-							Size='735,29'
+							ScrollExtent='890,29'
+							Size='890,29'
 						/>
 						<Page
 							BackgroundOpacity='1.00'
-							Location='0,367'
+							Location='0,465'
 							Name='bottom'
 							PackLocation='nfn,fff'
 							PackSize='a,f'
 							RStyleDefault='/Styles.New.main_BR.rs_default'
-							ScrollExtent='734,23'
-							Size='734,23'
+							ScrollExtent='889,23'
+							Size='889,23'
 						/>
 					</Page>
 					<Page
@@ -3401,9 +3402,9 @@
 						PackSize='a,a'
 						PalBgTint='back1'
 						RStyleDefault='/Styles.New.thin_in.rs_default'
-						ScrollExtent='735,382'
+						ScrollExtent='890,480'
 						Selectable='true'
-						Size='735,382'
+						Size='890,480'
 					/>
 					<Page
 						BackgroundOpacity='0.80'
@@ -3414,9 +3415,9 @@
 						PackSize='a,a'
 						PalBgTint='back1'
 						RStyleDefault='/Styles.space.spaceglow.rs_default'
-						ScrollExtent='735,390'
+						ScrollExtent='890,488'
 						Selectable='true'
-						Size='735,390'
+						Size='890,488'
 					/>
 				</Page>
 			</Page>

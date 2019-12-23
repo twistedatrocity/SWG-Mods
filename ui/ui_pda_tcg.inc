@@ -6,6 +6,7 @@
 			Size='1016,720'
 			UserMovable='true'
 			UserResizable='true'
+			Visible='false'
 		>
 			<Data
 				buttonclose='bg.mmc.close'

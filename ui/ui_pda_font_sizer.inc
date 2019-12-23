@@ -57,7 +57,7 @@
 				Size='256,70'
 			>
 				<Text
-					Font='bold_20'
+					Font='bold_21'
 					LocalText='[@sample_text]'
 					Location='3,13'
 					Name='sample'

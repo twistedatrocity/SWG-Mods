@@ -2,8 +2,9 @@
 			BackgroundOpacity='1.00'
 			Name='ShellBeach'
 			PackSize='1,1'
-			ScrollExtent='1024,768'
-			Size='1024,768'
+			ScrollExtent='1440,980'
+			Size='1440,980'
+			Visible='false'
 		>
 			<Data
 				close='layout.Close'
@@ -13,7 +14,7 @@
 				return='layout.Return'
 			/>
 			<Page
-				Location='73,94'
+				Location='281,200'
 				MaximumSize='878,580'
 				MinimumSize='878,580'
 				Name='layout'
@@ -71,7 +72,7 @@
 					<ButtonStyle
 						MouseOverSound='ui_rollover'
 						Name='style'
-						NormalTextStyle='bold_14'
+						NormalTextStyle='bold_15'
 						ReleaseSound='ui_deselect'
 						RStyleActivated='rs_activated'
 						RStyleDefault='rs_default'
@@ -121,7 +122,7 @@
 					<ButtonStyle
 						MouseOverSound='ui_rollover'
 						Name='style'
-						NormalTextStyle='bold_14'
+						NormalTextStyle='bold_15'
 						ReleaseSound='ui_deselect'
 						RStyleActivated='rs_activated'
 						RStyleDefault='rs_default'
@@ -172,7 +173,7 @@
 						MouseOverSound='ui_rollover'
 						Name='style'
 						NormalIconColor='#EEEEEE'
-						NormalTextStyle='bold_14'
+						NormalTextStyle='bold_15'
 						ReleaseSound='ui_deselect'
 						RStyleActivated='rs_activated'
 						RStyleDefault='rs_default'
