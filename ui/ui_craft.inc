@@ -2,9 +2,8 @@
 		BackgroundOpacity='0.70'
 		Name='Craft'
 		PackSize='1,1'
-		ScrollExtent='1024,768'
-		Size='1024,768'
-		Visible='false'
+		ScrollExtent='1440,980'
+		Size='1440,980'
 		VisualEditLock='true'
 	>
 		<include>ui_craft_option.inc</include>

@@ -1,538 +1,590 @@
-	<Page
-		Location='74,215'
-		MinimumSize='543,312'
-		Name='draft'
-		OnShow='parent.experiment.visible=false
+		<Page
+			Location='241,238'
+			MinimumSize='911,528'
+			Name='draft'
+			OnShow='parent.experiment.visible=false
 parent.option.visible=false
 parent.customize.visible=false
 parent.summary.visible=false
 parent.assembly.visible=false'
-		PackLocation='cfc,cfc'
-		PackSize='p,p'
-		RStyleDefault='rs_default'
-		ScrollExtent='568,461'
-		Size='568,461'
-		UserMovable='true'
-		UserResizable='true'
-		Visible='false'
-	>
-		<Data
-			buttonback='buttonback'
-			buttonclose='bg.mmc.close'
-			buttonnext='buttonnext'
-			checkShowAll='target.left.checkShowAll'
-			info='target.info'
-			Name='CodeData'
-			tabs='target.left.tabs'
-			TreeView='target.left.treePage.tree'
-		/>
-		<Button
-			BackgroundOpacity='0.80'
-			IsDefaultButton='true'
-			LocalText='[@next]'
-			Location='424,429'
-			MinimumSize='0,19'
-			Name='buttonNext'
-			PackLocation='fff,fff'
-			PackSize='p,f'
-			ScrollExtent='127,24'
-			Size='127,24'
-			Style='/Styles.New.buttons.hud.style'
-		>@next</Button>
-		<Button
-			BackgroundOpacity='0.80'
-			IsCancelButton='true'
-			LocalText='[@exit]'
-			Location='17,429'
-			MinimumSize='0,19'
-			Name='buttonBack'
-			PackLocation='nfn,fff'
-			PackSize='p,f'
-			ScrollExtent='127,24'
-			Size='127,24'
-			Style='/Styles.New.buttons.hud.style'
-		>@exit</Button>
-		<Composite
-			Location='12,8'
-			Name='top'
-			Orientation='Horizontal'
-			PackLocation='nfn,nfn'
-			PackSize='a,f'
-			ScrollExtent='538,32'
-			Size='538,32'
+			PackLocation='cfc,cfc'
+			PackSize='p,p'
+			RStyleDefault='rs_default'
+			ScrollExtent='911,528'
+			Size='911,528'
+			UserMovable='true'
+			UserResizable='true'
+			Visible='false'
 		>
 			<Text
-				BackgroundColor='#FFFFFF'
-				ColorCarat='#FFFFFF'
-				ColorSelection='#FFFFFF'
-				Font='bold_13'
-				LocalText='[@ui_craft:cpt_draft_help]'
-				Location='0,13'
-				MaxLines='1'
-				MinimumSize='0,19'
-				Name='helpCaption'
-				OpacityRelativeMin='0.70'
+				Font='bold_16'
+				LocalText='Search:'
+				Location='203,496'
+				Name='searchLabel'
 				PackLocation='nfn,fff'
 				PackSize='f,f'
-				PalText='header'
-				RStyleDefault='rs_default'
-				ScrollExtent='174,19'
-				Size='174,19'
+				ScrollExtent='65,20'
+				Size='65,20'
+				TextAlignment='Right'
+				TextAlignmentVertical='Center'
 				TextColor='#97FFFF'
-			>@ui_craft:cpt_draft_help</Text>
-		</Composite>
-		<Page
-			Location='12,43'
-			Name='target'
-			PackSize='a,a'
-			RStyleDefault='rs_default'
-			ScrollExtent='547,384'
-			Size='547,384'
-		>
+			>Search:</Text>
 			<Page
-				Name='left'
-				PackSize='h,a'
-				ScrollExtent='223,384'
-				Size='223,384'
+				BackgroundColor='#FFFFFF'
+				BackgroundOpacity='0.70'
+				BackgroundTint='#00FFFF'
+				Location='268,490'
+				Name='tBox'
+				PackLocation='nfn,fff'
+				PackSize='h,f'
+				PalBgTint='line2'
+				RStyleDefault='/Styles.New.whiteOutline.rs_default'
+				ScrollExtent='423,32'
+				Size='423,32'
 			>
-				<DataSource
-					Name='TabData'
-					Size='128,64'
-				>
-					<Data
-						Name='xxx craft type 1'
-					/>
-					<Data
-						Name='xxx craft type 2'
-					/>
-				</DataSource>
-				<Scrollbar
-					Control='tabs'
-					Enabled='false'
-					Location='197,32'
-					Name='scroll'
-					PackLocation='fff,nfn'
-					PackSize='f,f'
-					ScrollExtent='24,6'
-					Size='24,6'
-					Style='/Styles.New.scrollbar.H2.style'
-				>
-				</Scrollbar>
-				<TabbedPane
-					BackgroundColor='#009977'
-					Location='0,20'
-					MinimumScrollExtent='244,0'
+				<Textbox
+					BackgroundOpacity='0.70'
+					BackgroundTint='#1CFFFF'
+					MaxLength='128'
 					MinimumSize='0,19'
-					Name='tabs'
-					PackLocation='nfn,nfn'
-					PackSize='p,f'
-					ScrollExtent='244,19'
-					Size='189,19'
-					Style='/Styles.New.tabs.horizontal_10.style'
-					DataSource='TabData'
-					ActiveTab='0'
-					Style='/Styles.New.tabs.horizontal_10.style'
-				>
-				</TabbedPane>
-				<Checkbox
-					Checked='true'
-					Color='#96F4FC'
-					Location='1,2'
-					MaxLines='-1'
-					Name='checkShowAll'
-					OpacityRelativeMin='0.70'
-					PackSize='a,f'
-					PalColor='text1'
-					RStyleDefault='rs_default'
-					ScrollExtent='227,17'
-					Size='227,17'
-					Style='/Styles.New.Checkbox.Style2'
-					Visible='false'
-				>@ui_craft:check_draft_show_all</Checkbox>
+					Name='searchBox'
+					PackSize='a,a'
+					PalBgTint='line1'
+					RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
+					ScrollExtent='423,32'
+					Size='423,32'
+					Style='/Styles.textbox.default.Style'
+				>abcdefgABCDEFG</Textbox>
+				<Page
+					BackgroundColor='#FFFFFF'
+					BackgroundOpacity='0.70'
+					BackgroundTint='#01687E'
+					Location='4,5'
+					Name='whiteBox'
+					PackSize='a,a'
+					PalBgTint='back2'
+					RStyleDefault='/Styles.New.whitebox.rs_default'
+					ScrollExtent='414,22'
+					Size='414,22'
+				/>
+			</Page>
+			<Data
+				buttonback='buttonback'
+				buttonclose='bg.mmc.close'
+				buttonnext='buttonnext'
+				checkShowAll='target.left.checkShowAll'
+				info='target.info'
+				Name='CodeData'
+				searchBox='tBox.searchBox'
+				tabs='target.left.tabs'
+				TreeView='target.left.treePage.tree'
+			/>
+			<Button
+				BackgroundOpacity='0.80'
+				IsDefaultButton='true'
+				LocalText='[@next]'
+				Location='731,492'
+				MinimumSize='0,27'
+				Name='buttonNext'
+				PackLocation='fff,fff'
+				PackSize='f,f'
+				ScrollExtent='163,27'
+				Size='163,27'
+				Style='/Styles.New.buttons.hud.style'
+			>@next</Button>
+			<Button
+				BackgroundOpacity='0.80'
+				IsCancelButton='true'
+				LocalText='[@exit]'
+				Location='17,492'
+				MinimumSize='0,27'
+				Name='buttonBack'
+				PackLocation='nfn,fff'
+				PackSize='f,f'
+				ScrollExtent='177,27'
+				Size='177,27'
+				Style='/Styles.New.buttons.hud.style'
+			>@exit</Button>
+			<Composite
+				Location='12,8'
+				Name='top'
+				Orientation='Horizontal'
+				PackLocation='nfn,nfn'
+				PackSize='a,f'
+				ScrollExtent='881,32'
+				Size='881,32'
+			>
 				<Text
-					Enabled='false'
-					Font='bold_13'
-					LocalText='[@ui_craft:draft_schematics]'
-					Location='1,0'
+					BackgroundColor='#FFFFFF'
+					ColorCarat='#FFFFFF'
+					ColorSelection='#FFFFFF'
+					Font='bold_16'
+					LocalText='[@ui_craft:cpt_draft_help]'
+					Location='0,13'
+					MaxLines='1'
 					MinimumSize='0,19'
-					Name='labelDraftSchematics'
+					Name='helpCaption'
 					OpacityRelativeMin='0.70'
-					PackSize='a,f'
+					PackLocation='nfn,fff'
+					PackSize='f,f'
 					PalText='header'
 					RStyleDefault='rs_default'
-					ScrollExtent='220,19'
-					Size='220,19'
+					ScrollExtent='193,19'
+					Size='193,19'
 					TextColor='#97FFFF'
-				>@ui_craft:draft_schematics</Text>
+				>@ui_craft:cpt_draft_help</Text>
+			</Composite>
+			<Page
+				Location='12,43'
+				Name='target'
+				PackSize='a,a'
+				RStyleDefault='rs_default'
+				ScrollExtent='890,446'
+				Size='890,446'
+			>
 				<Page
-					Location='0,44'
-					MinimumSize='192,0'
-					Name='treePage'
-					PackSize='a,a'
-					ScrollExtent='223,340'
-					Selectable='true'
-					Size='223,340'
+					Name='left'
+					PackSize='h,a'
+					ScrollExtent='395,446'
+					Size='395,446'
 				>
-					<TreeView
-						BackgroundColor='#000000'
-						BackgroundOpacity='0.00'
-						DataSourceContainer='data'
-						Location='4,7'
-						MinimumScrollExtent='203,210'
-						Name='tree'
-						PackLocation='nfn,nfn'
-						PackSize='a,a'
-						ScrollExtent='203,325'
-						SelectedRow='2'
-						SelectedRowCount='1'
-						SelectionAllowedMultiRow='false'
-						ShowIcon='true'
-						Size='203,325'
-						Style='/Styles.tree.style'
-					/>
-					<DataSourceContainer
-						Name='data'
+					<DataSource
+						Name='TabData'
+						Size='128,64'
 					>
-						<DataSourceContainer
-							Expanded='true'
-							Name='novice'
-							Text='Novice'
-							Underline='true'
-						>
-							<DataSourceContainer
-								Expanded='false'
-								Name='skill'
-								Text='A Skill'
-							/>
-							<DataSourceContainer
-								Expanded='false'
-								Name='skill'
-								Text='A Skill'
-							/>
-							<DataSourceContainer
-								Expanded='true'
-								Name='SubMenu'
-								Text='SubMenu'
-								Underline='true'
-							>
-								<DataSourceContainer
-									Expanded='false'
-									Name='skill'
-									Text='A Skill'
-								/>
-								<DataSourceContainer
-									Expanded='false'
-									Name='skill'
-									Text='A Skill'
-								/>
-							</DataSourceContainer>
-						</DataSourceContainer>
-						<DataSourceContainer
-							Expanded='true'
-							Name='apprentice'
-							Text='Apprentice'
-							Underline='true'
-						>
-							<DataSourceContainer
-								Expanded='false'
-								Name='skill'
-								Text='A Skill'
-							/>
-							<DataSourceContainer
-								Expanded='false'
-								Name='skill'
-								Text='A Skill'
-							/>
-							<DataSourceContainer
-								Expanded='false'
-								Name='SubMenu'
-								Text='SubMenu'
-								Underline='true'
-							>
-								<DataSourceContainer
-									Expanded='false'
-									Name='skill'
-									Text='A Skill'
-								/>
-								<DataSourceContainer
-									Expanded='false'
-									Name='skill'
-									Text='A Skill'
-								/>
-							</DataSourceContainer>
-						</DataSourceContainer>
-					</DataSourceContainer>
+						<Data
+							Name='xxx craft type 1'
+						/>
+						<Data
+							Name='xxx craft type 2'
+						/>
+					</DataSource>
 					<Scrollbar
-						AutoVisibility='true'
-						Control='tree'
+						Control='tabs'
 						Enabled='false'
-						Location='209,14'
+						Location='361,32'
+						MinimumSize='34,14'
 						Name='scroll'
-						Opacity='0.90'
-						OpacityRelativeMin='0.40'
 						PackLocation='fff,nfn'
-						PackSize='f,a'
-						ScrollExtent='11,318'
-						Size='11,318'
-						Style='/Styles.scrollbar.default.vHud4.style'
+						PackSize='f,f'
+						ScrollExtent='34,14'
+						Size='34,14'
+						Style='/Styles.New.scrollbar.H2.style'
 					>
 					</Scrollbar>
-					<Page
-						BackgroundTint='#1CFFFF'
-						Name='bg'
+					<TabbedPane
+						BackgroundColor='#009977'
+						Location='0,22'
+						MinimumScrollExtent='298,0'
+						MinimumSize='0,27'
+						Name='tabs'
 						PackLocation='nfn,nfn'
-						PackSize='a,a'
-						PalBgTint='line1'
-						ScrollExtent='223,340'
-						Size='223,340'
+						PackSize='p,f'
+						ScrollExtent='375,27'
+						Size='375,27'
+						Style='/Styles.New.tabs.horizontal_10.style'
+						DataSource='TabData'
+						ActiveTab='0'
+						Style='/Styles.New.tabs.horizontal_10.style'
 					>
+					</TabbedPane>
+					<Checkbox
+						Checked='true'
+						Color='#96F4FC'
+						Location='1,2'
+						MaxLines='-1'
+						Name='checkShowAll'
+						OpacityRelativeMin='0.70'
+						PackSize='a,f'
+						PalColor='text1'
+						RStyleDefault='rs_default'
+						ScrollExtent='399,17'
+						Size='399,17'
+						Style='/Styles.New.Checkbox.Style2'
+						Visible='false'
+					>@ui_craft:check_draft_show_all</Checkbox>
+					<Text
+						Enabled='false'
+						Font='bold_16'
+						LocalText='[@ui_craft:draft_schematics]'
+						Location='1,0'
+						MinimumSize='0,19'
+						Name='labelDraftSchematics'
+						OpacityRelativeMin='0.70'
+						PackSize='a,f'
+						PalText='header'
+						RStyleDefault='rs_default'
+						ScrollExtent='392,19'
+						Size='392,19'
+						TextColor='#97FFFF'
+					>@ui_craft:draft_schematics</Text>
+					<Page
+						Location='0,55'
+						MinimumSize='192,0'
+						Name='treePage'
+						PackSize='a,a'
+						ScrollExtent='395,391'
+						Selectable='true'
+						Size='395,391'
+					>
+						<TreeView
+							BackgroundColor='#000000'
+							BackgroundOpacity='0.00'
+							DataSourceContainer='data'
+							Location='4,7'
+							MinimumScrollExtent='598,230'
+							Name='tree'
+							PackLocation='nfn,nfn'
+							PackSize='a,a'
+							ScrollExtent='598,376'
+							SelectedRow='2'
+							SelectedRowCount='1'
+							SelectionAllowedMultiRow='false'
+							ShowIcon='true'
+							Size='375,376'
+							Style='/Styles.tree.style'
+						/>
+						<DataSourceContainer
+							Name='data'
+						>
+							<DataSourceContainer
+								Expanded='true'
+								Name='novice'
+								Text='Novice'
+								Underline='true'
+							>
+								<DataSourceContainer
+									Expanded='false'
+									Name='skill'
+									Text='A Skill'
+								/>
+								<DataSourceContainer
+									Expanded='false'
+									Name='skill'
+									Text='A Skill'
+								/>
+								<DataSourceContainer
+									Expanded='true'
+									Name='SubMenu'
+									Text='SubMenu'
+									Underline='true'
+								>
+									<DataSourceContainer
+										Expanded='false'
+										Name='skill'
+										Text='A Skill'
+									/>
+									<DataSourceContainer
+										Expanded='false'
+										Name='skill'
+										Text='A Skill'
+									/>
+								</DataSourceContainer>
+							</DataSourceContainer>
+							<DataSourceContainer
+								Expanded='true'
+								Name='apprentice'
+								Text='Apprentice'
+								Underline='true'
+							>
+								<DataSourceContainer
+									Expanded='false'
+									Name='skill'
+									Text='A Skill'
+								/>
+								<DataSourceContainer
+									Expanded='false'
+									Name='skill'
+									Text='A Skill'
+								/>
+								<DataSourceContainer
+									Expanded='false'
+									Name='SubMenu'
+									Text='SubMenu'
+									Underline='true'
+								>
+									<DataSourceContainer
+										Expanded='false'
+										Name='skill'
+										Text='A Skill'
+									/>
+									<DataSourceContainer
+										Expanded='false'
+										Name='skill'
+										Text='A Skill'
+									/>
+								</DataSourceContainer>
+							</DataSourceContainer>
+						</DataSourceContainer>
+						<Scrollbar
+							AutoVisibility='true'
+							Control='tree'
+							Location='381,14'
+							Name='scroll'
+							Opacity='0.90'
+							OpacityRelativeMin='0.40'
+							PackLocation='fff,nfn'
+							PackSize='f,a'
+							ScrollExtent='11,369'
+							Size='11,369'
+							Style='/Styles.scrollbar.default.vHud4.style'
+						>
+						</Scrollbar>
 						<Page
-							BackgroundOpacity='0.90'
 							BackgroundTint='#1CFFFF'
-							GetsInput='false'
-							Name='boxOutline'
+							Name='bg'
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
 							PalBgTint='line1'
-							RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-							ScrollExtent='223,340'
-							Size='223,340'
+							ScrollExtent='395,391'
+							Size='395,391'
 						>
 							<Page
+								BackgroundOpacity='0.90'
+								BackgroundTint='#1CFFFF'
+								GetsInput='false'
+								Name='boxOutline'
+								PackLocation='nfn,nfn'
+								PackSize='a,a'
+								PalBgTint='line1'
+								RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
+								ScrollExtent='395,391'
+								Size='395,391'
+							>
+								<Page
+									BackgroundColor='#FFFFFF'
+									BackgroundOpacity='0.20'
+									BackgroundTint='#00D6FB'
+									Location='5,7'
+									Name='box'
+									PackLocation='nfn,nfn'
+									PackSize='a,a'
+									PalBgTint='back1'
+									RStyleDefault='/Styles.New.whitebox_palW.rs_default'
+									ScrollExtent='374,378'
+									Size='374,378'
+								/>
+							</Page>
+							<Page
 								BackgroundColor='#FFFFFF'
-								BackgroundOpacity='0.20'
+								BackgroundOpacity='0.70'
 								BackgroundTint='#00D6FB'
-								Location='5,7'
-								Name='box'
+								Location='1,2'
+								Name='inFrame'
 								PackLocation='nfn,nfn'
 								PackSize='a,a'
 								PalBgTint='back1'
-								RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-								ScrollExtent='202,327'
-								Size='202,327'
+								RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
+								ScrollExtent='391,388'
+								Size='391,388'
 							/>
 						</Page>
+					</Page>
+				</Page>
+				<Page
+					Location='401,0'
+					Name='info'
+					PackLocation='fff,fff'
+					PackSize='h,a'
+					RStyleDefault='rs_default'
+					ScrollExtent='489,446'
+					Selectable='true'
+					Size='489,446'
+				>
+					<Data
+						AutoEnableContent='true'
+						content='bottom.content'
+						Label='bottom.content.label'
+						Name='CodeData'
+						textAttribs='bottom.content.textAttribs'
+						textDesc='bottom.content.textDesc'
+						viewer='viewerpage.viewer'
+					/>
+					<Page
+						BackgroundTint='#1CFFFF'
+						Name='ViewerPage'
+						PackLocation='nfn,nfn'
+						PackSize='a,h'
+						PalBgTint='line1'
+						RStyleDefault='/Styles.New.whiteOutline2.rs_default'
+						ScrollExtent='489,229'
+						Size='489,229'
+					>
+						<CuiWidget3dObjectListViewer
+							BackgroundColor='#FFFFFF'
+							BackgroundTint='#00D6FB'
+							CameraPitch='0.5'
+							cameratransformtoobj='true'
+							defaultrotatespeed='0'
+							DragAccepts='gameobject'
+							dragpitchok='true'
+							Location='2,2'
+							Name='viewer'
+							PackLocation='nfn,nfn'
+							PackSize='a,a'
+							PalBgTint='back1'
+							RStyleDefault='/Styles.New.viewer.rs_default'
+							ScrollExtent='485,228'
+							Size='485,228'
+						/>
+						<DataSource
+							Name='vds'
+						>
+							<Data
+								appearanceTemplate='appearance/pt_ui_sparkly2.prt'
+								Name='d'
+							/>
+						</DataSource>
 						<Page
 							BackgroundColor='#FFFFFF'
-							BackgroundOpacity='0.70'
+							BackgroundOpacity='0.40'
 							BackgroundTint='#00D6FB'
-							Location='1,2'
-							Name='inFrame'
+							Location='2,2'
+							Name='color'
+							PackLocation='nfn,nfn'
+							PackSize='a,a'
+							PalBgTint='back1'
+							RStyleDefault='/Styles.New.viewer.rs_default'
+							ScrollExtent='485,228'
+							Size='485,228'
+						/>
+						<CuiWidget3dObjectListViewer
+							BackgroundColor='#FFFFFF'
+							cameralookatcenter='true'
+							cameratransformtoobj='true'
+							camerayaw='90'
+							dragpitchok='true'
+							dragyawok='true'
+							fieldofview='60'
+							FitDistanceFactor='0.3'
+							Location='2,2'
+							Name='particle'
+							objectdatasource='vds'
+							PackLocation='nfn,nfn'
+							PackSize='a,a'
+							paused='true'
+							ScrollExtent='485,228'
+							Size='485,228'
+						/>
+						<Image
+							Color='#00D6FB'
+							Location='160,26'
+							Name='New Image'
+							Opacity='0.20'
+							PackLocation='cfc,cfc'
+							PackSize='f,f'
+							PalColor='back1'
+							ScrollExtent='170,170'
+							Size='170,170'
+							SourceRect='266,0,512,252'
+							SourceResource='ui_viewer_back'
+						/>
+						<Page
+							BackgroundColor='#FFFFFF'
+							BackgroundOpacity='0.60'
+							BackgroundTint='#00D6FB'
+							Location='2,2'
+							Name='box'
+							PackLocation='nfn,nfn'
+							PackSize='a,a'
+							PalBgTint='back1'
+							RStyleDefault='/Styles.New.viewer.rs_default'
+							ScrollExtent='485,228'
+							Size='485,228'
+						/>
+						<Page
+							BackgroundColor='#FFFFFF'
+							BackgroundOpacity='0.80'
+							BackgroundTint='#00D6FB'
+							Location='12,20'
+							Name='box'
+							PackLocation='nfn,nfn'
+							PackSize='a,a'
+							PalBgTint='back1'
+							RStyleDefault='/Styles.New.pill_lrg.rs_default'
+							ScrollExtent='466,186'
+							Size='466,186'
+						/>
+						<Page
+							BackgroundColor='#FFFFFF'
+							BackgroundTint='#00D6FB'
+							Location='2,2'
+							Name='InsideThinFrame'
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
 							PalBgTint='back1'
 							RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-							ScrollExtent='219,337'
-							Size='219,337'
+							ScrollExtent='485,217'
+							Size='485,217'
+							Visible='false'
 						/>
 					</Page>
-				</Page>
-			</Page>
-			<Page
-				Location='230,0'
-				Name='info'
-				PackLocation='fff,fff'
-				PackSize='h,a'
-				RStyleDefault='rs_default'
-				ScrollExtent='317,384'
-				Selectable='true'
-				Size='317,384'
-			>
-				<Data
-					AutoEnableContent='true'
-					content='bottom.content'
-					Label='bottom.content.label'
-					Name='CodeData'
-					textAttribs='bottom.content.textAttribs'
-					textDesc='bottom.content.textDesc'
-					viewer='viewerpage.viewer'
-				/>
-				<Page
-					BackgroundTint='#1CFFFF'
-					Name='ViewerPage'
-					PackLocation='nfn,nfn'
-					PackSize='a,h'
-					PalBgTint='line1'
-					RStyleDefault='/Styles.New.whiteOutline2.rs_default'
-					ScrollExtent='317,198'
-					Size='317,198'
-				>
-					<CuiWidget3dObjectListViewer
-						BackgroundColor='#FFFFFF'
-						BackgroundTint='#00D6FB'
-						CameraPitch='0.5'
-						cameratransformtoobj='true'
-						defaultrotatespeed='0'
-						DragAccepts='gameobject'
-						dragpitchok='true'
-						Location='2,2'
-						Name='viewer'
-						PackLocation='nfn,nfn'
-						PackSize='a,a'
-						PalBgTint='back1'
-						RStyleDefault='/Styles.New.viewer.rs_default'
-						ScrollExtent='313,197'
-						Size='313,197'
-					/>
-					<DataSource
-						Name='vds'
-					>
-						<Data
-							appearanceTemplate='appearance/pt_ui_sparkly2.prt'
-							Name='d'
-						/>
-					</DataSource>
 					<Page
-						BackgroundColor='#FFFFFF'
-						BackgroundOpacity='0.40'
-						BackgroundTint='#00D6FB'
-						Location='2,2'
-						Name='color'
-						PackLocation='nfn,nfn'
-						PackSize='a,a'
-						PalBgTint='back1'
-						RStyleDefault='/Styles.New.viewer.rs_default'
-						ScrollExtent='313,197'
-						Size='313,197'
-					/>
-					<CuiWidget3dObjectListViewer
-						BackgroundColor='#FFFFFF'
-						cameralookatcenter='true'
-						cameratransformtoobj='true'
-						camerayaw='90'
-						dragpitchok='true'
-						dragyawok='true'
-						fieldofview='60'
-						FitDistanceFactor='0.3'
-						Location='2,2'
-						Name='particle'
-						objectdatasource='vds'
-						PackLocation='nfn,nfn'
-						PackSize='a,a'
-						paused='true'
-						ScrollExtent='313,197'
-						Size='313,197'
-					/>
-					<Image
-						Color='#00D6FB'
-						Location='74,11'
-						Name='New Image'
-						Opacity='0.20'
-						PackLocation='cfc,cfc'
-						PackSize='f,f'
-						PalColor='back1'
-						ScrollExtent='170,170'
-						Size='170,170'
-						SourceRect='266,0,512,252'
-						SourceResource='ui_viewer_back'
-					/>
-					<Page
-						BackgroundColor='#FFFFFF'
-						BackgroundOpacity='0.60'
-						BackgroundTint='#00D6FB'
-						Location='2,2'
-						Name='box'
-						PackLocation='nfn,nfn'
-						PackSize='a,a'
-						PalBgTint='back1'
-						RStyleDefault='/Styles.New.viewer.rs_default'
-						ScrollExtent='313,197'
-						Size='313,197'
-					/>
-					<Page
-						BackgroundColor='#FFFFFF'
-						BackgroundOpacity='0.80'
-						BackgroundTint='#00D6FB'
-						Location='12,20'
-						Name='box'
-						PackLocation='nfn,nfn'
-						PackSize='a,a'
-						PalBgTint='back1'
-						RStyleDefault='/Styles.New.pill_lrg.rs_default'
-						ScrollExtent='294,155'
-						Size='294,155'
-					/>
-					<Page
-						BackgroundColor='#FFFFFF'
-						BackgroundTint='#00D6FB'
-						Location='2,2'
-						Name='InsideThinFrame'
-						PackLocation='nfn,nfn'
-						PackSize='a,a'
-						PalBgTint='back1'
-						RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-						ScrollExtent='313,186'
-						Size='313,186'
-						Visible='false'
-					/>
-				</Page>
-				<Page
-					Location='0,204'
-					Name='bottom'
-					PackLocation='nfn,fff'
-					PackSize='a,h'
-					RStyleDefault='rs_default'
-					ScrollExtent='317,180'
-					Size='317,180'
-				>
-					<Text
-						Enabled='false'
-						Font='bold_13'
-						LocalText='[@ui_craft:draft_ingredients]'
-						MinimumSize='0,19'
-						Name='labelIngredients'
-						OpacityRelativeMin='0.70'
-						PackLocation='nfn,nfn'
-						PackSize='p,f'
-						PalText='header'
+						Location='0,235'
+						Name='bottom'
+						PackLocation='nfn,fff'
+						PackSize='a,h'
 						RStyleDefault='rs_default'
-						ScrollExtent='314,19'
-						Size='314,19'
-						TextColor='#97FFFF'
-					>@ui_craft:draft_ingredients</Text>
-					<Scrollbar
-						Control='content'
-						Enabled='false'
-						Location='303,23'
-						Name='scroll'
-						Opacity='0.90'
-						OpacityRelativeMin='0.40'
-						PackLocation='fff,nfn'
-						PackSize='f,a'
-						ScrollExtent='11,151'
-						Size='11,151'
-						Style='/Styles.scrollbar.default.vHud4.style'
-					>
-					</Scrollbar>
-					<Composite
-						Location='6,26'
-						Name='content'
-						OnDisableEffector='/effectors.opacity.fast.fadeout'
-						OnEnableEffector='/effectors.opacity.fast.fadefull'
-						PackLocation='nfn,nfn'
-						PackSize='a,a'
-						ScrollExtent='292,169'
-						Size='292,145'
-						Spacing='4'
-						SpacingType='Constant'
+						ScrollExtent='489,211'
+						Size='489,211'
 					>
 						<Text
+							Enabled='false'
 							Font='bold_16'
-							LocalText='xxx data_obj_name'
-							Margin='2,2,2,2'
-							Name='label'
+							LocalText='[@ui_craft:draft_ingredients]'
+							MinimumSize='0,19'
+							Name='labelIngredients'
 							OpacityRelativeMin='0.70'
-							PackSize='a,f'
+							PackLocation='nfn,nfn'
+							PackSize='p,f'
+							PalText='header'
 							RStyleDefault='rs_default'
-							ScrollExtent='292,21'
-							Size='292,18'
-							TextAlignment='Center'
-							TextColor='#80FF00'
-							Visible='false'
-						>xxx data_obj_name</Text>
-						<Text
-							Font='bold_14'
-							LocalText='xxx attrib 1:    info here
+							ScrollExtent='483,19'
+							Size='483,19'
+							TextColor='#97FFFF'
+						>@ui_craft:draft_ingredients</Text>
+						<Scrollbar
+							Control='content'
+							Location='475,23'
+							Name='scroll'
+							Opacity='0.90'
+							OpacityRelativeMin='0.40'
+							PackLocation='fff,nfn'
+							PackSize='f,a'
+							ScrollExtent='11,182'
+							Size='11,182'
+							Style='/Styles.scrollbar.default.vHud4.style'
+						>
+						</Scrollbar>
+						<Composite
+							Location='6,26'
+							Name='content'
+							OnDisableEffector='/effectors.opacity.fast.fadeout'
+							OnEnableEffector='/effectors.opacity.fast.fadefull'
+							PackLocation='nfn,nfn'
+							PackSize='a,a'
+							ScrollExtent='464,191'
+							Size='464,176'
+							Spacing='4'
+							SpacingType='Constant'
+						>
+							<Text
+								Font='bold_16'
+								LocalText='xxx data_obj_name'
+								Margin='2,2,2,2'
+								Name='label'
+								OpacityRelativeMin='0.70'
+								PackSize='a,f'
+								RStyleDefault='rs_default'
+								ScrollExtent='464,21'
+								Size='464,18'
+								TextAlignment='Center'
+								TextColor='#80FF00'
+								Visible='false'
+							>xxx data_obj_name</Text>
+							<Text
+								Font='bold_16'
+								LocalText='xxx attrib 1:    info here
 xxx attrib 2:    info here
 xxx attrib 3:    info here
 xxx attrib 4:    info here
@@ -541,16 +593,16 @@ xxx attrib 6:    info here
 xxx attrib 7:    info here
 xxx attrib 8:    info here
 '
-							Location='4,0'
-							Name='textAttribs'
-							OpacityRelativeMin='0.70'
-							PackSize='a,f'
-							PalText='text1'
-							RStyleDefault='rs_default'
-							ScrollExtent='288,135'
-							Size='288,135'
-							TextColor='#96F4FC'
-						>xxx attrib 1:    info here
+								Location='4,0'
+								Name='textAttribs'
+								OpacityRelativeMin='0.70'
+								PackSize='a,f'
+								PalText='text1'
+								RStyleDefault='rs_default'
+								ScrollExtent='460,153'
+								Size='460,153'
+								TextColor='#96F4FC'
+							>xxx attrib 1:    info here
 xxx attrib 2:    info here
 xxx attrib 3:    info here
 xxx attrib 4:    info here
@@ -559,318 +611,318 @@ xxx attrib 6:    info here
 xxx attrib 7:    info here
 xxx attrib 8:    info here
 </Text>
-						<Text
-							Font='bold_14'
-							LocalText='xxx Description goes into this field with all the other text ok you can stop now.'
-							Location='4,139'
-							Name='textDesc'
-							OpacityRelativeMin='0.70'
-							PackSize='a,f'
-							PalText='text1'
-							RStyleDefault='rs_default'
-							ScrollExtent='288,30'
-							Size='288,30'
-							TextColor='#96F4FC'
-						>xxx Description goes into this field with all the other text ok you can stop now.</Text>
-					</Composite>
-					<Page
-						Name='bg'
-						PackLocation='nfn,nfn'
-						PackSize='a,a'
-						ScrollExtent='317,180'
-						Size='317,180'
-					>
+							<Text
+								Font='bold_16'
+								LocalText='xxx Description goes into this field with all the other text ok you can stop now.'
+								Location='4,157'
+								Name='textDesc'
+								OpacityRelativeMin='0.70'
+								PackSize='a,f'
+								PalText='text1'
+								RStyleDefault='rs_default'
+								ScrollExtent='460,34'
+								Size='460,34'
+								TextColor='#96F4FC'
+							>xxx Description goes into this field with all the other text ok you can stop now.</Text>
+						</Composite>
 						<Page
-							BackgroundOpacity='0.90'
-							BackgroundTint='#1CFFFF'
-							GetsInput='false'
-							Location='0,20'
-							Name='boxOutline'
+							Name='bg'
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
-							PalBgTint='line1'
-							RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-							ScrollExtent='317,160'
-							Size='317,160'
+							ScrollExtent='489,211'
+							Size='489,211'
 						>
 							<Page
+								BackgroundOpacity='0.90'
+								BackgroundTint='#1CFFFF'
+								GetsInput='false'
+								Location='0,20'
+								Name='boxOutline'
+								PackLocation='nfn,nfn'
+								PackSize='a,a'
+								PalBgTint='line1'
+								RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
+								ScrollExtent='489,191'
+								Size='489,191'
+							>
+								<Page
+									BackgroundColor='#FFFFFF'
+									BackgroundOpacity='0.10'
+									BackgroundTint='#00D6FB'
+									Location='6,7'
+									Name='box'
+									PackLocation='nfn,nfn'
+									PackSize='a,a'
+									PalBgTint='back1'
+									RStyleDefault='/Styles.New.whitebox_palW.rs_default'
+									ScrollExtent='467,178'
+									Size='467,178'
+								/>
+							</Page>
+							<Page
 								BackgroundColor='#FFFFFF'
-								BackgroundOpacity='0.10'
+								BackgroundOpacity='0.70'
 								BackgroundTint='#00D6FB'
-								Location='6,7'
-								Name='box'
+								Location='2,20'
+								Name='inFrame'
 								PackLocation='nfn,nfn'
 								PackSize='a,a'
 								PalBgTint='back1'
-								RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-								ScrollExtent='295,147'
-								Size='295,147'
+								RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
+								ScrollExtent='485,190'
+								Size='485,190'
 							/>
 						</Page>
-						<Page
-							BackgroundColor='#FFFFFF'
-							BackgroundOpacity='0.70'
-							BackgroundTint='#00D6FB'
-							Location='2,20'
-							Name='inFrame'
-							PackLocation='nfn,nfn'
-							PackSize='a,a'
-							PalBgTint='back1'
-							RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-							ScrollExtent='313,159'
-							Size='313,159'
-						/>
 					</Page>
 				</Page>
 			</Page>
-		</Page>
-		<Page
-			Name='bg'
-			PackLocation='nfn,nfn'
-			PackSize='a,a'
-			ScrollExtent='568,461'
-			Size='568,461'
-		>
 			<Page
-				Location='557,8'
-				Name='mmc'
-				PackLocation='fff,nfn'
-				PackSize='f,f'
-				RStyleDefault='/Styles.New.thin_mmc.rs_default'
-				ScrollExtent='12,10'
-				Size='12,10'
-			>
-				<Button
-					BackgroundColor='#FFFFFF'
-					BackgroundOpacity='0.80'
-					IsCancelButton='true'
-					Location='-3,-3'
-					Name='close'
-					PackLocation='fff,cfc'
-					PackSize='f,f'
-					ScrollExtent='16,16'
-					Size='16,16'
-					Style='/Styles.Frame.buttonClose.style'
-				></Button>
-			</Page>
-			<Page
-				MinimumSize='0,19'
-				Name='caption'
-				PackLocation='nfn,nfn'
-				PackSize='a,f'
-				ScrollExtent='426,19'
-				Size='426,19'
-			>
-				<Text
-					Enabled='false'
-					Font='bold_13'
-					LocalText='[@UI_CRAFT:CPT_DRAFT_SCHEMATICS]'
-					Margin='6,-2,0,0'
-					MaxLines='1'
-					MinimumSize='0,19'
-					Name='label'
-					PackLocation='nfn,nfn'
-					PackSize='a,f'
-					PalText='titletext'
-					ScrollExtent='359,19'
-					Size='359,19'
-					TextAlignmentVertical='Center'
-					TextCapital='true'
-					TextColor='#00354F'
-				>@ui_craft:cpt_draft_schematics</Text>
-				<Text
-					Enabled='false'
-					Font='bold_13'
-					LocalText='STEP 1/6'
-					Location='354,0'
-					Margin='6,-2,0,0'
-					MaxLines='1'
-					MinimumSize='0,19'
-					Name='text'
-					PackLocation='fff,nfn'
-					PackSize='f,f'
-					PalText='titletext'
-					ScrollExtent='72,19'
-					Size='72,19'
-					TextAlignmentVertical='Center'
-					TextCapital='true'
-					TextColor='#00354F'
-				>STEP 1/6</Text>
-			</Page>
-			<Page
-				BackgroundTint='#00D6FB'
-				GetsInput='false'
-				Location='1,0'
-				Name='frame'
+				Name='bg'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				PalBgTint='baselight'
-				RStyleDefault='/Styles.New.thin_in.rs_default'
-				ScrollExtent='567,461'
-				Selectable='true'
-				Size='567,461'
+				ScrollExtent='911,528'
+				Size='911,528'
 			>
 				<Page
-					BackgroundColor='#FFFFFF'
+					Location='900,8'
+					Name='mmc'
+					PackLocation='fff,nfn'
+					PackSize='f,f'
+					RStyleDefault='/Styles.New.thin_mmc.rs_default'
+					ScrollExtent='12,10'
+					Size='12,10'
+				>
+					<Button
+						BackgroundColor='#FFFFFF'
+						BackgroundOpacity='0.80'
+						IsCancelButton='true'
+						Location='-3,-3'
+						Name='close'
+						PackLocation='fff,cfc'
+						PackSize='f,f'
+						ScrollExtent='16,16'
+						Size='16,16'
+						Style='/Styles.Frame.buttonClose.style'
+					></Button>
+				</Page>
+				<Page
+					MinimumSize='0,19'
+					Name='caption'
+					PackLocation='nfn,nfn'
+					PackSize='a,f'
+					ScrollExtent='769,19'
+					Size='769,19'
+				>
+					<Text
+						Enabled='false'
+						Font='bold_18'
+						LocalText='[@UI_CRAFT:CPT_DRAFT_SCHEMATICS]'
+						Margin='6,-2,0,0'
+						MaxLines='1'
+						MinimumSize='0,19'
+						Name='label'
+						PackLocation='nfn,nfn'
+						PackSize='a,f'
+						PalText='titletext'
+						ScrollExtent='676,19'
+						Size='676,19'
+						TextAlignmentVertical='Center'
+						TextCapital='true'
+						TextColor='#00354F'
+					>@ui_craft:cpt_draft_schematics</Text>
+					<Text
+						Enabled='false'
+						Font='bold_18'
+						LocalText='STEP 1/6'
+						Location='674,0'
+						Margin='6,-2,0,0'
+						MaxLines='1'
+						MinimumSize='0,19'
+						Name='text'
+						PackLocation='fff,nfn'
+						PackSize='f,f'
+						PalText='titletext'
+						ScrollExtent='95,19'
+						Size='95,19'
+						TextAlignmentVertical='Center'
+						TextCapital='true'
+						TextColor='#00354F'
+					>STEP 1/6</Text>
+				</Page>
+				<Page
+					BackgroundTint='#00D6FB'
 					GetsInput='false'
 					Location='1,0'
-					Name='lines'
+					Name='frame'
+					PackLocation='nfn,nfn'
 					PackSize='a,a'
-					RStyleDefault='/Styles.space.boxes.generic4.rs_default'
-					ScrollExtent='567,461'
-					Size='567,461'
+					PalBgTint='baselight'
+					RStyleDefault='/Styles.New.thin_in.rs_default'
+					ScrollExtent='910,528'
+					Selectable='true'
+					Size='910,528'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
 						GetsInput='false'
-						Location='0,439'
-						Name='outlineBL'
-						OpacityRelativeMin='0.80'
-						PackLocation='nfn,fff'
-						PackSize='p,f'
-						ScrollExtent='447,22'
-						Size='447,22'
+						Location='1,0'
+						Name='lines'
+						PackSize='a,a'
+						RStyleDefault='/Styles.space.boxes.generic4.rs_default'
+						ScrollExtent='910,528'
+						Size='910,528'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
-							BackgroundOpacity='1.00'
-							BackgroundTint='#1CFFFF'
 							GetsInput='false'
-							Location='0,13'
-							Name='outline1'
+							Location='0,506'
+							Name='outlineBL'
 							OpacityRelativeMin='0.80'
-							PackSize='a,a'
-							PalBgTint='line1'
-							RStyleDefault='/Styles.space.boxes.boxlinebottomLeft2.rs_default'
-							ScrollExtent='447,9'
-							Size='447,9'
-						/>
-					</Page>
-					<Page
-						BackgroundColor='#FFFFFF'
-						GetsInput='false'
-						Location='153,439'
-						Name='outlineBR'
-						OpacityRelativeMin='0.80'
-						PackLocation='fff,fff'
-						PackSize='p,f'
-						RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-						ScrollExtent='414,22'
-						Size='414,22'
-					>
+							PackLocation='nfn,fff'
+							PackSize='p,f'
+							ScrollExtent='715,22'
+							Size='715,22'
+						>
+							<Page
+								BackgroundColor='#FFFFFF'
+								BackgroundOpacity='1.00'
+								BackgroundTint='#1CFFFF'
+								GetsInput='false'
+								Location='0,13'
+								Name='outline1'
+								OpacityRelativeMin='0.80'
+								PackSize='a,a'
+								PalBgTint='line1'
+								RStyleDefault='/Styles.space.boxes.boxlinebottomLeft2.rs_default'
+								ScrollExtent='715,9'
+								Size='715,9'
+							/>
+						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
-							BackgroundOpacity='1.00'
-							BackgroundTint='#1CFFFF'
 							GetsInput='false'
-							Location='0,13'
-							Name='outline1'
+							Location='247,506'
+							Name='outlineBR'
 							OpacityRelativeMin='0.80'
-							PackSize='a,a'
-							PalBgTint='line1'
-							RStyleDefault='/Styles.space.boxes.boxlinebottomRight2.rs_default'
-							ScrollExtent='414,9'
-							Size='414,9'
-						/>
-					</Page>
-					<Page
-						BackgroundColor='#FFFFFF'
-						GetsInput='false'
-						Location='153,0'
-						Name='outlineTR'
-						OpacityRelativeMin='0.80'
-						PackLocation='fff,nfn'
-						PackSize='p,f'
-						ScrollExtent='414,22'
-						Size='414,22'
-					>
+							PackLocation='fff,fff'
+							PackSize='p,f'
+							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
+							ScrollExtent='663,22'
+							Size='663,22'
+						>
+							<Page
+								BackgroundColor='#FFFFFF'
+								BackgroundOpacity='1.00'
+								BackgroundTint='#1CFFFF'
+								GetsInput='false'
+								Location='0,13'
+								Name='outline1'
+								OpacityRelativeMin='0.80'
+								PackSize='a,a'
+								PalBgTint='line1'
+								RStyleDefault='/Styles.space.boxes.boxlinebottomRight2.rs_default'
+								ScrollExtent='663,9'
+								Size='663,9'
+							/>
+						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
-							BackgroundOpacity='1.00'
-							BackgroundTint='#1CFFFF'
 							GetsInput='false'
-							Name='outline1'
+							Location='247,0'
+							Name='outlineTR'
 							OpacityRelativeMin='0.80'
-							PackSize='a,a'
-							PalBgTint='line1'
-							RStyleDefault='/Styles.space.boxes.boxlineTopRight2.rs_default'
-							ScrollExtent='414,9'
-							Size='414,9'
-						/>
+							PackLocation='fff,nfn'
+							PackSize='p,f'
+							ScrollExtent='663,22'
+							Size='663,22'
+						>
+							<Page
+								BackgroundColor='#FFFFFF'
+								BackgroundOpacity='1.00'
+								BackgroundTint='#1CFFFF'
+								GetsInput='false'
+								Name='outline1'
+								OpacityRelativeMin='0.80'
+								PackSize='a,a'
+								PalBgTint='line1'
+								RStyleDefault='/Styles.space.boxes.boxlineTopRight2.rs_default'
+								ScrollExtent='663,9'
+								Size='663,9'
+							/>
+						</Page>
+						<Page
+							BackgroundColor='#FFFFFF'
+							GetsInput='false'
+							Name='outlineTL'
+							OpacityRelativeMin='0.80'
+							PackLocation='nfn,nfn'
+							PackSize='p,f'
+							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
+							ScrollExtent='715,22'
+							Size='715,22'
+						>
+							<Page
+								BackgroundColor='#FFFFFF'
+								BackgroundOpacity='1.00'
+								BackgroundTint='#1CFFFF'
+								GetsInput='false'
+								Name='outline1'
+								OpacityRelativeMin='0.80'
+								PackSize='a,a'
+								PalBgTint='line1'
+								RStyleDefault='/Styles.space.boxes.boxlineTopLeft2.rs_default'
+								ScrollExtent='715,9'
+								Size='715,9'
+							/>
+						</Page>
 					</Page>
 					<Page
-						BackgroundColor='#FFFFFF'
-						GetsInput='false'
-						Name='outlineTL'
-						OpacityRelativeMin='0.80'
+						BackgroundOpacity='1.00'
+						Location='-1,0'
+						Name='top'
 						PackLocation='nfn,nfn'
-						PackSize='p,f'
-						RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-						ScrollExtent='447,22'
-						Size='447,22'
-					>
-						<Page
-							BackgroundColor='#FFFFFF'
-							BackgroundOpacity='1.00'
-							BackgroundTint='#1CFFFF'
-							GetsInput='false'
-							Name='outline1'
-							OpacityRelativeMin='0.80'
-							PackSize='a,a'
-							PalBgTint='line1'
-							RStyleDefault='/Styles.space.boxes.boxlineTopLeft2.rs_default'
-							ScrollExtent='447,9'
-							Size='447,9'
-						/>
-					</Page>
+						PackSize='a,f'
+						RStyleDefault='/Styles.New.main_TR.rs_default'
+						ScrollExtent='911,29'
+						Size='911,29'
+					/>
+					<Page
+						BackgroundOpacity='1.00'
+						Location='0,505'
+						Name='bottom'
+						PackLocation='nfn,fff'
+						PackSize='a,f'
+						RStyleDefault='/Styles.New.main_BR.rs_default'
+						ScrollExtent='910,23'
+						Size='910,23'
+					/>
 				</Page>
 				<Page
 					BackgroundOpacity='1.00'
-					Location='-1,0'
-					Name='top'
+					BackgroundTint='#00D6FB'
+					GetsInput='false'
+					Location='0,5'
+					Name='back'
 					PackLocation='nfn,nfn'
-					PackSize='a,f'
-					RStyleDefault='/Styles.New.main_TR.rs_default'
-					ScrollExtent='568,29'
-					Size='568,29'
+					PackSize='a,a'
+					PalBgTint='back1'
+					RStyleDefault='/Styles.New.thin_in.rs_default'
+					ScrollExtent='911,520'
+					Selectable='true'
+					Size='911,520'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
-					Location='0,438'
-					Name='bottom'
-					PackLocation='nfn,fff'
-					PackSize='a,f'
-					RStyleDefault='/Styles.New.main_BR.rs_default'
-					ScrollExtent='567,23'
-					Size='567,23'
+					BackgroundTint='#00D6FB'
+					GetsInput='false'
+					Name='back'
+					PackLocation='nfn,nfn'
+					PackSize='a,a'
+					PalBgTint='back1'
+					RStyleDefault='/Styles.space.spaceglow.rs_default'
+					ScrollExtent='911,528'
+					Selectable='true'
+					Size='911,528'
 				/>
 			</Page>
-			<Page
-				BackgroundOpacity='1.00'
-				BackgroundTint='#00D6FB'
-				GetsInput='false'
-				Location='0,5'
-				Name='back'
-				PackLocation='nfn,nfn'
-				PackSize='a,a'
-				PalBgTint='back1'
-				RStyleDefault='/Styles.New.thin_in.rs_default'
-				ScrollExtent='568,453'
-				Selectable='true'
-				Size='568,453'
-			/>
-			<Page
-				BackgroundOpacity='1.00'
-				BackgroundTint='#00D6FB'
-				GetsInput='false'
-				Name='back'
-				PackLocation='nfn,nfn'
-				PackSize='a,a'
-				PalBgTint='back1'
-				RStyleDefault='/Styles.space.spaceglow.rs_default'
-				ScrollExtent='568,461'
-				Selectable='true'
-				Size='568,461'
-			/>
 		</Page>
-	</Page>
