@@ -1,13 +1,13 @@
 		<Page
 			BackgroundColor='#FFFFFF'
-			Location='591,245'
-			MaximumSize='600,30'
-			MinimumSize='128,30'
+			Location='537,245'
+			MaximumSize='600,42'
+			MinimumSize='379,42'
 			Name='incap'
 			PackLocation='cfc,npn'
 			RStyleDefault='/Styles.New.tool.tool_TL_in.rs_default'
-			ScrollExtent='271,30'
-			Size='271,30'
+			ScrollExtent='379,42'
+			Size='379,42'
 			UserMovable='true'
 			UserResizable='true'
 			VisualEditLock='true'
@@ -19,14 +19,14 @@
 			/>
 			<Text
 				ColorSelection='#FFFFFF'
-				Font='bold_11'
+				Font='bold_16'
 				LocalText='xxx incapacitation time: 666'
 				MinimumSize='0,19'
 				Name='text'
 				PackSize='a'
 				PalText='text1'
-				ScrollExtent='271,19'
-				Size='271,19'
+				ScrollExtent='379,19'
+				Size='379,19'
 				TextAlignment='Center'
 				TextColor='#96F4FC'
 			>xxx incapacitation time: 666</Text>
@@ -39,8 +39,8 @@
 				Name='bar'
 				OpacityRelativeMin='1.00'
 				PackSize='a,a'
-				ScrollExtent='258,7'
-				Size='258,7'
+				ScrollExtent='366,19'
+				Size='366,19'
 				TextOpacityRelativeMin='1.00'
 			>
 				<Page
@@ -51,8 +51,8 @@
 					OpacityRelativeMin='1.00'
 					PackSize='p,a'
 					RStyleDefault='/Styles.space.incap.rs_default'
-					ScrollExtent='186,7'
-					Size='186,7'
+					ScrollExtent='263,19'
+					Size='263,19'
 				/>
 			</Page>
 			<Page
@@ -66,8 +66,8 @@
 				PackSize='a,a'
 				PalColor='back1'
 				RStyleDefault='/Styles.New.tool.tool_TL_in.rs_default'
-				ScrollExtent='260,25'
-				Size='260,25'
+				ScrollExtent='368,37'
+				Size='368,37'
 				Visible='false'
 				VisualEditLock='true'
 			/>
