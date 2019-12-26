@@ -10244,7 +10244,7 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#82FFFF'
 						MouseOverTextMargin='3,0,3,0'
-						MouseOverTextStyle='bold_25'
+						MouseOverTextStyle='bold_24'
 						Name='style'
 						NormalIconColor='#00D6FB'
 						NormalTextColor='#3EFFFF'
@@ -10522,7 +10522,7 @@
 						MouseOverIconColor='#BA1801'
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#7D0000'
-						MouseOverTextStyle='bold_25'
+						MouseOverTextStyle='bold_24'
 						Name='style'
 						NormalIconColor='#FF7E40'
 						NormalTextColor='#FF7E40'
@@ -10539,7 +10539,7 @@
 						RStyleSelected='activated.rs'
 						SelectedIconColor='#000000'
 						SelectedTextColor='#FFBA17'
-						SelectedTextStyle='bold_25'
+						SelectedTextStyle='bold_24'
 					/>
 				</Namespace>
 				<Namespace
@@ -10843,7 +10843,7 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#7D0000'
 						MouseOverTextMargin='0,7,0,0'
-						MouseOverTextStyle='bold_25'
+						MouseOverTextStyle='bold_24'
 						Name='style'
 						NormalIconColor='#FF7E40'
 						NormalTextColor='#FF7E40'
@@ -10860,7 +10860,7 @@
 						SelectedIconColor='#000000'
 						SelectedTextColor='#FFBA17'
 						SelectedTextMargin='1,10,0,0'
-						SelectedTextStyle='bold_25'
+						SelectedTextStyle='bold_24'
 						TextAlignmentVertical='Top'
 						TextCapital='true'
 					/>
@@ -10933,7 +10933,7 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#82FFFF'
 						MouseOverTextMargin='0,7,0,0'
-						MouseOverTextStyle='bold_25'
+						MouseOverTextStyle='bold_24'
 						Name='style'
 						NormalIconColor='#00D6FB'
 						NormalTextColor='#3EFFFF'
