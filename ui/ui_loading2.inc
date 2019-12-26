@@ -1,8 +1,8 @@
 	<Page
 		Name='Load2'
 		PackSize='1,1'
-		ScrollExtent='1024,768'
-		Size='1024,768'
+		ScrollExtent='1440,980'
+		Size='1440,980'
 		Visible='false'
 		VisualEditLock='true'
 	>
@@ -32,13 +32,14 @@
 			AbsorbsInput='false'
 			Activated='true'
 			BackgroundColor='#259C3A'
-			Location='0,718'
-			MaximumSize='16384,50'
+			Location='0,910'
+			MaximumSize='16384,70'
+			MinimumSize='0,70'
 			Name='pageButtonsBottom'
 			PackLocation='cfc,fff'
 			PackSize='a,f'
-			ScrollExtent='1024,50'
-			Size='1024,50'
+			ScrollExtent='1440,70'
+			Size='1440,70'
 		>
 			<Page
 				AbsorbsInput='false'
@@ -46,44 +47,44 @@
 				BackgroundColor='#259C3A'
 				BackgroundOpacity='1.00'
 				Location='-1,0'
-				MaximumSize='158,50'
-				MinimumSize='158,50'
+				MaximumSize='221,70'
+				MinimumSize='221,70'
 				Name='Prev'
 				PackLocation='nfn,fff'
 				PackSize='p,a'
 				RStyleDefault='/Styles.New.PrevFrame.rs_default'
-				ScrollExtent='158,50'
+				ScrollExtent='221,70'
 				Selectable='true'
-				Size='158,50'
+				Size='221,70'
 			>
 				<Text
-					Font='bold_13'
+					Font='bold_18'
 					LocalText='[@EXIT]'
-					Location='21,11'
+					Location='52,15'
 					Margin='0,0,0,2'
 					Name='back'
 					PackLocation='nfn,fff'
 					PackSize='f,a'
 					PalText='text1'
-					ScrollExtent='125,16'
-					Size='125,16'
+					ScrollExtent='139,24'
+					Size='139,24'
 					TextAlignment='Center'
 					TextAlignmentVertical='Center'
 					TextCapital='true'
 					TextColor='#96F4FC'
 				>@exit</Text>
 				<Button
-					Location='21,11'
+					Location='20,13'
 					Name='buttonPrev'
 					PackLocation='nfn,nfn'
 					PackSize='a,f'
-					ScrollExtent='125,16'
-					Size='125,16'
+					ScrollExtent='188,27'
+					Size='188,27'
 					Style='/Styles.buttons.button_prev.style'
 				></Button>
 				<Runner
 					GetsInput='false'
-					Location='21,11'
+					Location='17,14'
 					MaximumSize='179,20'
 					Name='runner'
 					Opacity='0.40'
@@ -96,8 +97,8 @@
 					RunEffectorsOn='/effectors.opacity.fast.fadefull'
 					RunPaused='false'
 					RunSimultaneous='2'
-					ScrollExtent='125,16'
-					Size='125,16'
+					ScrollExtent='125,20'
+					Size='125,20'
 				>
 					<Page
 						BackgroundColor='#00FFFF'
@@ -177,20 +178,20 @@
 				</Runner>
 				<Button
 					IsCancelButton='true'
-					Location='21,11'
+					Location='20,13'
 					Name='buttonEsc'
 					PackLocation='nfn,nfn'
 					PackSize='a,f'
-					ScrollExtent='125,16'
-					Size='125,16'
+					ScrollExtent='188,27'
+					Size='188,27'
 					Style='/Styles.buttons.button_prev.style'
 				></Button>
 			</Page>
 		</Page>
 		<Text
-			Font='bold_24'
+			Font='bold_25'
 			LocalText='0'
-			Location='261,156'
+			Location='261,262'
 			Name='scrollingnumbers'
 			PackLocation='nfn,cfc'
 			PackSize='f,f'
@@ -205,22 +206,23 @@
 			ColorCarat='#FFFFFF'
 			ColorSelection='#FFFFFF'
 			Enabled='false'
-			Font='bold_24'
+			Font='starwars_56'
 			LocalText='Planet Name Here'
-			Location='1,124'
+			Location='1,220'
 			MaxLines='1'
+			MinimumSize='0,56'
 			Name='planetName'
 			PackLocation='nfn,cfc'
 			PackSize='a,f'
 			PalText='header'
-			ScrollExtent='937,36'
-			Size='937,36'
+			ScrollExtent='1353,57'
+			Size='1353,56'
 			TextAlignment='Center'
 			TextAlignmentVertical='Center'
 			TextColor='#97FFFF'
 		>Planet Name Here</Text>
 		<Composite
-			Location='699,610'
+			Location='1115,716'
 			MinimumSize='300,100'
 			Name='compChecks'
 			PackLocation='fff,cfc'
@@ -301,58 +303,59 @@
 		</Composite>
 		<Page
 			BackgroundColor='#FF80C0'
-			Location='0,128'
+			Location='0,234'
 			Name='back'
 			PackLocation='nfn,cfc'
 			PackSize='a,f'
-			ScrollExtent='1024,512'
-			Size='1024,512'
+			ScrollExtent='1440,512'
+			Size='1440,512'
 		>
 			<Text
-				Font='bold_15'
+				Font='bold_21'
 				LocalText='LOADING text here'
 				Location='157,449'
+				MinimumSize='0,24'
 				Name='text'
 				PackSize='a,f'
 				PalText='header'
-				ScrollExtent='513,22'
-				Size='513,22'
+				ScrollExtent='929,24'
+				Size='929,24'
 				TextAlignment='Center'
 				TextColor='#97FFFF'
 			>LOADING text here</Text>
 			<Page
 				BackgroundTint='#1CFFFF'
-				Location='376,100'
+				Location='376,93'
 				Name='textbg'
 				PackLocation='cfc,cfc'
 				PackSize='a,f'
 				PalBgTint='line1'
 				RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-				ScrollExtent='206,287'
-				Size='206,287'
+				ScrollExtent='622,294'
+				Size='622,294'
 			>
 				<Text
 					ColorCarat='#FFFFFF'
 					ColorSelection='#FFFFFF'
 					Enabled='false'
-					Font='bold_13'
+					Font='bold_21'
 					LocalText='SCREENSHOT NAME HERE'
 					Location='5,0'
 					MaxLines='1'
-					MinimumSize='0,19'
+					MinimumSize='0,23'
 					Name='screenshotName'
 					PackLocation='nfn,nfn'
 					PackSize='a,f'
 					PalText='text1'
-					ScrollExtent='186,19'
-					Size='186,19'
+					ScrollExtent='602,23'
+					Size='602,23'
 					TextCapital='true'
 					TextColor='#96F4FC'
 				>ScreenShot Name Here</Text>
 				<Text
 					ColorCarat='#FFFFFF'
 					Enabled='false'
-					Font='bold_13'
+					Font='bold_18'
 					LocalText='Screenshot Description Here'
 					Location='5,22'
 					Name='text'
@@ -360,8 +363,8 @@
 					PackSize='a,a'
 					PalText='text1'
 					RStyleDefault='rs_default'
-					ScrollExtent='186,258'
-					Size='186,258'
+					ScrollExtent='602,265'
+					Size='602,265'
 					TextColor='#96F4FC'
 				>Screenshot Description Here</Text>
 			</Page>
@@ -370,8 +373,8 @@
 				Name='progress'
 				PackLocation='nfn,fff'
 				PackSize='a,f'
-				ScrollExtent='507,20'
-				Size='507,20'
+				ScrollExtent='923,20'
+				Size='923,20'
 			>
 				<Page
 					Color='#1BFCF7'
@@ -381,8 +384,8 @@
 					PackSize='a,f'
 					PalColor='loadbarFill'
 					RStyleDefault='/Styles.New.whiteOutline2.rs_default'
-					ScrollExtent='507,20'
-					Size='507,20'
+					ScrollExtent='923,20'
+					Size='923,20'
 					Visible='false'
 				>
 					<Page
@@ -502,8 +505,8 @@
 						PackLocation='fff,nfn'
 						PackSize='a,f'
 						RStyleDefault='/Styles.mfd.statusbars.load_progress.rs_default'
-						ScrollExtent='29,20'
-						Size='29,20'
+						ScrollExtent='445,20'
+						Size='445,20'
 					/>
 				</Page>
 				<Page
@@ -515,8 +518,8 @@
 					PackSize='a,f'
 					PalColor='loadbar'
 					RStyleDefault='/Styles.New.whiteOutline2.rs_default'
-					ScrollExtent='507,20'
-					Size='507,20'
+					ScrollExtent='923,20'
+					Size='923,20'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -635,8 +638,8 @@
 						PackLocation='fff,nfn'
 						PackSize='a,f'
 						RStyleDefault='/Styles.mfd.statusbars.load_progress.rs_default'
-						ScrollExtent='29,20'
-						Size='29,20'
+						ScrollExtent='445,20'
+						Size='445,20'
 					/>
 				</Page>
 			</Page>
@@ -667,10 +670,11 @@
 				PackLocation='fff,cfc'
 				PackSize='a,f'
 				RStyleDefault='/Styles.New.travel_right.rs_default'
-				ScrollExtent='515,512'
-				Size='515,512'
+				ScrollExtent='931,512'
+				Size='931,512'
 			>
 				<Image
+					Location='416,0'
 					Name='generic'
 					PackLocation='fff,cfc'
 					PackSize='f,f'
@@ -681,6 +685,7 @@
 					Visible='false'
 				/>
 				<Image
+					Location='416,0'
 					Name='cloning'
 					PackLocation='fff,cfc'
 					PackSize='f,f'
@@ -699,12 +704,13 @@
 					PackSize='a,f'
 					PalColor='loadback'
 					RStyleDefault='/Styles.New.travel_right.rs_default'
-					ScrollExtent='515,512'
-					Size='515,512'
+					ScrollExtent='931,512'
+					Size='931,512'
 				/>
 				<Page
 					BackgroundColor='#FFFFFF'
 					BackgroundOpacity='1.00'
+					Location='416,0'
 					Name='planets'
 					PackLocation='fff,cfc'
 					PackSize='f,f'
@@ -713,6 +719,7 @@
 					Visible='false'
 				/>
 				<Image
+					Location='416,0'
 					Name='planet'
 					PackLocation='fff,cfc'
 					PackSize='f,f'
@@ -771,7 +778,7 @@
 			Name='black'
 			PackLocation='nfn,nfn'
 			PackSize='a,a'
-			ScrollExtent='1024,768'
-			Size='1024,768'
+			ScrollExtent='1440,980'
+			Size='1440,980'
 		/>
 	</Page>
