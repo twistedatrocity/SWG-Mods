@@ -10244,7 +10244,7 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#82FFFF'
 						MouseOverTextMargin='3,0,3,0'
-						MouseOverTextStyle='bold_24'
+						MouseOverTextStyle='bold_25'
 						Name='style'
 						NormalIconColor='#00D6FB'
 						NormalTextColor='#3EFFFF'
@@ -10522,7 +10522,7 @@
 						MouseOverIconColor='#BA1801'
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#7D0000'
-						MouseOverTextStyle='bold_24'
+						MouseOverTextStyle='bold_25'
 						Name='style'
 						NormalIconColor='#FF7E40'
 						NormalTextColor='#FF7E40'
@@ -10539,7 +10539,7 @@
 						RStyleSelected='activated.rs'
 						SelectedIconColor='#000000'
 						SelectedTextColor='#FFBA17'
-						SelectedTextStyle='bold_24'
+						SelectedTextStyle='bold_25'
 					/>
 				</Namespace>
 				<Namespace
@@ -10843,7 +10843,7 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#7D0000'
 						MouseOverTextMargin='0,7,0,0'
-						MouseOverTextStyle='bold_24'
+						MouseOverTextStyle='bold_25'
 						Name='style'
 						NormalIconColor='#FF7E40'
 						NormalTextColor='#FF7E40'
@@ -10860,7 +10860,7 @@
 						SelectedIconColor='#000000'
 						SelectedTextColor='#FFBA17'
 						SelectedTextMargin='1,10,0,0'
-						SelectedTextStyle='bold_24'
+						SelectedTextStyle='bold_25'
 						TextAlignmentVertical='Top'
 						TextCapital='true'
 					/>
@@ -10933,7 +10933,7 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#82FFFF'
 						MouseOverTextMargin='0,7,0,0'
-						MouseOverTextStyle='bold_24'
+						MouseOverTextStyle='bold_25'
 						Name='style'
 						NormalIconColor='#00D6FB'
 						NormalTextColor='#3EFFFF'
@@ -22816,7 +22816,6 @@
 				/>
 			</Namespace>
 			<RectangleStyle
-				CenterStretchH='false'
 				Color='#00FFFF'
 				East='rect_style_default_images.e'
 				Name='default'
@@ -30492,12 +30491,12 @@
 						MouseOverSound='ui_rollover'
 						MouseOverTextColor='#18393D'
 						MouseOverTextMargin='3,0,3,0'
-						MouseOverTextStyle='starwars_32'
+						MouseOverTextStyle='starwars_55'
 						Name='style_sw'
 						NormalIconColor='#00D6FB'
 						NormalTextColor='#2FF4FF'
 						NormalTextMargin='3,0,3,0'
-						NormalTextStyle='starwars_32'
+						NormalTextStyle='starwars_55'
 						PalActivatedText='textactivated'
 						PalDisabledText='textdisabled'
 						PalHoverText='texthover'
@@ -46539,7 +46538,7 @@
 					ButtonStyle='New.buttons.hud.styleLeft'
 					ButtonStyleLabel='New.buttons.hud.stylePopupLabel'
 					IconSubmenu='Icon.Misc.group_focus'
-					ItemHeight='20'
+					ItemHeight='28'
 					Name='style'
 				/>
 			</Namespace>
@@ -46552,7 +46551,7 @@
 					ButtonStyle='New.buttons.hud.style'
 					ButtonStyleLabel='New.buttons.hud.stylePopupLabel'
 					IconSubmenu='Icon.Misc.group_focus'
-					ItemHeight='20'
+					ItemHeight='28'
 					Name='style'
 				/>
 			</Namespace>
@@ -46563,14 +46562,14 @@
 				<PopupMenuStyle
 					BackgroundOpacity='0.00'
 					ButtonStyle='space.button7b.style'
-					ItemHeight='23'
+					ItemHeight='32'
 					Name='styleSpace2'
 					RStyleDefault='rs_default'
 				/>
 				<PopupMenuStyle
 					BackgroundOpacity='0.00'
 					ButtonStyle='space.button7.style'
-					ItemHeight='23'
+					ItemHeight='32'
 					Name='styleSpace'
 					RStyleDefault='rs_default'
 				/>
@@ -54898,7 +54897,7 @@
 					Name='style'
 					NormalTextColor='#2FF4FF'
 					NormalTextMargin='8,1,8,0'
-					NormalTextStyle='bold_15'
+					NormalTextStyle='bold_16'
 					PalActivatedText='textActivated'
 					PalDisabledText='textActivated'
 					PalHoverText='textHover'
@@ -54916,7 +54915,6 @@
 					RStyleSelected='selected.rs'
 					SelectedTextColor='#00393E'
 					SelectedTextMargin='8,1,8,0'
-					TextAlignmentVertical='Top'
 				/>
 				<Namespace
 					Name='disabled'
@@ -56244,7 +56242,7 @@
 				<CheckboxStyle
 					Name='Style'
 					NormalCheckedImage='checkedImage'
-					NormalTextStyle='bold_13'
+					NormalTextStyle='bold_16'
 					NormalUncheckedImage='uncheckedImage'
 					TextOffset='34,1'
 				/>
@@ -63015,6 +63013,7 @@
 				>
 					<ListStyle
 						BackgroundColor='#3A4439'
+						CellHeight='22'
 						CellPadding='8,2'
 						DefaultTextColor='#96F4FC'
 						DefaultTextStyle='bold_13'
@@ -63115,7 +63114,7 @@
 					<ListStyle
 						BackgroundColor='#00D6FB'
 						BackgroundOpacity='0.00'
-						CellHeight='25'
+						CellHeight='27'
 						CellPadding='4,2'
 						DefaultTextColor='#96F4FC'
 						DefaultTextStyle='bold_16'
@@ -70601,12 +70600,12 @@
 				Name='tree'
 			>
 				<TreeViewStyle
-					CellHeight='22'
-					CellPadding='-9,3'
+					CellHeight='21'
+					CellPadding='-9,10'
 					DefaultTextColor='#003842'
 					DefaultTextColorHighlight='#96F4FC'
 					DefaultTextColorLowlight='#FFFFFF'
-					DefaultTextStyle='bold_15'
+					DefaultTextStyle='bold_16'
 					GridColor='#1CFFFF'
 					ImageStyleCollapsed='image.collapsed'
 					ImageStyleExpanded='image.expanded'
