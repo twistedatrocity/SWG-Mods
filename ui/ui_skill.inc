@@ -2,8 +2,8 @@
 		BackgroundTint='#22FF27'
 		Name='Skill'
 		PackSize='1,1'
-		ScrollExtent='1440,960'
-		Size='1440,960'
+		ScrollExtent='1440,980'
+		Size='1440,980'
 		SourceRect='97,211,127,233'
 		Visible='false'
 		VisualEditLock='true'
@@ -13,15 +13,15 @@
 			BackgroundOpacity='1.00'
 			BackgroundScrolls='false'
 			GalaxyMap.visible='true'
-			MaximumSize='1440,960'
-			MinimumSize='1440,960'
+			MaximumSize='1440,980'
+			MinimumSize='1440,980'
 			Name='professionTemplate'
 			OpacityRelativeMin='1.00'
 			PackLocation='cfc,cfc'
 			PackSize='1,1'
 			ParentSize='true'
-			ScrollExtent='1440,960'
-			Size='1440,960'
+			ScrollExtent='1440,980'
+			Size='1440,980'
 			TooltipDelay='false'
 		>
 			<Data
@@ -432,12 +432,12 @@
 							MouseOverSound='ui_rollover'
 							MouseOverTextColor='#18393D'
 							MouseOverTextMargin='3,0,3,0'
-							MouseOverTextStyle='starwars_21'
+							MouseOverTextStyle='starwars_25'
 							Name='style'
 							NormalIconColor='#00D6FB'
 							NormalTextColor='#62FF15'
 							NormalTextMargin='3,0,3,0'
-							NormalTextStyle='starwars_21'
+							NormalTextStyle='starwars_25'
 							PalActivatedText='textactivated'
 							PalDisabledText='textdisabled'
 							PalHoverText='texthover'
@@ -488,7 +488,7 @@
 				/>
 				<Text
 					Color='#FFFF00'
-					Font='starwars_21'
+					Font='starwars_25'
 					LocalText='Entertainer'
 					Location='-1,125'
 					Name='Title'
@@ -500,7 +500,7 @@
 				>Entertainer</Text>
 				<Text
 					Color='#000000'
-					Font='starwars_21'
+					Font='starwars_25'
 					LocalText='Entertainer'
 					Location='1,127'
 					Name='Title2'
@@ -563,8 +563,8 @@
 				Name='header'
 				PackLocation='nfn,nfn'
 				PackSize='p,f'
-				ScrollExtent='1396,41'
-				Size='1396,41'
+				ScrollExtent='1395,41'
+				Size='1395,41'
 			>
 				<Text
 					CursorMark='24'
@@ -588,9 +588,9 @@
 				Orientation='Horizontal'
 				PackLocation='nfn,nfn'
 				PackSize='p,p'
-				ScrollExtent='1404,2810'
+				ScrollExtent='1403,2868'
 				Selectable='true'
-				Size='1404,2810'
+				Size='1403,2868'
 				Spacing='4'
 				SpacingType='Fill'
 			>
@@ -604,8 +604,8 @@
 					PackLocation='nnn,nnn'
 					PackSize='p,p'
 					RStyleDefault='rs_default'
-					ScrollExtent='1071,866'
-					Size='1071,866'
+					ScrollExtent='1070,883'
+					Size='1070,883'
 					treebg.enabled='false'
 				>
 					<VolumePage
@@ -615,13 +615,13 @@
 						CellCountFixed='3,3'
 						CellPadding='64,16'
 						CellSelectable='false'
-						CellSize='271,267'
+						CellSize='271,273'
 						MinimumScrollExtent='63,16'
 						MultiSelection='false'
 						Name='volume'
 						PackSize='a,a'
-						ScrollExtent='1071,866'
-						Size='1071,866'
+						ScrollExtent='1070,883'
+						Size='1070,883'
 					/>
 					<Page
 						BackgroundOpacity='1.00'
@@ -630,19 +630,19 @@
 						PackSize='a,a'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-						ScrollExtent='1071,866'
-						Size='1071,866'
+						ScrollExtent='1070,883'
+						Size='1070,883'
 					/>
 				</Page>
 				<Composite
-					Location='1075,0'
+					Location='1074,0'
 					MaximumSize='329,16384'
 					MinimumSize='324,0'
 					Name='right'
 					PackLocation='fff,nfn'
 					PackSize='a,p'
-					ScrollExtent='329,865'
-					Size='329,865'
+					ScrollExtent='329,882'
+					Size='329,882'
 				>
 					<Page
 						BackgroundOpacity='1.00'
@@ -652,8 +652,8 @@
 						PackSize='a,p'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-						ScrollExtent='322,380'
-						Size='322,380'
+						ScrollExtent='322,387'
+						Size='322,387'
 					>
 						<Namespace
 							Name='hud'
@@ -1010,7 +1010,7 @@
 						</Namespace>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							GetsInput='true'
 							Location='3,4'
 							Margin='4,4,4,4'
@@ -1018,9 +1018,9 @@
 							OpacityRelativeMin='0.70'
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
-							ScrollExtent='304,346'
+							ScrollExtent='304,353'
 							Selectable='true'
-							Size='304,346'
+							Size='304,353'
 						></Text>
 						<Scrollbar
 							Control='text'
@@ -1032,14 +1032,14 @@
 							OpacityRelativeMin='0.40'
 							PackLocation='fff,nnn'
 							PackSize='a,a'
-							ScrollExtent='8,380'
-							Size='8,380'
+							ScrollExtent='8,387'
+							Size='8,387'
 							Style='/Styles.scrollbar.default.vHud4.style'
 						>
 						</Scrollbar>
 						<Button
 							LocalText='[@button_preview]'
-							Location='81,353'
+							Location='81,360'
 							MaximumSize='300,19'
 							MinimumSize='130,19'
 							Name='buttonPreview'
@@ -1059,35 +1059,35 @@
 							PackSize='a,a'
 							PalBgTint='back1'
 							RStyleDefault='/Styles.New.pill_lrg.rs_default'
-							ScrollExtent='322,380'
+							ScrollExtent='322,387'
 							Selectable='true'
-							Size='322,380'
+							Size='322,387'
 						/>
 					</Page>
 					<Page
 						BackgroundOpacity='1.00'
 						BackgroundTint='#1CFFFF'
-						Location='0,394'
+						Location='0,402'
 						Name='specialties'
 						PackLocation='nfn,nfn'
 						PackSize='a,p'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-						ScrollExtent='325,366'
-						Size='325,366'
+						ScrollExtent='325,373'
+						Size='325,373'
 					>
 						<Text
 							Enabled='false'
-							Font='bold_14'
+							Font='bold_15'
 							GetsInput='true'
 							Margin='4,4,4,4'
 							Name='text'
 							OpacityRelativeMin='0.70'
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
-							ScrollExtent='325,366'
+							ScrollExtent='325,373'
 							Selectable='true'
-							Size='325,366'
+							Size='325,373'
 						></Text>
 						<Scrollbar
 							Control='text'
@@ -1099,8 +1099,8 @@
 							OpacityRelativeMin='0.40'
 							PackLocation='fff,nfn'
 							PackSize='a,a'
-							ScrollExtent='8,348'
-							Size='8,348'
+							ScrollExtent='8,355'
+							Size='8,355'
 							Style='/Styles.scrollbar.default.vHud4.style'
 						>
 						</Scrollbar>
@@ -1114,15 +1114,15 @@
 							PackSize='a,a'
 							PalBgTint='back1'
 							RStyleDefault='/Styles.New.pill_lrg.rs_default'
-							ScrollExtent='325,366'
+							ScrollExtent='325,373'
 							Selectable='true'
-							Size='325,366'
+							Size='325,373'
 						/>
 					</Page>
 					<Button
 						buttondelete.visible='true'
 						LocalText='[@ui_prof:select_profession]'
-						Location='0,774'
+						Location='0,790'
 						MaximumSize='324,38'
 						MinimumSize='324,38'
 						Name='buttonSelectProfessionTemplate'
@@ -1140,7 +1140,7 @@
 					<Button
 						buttondelete.visible='true'
 						LocalText='[@ui_prof:select_cancel]'
-						Location='0,827'
+						Location='0,844'
 						MaximumSize='324,38'
 						MinimumSize='324,38'
 						Name='buttonCancel'
@@ -1157,14 +1157,14 @@
 				</Composite>
 			</Composite>
 			<Page
-				MaximumSize='1440,960'
-				MinimumSize='1440,960'
+				MaximumSize='1440,980'
+				MinimumSize='1440,980'
 				Name='bg'
 				PackLocation='nfn,nfn'
 				PackSize='p,p'
 				ParentSize='true'
-				ScrollExtent='1440,960'
-				Size='1440,960'
+				ScrollExtent='1440,980'
+				Size='1440,980'
 			>
 				<Page
 					Location='1401,7'
@@ -1219,9 +1219,9 @@
 					PackSize='a,a'
 					PalBgTint='baselight'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='1440,960'
+					ScrollExtent='1440,980'
 					Selectable='true'
-					Size='1440,960'
+					Size='1440,980'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -1229,13 +1229,13 @@
 						Name='lines'
 						PackSize='a,a'
 						RStyleDefault='/Styles.space.boxes.generic4.rs_default'
-						ScrollExtent='1440,960'
-						Size='1440,960'
+						ScrollExtent='1440,980'
+						Size='1440,980'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='0,938'
+							Location='0,958'
 							Name='outlineBL'
 							OpacityRelativeMin='0.80'
 							PackLocation='nfn,fff'
@@ -1261,14 +1261,14 @@
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='383,938'
+							Location='384,958'
 							Name='outlineBR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,fff'
 							PackSize='p,f'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-							ScrollExtent='1057,22'
-							Size='1057,22'
+							ScrollExtent='1056,22'
+							Size='1056,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1281,20 +1281,20 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlinebottomRight2.rs_default'
-								ScrollExtent='1057,9'
-								Size='1057,9'
+								ScrollExtent='1056,9'
+								Size='1056,9'
 							/>
 						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='383,0'
+							Location='384,0'
 							Name='outlineTR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,nfn'
 							PackSize='p,f'
-							ScrollExtent='1057,22'
-							Size='1057,22'
+							ScrollExtent='1056,22'
+							Size='1056,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1306,8 +1306,8 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlineTopRight2.rs_default'
-								ScrollExtent='1057,9'
-								Size='1057,9'
+								ScrollExtent='1056,9'
+								Size='1056,9'
 							/>
 						</Page>
 						<Page
@@ -1318,8 +1318,8 @@
 							PackLocation='nfn,nfn'
 							PackSize='p,f'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-							ScrollExtent='1141,22'
-							Size='1141,22'
+							ScrollExtent='1140,22'
+							Size='1140,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1331,8 +1331,8 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlineTopLeft2.rs_default'
-								ScrollExtent='1141,9'
-								Size='1141,9'
+								ScrollExtent='1140,9'
+								Size='1140,9'
 							/>
 						</Page>
 					</Page>
@@ -1348,7 +1348,7 @@
 					/>
 					<Page
 						BackgroundOpacity='1.00'
-						Location='0,937'
+						Location='0,957'
 						Name='bottom'
 						PackLocation='nfn,fff'
 						PackSize='a,f'
@@ -1367,9 +1367,9 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='1440,952'
+					ScrollExtent='1440,972'
 					Selectable='true'
-					Size='1440,952'
+					Size='1440,972'
 				/>
 				<Page
 					BackgroundColor='#FFFFFF'
@@ -1381,21 +1381,21 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.space.spaceglow.rs_default'
-					ScrollExtent='1440,960'
+					ScrollExtent='1440,980'
 					Selectable='true'
-					Size='1440,960'
+					Size='1440,980'
 				/>
 			</Page>
 		</Page>
 		<Page
 			Location='527,215'
-			MinimumSize='205,242'
+			MinimumSize='717,676'
 			Name='NewMacro'
 			PackLocation='fff,nfn'
 			PackSize='a,a'
 			RStyleDefault='rs_default'
-			ScrollExtent='717,656'
-			Size='717,656'
+			ScrollExtent='717,676'
+			Size='717,676'
 			UserMovable='true'
 			UserResizable='true'
 			Visible='false'
@@ -1415,8 +1415,8 @@
 				Name='comp'
 				PackSize='a,a'
 				RStyleDefault='/Styles.New.whiteOutline.rs_default'
-				ScrollExtent='699,601'
-				Size='699,601'
+				ScrollExtent='699,609'
+				Size='699,609'
 				Spacing='2'
 				SpacingType='Fill'
 			>
@@ -1424,8 +1424,8 @@
 					Name='top'
 					PackLocation='nfn,nfn'
 					PackSize='a'
-					ScrollExtent='699,359'
-					Size='699,359'
+					ScrollExtent='699,364'
+					Size='699,364'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -1518,16 +1518,17 @@
 						PackLocation='nfn,fff'
 						PackSize='a,a'
 						RStyleDefault='rs_default'
-						ScrollExtent='698,303'
+						ScrollExtent='698,308'
 						Selectable='true'
-						Size='698,303'
+						Size='698,308'
 					>
 						<Image
 							BackgroundColor='#FFFFFF'
 							DragType='cmd_dummy'
+							MinimumSize='50,50'
 							Name='sample'
-							ScrollExtent='28,28'
-							Size='28,28'
+							ScrollExtent='50,50'
+							Size='50,50'
 							Style='/Styles.Icon.UI.CMD_uiChat'
 							Visible='false'
 							VisualEditLock='true'
@@ -1549,23 +1550,25 @@
 							TextColor='#96F4FC'
 						>@macro_icon</Text>
 						<VolumePage
-							CellCount='22,1'
-							CellSize='28,28'
+							CellCount='13,1'
+							CellSize='50,50'
 							Location='3,29'
-							MinimumScrollExtent='34,32'
+							MinimumScrollExtent='56,54'
 							MultiSelection='false'
 							Name='volume'
 							PackSize='a,a'
-							ScrollExtent='684,270'
-							Size='684,270'
+							ScrollExtent='684,275'
+							Size='684,275'
 						>
 							<Image
 								BackgroundColor='#FFFFFF'
 								DragType='cmd_dummy'
 								Location='2,2'
+								MaximumSize='50,50'
+								MinimumSize='50,50'
 								Name='icon'
-								ScrollExtent='28,28'
-								Size='28,28'
+								ScrollExtent='50,50'
+								Size='50,50'
 								Style='/Styles.Icon.UI.CMD_uiChat'
 								VisualEditLock='true'
 							/>
@@ -1577,8 +1580,8 @@
 							Name='scroll'
 							PackLocation='fff,nfn'
 							PackSize='f,a'
-							ScrollExtent='11,273'
-							Size='11,273'
+							ScrollExtent='11,278'
+							Size='11,278'
 							Style='/Styles.scrollbar.default.vHud4.style'
 						>
 						</Scrollbar>
@@ -1587,8 +1590,8 @@
 							Name='bg'
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
-							ScrollExtent='698,282'
-							Size='698,282'
+							ScrollExtent='698,287'
+							Size='698,287'
 						>
 							<Page
 								BackgroundOpacity='1.00'
@@ -1599,8 +1602,8 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.New.whiteOutline.rs_default'
-								ScrollExtent='698,282'
-								Size='698,282'
+								ScrollExtent='698,287'
+								Size='698,287'
 							/>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1612,24 +1615,24 @@
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-								ScrollExtent='677,271'
-								Size='677,271'
+								ScrollExtent='677,276'
+								Size='677,276'
 							/>
 						</Page>
 					</Page>
 				</Page>
 				<Page
 					BackgroundColor='#FFFFFF'
-					Location='0,361'
+					Location='0,366'
 					MaximumSize='16384,256'
 					MinimumSize='0,64'
 					Name='bottom'
 					PackLocation='nfn,fff'
 					PackSize='a,0.8'
 					RStyleDefault='rs_default'
-					ScrollExtent='699,240'
+					ScrollExtent='699,243'
 					Selectable='true'
-					Size='699,240'
+					Size='699,243'
 				>
 					<Text
 						BackgroundColor='#000055'
@@ -1662,8 +1665,8 @@
 						PackSize='a,a'
 						PalText='text1'
 						PreLocalized='true'
-						ScrollExtent='681,200'
-						Size='681,200'
+						ScrollExtent='681,203'
+						Size='681,203'
 						TextColor='#96F4FC'
 					></Text>
 					<Scrollbar
@@ -1673,8 +1676,8 @@
 						Name='scroll'
 						PackLocation='fff,nfn'
 						PackSize='f,a'
-						ScrollExtent='11,199'
-						Size='11,199'
+						ScrollExtent='11,202'
+						Size='11,202'
 						Style='/Styles.scrollbar.default.vHud4.style'
 					>
 					</Scrollbar>
@@ -1685,8 +1688,8 @@
 						PackLocation='nfn,nfn'
 						PackSize='a,a'
 						PalBgTint='line1'
-						ScrollExtent='699,218'
-						Size='699,218'
+						ScrollExtent='699,221'
+						Size='699,221'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -1698,8 +1701,8 @@
 							PackSize='a,a'
 							PalBgTint='back1'
 							RStyleDefault='/Styles.New.pill_med.rs_default'
-							ScrollExtent='679,204'
-							Size='679,204'
+							ScrollExtent='679,207'
+							Size='679,207'
 						/>
 						<Page
 							BackgroundOpacity='1.00'
@@ -1711,8 +1714,8 @@
 							PackSize='a,a'
 							PalBgTint='line1'
 							RStyleDefault='/Styles.New.whiteOutline.rs_default'
-							ScrollExtent='699,213'
-							Size='699,213'
+							ScrollExtent='699,216'
+							Size='699,216'
 						/>
 						<Page
 							BackgroundColor='#FFFFFF'
@@ -1724,40 +1727,40 @@
 							PackSize='a,a'
 							PalBgTint='back3'
 							RStyleDefault='/Styles.New.small_solid.rs_default'
-							ScrollExtent='683,210'
-							Size='683,210'
+							ScrollExtent='683,213'
+							Size='683,213'
 						/>
 					</Page>
 				</Page>
 			</Composite>
 			<Button
 				LocalText='[@cancel]'
-				Location='16,624'
-				MinimumSize='0,19'
+				Location='16,639'
+				MinimumSize='0,27'
 				Name='buttonCancel'
 				PackLocation='nfn,fff'
 				PackSize='p,f'
-				ScrollExtent='221,24'
-				Size='221,24'
+				ScrollExtent='220,27'
+				Size='220,27'
 				Style='/Styles.New.buttons.hud.style'
 			>@cancel</Button>
 			<Button
 				LocalText='[@ok]'
-				Location='470,623'
-				MinimumSize='0,19'
+				Location='471,638'
+				MinimumSize='0,27'
 				Name='buttonOk'
 				PackLocation='fff,fff'
 				PackSize='p,f'
-				ScrollExtent='231,25'
-				Size='231,25'
+				ScrollExtent='230,27'
+				Size='230,27'
 				Style='/Styles.New.buttons.hud.style'
 			>@ok</Button>
 			<Page
 				Name='bg'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='717,656'
-				Size='717,656'
+				ScrollExtent='717,676'
+				Size='717,676'
 			>
 				<Page
 					Location='707,8'
@@ -1791,7 +1794,7 @@
 				>
 					<Text
 						Enabled='false'
-						Font='bold_13'
+						Font='bold_18'
 						LocalText='[@CPT_NEW_MACRO]'
 						Margin='6,-2,0,0'
 						MaxLines='1'
@@ -1815,9 +1818,9 @@
 					PackSize='a,a'
 					PalBgTint='baselight'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='716,656'
+					ScrollExtent='716,676'
 					Selectable='true'
-					Size='716,656'
+					Size='716,676'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -1826,19 +1829,19 @@
 						Name='lines'
 						PackSize='a,a'
 						RStyleDefault='/Styles.space.boxes.generic4.rs_default'
-						ScrollExtent='716,656'
-						Size='716,656'
+						ScrollExtent='716,676'
+						Size='716,676'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='0,634'
+							Location='0,654'
 							Name='outlineBL'
 							OpacityRelativeMin='0.80'
 							PackLocation='nfn,fff'
 							PackSize='p,f'
-							ScrollExtent='563,22'
-							Size='563,22'
+							ScrollExtent='562,22'
+							Size='562,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1851,21 +1854,21 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlinebottomLeft2.rs_default'
-								ScrollExtent='563,9'
-								Size='563,9'
+								ScrollExtent='562,9'
+								Size='562,9'
 							/>
 						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='194,634'
+							Location='195,654'
 							Name='outlineBR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,fff'
 							PackSize='p,f'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-							ScrollExtent='522,22'
-							Size='522,22'
+							ScrollExtent='521,22'
+							Size='521,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1878,20 +1881,20 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlinebottomRight2.rs_default'
-								ScrollExtent='522,9'
-								Size='522,9'
+								ScrollExtent='521,9'
+								Size='521,9'
 							/>
 						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='194,0'
+							Location='195,0'
 							Name='outlineTR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,nfn'
 							PackSize='p,f'
-							ScrollExtent='522,22'
-							Size='522,22'
+							ScrollExtent='521,22'
+							Size='521,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1903,8 +1906,8 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlineTopRight2.rs_default'
-								ScrollExtent='522,9'
-								Size='522,9'
+								ScrollExtent='521,9'
+								Size='521,9'
 							/>
 						</Page>
 						<Page
@@ -1915,8 +1918,8 @@
 							PackLocation='nfn,nfn'
 							PackSize='p,f'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-							ScrollExtent='563,22'
-							Size='563,22'
+							ScrollExtent='562,22'
+							Size='562,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -1928,8 +1931,8 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlineTopLeft2.rs_default'
-								ScrollExtent='563,9'
-								Size='563,9'
+								ScrollExtent='562,9'
+								Size='562,9'
 							/>
 						</Page>
 					</Page>
@@ -1945,7 +1948,7 @@
 					/>
 					<Page
 						BackgroundOpacity='1.00'
-						Location='0,633'
+						Location='0,653'
 						Name='bottom'
 						PackLocation='nfn,fff'
 						PackSize='a,f'
@@ -1964,9 +1967,9 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='717,648'
+					ScrollExtent='717,668'
 					Selectable='true'
-					Size='717,648'
+					Size='717,668'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
@@ -1977,21 +1980,21 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.space.spaceglow.rs_default'
-					ScrollExtent='717,656'
+					ScrollExtent='717,676'
 					Selectable='true'
-					Size='717,656'
+					Size='717,676'
 				/>
 			</Page>
 		</Page>
 		<Page
 			Location='232,121'
-			MinimumSize='401,278'
+			MinimumSize='861,650'
 			Name='CommandBrowser'
 			PackLocation='nfn,nfn'
 			PackSize='a,a'
 			RStyleDefault='rs_default'
-			ScrollExtent='861,630'
-			Size='861,630'
+			ScrollExtent='861,650'
+			Size='861,650'
 			UserMovable='true'
 			UserResizable='true'
 			Visible='false'
@@ -2014,8 +2017,8 @@
 				Name='comp'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='840,548'
-				Size='840,548'
+				ScrollExtent='840,568'
+				Size='840,568'
 				Spacing='1'
 				SpacingType='Fill'
 				vendor.visible='false'
@@ -2024,9 +2027,9 @@
 					Name='target'
 					PackLocation='nfn,nfn'
 					PackSize='a,f'
-					ScrollExtent='840,418'
+					ScrollExtent='840,438'
 					Selectable='true'
-					Size='840,418'
+					Size='840,438'
 				>
 					<Page
 						BackgroundOpacity='1.00'
@@ -2035,8 +2038,8 @@
 						PackLocation='nfn,nfn'
 						PackSize='a,a'
 						RStyleDefault='/Styles.New.whiteOutline.rs_default'
-						ScrollExtent='840,418'
-						Size='840,418'
+						ScrollExtent='840,438'
+						Size='840,438'
 						Visible='false'
 					>
 						<Page
@@ -2044,13 +2047,13 @@
 							CustomDragWidget='icon'
 							Dragable='true'
 							Location='2,2'
-							MaximumSize='222,24'
-							MinimumSize='222,24'
+							MaximumSize='311,50'
+							MinimumSize='311,50'
 							Name='sample'
 							OnDisableEffector='/effectors.opacity.slow.fadeout'
 							OnEnableEffector='/effectors.opacity.slow.fadefull'
-							ScrollExtent='222,24'
-							Size='222,24'
+							ScrollExtent='311,50'
+							Size='311,50'
 							Visible='false'
 						>
 							<Image
@@ -2058,11 +2061,12 @@
 								Color='#54E4FE'
 								DragType='cmd_dummy'
 								Location='2,0'
+								MinimumSize='50,50'
 								Name='icon'
 								OpacityRelativeMin='1.00'
 								PalColor='iconDefault'
-								ScrollExtent='36,36'
-								Size='36,36'
+								ScrollExtent='50,50'
+								Size='50,50'
 								Style='/Styles.Icon.UI.CMD_uiChat'
 								VisualEditLock='true'
 							/>
@@ -2074,15 +2078,15 @@
 								Location='25,0'
 								Margin='8,2,2,2'
 								MaxLines='1'
+								MinimumSize='0,50'
 								Name='text'
 								PackLocation='fff'
 								PackSize='a,f'
 								PalText='text1'
-								ScrollExtent='197,36'
-								Size='197,36'
+								ScrollExtent='286,50'
+								Size='286,50'
 								TextAlignmentVertical='Center'
 								TextColor='#96F4FC'
-								VisualEditLock='true'
 							>xxx command name here</Text>
 						</Page>
 						<Data
@@ -2092,76 +2096,76 @@
 						/>
 						<Button
 							LocalText='[@new_macro]'
-							Location='19,389'
+							Location='18,409'
 							MinimumSize='0,19'
 							Name='buttonNew'
 							PackLocation='npn,fff'
 							PackSize='p,f'
-							ScrollExtent='231,24'
-							Size='231,24'
+							ScrollExtent='230,24'
+							Size='230,24'
 							Style='/Styles.New.buttons.hud.style'
 						>@new_macro</Button>
 						<Button
 							LocalText='[@edit_macro]'
-							Location='305,389'
+							Location='305,409'
 							MinimumSize='0,19'
 							Name='buttonEdit'
 							PackLocation='cpc,fff'
 							PackSize='p,f'
-							ScrollExtent='231,24'
-							Size='231,24'
+							ScrollExtent='230,24'
+							Size='230,24'
 							Style='/Styles.New.buttons.hud.style'
 						>@edit_macro</Button>
 						<Button
 							LocalText='[@delete_macro]'
-							Location='582,389'
+							Location='584,409'
 							MinimumSize='0,19'
 							Name='buttonDelete'
 							PackLocation='fpf,fff'
 							PackSize='p,f'
-							ScrollExtent='231,24'
-							Size='231,24'
+							ScrollExtent='230,24'
+							Size='230,24'
 							Style='/Styles.New.buttons.hud.style'
 						>@delete_macro</Button>
 						<VolumePage
 							BackgroundColor='#FFFFFF'
+							CellCount='1,2'
 							CellCountFixed='1,0'
 							CellSelectionOverlay='/Styles.New.whiteOutline_palW.rs_activated'
 							CellSelectionOverlayOpacity='0.70'
-							CellSize='815,36'
+							CellSize='815,50'
 							Location='4,6'
-							MinimumScrollExtent='1,2'
+							MinimumScrollExtent='821,106'
 							MultiSelection='false'
 							Name='volume'
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
-							ScrollExtent='819,380'
-							Size='819,380'
+							ScrollExtent='821,400'
+							Size='819,400'
 						>
 							<Page
-								Activated='true'
 								CustomDragWidget='icon'
 								Dragable='true'
 								Location='2,2'
-								MaximumSize='815,36'
-								MinimumSize='815,36'
+								MaximumSize='815,50'
+								MinimumSize='815,50'
 								Name='sample'
 								OnDisableEffector='/effectors.opacity.slow.fadeout'
 								OnEnableEffector='/effectors.opacity.slow.fadefull'
-								ScrollExtent='815,36'
-								Size='815,36'
-								Visible='false'
+								ScrollExtent='815,50'
+								Size='815,50'
 							>
 								<Image
 									BackgroundColor='#FFFFFF'
 									Color='#54E4FE'
 									DragType='cmd_dummy'
 									Location='2,0'
+									MinimumSize='50,50'
 									Name='icon'
 									OpacityRelativeMin='1.00'
 									PalColor='iconDefault'
-									ScrollExtent='24,24'
-									Size='24,24'
+									ScrollExtent='50,50'
+									Size='50,50'
 									Style='/Styles.Icon.UI.CMD_uiChat'
 								/>
 								<Text
@@ -2169,44 +2173,43 @@
 									ColorSelection='#FF8000'
 									Font='bold_16'
 									LocalText='xxx command name here'
-									Location='25,0'
+									Location='56,0'
 									Margin='8,2,2,2'
 									MaxLines='1'
+									MinimumSize='0,50'
 									Name='text'
 									PackLocation='fff'
 									PackSize='a,f'
 									PalText='text1'
-									ScrollExtent='790,24'
-									Size='790,24'
+									ScrollExtent='759,50'
+									Size='759,50'
 									TextAlignmentVertical='Center'
 									TextColor='#96F4FC'
-									VisualEditLock='true'
 								>xxx command name here</Text>
 							</Page>
 							<Page
-								Activated='true'
 								CustomDragWidget='icon'
 								Dragable='true'
-								Location='2,2'
-								MaximumSize='815,36'
-								MinimumSize='815,36'
+								Location='2,54'
+								MaximumSize='815,50'
+								MinimumSize='815,50'
 								Name='sample'
 								OnDisableEffector='/effectors.opacity.slow.fadeout'
 								OnEnableEffector='/effectors.opacity.slow.fadefull'
-								ScrollExtent='815,36'
-								Size='815,36'
-								Visible='false'
+								ScrollExtent='815,50'
+								Size='815,50'
 							>
 								<Image
 									BackgroundColor='#1FE6F5'
 									Color='#54E4FE'
 									DragType='cmd_dummy'
 									Location='2,0'
+									MinimumSize='50,50'
 									Name='icon'
 									OpacityRelativeMin='1.00'
 									PalColor='iconDefault'
-									ScrollExtent='24,24'
-									Size='24,24'
+									ScrollExtent='50,50'
+									Size='50,50'
 									Style='/Styles.Icon.UI.CMD_uiChat'
 									VisualEditLock='true'
 								/>
@@ -2215,31 +2218,30 @@
 									ColorSelection='#FF8000'
 									Font='bold_16'
 									LocalText='xxx command name here'
-									Location='25,0'
+									Location='56,0'
 									Margin='8,2,2,2'
 									MaxLines='1'
+									MinimumSize='0,50'
 									Name='text'
 									PackLocation='fff'
 									PackSize='a,f'
 									PalText='text1'
-									ScrollExtent='790,24'
-									Size='790,24'
+									ScrollExtent='759,50'
+									Size='759,50'
 									TextAlignmentVertical='Center'
 									TextColor='#96F4FC'
-									VisualEditLock='true'
 								>xxx command name here</Text>
 							</Page>
 						</VolumePage>
 						<Scrollbar
 							BackgroundColor='#FFFFFF'
 							Control='volume'
-							Enabled='false'
 							Location='827,6'
 							Name='scroll'
 							PackLocation='fff,nfn'
 							PackSize='f,a'
-							ScrollExtent='10,388'
-							Size='10,388'
+							ScrollExtent='10,408'
+							Size='10,408'
 							Style='/Styles.scrollbar.default.vHud4.style'
 						>
 						</Scrollbar>
@@ -2248,9 +2250,9 @@
 							Name='outline'
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
-							ScrollExtent='840,418'
+							ScrollExtent='840,438'
 							Selectable='true'
-							Size='840,418'
+							Size='840,438'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -2261,8 +2263,8 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.New.whiteOutline_palW.rs_default'
-								ScrollExtent='840,418'
-								Size='840,418'
+								ScrollExtent='840,438'
+								Size='840,438'
 							/>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -2274,8 +2276,8 @@
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-								ScrollExtent='818,377'
-								Size='818,377'
+								ScrollExtent='818,397'
+								Size='818,397'
 							/>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -2287,8 +2289,8 @@
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-								ScrollExtent='835,415'
-								Size='835,415'
+								ScrollExtent='835,435'
+								Size='835,435'
 							/>
 						</Page>
 						<Page
@@ -2302,8 +2304,8 @@
 							PackSize='a,a'
 							PalBgTint='back1'
 							RStyleDefault='/Styles.New.whitebox.rs_default'
-							ScrollExtent='815,408'
-							Size='815,408'
+							ScrollExtent='815,428'
+							Size='815,428'
 						/>
 					</Page>
 					<Page
@@ -2313,30 +2315,31 @@
 						PackSize='a,a'
 						PalBgTint='line1'
 						RStyleDefault='/Styles.New.whiteOutline.rs_default'
-						ScrollExtent='840,418'
-						Size='840,418'
+						ScrollExtent='840,438'
+						Size='840,438'
 					>
 						<Page
 							Activated='true'
 							CustomDragWidget='icon'
 							Dragable='true'
 							Location='2,2'
-							MaximumSize='222,36'
-							MinimumSize='222,36'
+							MaximumSize='311,50'
+							MinimumSize='311,50'
 							Name='sample'
 							OnDisableEffector='/effectors.opacity.slow.fadeout'
 							OnEnableEffector='/effectors.opacity.slow.fadefull'
-							ScrollExtent='222,36'
-							Size='222,36'
+							ScrollExtent='311,50'
+							Size='311,50'
 						>
 							<Image
 								BackgroundColor='#FFFFFF'
 								DragType='cmd_dummy'
 								Location='2,0'
+								MinimumSize='50,50'
 								Name='icon'
 								OpacityRelativeMin='1.00'
-								ScrollExtent='36,36'
-								Size='36,36'
+								ScrollExtent='50,50'
+								Size='50,50'
 								Style='/Styles.Icon.UI.CMD_uiChat'
 								VisualEditLock='true'
 							/>
@@ -2345,19 +2348,18 @@
 								ColorSelection='#FF8000'
 								Font='bold_16'
 								LocalText='xxx command name here'
-								Location='37,0'
+								Location='56,0'
 								Margin='8,2,2,2'
 								MaxLines='1'
-								MinimumSize='0,19'
+								MinimumSize='0,50'
 								Name='text'
 								PackLocation='fff'
 								PackSize='a,f'
 								PalText='text1'
-								ScrollExtent='185,36'
-								Size='185,36'
+								ScrollExtent='274,50'
+								Size='274,50'
 								TextAlignmentVertical='Center'
 								TextColor='#96F4FC'
-								VisualEditLock='true'
 							>xxx command name here</Text>
 						</Page>
 						<Data
@@ -2371,35 +2373,36 @@
 							CellCountFixed='1,0'
 							CellSelectionOverlay='/Styles.New.whiteOutline_palW.rs_activated'
 							CellSelectionOverlayOpacity='0.70'
-							CellSize='815,36'
+							CellSize='815,50'
 							Location='4,6'
-							MinimumScrollExtent='821,192'
+							MinimumScrollExtent='821,262'
 							MultiSelection='false'
 							Name='volume'
 							PackSize='a,a'
-							ScrollExtent='821,400'
-							Size='819,400'
+							ScrollExtent='821,420'
+							Size='819,420'
 						>
 							<Page
 								CustomDragWidget='icon'
 								Dragable='true'
 								Location='2,2'
-								MaximumSize='815,36'
-								MinimumSize='815,36'
+								MaximumSize='815,50'
+								MinimumSize='815,50'
 								Name='sample'
 								OnDisableEffector='/effectors.opacity.slow.fadeout'
 								OnEnableEffector='/effectors.opacity.slow.fadefull'
-								ScrollExtent='815,36'
-								Size='815,36'
+								ScrollExtent='815,50'
+								Size='815,50'
 							>
 								<Image
 									BackgroundColor='#1FE6F5'
 									DragType='cmd_dummy'
 									Location='2,0'
+									MinimumSize='50,50'
 									Name='icon'
 									OpacityRelativeMin='1.00'
-									ScrollExtent='36,36'
-									Size='36,36'
+									ScrollExtent='50,50'
+									Size='50,50'
 									Style='/Styles.Icon.UI.CMD_uiChat'
 									VisualEditLock='true'
 								/>
@@ -2408,125 +2411,42 @@
 									ColorSelection='#FF8000'
 									Font='bold_16'
 									LocalText='xxx command name here'
-									Location='37,0'
+									Location='56,0'
 									Margin='8,2,2,2'
 									MaxLines='1'
+									MinimumSize='0,50'
 									Name='text'
 									PackLocation='fff'
 									PackSize='a,f'
 									PalText='text1'
-									ScrollExtent='778,36'
-									Size='778,36'
+									ScrollExtent='759,50'
+									Size='759,50'
 									TextAlignmentVertical='Center'
 									TextColor='#96F4FC'
-									VisualEditLock='true'
-								>xxx command name here</Text>
-							</Page>
-							<Page
-								CustomDragWidget='icon'
-								Dragable='true'
-								Location='2,40'
-								MaximumSize='815,36'
-								MinimumSize='815,36'
-								Name='sample'
-								OnDisableEffector='/effectors.opacity.slow.fadeout'
-								OnEnableEffector='/effectors.opacity.slow.fadefull'
-								ScrollExtent='815,36'
-								Size='815,36'
-							>
-								<Image
-									BackgroundColor='#1FE6F5'
-									DragType='cmd_dummy'
-									Location='2,0'
-									Name='icon'
-									OpacityRelativeMin='1.00'
-									ScrollExtent='36,36'
-									Size='36,36'
-									Style='/Styles.Icon.UI.CMD_uiChat'
-									VisualEditLock='true'
-								/>
-								<Text
-									BackgroundColor='#FFFFFF'
-									ColorSelection='#FF8000'
-									Font='bold_16'
-									LocalText='xxx command name here'
-									Location='37,0'
-									Margin='8,2,2,2'
-									MaxLines='1'
-									Name='text'
-									PackLocation='fff'
-									PackSize='a,f'
-									PalText='text1'
-									ScrollExtent='778,36'
-									Size='778,36'
-									TextAlignmentVertical='Center'
-									TextColor='#96F4FC'
-									VisualEditLock='true'
-								>xxx command name here</Text>
-							</Page>
-							<Page
-								CustomDragWidget='icon'
-								Dragable='true'
-								Location='2,78'
-								MaximumSize='815,36'
-								MinimumSize='815,36'
-								Name='sample'
-								OnDisableEffector='/effectors.opacity.slow.fadeout'
-								OnEnableEffector='/effectors.opacity.slow.fadefull'
-								ScrollExtent='815,36'
-								Size='815,36'
-							>
-								<Image
-									BackgroundColor='#1FE6F5'
-									DragType='cmd_dummy'
-									Location='2,0'
-									Name='icon'
-									OpacityRelativeMin='1.00'
-									ScrollExtent='36,36'
-									Size='36,36'
-									Style='/Styles.Icon.UI.CMD_uiChat'
-									VisualEditLock='true'
-								/>
-								<Text
-									BackgroundColor='#FFFFFF'
-									ColorSelection='#FF8000'
-									Font='bold_16'
-									LocalText='xxx command name here'
-									Location='37,0'
-									Margin='8,2,2,2'
-									MaxLines='1'
-									Name='text'
-									PackLocation='fff'
-									PackSize='a,f'
-									PalText='text1'
-									ScrollExtent='778,36'
-									Size='778,36'
-									TextAlignmentVertical='Center'
-									TextColor='#96F4FC'
-									VisualEditLock='true'
 								>xxx command name here</Text>
 							</Page>
 							<Page
 								Activated='true'
 								CustomDragWidget='icon'
 								Dragable='true'
-								Location='2,116'
-								MaximumSize='815,36'
-								MinimumSize='815,36'
+								Location='2,54'
+								MaximumSize='815,50'
+								MinimumSize='815,50'
 								Name='sample'
 								OnDisableEffector='/effectors.opacity.slow.fadeout'
 								OnEnableEffector='/effectors.opacity.slow.fadefull'
-								ScrollExtent='815,36'
-								Size='815,36'
+								ScrollExtent='815,50'
+								Size='815,50'
 							>
 								<Image
 									BackgroundColor='#1FE6F5'
 									DragType='cmd_dummy'
 									Location='2,0'
+									MinimumSize='50,50'
 									Name='icon'
 									OpacityRelativeMin='1.00'
-									ScrollExtent='36,36'
-									Size='36,36'
+									ScrollExtent='50,50'
+									Size='50,50'
 									Style='/Styles.Icon.UI.CMD_uiChat'
 									VisualEditLock='true'
 								/>
@@ -2535,15 +2455,15 @@
 									ColorSelection='#FF8000'
 									Font='bold_16'
 									LocalText='xxx command name here'
-									Location='37,0'
+									Location='56,0'
 									Margin='8,2,2,2'
 									MaxLines='1'
 									Name='text'
 									PackLocation='fff'
 									PackSize='a,f'
 									PalText='text1'
-									ScrollExtent='778,36'
-									Size='778,36'
+									ScrollExtent='759,50'
+									Size='759,50'
 									TextAlignmentVertical='Center'
 									TextColor='#96F4FC'
 									VisualEditLock='true'
@@ -2552,23 +2472,24 @@
 							<Page
 								CustomDragWidget='icon'
 								Dragable='true'
-								Location='2,154'
-								MaximumSize='815,36'
-								MinimumSize='815,36'
+								Location='2,106'
+								MaximumSize='815,50'
+								MinimumSize='815,50'
 								Name='sample'
 								OnDisableEffector='/effectors.opacity.slow.fadeout'
 								OnEnableEffector='/effectors.opacity.slow.fadefull'
-								ScrollExtent='815,36'
-								Size='815,36'
+								ScrollExtent='815,50'
+								Size='815,50'
 							>
 								<Image
 									BackgroundColor='#1FE6F5'
 									DragType='cmd_dummy'
 									Location='2,0'
+									MinimumSize='50,50'
 									Name='icon'
 									OpacityRelativeMin='1.00'
-									ScrollExtent='36,36'
-									Size='36,36'
+									ScrollExtent='50,50'
+									Size='50,50'
 									Style='/Styles.Icon.UI.CMD_uiChat'
 									VisualEditLock='true'
 								/>
@@ -2577,15 +2498,101 @@
 									ColorSelection='#FF8000'
 									Font='bold_16'
 									LocalText='xxx command name here'
-									Location='37,0'
+									Location='56,0'
 									Margin='8,2,2,2'
 									MaxLines='1'
 									Name='text'
 									PackLocation='fff'
 									PackSize='a,f'
 									PalText='text1'
-									ScrollExtent='778,36'
-									Size='778,36'
+									ScrollExtent='759,50'
+									Size='759,50'
+									TextAlignmentVertical='Center'
+									TextColor='#96F4FC'
+									VisualEditLock='true'
+								>xxx command name here</Text>
+							</Page>
+							<Page
+								CustomDragWidget='icon'
+								Dragable='true'
+								Location='2,158'
+								MaximumSize='815,50'
+								MinimumSize='815,50'
+								Name='sample'
+								OnDisableEffector='/effectors.opacity.slow.fadeout'
+								OnEnableEffector='/effectors.opacity.slow.fadefull'
+								ScrollExtent='815,50'
+								Size='815,50'
+							>
+								<Image
+									BackgroundColor='#1FE6F5'
+									DragType='cmd_dummy'
+									Location='2,0'
+									MinimumSize='50,50'
+									Name='icon'
+									OpacityRelativeMin='1.00'
+									ScrollExtent='50,50'
+									Size='50,50'
+									Style='/Styles.Icon.UI.CMD_uiChat'
+									VisualEditLock='true'
+								/>
+								<Text
+									BackgroundColor='#FFFFFF'
+									ColorSelection='#FF8000'
+									Font='bold_16'
+									LocalText='xxx command name here'
+									Location='56,0'
+									Margin='8,2,2,2'
+									MaxLines='1'
+									Name='text'
+									PackLocation='fff'
+									PackSize='a,f'
+									PalText='text1'
+									ScrollExtent='759,50'
+									Size='759,50'
+									TextAlignmentVertical='Center'
+									TextColor='#96F4FC'
+									VisualEditLock='true'
+								>xxx command name here</Text>
+							</Page>
+							<Page
+								CustomDragWidget='icon'
+								Dragable='true'
+								Location='2,210'
+								MaximumSize='815,50'
+								MinimumSize='815,50'
+								Name='sample'
+								OnDisableEffector='/effectors.opacity.slow.fadeout'
+								OnEnableEffector='/effectors.opacity.slow.fadefull'
+								ScrollExtent='815,50'
+								Size='815,50'
+							>
+								<Image
+									BackgroundColor='#1FE6F5'
+									DragType='cmd_dummy'
+									Location='2,0'
+									MinimumSize='50,50'
+									Name='icon'
+									OpacityRelativeMin='1.00'
+									ScrollExtent='50,50'
+									Size='50,50'
+									Style='/Styles.Icon.UI.CMD_uiChat'
+									VisualEditLock='true'
+								/>
+								<Text
+									BackgroundColor='#FFFFFF'
+									ColorSelection='#FF8000'
+									Font='bold_16'
+									LocalText='xxx command name here'
+									Location='56,0'
+									Margin='8,2,2,2'
+									MaxLines='1'
+									Name='text'
+									PackLocation='fff'
+									PackSize='a,f'
+									PalText='text1'
+									ScrollExtent='759,50'
+									Size='759,50'
 									TextAlignmentVertical='Center'
 									TextColor='#96F4FC'
 									VisualEditLock='true'
@@ -2599,8 +2606,8 @@
 							Name='scroll'
 							PackLocation='fff,nfn'
 							PackSize='f,a'
-							ScrollExtent='11,406'
-							Size='11,406'
+							ScrollExtent='11,426'
+							Size='11,426'
 							Style='/Styles.scrollbar.default.vHud4.style'
 						>
 						</Scrollbar>
@@ -2609,9 +2616,9 @@
 							Name='outline'
 							PackLocation='nfn,nfn'
 							PackSize='a,a'
-							ScrollExtent='840,418'
+							ScrollExtent='840,438'
 							Selectable='true'
-							Size='840,418'
+							Size='840,438'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -2622,8 +2629,8 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.New.whiteOutline.rs_default'
-								ScrollExtent='840,418'
-								Size='840,418'
+								ScrollExtent='840,438'
+								Size='840,438'
 							/>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -2635,8 +2642,8 @@
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.New.whitebox_palW.rs_default'
-								ScrollExtent='817,403'
-								Size='817,403'
+								ScrollExtent='817,423'
+								Size='817,423'
 							/>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -2647,14 +2654,14 @@
 								PackSize='a,a'
 								PalBgTint='back1'
 								RStyleDefault='/Styles.New.fatFrameInside_palW.rs_default'
-								ScrollExtent='840,418'
-								Size='840,418'
+								ScrollExtent='840,438'
+								Size='840,438'
 							/>
 						</Page>
 					</Page>
 				</Page>
 				<Page
-					Location='0,419'
+					Location='0,439'
 					MaximumSize='16384,129'
 					MinimumSize='0,116'
 					Name='info'
@@ -2791,12 +2798,12 @@
 				BackgroundColor='#009977'
 				DataSource='TabData'
 				Location='11,31'
-				MinimumScrollExtent='2459,0'
-				MinimumSize='0,19'
+				MinimumScrollExtent='3492,0'
+				MinimumSize='0,26'
 				Name='tabs'
 				PackLocation='nfn,nfn'
 				PackSize='a,f'
-				ScrollExtent='2459,26'
+				ScrollExtent='3492,26'
 				Size='824,26'
 				Style='/Styles.New.tabs.horizontal_10.style'
 				DataSource='TabData'
@@ -2835,6 +2842,12 @@
 				<Data
 					localName='[@ui_command:command_tab_mood]'
 					Name='@ui_command:command_tab_mood'
+					Size='128,64'
+					Target='comp.target.page'
+				/>
+				<Data
+					localName='[@ui_command:command_tab_droidcombat]'
+					Name='@ui_command:command_tab_droidcombat'
 					Size='128,64'
 					Target='comp.target.page'
 				/>
@@ -2879,8 +2892,8 @@
 				Name='bg'
 				PackLocation='nfn,nfn'
 				PackSize='a,a'
-				ScrollExtent='861,630'
-				Size='861,630'
+				ScrollExtent='861,650'
+				Size='861,650'
 			>
 				<Page
 					Location='850,8'
@@ -2914,7 +2927,7 @@
 				>
 					<Text
 						Enabled='false'
-						Font='bold_13'
+						Font='bold_18'
 						LocalText='[@CPT_COMMAND_BROWSER]'
 						Margin='6,-2,0,0'
 						MaxLines='1'
@@ -2938,9 +2951,9 @@
 					PackSize='a,a'
 					PalBgTint='baselight'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='860,630'
+					ScrollExtent='860,650'
 					Selectable='true'
-					Size='860,630'
+					Size='860,650'
 				>
 					<Page
 						BackgroundColor='#FFFFFF'
@@ -2949,19 +2962,19 @@
 						Name='lines'
 						PackSize='a,a'
 						RStyleDefault='/Styles.space.boxes.generic4.rs_default'
-						ScrollExtent='860,630'
-						Size='860,630'
+						ScrollExtent='860,650'
+						Size='860,650'
 					>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='0,608'
+							Location='0,628'
 							Name='outlineBL'
 							OpacityRelativeMin='0.80'
 							PackLocation='nfn,fff'
 							PackSize='p,f'
-							ScrollExtent='675,22'
-							Size='675,22'
+							ScrollExtent='674,22'
+							Size='674,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -2974,21 +2987,21 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlinebottomLeft2.rs_default'
-								ScrollExtent='675,9'
-								Size='675,9'
+								ScrollExtent='674,9'
+								Size='674,9'
 							/>
 						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='233,608'
+							Location='234,628'
 							Name='outlineBR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,fff'
 							PackSize='p,f'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-							ScrollExtent='627,22'
-							Size='627,22'
+							ScrollExtent='626,22'
+							Size='626,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -3001,20 +3014,20 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlinebottomRight2.rs_default'
-								ScrollExtent='627,9'
-								Size='627,9'
+								ScrollExtent='626,9'
+								Size='626,9'
 							/>
 						</Page>
 						<Page
 							BackgroundColor='#FFFFFF'
 							GetsInput='false'
-							Location='233,0'
+							Location='234,0'
 							Name='outlineTR'
 							OpacityRelativeMin='0.80'
 							PackLocation='fff,nfn'
 							PackSize='p,f'
-							ScrollExtent='627,22'
-							Size='627,22'
+							ScrollExtent='626,22'
+							Size='626,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -3026,8 +3039,8 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlineTopRight2.rs_default'
-								ScrollExtent='627,9'
-								Size='627,9'
+								ScrollExtent='626,9'
+								Size='626,9'
 							/>
 						</Page>
 						<Page
@@ -3038,8 +3051,8 @@
 							PackLocation='nfn,nfn'
 							PackSize='p,f'
 							RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-							ScrollExtent='675,22'
-							Size='675,22'
+							ScrollExtent='674,22'
+							Size='674,22'
 						>
 							<Page
 								BackgroundColor='#FFFFFF'
@@ -3051,8 +3064,8 @@
 								PackSize='a,a'
 								PalBgTint='line1'
 								RStyleDefault='/Styles.space.boxes.boxlineTopLeft2.rs_default'
-								ScrollExtent='675,9'
-								Size='675,9'
+								ScrollExtent='674,9'
+								Size='674,9'
 							/>
 						</Page>
 					</Page>
@@ -3068,7 +3081,7 @@
 					/>
 					<Page
 						BackgroundOpacity='1.00'
-						Location='0,607'
+						Location='0,627'
 						Name='bottom'
 						PackLocation='nfn,fff'
 						PackSize='a,f'
@@ -3087,9 +3100,9 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.New.thin_in.rs_default'
-					ScrollExtent='861,622'
+					ScrollExtent='861,642'
 					Selectable='true'
-					Size='861,622'
+					Size='861,642'
 				/>
 				<Page
 					BackgroundOpacity='1.00'
@@ -3100,9 +3113,9 @@
 					PackSize='a,a'
 					PalBgTint='back1'
 					RStyleDefault='/Styles.space.spaceglow.rs_default'
-					ScrollExtent='861,630'
+					ScrollExtent='861,650'
 					Selectable='true'
-					Size='861,630'
+					Size='861,650'
 				/>
 			</Page>
 		</Page>
