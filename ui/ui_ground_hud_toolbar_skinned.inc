@@ -3,21 +3,21 @@
 			AllowLookAtTargetSelection='true'
 			BackgroundColor='#0000FF'
 			buttonactive.style='/Styles.buttons.smallest_boxes.style'
-			MaximumSize='1440,960'
-			MinimumSize='1440,960'
+			MaximumSize='1440,980'
+			MinimumSize='1440,980'
 			Name='Toolbar'
 			OnDisableEffector='/effectors.fadethreequarter'
 			OnEnableEffector='/Effectors.FadeFull'
 			OnShowEffector='/Effectors.FadeFull'
 			PackSize='p,p'
 			ParentSize='true'
-			ScrollExtent='1440,960'
-			Size='1440,960'
+			ScrollExtent='1440,980'
+			Size='1440,980'
 			TextOpacityRelativeApply='true'
 			TextOpacityRelativeMin='0.80'
 		>
 			<Page
-				Location='623,799'
+				Location='623,819'
 				Name='PetToolbar'
 				PackLocation='fff,fff'
 				ScrollExtent='501,77'
@@ -790,7 +790,7 @@
 				</VolumePage>
 			</Page>
 			<Page
-				Location='639,836'
+				Location='639,856'
 				Name='Toolbar'
 				PackLocation='fff,fff'
 				ScrollExtent='797,118'
@@ -2345,22 +2345,22 @@
 			AllowLookAtTargetSelection='true'
 			BackgroundColor='#0000FF'
 			buttonactive.style='/Styles.buttons.smallest_boxes.style'
-			MaximumSize='1440,960'
-			MinimumSize='1440,960'
+			MaximumSize='1440,980'
+			MinimumSize='1440,980'
 			Name='DoubleToolbar'
 			OnDisableEffector='/effectors.fadethreequarter'
 			OnEnableEffector='/Effectors.FadeFull'
 			OnShowEffector='/Effectors.FadeFull'
 			PackSize='p,p'
 			ParentSize='true'
-			ScrollExtent='1440,960'
-			Size='1440,960'
+			ScrollExtent='1440,980'
+			Size='1440,980'
 			TextOpacityRelativeApply='true'
 			TextOpacityRelativeMin='0.80'
 			Visible='false'
 		>
 			<Page
-				Location='627,751'
+				Location='627,771'
 				Name='PetToolbar'
 				PackLocation='fff,fff'
 				ScrollExtent='501,77'
@@ -3133,7 +3133,7 @@
 				</VolumePage>
 			</Page>
 			<Page
-				Location='645,790'
+				Location='645,810'
 				MaximumSize='795,169'
 				Name='Toolbar'
 				PackLocation='fff,fff'

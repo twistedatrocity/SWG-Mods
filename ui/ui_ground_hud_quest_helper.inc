@@ -162,7 +162,7 @@ background.EffectorExecute=\"/Effectors.FadeOut\"'
 			<Text
 				BackgroundColor='#FFFFFF'
 				BackgroundTint='#FFE21A'
-				Font='bold_20'
+				Font='bold_21'
 				LocalText='The Quest Title'
 				Location='4,4'
 				MaxLines='1'

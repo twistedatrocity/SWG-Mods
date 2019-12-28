@@ -4,8 +4,8 @@
 			Name='AllTargets'
 			OpacityRelativeMin='1.00'
 			PackSize='1,1'
-			ScrollExtent='1440,960'
-			Size='1440,960'
+			ScrollExtent='1440,980'
+			Size='1440,980'
 			TextOpacityRelativeApply='true'
 			TextOpacityRelativeMin='0.80'
 		>
@@ -82,7 +82,7 @@
 				>
 					<Text
 						BackgroundColor='#00FF80'
-						Font='default_20'
+						Font='normal_20'
 						LocalText='696m'
 						MaximumSize='16384,45'
 						MinimumSize='0,8'
@@ -96,7 +96,7 @@
 					>696m</Text>
 					<Text
 						BackgroundColor='#00FF80'
-						Font='default_20'
+						Font='normal_20'
 						LocalText='(AFK)'
 						Location='0,21'
 						MaximumSize='16384,45'
@@ -642,7 +642,7 @@
 					</Composite>
 					<Text
 						BackgroundColor='#00FF80'
-						Font='default_20'
+						Font='normal_20'
 						LocalText='Rebel Peon'
 						Location='0,78'
 						MaximumSize='16384,45'
@@ -658,7 +658,7 @@
 					<Text
 						BackgroundColor='#00FF80'
 						DropShadowAutoDetect='false'
-						Font='default_20'
+						Font='normal_20'
 						LocalText='Target Name'
 						Location='0,99'
 						MaximumSize='16384,45'
@@ -673,7 +673,7 @@
 					>Target Name</Text>
 					<Text
 						BackgroundColor='#00FF80'
-						Font='default_20'
+						Font='normal_20'
 						LocalText='Master Jedi'
 						Location='0,120'
 						MaximumSize='16384,45'
@@ -688,7 +688,7 @@
 					>Master Jedi</Text>
 					<Text
 						BackgroundColor='#00FF80'
-						Font='default_20'
+						Font='normal_20'
 						LocalText='\<Imperial Butter Makers\>'
 						Location='0,141'
 						MaximumSize='16384,45'
@@ -703,7 +703,7 @@
 					>\<Imperial Butter Makers\></Text>
 					<Text
 						BackgroundColor='#00FF80'
-						Font='default_20'
+						Font='normal_20'
 						LocalText='setjmp((void*)(rand() * rand()));'
 						Location='0,162'
 						MaximumSize='16384,45'
@@ -720,7 +720,7 @@
 			</Page>
 			<Text
 				BackgroundColor='#FFFFFF'
-				Font='bold_23'
+				Font='bold_22'
 				LocalText='8000'
 				Location='108,432'
 				MaximumSize='300,300'
@@ -737,7 +737,7 @@
 			<Page
 				BackgroundColor='#FFFFFF'
 				Color='#AFAFAF'
-				Location='622,375'
+				Location='622,385'
 				Name='sampleWaypointArrow'
 				OnDisableEffector='/effectors.opacity.slow.fadeout'
 				OnEnableEffector='/effectors.opacity.fast.fadefull'
@@ -769,7 +769,7 @@
 			</Page>
 			<Page
 				BackgroundColor='#FFFFFF'
-				Location='623,383'
+				Location='623,393'
 				Name='sampleArrow'
 				OnDisableEffector='/effectors.opacity.slow.fadeout'
 				OnEnableEffector='/effectors.opacity.fast.fadefull'

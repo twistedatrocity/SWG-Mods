@@ -2,17 +2,17 @@
 			AbsorbsInput='false'
 			AllowLookAtTargetSelection='true'
 			ContextCapable='true'
-			Location='843,153'
-			MaximumSize='260,582'
-			MinimumSize='260,582'
+			Location='843,94'
+			MaximumSize='260,601'
+			MinimumSize='260,601'
 			Name='ButtonBar'
 			OnDisableEffector='/effectors.fadethreequarter'
 			OnEnableEffector='/Effectors.FadeFull'
 			OnShowEffector='/Effectors.FadeFull'
 			PackLocation='fff,fff'
 			RStyleDefault='rs_default'
-			ScrollExtent='260,582'
-			Size='260,582'
+			ScrollExtent='260,601'
+			Size='260,601'
 			TextOpacityRelativeApply='true'
 			TextOpacityRelativeMin='0.80'
 		>
@@ -50,10 +50,11 @@
 				Name='CodeData'
 			/>
 			<Page
-				Location='218,527'
+				Location='202,528'
+				MinimumSize='57,67'
 				Name='bigMenuPage'
-				ScrollExtent='41,48'
-				Size='41,48'
+				ScrollExtent='57,67'
+				Size='57,67'
 				UserMovable='true'
 			>
 				<Button
@@ -64,59 +65,59 @@
 					ContextToParent='true'
 					IconShrink='true'
 					IconStretch='true'
-					MaximumSize='41,48'
-					MinimumSize='41,48'
+					MaximumSize='57,67'
+					MinimumSize='57,67'
 					Name='bigMenu'
 					OnPress='buttonsComposite.visible=1
 buttonsComposite.enabled=1'
-					ScrollExtent='41,48'
-					Size='41,48'
+					ScrollExtent='57,67'
+					Size='57,67'
 				></Button>
 				<Image
 					AbsorbsInput='false'
+					MinimumSize='57,67'
 					Name='buttonEnabledHover'
 					Opacity='0.90'
 					PackLocation='cfc,cfc'
-					ScrollExtent='41,48'
-					Size='41,48'
+					ScrollExtent='57,67'
+					Size='57,67'
 					SourceRect='2,259,43,307'
 					SourceResource='hud_ground_skin'
-					Stretch='false'
 					Visible='false'
 				/>
 				<Image
 					AbsorbsInput='false'
+					MinimumSize='57,67'
 					Name='buttonEnabled'
 					Opacity='0.90'
 					PackLocation='cfc,cfc'
-					ScrollExtent='41,48'
-					Size='41,48'
-					SourceRect='48,259,129,307'
+					ScrollExtent='57,67'
+					Size='57,67'
+					SourceRect='2,259,43,307'
 					SourceResource='hud_ground_skin'
-					Stretch='false'
 				/>
 				<Image
 					AbsorbsInput='false'
+					MinimumSize='57,67'
 					Name='buttonDisabledHover'
 					Opacity='0.90'
 					PackLocation='cfc,cfc'
-					ScrollExtent='41,48'
-					Size='41,48'
+					ScrollExtent='57,67'
+					Size='57,67'
 					SourceRect='95,259,136,307'
 					SourceResource='hud_ground_skin'
-					Stretch='false'
 					Visible='false'
 				/>
 				<Image
 					AbsorbsInput='false'
+					MinimumSize='57,67'
 					Name='buttonDisabled'
 					Opacity='0.90'
 					PackLocation='cfc,cfc'
-					ScrollExtent='41,48'
-					Size='41,48'
+					ScrollExtent='57,67'
+					Size='57,67'
 					SourceRect='142,259,183,307'
 					SourceResource='hud_ground_skin'
-					Stretch='false'
 					Visible='false'
 				/>
 			</Page>
@@ -142,7 +143,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_gcw]'
 						MaximumSize='229,31'
@@ -181,7 +182,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_planet_map]'
 						MaximumSize='229,31'
@@ -221,7 +222,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_quest_journal]'
 						MaximumSize='229,31'
@@ -259,7 +260,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_roadmap]'
 						MaximumSize='229,31'
@@ -297,7 +298,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_expertise]'
 						MaximumSize='229,31'
@@ -335,7 +336,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_appearance]'
 						MaximumSize='229,31'
@@ -374,7 +375,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_inventory]'
 						MaximumSize='229,31'
@@ -412,7 +413,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_datapad]'
 						MaximumSize='229,31'
@@ -451,7 +452,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_character]'
 						MaximumSize='229,31'
@@ -489,7 +490,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_questbuilder]'
 						MaximumSize='229,31'
@@ -528,7 +529,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_mail]'
 						MaximumSize='229,31'
@@ -567,7 +568,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_options]'
 						MaximumSize='229,31'
@@ -605,7 +606,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_community]'
 						MaximumSize='229,31'
@@ -643,7 +644,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_commands]'
 						MaximumSize='229,31'
@@ -682,7 +683,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_my_collections]'
 						MaximumSize='229,31'
@@ -721,7 +722,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_service]'
 						MaximumSize='229,31'
@@ -759,7 +760,7 @@ buttonsComposite.enabled=1'
 					Size='260,31'
 				>
 					<Text
-						Font='bold_23'
+						Font='bold_22'
 						GetsInput='true'
 						LocalText='[@button_bar_menu]'
 						MaximumSize='229,31'
