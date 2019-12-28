@@ -29,6 +29,7 @@
 			Size='1440,980'
 			TextOpacityRelativeApply='true'
 			TextOpacityRelativeMin='0.80'
+			Visible='false'
 		>
 			<Page
 				Location='1152,182'
@@ -1273,7 +1274,7 @@
 			/>
 			<Text
 				BackgroundColor='#00FF00'
-				Font='bold_21'
+				Font='bold_20'
 				LocalText='100'
 				Location='5,39'
 				MaximumSize='63,43'
@@ -2335,7 +2336,7 @@
 			<Text
 				BackgroundColor='#FFFFFF'
 				BackgroundTint='#03546B'
-				Font='bold_21'
+				Font='bold_20'
 				LocalText='System Messages Go here from the server. \\#ff0000 Hit!! \\#ffffff'
 				Location='0,38'
 				Margin='4,4,4,4'
@@ -2366,7 +2367,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					BackgroundTint='#03546B'
-					Font='bold_21'
+					Font='bold_20'
 					LocalText='System Messages Go here from the server. \\#ff0000 Hit!! \\#ffffff'
 					Location='0,38'
 					Margin='4,4,4,4'
@@ -2384,7 +2385,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					BackgroundTint='#03546B'
-					Font='bold_21'
+					Font='bold_20'
 					LocalText='System Messages Go here from the server. \\#ff0000 Hit!! \\#ffffff'
 					Location='0,71'
 					Margin='4,4,4,4'
@@ -2402,7 +2403,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					BackgroundTint='#03546B'
-					Font='bold_21'
+					Font='bold_20'
 					LocalText='System Messages Go here from the server. \\#ff0000 Hit!! \\#ffffff'
 					Location='0,104'
 					Margin='4,4,4,4'
@@ -2420,7 +2421,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					BackgroundTint='#03546B'
-					Font='bold_21'
+					Font='bold_20'
 					LocalText='System Messages Go here from the server. \\#ff0000 Hit!! \\#ffffff'
 					Location='0,137'
 					Margin='4,4,4,4'
@@ -2438,7 +2439,7 @@
 				<Text
 					BackgroundColor='#FFFFFF'
 					BackgroundTint='#03546B'
-					Font='bold_21'
+					Font='bold_20'
 					LocalText='System Messages Go here from the server. \\#ff0000 Hit!! \\#ffffff'
 					Location='0,170'
 					Margin='4,4,4,4'
