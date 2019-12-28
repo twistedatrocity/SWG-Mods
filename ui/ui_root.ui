@@ -115,6 +115,7 @@ WARNING: here is a warning.  Please fix it.  Thank you.
 	<include>ui_options.inc</include>
 	<include>ui_menu_locations.inc</include>
 	<include>ui_controls_menu.inc</include>
+	<include>ui_largeloading.inc</include>
 	<include>ui_loading2.inc</include>
 	<include>ui_load_mustafar.inc</include>
 	<include>ui_load_hoth.inc</include>
