@@ -553,7 +553,7 @@ parent.pageButtonsBottom.visible=true'
 			>
 				<Text
 					Font='bold_18'
-					LocalText='[@NEXT]'
+					LocalText='[@LOGIN]'
 					Location='12,14'
 					Margin='0,0,0,2'
 					Name='next'
@@ -566,7 +566,7 @@ parent.pageButtonsBottom.visible=true'
 					TextAlignmentVertical='Center'
 					TextCapital='true'
 					TextColor='#96F4FC'
-				>@next</Text>
+				>@login</Text>
 				<Runner
 					GetsInput='false'
 					Location='79,20'
