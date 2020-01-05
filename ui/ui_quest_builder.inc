@@ -249,7 +249,7 @@
 					/>
 				</Page>
 				<Text
-					Font='starwars_32'
+					Font='starwars_55'
 					LocalText='Rewards:'
 					Location='8,5'
 					MinimumSize='0,30'
@@ -565,7 +565,7 @@
 					/>
 				</Page>
 				<Text
-					Font='starwars_32'
+					Font='starwars_55'
 					LocalText='Quest Info:'
 					Location='8,2'
 					MinimumSize='0,30'
@@ -604,7 +604,7 @@
 					Tooltip='@ui_quest:quest_title_tooltip'
 				>Quest Title</Textbox>
 				<Text
-					Font='default_28'
+					Font='normal_22'
 					LocalText='Quest Title'
 					Location='228,20'
 					Name='backgroundText'
@@ -617,7 +617,7 @@
 					TextOpacityRelativeApply='true'
 				>Quest Title</Text>
 				<Text
-					Font='starwars_32'
+					Font='starwars_55'
 					LocalText='Tasks:'
 					Location='14,155'
 					MinimumSize='0,30'
@@ -662,7 +662,7 @@
 						Tooltip='@ui_quest:quest_description_tooltip'
 					></Text>
 					<Text
-						Font='default_28'
+						Font='normal_22'
 						LocalText='Quest Description'
 						Location='114,20'
 						Name='backgroundText'
@@ -707,7 +707,7 @@
 					CaratColor='#00FF00'
 					CaratWidth='2'
 					Name='Style_big'
-					NormalTextStyle='bold_31'
+					NormalTextStyle='bold_24'
 					SelectionColor='#00FF00'
 					TextColor='#FFFFFF'
 					TextPadding='9,9,9,9'
@@ -1030,7 +1030,7 @@
 								Tooltip='@ui_quest:task_title_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Title'
 								Location='223,15'
 								Name='backgroundText'
@@ -1467,7 +1467,7 @@
 								Tooltip='@ui_quest:task_description_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Description'
 								Location='224,56'
 								Name='backgroundText'
@@ -1636,7 +1636,7 @@
 								Tooltip='@ui_quest:task_title_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Title'
 								Location='223,15'
 								Name='backgroundText'
@@ -1871,7 +1871,7 @@
 								Tooltip='@ui_quest:task_description_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Description'
 								Location='230,93'
 								Name='backgroundText'
@@ -2051,7 +2051,7 @@
 								Tooltip='@ui_quest:loot_item_tooltip'
 							></Text>
 							<Text
-								Font='default_20'
+								Font='normal_20'
 								LocalText='The item players will collect'
 								Location='134,4'
 								Name='backgroundText'
@@ -2189,7 +2189,7 @@
 								Tooltip='@ui_quest:task_title_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Title'
 								Location='221,13'
 								Name='backgroundText'
@@ -2427,7 +2427,7 @@
 								Tooltip='@ui_quest:task_description_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Description'
 								Location='219,57'
 								Name='backgroundText'
@@ -2601,7 +2601,7 @@
 								Tooltip='@ui_quest:task_title_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Title'
 								Location='219,4'
 								Name='backgroundText'
@@ -2888,7 +2888,7 @@
 								Tooltip='@ui_quest:task_description_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Description'
 								Location='220,74'
 								Name='backgroundText'
@@ -2993,7 +2993,7 @@
 								Tooltip='@ui_quest:task_title_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Title'
 								Location='220,13'
 								Name='backgroundText'
@@ -3046,7 +3046,7 @@
 							Size='685,126'
 						>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Comm Message'
 								Location='224,54'
 								Name='backgroundText'
@@ -3307,7 +3307,7 @@
 								Tooltip='@ui_quest:task_description_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Description'
 								Location='219,42'
 								Name='backgroundText'
@@ -3565,7 +3565,7 @@
 								TextColor='#96F4FC'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Title'
 								Location='210,15'
 								Name='backgroundText'
@@ -4061,7 +4061,7 @@
 								TextColor='#96F4FC'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Description'
 								Location='213,56'
 								Name='backgroundText'
@@ -4230,7 +4230,7 @@
 								Tooltip='@ui_quest:task_title_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Title'
 								Location='217,15'
 								Name='backgroundText'
@@ -4475,7 +4475,7 @@
 								Tooltip='@ui_quest:task_description_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Description'
 								Location='226,91'
 								Name='backgroundText'
@@ -4580,7 +4580,7 @@
 								Tooltip='@ui_quest:task_title_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Title'
 								Location='219,12'
 								Name='backgroundText'
@@ -4685,7 +4685,7 @@
 								Tooltip='@ui_quest:loot_item_tooltip'
 							></Text>
 							<Text
-								Font='default_20'
+								Font='normal_20'
 								LocalText='The item players will collect'
 								Location='136,4'
 								Name='backgroundText'
@@ -4928,7 +4928,7 @@
 								Tooltip='@ui_quest:task_description_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Description'
 								Location='221,79'
 								Name='backgroundText'
@@ -5117,7 +5117,7 @@
 								Tooltip='@ui_quest:task_title_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Title'
 								Location='219,12'
 								Name='backgroundText'
@@ -5558,7 +5558,7 @@
 								Tooltip='@ui_quest:task_description_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Description'
 								Location='228,78'
 								Name='backgroundText'
@@ -5999,7 +5999,7 @@
 								Tooltip='@ui_quest:task_title_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Title'
 								Location='218,11'
 								Name='backgroundText'
@@ -6235,7 +6235,7 @@
 								Tooltip='@ui_quest:task_description_tooltip'
 							></Text>
 							<Text
-								Font='default_28'
+								Font='normal_22'
 								LocalText='Task Description'
 								Location='225,79'
 								Name='backgroundText'
@@ -6385,7 +6385,7 @@
 					Tooltip='@ui_quest:show_recipe_tasks_tooltip'
 				>@ui_quest:show_recipe_tasks</Checkbox>
 				<Text
-					Font='bold_21'
+					Font='bold_20'
 					LocalText='Find'
 					Location='7,70'
 					MinimumSize='0,26'
@@ -6411,7 +6411,7 @@
 					Tooltip='@ui_quest:filter_tooltip'
 				>Kreetle</Textbox>
 				<Text
-					Font='bold_21'
+					Font='bold_20'
 					LocalText='Category'
 					Location='7,40'
 					MinimumSize='0,26'
@@ -6637,7 +6637,7 @@
 					/>
 				</Page>
 				<Text
-					Font='starwars_32'
+					Font='starwars_55'
 					LocalText='Relics'
 					Location='9,2'
 					MinimumSize='0,26'

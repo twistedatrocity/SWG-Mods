@@ -2,8 +2,8 @@
 			BackgroundOpacity='1.00'
 			Name='ShellBeach'
 			PackSize='1,1'
-			ScrollExtent='1440,980'
-			Size='1440,980'
+			ScrollExtent='1440,900'
+			Size='1440,900'
 			Visible='false'
 		>
 			<Data
@@ -14,7 +14,7 @@
 				return='layout.Return'
 			/>
 			<Page
-				Location='281,200'
+				Location='281,160'
 				MaximumSize='878,580'
 				MinimumSize='878,580'
 				Name='layout'

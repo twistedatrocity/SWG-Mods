@@ -102,19 +102,19 @@
 						BackgroundColor='#FFFFFF'
 						BackgroundOpacity='0.80'
 						BackgroundTint='#00FFFF'
-						Location='37,77'
+						Location='36,77'
 						Name='amount'
 						PackLocation='cpc,cpc'
 						PackSize='p,f'
 						PalBgTint='line2'
 						RStyleDefault='/Styles.New.whiteOutline.rs_default'
-						ScrollExtent='167,36'
-						Size='167,36'
+						ScrollExtent='166,36'
+						Size='166,36'
 					>
 						<Textbox
 							BackgroundOpacity='0.50'
 							BackgroundTint='#03546B'
-							Location='6,2'
+							Location='7,2'
 							MinimumSize='0,19'
 							Name='textboxAmount'
 							NumericInteger='true'
@@ -122,8 +122,8 @@
 							PackSize='p'
 							PalBgTint='back3'
 							RStyleDefault='/Styles.New.pill_lrg.rs_default'
-							ScrollExtent='154,32'
-							Size='154,32'
+							ScrollExtent='152,32'
+							Size='152,32'
 							Style='/Styles.textbox.default.Style_16'
 							TextColor='#FFFF00'
 						></Textbox>
@@ -232,13 +232,13 @@
 					IsCancelButton='true'
 					IsDefaultButton='true'
 					LocalText='[@cancel]'
-					Location='324,234'
+					Location='325,234'
 					MinimumSize='0,26'
 					Name='buttonCancel'
 					PackLocation='fff,fff'
 					PackSize='p,f'
-					ScrollExtent='174,26'
-					Size='174,26'
+					ScrollExtent='173,26'
+					Size='173,26'
 					Style='/Styles.New.buttons.hud.style'
 					TextColor='#000000'
 				>@cancel</Button>
@@ -250,8 +250,8 @@
 					Name='buttonOk'
 					PackLocation='nfn,fff'
 					PackSize='p,f'
-					ScrollExtent='174,26'
-					Size='174,26'
+					ScrollExtent='173,26'
+					Size='173,26'
 					Style='/Styles.New.buttons.hud.style'
 					TextColor='#000000'
 				>@ok</Button>
@@ -340,8 +340,8 @@
 								OpacityRelativeMin='0.80'
 								PackLocation='nfn,fff'
 								PackSize='p,f'
-								ScrollExtent='402,22'
-								Size='402,22'
+								ScrollExtent='401,22'
+								Size='401,22'
 							>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -354,21 +354,21 @@
 									PackSize='a,a'
 									PalBgTint='line1'
 									RStyleDefault='/Styles.space.boxes.boxlinebottomLeft2.rs_default'
-									ScrollExtent='402,9'
-									Size='402,9'
+									ScrollExtent='401,9'
+									Size='401,9'
 								/>
 							</Page>
 							<Page
 								BackgroundColor='#FFFFFF'
 								GetsInput='false'
-								Location='143,244'
+								Location='144,244'
 								Name='outlineBR'
 								OpacityRelativeMin='0.80'
 								PackLocation='fff,fff'
 								PackSize='p,f'
 								RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-								ScrollExtent='370,22'
-								Size='370,22'
+								ScrollExtent='369,22'
+								Size='369,22'
 							>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -381,20 +381,20 @@
 									PackSize='a,a'
 									PalBgTint='line1'
 									RStyleDefault='/Styles.space.boxes.boxlinebottomRight2.rs_default'
-									ScrollExtent='370,9'
-									Size='370,9'
+									ScrollExtent='369,9'
+									Size='369,9'
 								/>
 							</Page>
 							<Page
 								BackgroundColor='#FFFFFF'
 								GetsInput='false'
-								Location='143,0'
+								Location='144,0'
 								Name='outlineTR'
 								OpacityRelativeMin='0.80'
 								PackLocation='fff,nfn'
 								PackSize='p,f'
-								ScrollExtent='370,22'
-								Size='370,22'
+								ScrollExtent='369,22'
+								Size='369,22'
 							>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -406,8 +406,8 @@
 									PackSize='a,a'
 									PalBgTint='line1'
 									RStyleDefault='/Styles.space.boxes.boxlineTopRight2.rs_default'
-									ScrollExtent='370,9'
-									Size='370,9'
+									ScrollExtent='369,9'
+									Size='369,9'
 								/>
 							</Page>
 							<Page
@@ -418,8 +418,8 @@
 								PackLocation='nfn,nfn'
 								PackSize='p,f'
 								RStyleDefault='/Styles.space.boxes.boxlineTopLeft.rs_default'
-								ScrollExtent='402,22'
-								Size='402,22'
+								ScrollExtent='401,22'
+								Size='401,22'
 							>
 								<Page
 									BackgroundColor='#FFFFFF'
@@ -431,8 +431,8 @@
 									PackSize='a,a'
 									PalBgTint='line1'
 									RStyleDefault='/Styles.space.boxes.boxlineTopLeft2.rs_default'
-									ScrollExtent='402,9'
-									Size='402,9'
+									ScrollExtent='401,9'
+									Size='401,9'
 								/>
 							</Page>
 						</Page>

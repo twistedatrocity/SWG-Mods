@@ -3,7 +3,7 @@
 			BackgroundOpacity='1.00'
 			BackgroundTint='#1CFFFF'
 			focusGlow='false'
-			Location='424,1028'
+			Location='424,848'
 			MaximumSize='11624,21'
 			MinimumSize='0,19'
 			Name='imeSpace'

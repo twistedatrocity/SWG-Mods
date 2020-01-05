@@ -528,7 +528,7 @@
 										<Text
 											CursorMark='6'
 											CursorPoint='6'
-											Font='bold_21'
+											Font='bold_20'
 											GetsInput='true'
 											LocalText='Quest Title'
 											Margin='2,2,2,2'
@@ -547,7 +547,7 @@
 										<Text
 											CursorMark='4'
 											CursorPoint='4'
-											Font='bold_21'
+											Font='bold_20'
 											GetsInput='true'
 											LocalText='[@ui_quest:level]'
 											Location='430,0'
@@ -565,7 +565,7 @@
 											TextSelectable='false'
 										>@ui_quest:level</Text>
 										<Text
-											Font='bold_21'
+											Font='bold_20'
 											GetsInput='true'
 											LocalText='50'
 											Location='541,0'
@@ -2093,7 +2093,7 @@ end
 										<Text
 											CursorMark='6'
 											CursorPoint='6'
-											Font='bold_21'
+											Font='bold_20'
 											GetsInput='true'
 											LocalText='Quest Title'
 											Margin='2,2,2,2'
@@ -2112,7 +2112,7 @@ end
 										<Text
 											CursorMark='4'
 											CursorPoint='4'
-											Font='bold_21'
+											Font='bold_20'
 											GetsInput='true'
 											LocalText='[@ui_quest:difficulty]'
 											Location='433,0'
@@ -2130,7 +2130,7 @@ end
 											TextSelectable='false'
 										>@ui_quest:difficulty</Text>
 										<Text
-											Font='bold_21'
+											Font='bold_20'
 											GetsInput='true'
 											LocalText='0'
 											Location='541,0'
@@ -2555,7 +2555,7 @@ end
 										<Text
 											CursorMark='6'
 											CursorPoint='6'
-											Font='bold_21'
+											Font='bold_20'
 											GetsInput='true'
 											LocalText='Quest Title'
 											Margin='2,2,2,2'
@@ -2574,7 +2574,7 @@ end
 										<Text
 											CursorMark='4'
 											CursorPoint='4'
-											Font='bold_21'
+											Font='bold_20'
 											GetsInput='true'
 											LocalText='[@ui_quest:difficulty]'
 											Location='423,0'
@@ -2592,7 +2592,7 @@ end
 											TextSelectable='false'
 										>@ui_quest:difficulty</Text>
 										<Text
-											Font='bold_21'
+											Font='bold_20'
 											GetsInput='true'
 											LocalText='0'
 											Location='541,0'

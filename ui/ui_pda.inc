@@ -7,8 +7,8 @@
 		Name='PDA'
 		option.visible='false'
 		PackSize='1,1'
-		ScrollExtent='1440,980'
-		Size='1440,980'
+		ScrollExtent='1440,900'
+		Size='1440,900'
 		SourceRect='501,29,505,36'
 		summary.visible='false'
 		Tooltip='[@ui_charsheet:strength_tooltip]'
@@ -85,7 +85,7 @@
 							Visible='false'
 						>
 							<Text
-								Font='bold_31'
+								Font='bold_24'
 								Name='Text'
 								ScrollExtent='305,48'
 								Size='305,48'
@@ -376,6 +376,7 @@
 									PieAngleStart='3.99'
 									PieColor='#FF0000'
 									PieInnerRadius='11'
+									PieInnerRadiusPackInfo='13,1'
 									PieInnerRadiusType='Absolute'
 									PieSegmentStretchType='Stretch'
 									PieUseTextureOnce='true'
@@ -447,7 +448,7 @@
 								Size='34,36'
 							/>
 							<Text
-								Font='bold_21'
+								Font='bold_20'
 								LocalText='Smuggler
 Phase I
 Basic Training'
@@ -605,7 +606,7 @@ Basic Training</Text>
 									</Page>
 								</Page>
 								<Text
-									Font='bold_31'
+									Font='bold_24'
 									LocalText='Smuggler Phase I: 
 
 Marksman
@@ -1625,7 +1626,7 @@ Brawler</Text>
 								</Page>
 								<Text
 									Color='#E4C86B'
-									Font='starwars_32'
+									Font='starwars_55'
 									LocalText='Phase 1'
 									Location='210,531'
 									Name='PhaseNumber'
@@ -1727,6 +1728,7 @@ Brawler</Text>
 									PieAngleStart='3.61'
 									PieColor='#FF0000'
 									PieInnerRadius='88'
+									PieInnerRadiusPackInfo='112,1'
 									PieInnerRadiusType='Absolute'
 									PieSegmentStretchType='Stretch'
 									PieUseTextureOnce='true'

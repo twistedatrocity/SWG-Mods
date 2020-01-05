@@ -1,11 +1,12 @@
 		<Page
 			AllowLookAtTargetSelection='true'
-			Location='1815,133'
+			Location='1215,133'
 			Name='KillMeter'
 			PackLocation='fff,nnn'
 			ScrollExtent='40,40'
 			Size='40,40'
 			UserMovable='true'
+			Visible='false'
 		>
 			<Data
 				kills='kills.text'
@@ -49,7 +50,7 @@
 		</Page>
 		<Page
 			AllowLookAtTargetSelection='true'
-			Location='1623,133'
+			Location='1193,133'
 			MaximumSize='232,28'
 			MinimumSize='232,28'
 			Name='LocationDisplay'

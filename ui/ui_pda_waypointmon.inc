@@ -123,7 +123,7 @@ mmc.enabled=enabled'
 					<Text
 						BackgroundOpacity='0.50'
 						ContextToParent='true'
-						Font='fixed_28'
+						Font='fixed_20'
 						LocalText='16384m'
 						Location='164,4'
 						MaxLines='1'

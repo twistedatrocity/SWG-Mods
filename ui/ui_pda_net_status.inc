@@ -1,7 +1,7 @@
 		<Page
 			BackgroundOpacity='1.00'
 			BackgroundTint='#00D6FB'
-			Location='1619,1012'
+			Location='967,646'
 			MaximumSize='16384,80'
 			MinimumSize='250,80'
 			Name='netStatus'
@@ -13,7 +13,6 @@
 			UserMovable='true'
 			UserResizable='true'
 			Visible='false'
-			VisualEditLock='true'
 		>
 			<Data
 				Name='CodeData'

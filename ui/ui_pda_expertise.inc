@@ -1071,7 +1071,7 @@
 								>
 									<Text
 										Color='#E4C86B'
-										Font='starwars_32'
+										Font='starwars_55'
 										LocalText='Expertise Name'
 										MinimumSize='0,82'
 										Name='Text'
@@ -1153,7 +1153,7 @@
 										Size='380,28'
 									>
 										<Text
-											Font='bold_31'
+											Font='bold_24'
 											LocalText='Rank: 0/1'
 											MinimumSize='0,28'
 											Name='Text'
@@ -1255,7 +1255,7 @@
 												TextAlignmentVertical='Center'
 											>Vital Strike</Text>
 											<Text
-												Font='bold_21'
+												Font='bold_20'
 												LocalText='Vital Strike allows the Medic to perform a Level 14 attack that causes 24 to 37 damage over 4 seconds.  It also reduces the target\'s movement speed to 80% of normal.
 '
 												Location='18,93'
@@ -1352,7 +1352,7 @@
 												TextAlignmentVertical='Center'
 											>Recon Armor</Text>
 											<Text
-												Font='bold_21'
+												Font='bold_20'
 												LocalText='Reconnaisance (or Recon) Armor is light armor worn by troops performing reconaissance, surveillance or light interdiction duties.  These pieces generally are made of animal hides or light metals and provide strong ablative defense.
 '
 												Location='18,96'
@@ -1395,7 +1395,7 @@
 													TextAlignmentVertical='Center'
 												>Improved Accuracy</Text>
 												<Text
-													Font='bold_21'
+													Font='bold_20'
 													LocalText='Increases ranged hit chance.'
 													Location='2,33'
 													MinimumSize='352,23'
@@ -1448,7 +1448,7 @@
 														SourceResource='ui_expertise_parts'
 													/>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='2'
 														Location='1,4'
@@ -1460,7 +1460,7 @@
 														TextAlignmentVertical='Center'
 													>2</Text>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='4'
 														Location='74,4'
@@ -1472,7 +1472,7 @@
 														TextAlignmentVertical='Center'
 													>4</Text>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='-6'
 														Location='147,4'
@@ -1485,7 +1485,7 @@
 														TextColor='#000000'
 													>-6</Text>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='8'
 														Location='220,4'
@@ -1552,7 +1552,7 @@
 													TextAlignmentVertical='Center'
 												>Improved Vision</Text>
 												<Text
-													Font='bold_21'
+													Font='bold_20'
 													LocalText='Increases attack distance (in m).'
 													Location='2,33'
 													MinimumSize='352,23'
@@ -1605,7 +1605,7 @@
 														SourceResource='ui_expertise_parts'
 													/>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='2'
 														Location='1,4'
@@ -1617,7 +1617,7 @@
 														TextAlignmentVertical='Center'
 													>2</Text>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='4'
 														Location='74,4'
@@ -1629,7 +1629,7 @@
 														TextAlignmentVertical='Center'
 													>4</Text>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='-6'
 														Location='147,4'
@@ -1642,7 +1642,7 @@
 														TextColor='#000000'
 													>-6</Text>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='8'
 														Location='220,4'
@@ -1761,7 +1761,7 @@
 														SourceResource='ui_expertise_parts'
 													/>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='2'
 														Location='1,4'
@@ -1773,7 +1773,7 @@
 														TextAlignmentVertical='Center'
 													>2</Text>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='4'
 														Location='74,4'
@@ -1785,7 +1785,7 @@
 														TextAlignmentVertical='Center'
 													>4</Text>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='-6'
 														Location='147,4'
@@ -1798,7 +1798,7 @@
 														TextColor='#000000'
 													>-6</Text>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='8'
 														Location='220,4'
@@ -1917,7 +1917,7 @@
 														SourceResource='ui_expertise_parts'
 													/>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='2'
 														Location='1,4'
@@ -1929,7 +1929,7 @@
 														TextAlignmentVertical='Center'
 													>2</Text>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='4'
 														Location='74,4'
@@ -1941,7 +1941,7 @@
 														TextAlignmentVertical='Center'
 													>4</Text>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='-6'
 														Location='147,4'
@@ -1954,7 +1954,7 @@
 														TextColor='#000000'
 													>-6</Text>
 													<Text
-														Font='bold_31'
+														Font='bold_24'
 														GetsInput='true'
 														LocalText='8'
 														Location='220,4'
@@ -2290,7 +2290,7 @@
 										MouseOverSound='ui_rollover'
 										Name='style'
 										NormalIconColor='#EEEEEE'
-										NormalTextStyle='bold_21'
+										NormalTextStyle='bold_20'
 										ReleaseSound='ui_deselect'
 										RStyleActivated='rs_activated'
 										RStyleDefault='rs_default'

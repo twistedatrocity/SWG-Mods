@@ -3,7 +3,7 @@
 			BackgroundOpacity='1.00'
 			BackgroundTint='#1CFFFF'
 			focusGlow='false'
-			Location='449,1029'
+			Location='449,849'
 			MaximumSize='11624,21'
 			MinimumSize='0,19'
 			Name='ime'
