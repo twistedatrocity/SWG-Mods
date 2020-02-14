@@ -2864,8 +2864,20 @@
 					Target='comp.target.page'
 				/>
 				<Data
+					localName='[@ui_command:command_tab_beastmaster]'
+					Name='@ui_command:command_tab_beastmaster'
+					Size='128,64'
+					Target='comp.target.page'
+				/>
+				<Data
 					localName='[@ui_command:command_tab_chatter]'
 					Name='@ui_command:command_tab_chatter'
+					Size='128,64'
+					Target='comp.target.page'
+				/>
+				<Data
+					localName='[@ui_command:command_tab_perform]'
+					Name='@ui_command:command_tab_perform'
 					Size='128,64'
 					Target='comp.target.page'
 				/>
